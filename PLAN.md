@@ -78,5 +78,9 @@ Getest met `tools/site_test.py` (laptop) en workflow `site-test` (GitHub-runner)
 | GR | car.gr | ✅ | ❌ Cloudflare | navigatie-headers | scrapen via **laptop-runner** |
 | GR | xe.gr | – | – | geen auto-rubriek meer | vervalt |
 
-Geblokkeerde sites worden vaste zoeklinks op de site. Haiku-classificatie (±$0,50/maand)
+**Conclusie:** 12 bronnen scrapen vanaf GitHub; alleen car.gr via de laptop-runner. eBay.de,
+mobile.de en Milanuncios worden vaste zoeklinks op de site. `tools/site_test.py` blijft staan om
+later opnieuw te testen.
+
+Haiku-classificatie (±$0,50/maand)
 alleen als fase 2 onder 90% blijft.
