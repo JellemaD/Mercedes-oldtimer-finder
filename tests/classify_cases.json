@@ -1257,5 +1257,252 @@
   "expect": {
    "match": false
   }
+ },
+ {
+  "id": "agent-n0",
+  "title": "Mercedes-Benz S 260 1986 SE",
+  "text": "",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "agent-n1",
+  "title": "Mercedes-Benz S 300 1985 380 SEL",
+  "text": "",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "agent-n2",
+  "title": "Mercedes Benz 300 GD 3.0 Diesel 1986",
+  "text": "",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "agent-n3",
+  "title": "Mercedes-Benz S 300 1985 SD 300 TURBO ΜΟΝΟ ΓΙΑ ΑΝΤΑΛΑΚΤ",
+  "text": "",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "agent-n4",
+  "title": "Mercedes 190D 1986",
+  "text": "",
+  "attrs": {
+   "hp": 72
+  },
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "agent-p0",
+  "title": "Mercedes-Benz 200 1987 124 DIESEL ΠΕΝΤΑΚΥΛΙΝΔΡΟ ΜΟΤΕR",
+  "text": "",
+  "attrs": {},
+  "expect": {
+   "match": true,
+   "model": "250D",
+   "fuel": "diesel",
+   "cyl": 5,
+   "lpg_score": 0
+  }
+ },
+ {
+  "id": "agent-p1",
+  "title": "MERCEDES-BENZ 200",
+  "text": "Diesel 1986",
+  "attrs": {
+   "hp": 94
+  },
+  "expect": {
+   "match": true,
+   "model": "250D",
+   "fuel": "diesel",
+   "cyl": 5,
+   "lpg_score": 0
+  }
+ },
+ {
+  "id": "agent-p2",
+  "title": "Mercedes 190 diesel 1986",
+  "text": "",
+  "attrs": {
+   "engine_size": "2.497 cc"
+  },
+  "expect": {
+   "match": true,
+   "model": "190D 2.5",
+   "fuel": "diesel",
+   "cyl": 5,
+   "lpg_score": 0
+  }
+ },
+ {
+  "id": "agent-p3",
+  "title": "Se vende Mercedes 300D W124 1986",
+  "text": "",
+  "attrs": {},
+  "expect": {
+   "match": true,
+   "model": "300D",
+   "fuel": "diesel",
+   "cyl": 6,
+   "lpg_score": 0
+  }
+ },
+ {
+  "id": "agentB-n0",
+  "title": "Mercedes-Benz 300 SL",
+  "text": "1986",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "agentB-n1",
+  "title": "Mercedes-Benz 260 SL",
+  "text": "1987",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "agentB-n2",
+  "title": "Mercedes 300 SDL 1986",
+  "text": "",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "agentB-n3",
+  "title": "Mercedes-Benz 200 GE 1985",
+  "text": "",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "agentB-n4",
+  "title": "Mercedes-Benz EQB 250 190pk 2022",
+  "text": "",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "agentB-p0",
+  "title": "Mercedes-Benz E 200 E-Klasse TD",
+  "text": "1986",
+  "attrs": {
+   "fuel": "Diesel"
+  },
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "agentB-p1",
+  "title": "Mercedes E230 W124 1987",
+  "text": "",
+  "attrs": {},
+  "expect": {
+   "match": true,
+   "model": "230E",
+   "fuel": "benzine",
+   "cyl": 4,
+   "lpg_score": 2
+  }
+ },
+ {
+  "id": "agentB-p2",
+  "title": "Mercedes-Benz 300 Diésel 1986 W124",
+  "text": "",
+  "attrs": {},
+  "expect": {
+   "match": true,
+   "model": "300D",
+   "fuel": "diesel",
+   "cyl": 6,
+   "lpg_score": 0
+  }
+ },
+ {
+  "id": "agentB-p3",
+  "title": "Mercedes-Benz 190 W124 1986",
+  "text": "",
+  "attrs": {},
+  "expect": {
+   "match": true,
+   "model": "190",
+   "fuel": "benzine",
+   "cyl": 4,
+   "lpg_score": 1
+  }
+ },
+ {
+  "id": "w123-n0",
+  "title": "Mercedes-Benz CE 230/H-Zulassung/TÜV neu",
+  "text": "",
+  "attrs": {
+   "constructionYear": "1984"
+  },
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "w123-n1",
+  "title": "Mercedes-Benz 300",
+  "text": "",
+  "attrs": {
+   "constructionYear": "1984",
+   "fuel": "Diesel"
+  },
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "w123-p0",
+  "title": "Mercedes W124 230E 1984",
+  "text": "",
+  "attrs": {},
+  "expect": {
+   "match": true,
+   "model": "230E",
+   "fuel": "benzine",
+   "cyl": 4,
+   "lpg_score": 2
+  }
+ },
+ {
+  "id": "w123-p1",
+  "title": "Mercedes 260E 1984",
+  "text": "",
+  "attrs": {},
+  "expect": {
+   "match": true,
+   "model": "260E",
+   "fuel": "benzine",
+   "cyl": 6,
+   "lpg_score": 3
+  }
  }
 ]

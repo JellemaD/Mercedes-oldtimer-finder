@@ -28,7 +28,7 @@ PARTS = re.compile(
     r'|carcasa|espejo|retrovisor|term[oó]metro|potenci[oó]metro|\bbomba\b|\bfarol\b|[oó]tica|\bpisca'
     r'|suporte|dep[oó]sito|pistola|alternador|motor (?:de )?arranque|fechadura|puxador|interruptor'
     r'|resguardo|para-?choques|centralina|volante motor|caixa de velocidades|trav[õo]es|recambio|pe[çc]as?\b'
-    r'|ανταλλακτικ|φανάρι|καθρέπτ|πόρτα'
+    r'|ανταλλ?ακτ|φανάρι|καθρέπτ|πόρτα'
     r'|draagarm|\bstuur\b|motorsteun|schokdemper|relais|\becu\b|motor ?computer|bobine|koppelingsplaat|carter|armleuning'
     r'|dorpel|raammechanisme|ruiten|wielrand|rembekrachtiger|lager\b|hardyschijf|fuseekogel|stuurstang'
     r'|spoorstang|demper|dakdrager|interior|interieur|shroud|radiateur|radiator|ventiel|remschijf|remblok'
@@ -38,13 +38,18 @@ FITS_FOR = re.compile(r'\b(?:voor|für|fuer|para|for|pour|passend)\s+(?:de\s+|o\
 # Modern Mercedes classes ("C 300 e", "GLA 200", "A 250") and modern technology words
 MODERN = re.compile(r'\b(?:a|b|c|cl|cla|cls|clk|g|gl|gla|glb|glc|gle|gls|ml|m|r|sl|slk|slc|v|x|eq[a-z])'
                     r'(?:[\s-]?(?:klasse|class|classe|clase))?\s?-?\s?\d{3}\b'
-                    r'|\bcdi\b|bluetec|blueefficiency|\bcgi\b|kompressor|hybrid|g-?tronic|amg line')
+                    r'|\bcdi\b|bluetec|blueefficiency|\bcgi\b|kompressor|hybrid|g-?tronic|amg line'
+                    r'|\bsel\b|\bsec\b|\bsdl?\b|\bslc?\b|\bg[de]\b|\d{3}\s?se\b|\bs\s?\d{3}\b')  # W126 / R107 / G-class
 OTHER_CHASSIS = re.compile(r'\b[wrc]\s?(?:1[0-2]\d|11[0-5]|126|140|202|208|210|21[0-9]|22\d|638)\b')
 W124_CODE = re.compile(r'\b[wscav]\s?124\b|\b124\s?w\b|\b124\.\d{3}\b')
 W201_CODE = re.compile(r'\bw\s?201\b|\b201\.\d{3}\b')
 
+# Type names the W123 also had; W124_PROOF = signs the listing really is a W124
+W123_NAMES = {'200', '200D', '200T', '200TD', '230', '230E', '230TE', '230CE', '300D', '300TD',
+              '300D Turbo', '300TD Turbo', '300'}
+W124_PROOF = re.compile(r'\b[wscav]?\s?124\b|e[\s-]?klasse|clase e|classe e|\bom\s?60[23]|\bm\s?103\b')
 LPG = re.compile(r'\blpg\b|autogas|gas-?anlage|\bglp\b|\bgpl\b|υγρα[έε]ριο|\bprins\b|\bbrc\b|landi\s?renzo|\bvialle\b')
-DIESEL_WORD = re.compile(r'diesel|disel|πετρ[έε]λαιο|gas[oó]leo')
+DIESEL_WORD = re.compile(r'di[eé]sel|disel|πετρ[έε]λαιο|gas[oó]leo')
 PETROL_WORD = re.compile(r'benzin|gasolina|βενζ[ίι]νη|petrol')
 
 YEAR_RANGE = re.compile(r'\(?\b(?:19|20)?\d\d\s?[-–]\s?(?:19|20)?\d\d\b\)?')
@@ -64,10 +69,38 @@ W124_PETROL = {'200': (4, 1), '230': (4, 2), '260': (6, 3), '300': (6, 3),
 W124_MODEL = re.compile(
     r'\b(200|220|230|250|260|280|300|320|400|420|500)\s?'
     r'(turbo\s?diesel|turbo\s?d|diesel|td|te|ce|cd|d|e|t)?\b(\s?turbo)?(-?\s?24\s?v?\b)?')
-E_NAMING = re.compile(r'\be\s?(200|220|250|280|300|320|36|400|420|500)\s?(turbo\s?diesel|diesel|td|d|t|te)?\b(\s?turbo)?')
+E_NAMING = re.compile(r'\be\s?(200|220|230|250|260|280|300|320|36|400|420|500)\s?(turbo\s?diesel|diesel|td|d|t|te)?\b(\s?turbo)?')
 DISPLACEMENT_DIESEL = re.compile(r'\b(2\.5|2\.0|3\.0)\s?(td|d)\b')
-W201_MODEL = re.compile(r'\b190\s?(e|d)?\b')
+W201_MODEL = re.compile(r'\b190\s?(e|d)?\b(?!\s?(?:pk|ps|hp|cv|kw|ch)\b)')
 W201_SIZE = re.compile(r'\b(1\.8|2\.0|2\.2|2\.3|2\.5|2\.6)\b')
+CYL5 = re.compile(r'5[\s-]?(?:cil|zyl|cyl)|f[üu]nfzylinder|πεντακ[υύ]λινδρ|cinco cilindros')
+CYL6 = re.compile(r'6[\s-]?(?:cil|zyl|cyl)|sechszylinder|εξακ[υύ]λινδρ|seis cilindros')
+
+
+def _diesel_cyl_hint(full, attrs):
+    """5 or 6 for a diesel from engine size, power or 'five-cylinder' words; else None."""
+    for k in ('engineDisplacement', 'engine_size', 'displacement', 'engine_capacity', 'cc'):
+        cc = re.sub(r'[^\d]', '', str((attrs or {}).get(k) or '').split(',')[0])
+        if cc:
+            cc = int(cc)
+            if 2350 <= cc <= 2600:
+                return 5
+            if 2850 <= cc <= 3100:
+                return 6
+            if 1900 <= cc <= 2250:
+                return 4
+    for k in ('hp', 'horsepower', 'power'):
+        hp = re.sub(r'[^\d]', '', str((attrs or {}).get(k) or ''))
+        if hp and 60 <= int(hp) <= 200:
+            hp = int(hp)
+            return 4 if hp < 85 else 5 if hp < 100 else 6
+    if CYL5.search(full):
+        return 5
+    if CYL6.search(full):
+        return 6
+    return None
+
+
 SIXTEEN_V = re.compile(r'2\.[35]\s?-?\s?16|16\s?v\b|cosworth|\bevo\b')
 
 
@@ -114,7 +147,7 @@ def _fuel_hint(s, attrs):
     return None
 
 
-def _w201(s, full, fuel_hint):
+def _w201(s, full, fuel_hint, cyl_hint=None):
     """Return (model, fuel, cyl, score) or (None, reason)."""
     if re.search(r'190\s?sl', s):
         return None, 'andere serie (190 SL)'
@@ -124,7 +157,7 @@ def _w201(s, full, fuel_hint):
     size = size_m.group(1) if size_m else None
     diesel = suffix == 'd' or re.search(r'\b2\.[025]\s?d\b', s) or fuel_hint == 'diesel'
     if diesel:
-        if size == '2.5' or re.search(r'2\.5\s?d|5[\s-]?(?:cil|zyl|cyl)', full):
+        if size == '2.5' or re.search(r'2\.5\s?d', full) or cyl_hint == 5:
             if 'turbo' in s:
                 return None, '190D 2.5 Turbo (na 1987)'
             return ('190D 2.5', 'diesel', 5, 0), None
@@ -140,7 +173,7 @@ def _w201(s, full, fuel_hint):
     return ('190E' if suffix == 'e' else '190', 'benzine', 4, 1), None
 
 
-def _w124(s, fuel_hint):
+def _w124(s, fuel_hint, cyl_hint=None, site_fuel=None):
     """Return (model, fuel, cyl, score, new_naming) or (None, reason)."""
     new_naming = False
     m = W124_MODEL.search(s)
@@ -160,8 +193,12 @@ def _w124(s, fuel_hint):
         turbo, suf = True, 'd'
     if 'turbo' in s and num in ('250', '300') and not suf.startswith(('e', 'c')) and suf != 'te':
         turbo = True
+    if site_fuel == 'diesel' and suf in ('', 'e', 't'):  # site says diesel: 'E 200 TD' read as 200E
+        suf = 'd'
     diesel = suf in ('d', 'td', 'diesel', 'cd', 'turbodiesel') or (not suf and (fuel_hint == 'diesel' or turbo or num == '250'))
     if diesel:
+        if num == '200' and cyl_hint in (5, 6):  # '200 diesel' + 2.5 l / 5-cyl = 250D
+            num = '250' if cyl_hint == 5 else '300'
         cyl = W124_DIESEL.get(num)
         if cyl is None:
             return None, f'geen W124-diesel ({num})'
@@ -189,7 +226,8 @@ def classify(title, text='', attrs=None, price=None):
     x = _norm(text)
     full = f'{t} {x}'
     out = {'match': False, 'reason': '', 'series': None, 'model': None, 'fuel': None, 'cyl': None,
-           'year': None, 'year_known': False, 'lpg_score': 0, 'has_lpg': False}
+           'year': None, 'year_known': False, 'lpg_score': 0, 'has_lpg': False,
+           'maybe_w123': False}
 
     if price is None:
         price = attrs.get('price')
@@ -204,7 +242,7 @@ def classify(title, text='', attrs=None, price=None):
         out['reason'] = 'onderdeel'
         return out
     if MODERN.search(t) and not W124_CODE.search(t):
-        out['reason'] = 'modern model'
+        out['reason'] = 'modern model of andere serie'
         return out
     try:
         if price is not None and float(price) < 500:
@@ -217,7 +255,7 @@ def classify(title, text='', attrs=None, price=None):
     out['year'], out['year_known'] = year, year is not None
 
     # Series: chassis code in title wins, then 190, then W124 model numbers
-    if W201_CODE.search(t) or (W201_MODEL.search(t) and not W124_CODE.search(t)):
+    if W201_CODE.search(t) or W201_MODEL.search(t):
         series = 'W201'
     elif W124_CODE.search(t) or W124_MODEL.search(t) or E_NAMING.search(t) or DISPLACEMENT_DIESEL.search(t):
         series = 'W124'
@@ -235,17 +273,19 @@ def classify(title, text='', attrs=None, price=None):
     out['series'] = series
 
     fuel_hint = _fuel_hint(full, attrs)
+    cyl_hint = _diesel_cyl_hint(full, attrs)
+    site_fuel = _fuel_hint('', attrs)
     if series == 'W201':
-        res, reason = _w201(t if W201_MODEL.search(t) else full, full, fuel_hint)
+        res, reason = _w201(t if W201_MODEL.search(t) else full, full, fuel_hint, cyl_hint)
         if res is None:
             out['reason'] = reason
             return out
         model, fuel, cyl, score = res
         new_naming = False
     else:
-        res, reason = _w124(t, fuel_hint)
+        res, reason = _w124(t, fuel_hint, cyl_hint, site_fuel)
         if res is None and reason == 'model onbekend':
-            res, reason = _w124(x, fuel_hint)
+            res, reason = _w124(x, fuel_hint, cyl_hint, site_fuel)
         if res is None:
             out['reason'] = reason
             return out
@@ -263,6 +303,14 @@ def classify(title, text='', attrs=None, price=None):
     elif new_naming:
         out['reason'] = 'E-benaming zonder bouwjaar (1993+)'
         return out
+
+    # W124 came out late 1984, W123 was built until early 1986 with the same type names.
+    if series == 'W124' and model in W123_NAMES and not W124_PROOF.search(full):
+        if year is not None and year <= 1984:
+            out['reason'] = f'bouwjaar {year}, {model} zonder W124-kenmerk (W123)'
+            return out
+        if year is None or year == 1985:
+            out['maybe_w123'] = True
 
     out['match'] = True
     out['reason'] = 'ok' if year else 'ok, bouwjaar onbekend'

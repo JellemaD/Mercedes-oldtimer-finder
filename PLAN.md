@@ -54,8 +54,8 @@ Draaikosten €0 (publieke repo). Geen AI in de dagelijkse run.
 |---|---|---|
 | 0 Opruimen | Oude bestanden naar `99 - Archive`, plan vastleggen | Schone `git status` ✅ |
 | 1 Sites testen ✅ | Per site testen vanaf GitHub-runner en laptop. ES: autoscout24.es, coches.net, milanuncios, wallapop. PT: standvirtual, olx.pt, custojusto. GR: car.gr, xe.gr. Plus bestaande NL/DE/BE-bronnen. Max 2 pogingen per site. | Tabel: werkt GitHub / werkt laptop / wordt zoeklink |
-| 2 Classifier | Eén `classify()` voor model, motor, brandstof, cilinders, jaar, LPG-score, "al LPG" | ≥90% goed op ±50 echte titels in 5 talen ✅ |
-| 3 Scrapers | `scrape.py` → `docs/data/listings.json`; Flask, APScheduler, SQLite eruit; prijs/km-parser met grenzen (fix "int too large") | Lokale run levert geldige JSON |
+| 2 Classifier ✅ | Eén `classify()` voor model, motor, brandstof, cilinders, jaar, LPG-score, "al LPG" | ≥90% goed op ±50 echte titels in 5 talen ✅ |
+| 3 Scrapers ✅ | `scrape.py` → `docs/data/listings.json`; Flask, APScheduler, SQLite eruit; prijs/km-parser met grenzen (fix "int too large") | Lokale run levert geldige JSON |
 | 4 Site | Filters: land, groep, brandstof, cilinders, LPG-score, al LPG, jaar, prijs, nieuw. Werkt op telefoon | Lokaal te openen en filteren |
 | 5 Automatiseren | Workflow (cron + handmatig), jobs A/B, melding bij 0 resultaten per bron, Pages aan | Eerste automatische run online |
 | 6 Afronden | CLAUDE.md-tabel, `Mijn websites.html`, README `mijn-websites` | Link werkt vanaf startpagina |
@@ -105,6 +105,34 @@ later opnieuw te testen.
 - Prijs en categorie per bron meegeven: dat filtert de meeste onderdelen al vóór de classifier.
 - Wallapop: response als UTF-8 decoderen (requests raadt de codering verkeerd).
 - Gaspedaal/AutoTrack: zoekterm wordt genegeerd → modelpagina-URL's gebruiken.
+
+## Uitkomst fase 3 (12-10-2026)
+
+`scrape.py` + `sources/` (één module per bron, contract in `sources/common.py`). Schone run: **640
+advertenties uit 10 bronnen**, 68 als dubbel herkend (zelfde auto op twee sites), 34 met label
+"mogelijk W123", bouwjaar bekend bij 622.
+
+| Bron | Land | Runner | Gevonden | Passend | Techniek |
+|---|---|---|---|---|---|
+| Marktplaats | NL | github | 113 | 58 | JSON-API, categorie auto's, bouwjaarfilter + los zonder jaar |
+| 2dehands | BE | github | 92 | 27 | zelfde API als Marktplaats |
+| AutoScout24 | NL/BE/DE/ES | github | 351 | 152 | `__NEXT_DATA__`, modelfilter (mmmv) + bouwjaar 1982–1987 |
+| Kleinanzeigen | DE | github | 474 | 310 | HTML, modelfilter + EZ 1982/84–1987 |
+| coches.net | ES | github | 49 | 22 | `__INITIAL_PROPS__`, curl_cffi (gewone requests geblokkeerd) |
+| Wallapop | ES | github | 146 | 40 | API, merk + bouwjaar 1984–1987 zonder zoekwoord |
+| Standvirtual | PT | github | 45 | 1 | `__NEXT_DATA__` / urqlState |
+| CustoJusto | PT | github | 240 | 3 | `__NEXT_DATA__`, rubriek gebruikte auto's |
+| OLX.pt | PT | github | 558 | 11 | `__PRERENDERED_STATE__`, curl_cffi |
+| car.gr | GR | laptop | 69 | 16 | `__NUXT_DATA__`, merk + bouwjaar, navigatie-headers |
+
+AutoTrack en Gaspedaal: niet gescraped (negeren zoekterm, overlap met Marktplaats/AutoScout24) →
+zoeklink op de site, net als eBay.de, mobile.de en Milanuncios.
+
+Classifier aangescherpt met de bevindingen van de bronnen: W126/R107/G-klasse, cilinderinhoud/vermogen
+voor 5-cil diesels, brandstof van de site gaat voor, W123-regel (≤1984 zonder W124-kenmerk = afwijzen,
+1985 = label "mogelijk W123"). Testset 138/138.
+
+Oude Flask-app, SQLite en scheduler staan in `99 - Archive`.
 
 Haiku-classificatie (±$0,50/maand)
 alleen als fase 2 onder 90% blijft.
