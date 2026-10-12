@@ -78,3 +78,6 @@ pip-delete-this-directory.txt
 
 # Temp files
 nul
+
+# Archief (lokaal bewaard, niet in git)
+99 - Archive/
