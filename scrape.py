@@ -181,7 +181,8 @@ def main():
     print(f'\nlistings.json: {len(listings)} advertenties ({active} actief)')
     if failed:
         print('BRONNEN ZONDER RESULTAAT: ' + ', '.join(failed))
+    return 2 if failed else 0  # data is saved either way; exit code 2 lets the workflow warn
 
 
 if __name__ == '__main__':
-    main()
+    sys.exit(main())

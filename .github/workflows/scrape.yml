@@ -1,0 +1,67 @@
+# Daily scrape: GitHub runner for 9 sources, then the laptop runner for car.gr (Cloudflare blocks
+# GitHub's IPs). Each job commits docs/data; GitHub Pages serves docs/. A source with 0 results
+# makes the run fail at the end (after saving), so GitHub sends a "Run failed" e-mail.
+name: scrape
+
+on:
+  schedule:
+    - cron: '0 4 * * *'   # 06:00 summer time, 05:00 winter time (NL)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+jobs:
+  github:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Scrape
+        id: scrape
+        run: python scrape.py --runner github || echo "failed=1" >> "$GITHUB_OUTPUT"
+      - name: Commit data
+        run: |
+          git config user.name "scrape-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/data
+          git diff --cached --quiet && exit 0
+          git commit -m "Data $(date -u +%F) (github)"
+          for i in 1 2 3; do git pull --rebase -q && git push -q && exit 0; sleep 5; done; exit 1
+      - name: Warn about sources without results
+        if: steps.scrape.outputs.failed == '1'
+        run: echo "::error::Een of meer bronnen gaven 0 resultaten, zie docs/data/status.json" && exit 1
+
+  laptop:
+    needs: github
+    if: always()
+    runs-on: [self-hosted, scrape]
+    timeout-minutes: 15
+    defaults:
+      run:
+        shell: cmd   # no PowerShell 7 on the laptop; 5.1 writes GITHUB_OUTPUT as UTF-16
+    steps:
+      - uses: actions/checkout@v4
+      - name: Scrape
+        id: scrape
+        run: python scrape.py --runner laptop || echo failed=1>>"%GITHUB_OUTPUT%"
+      - name: Commit data
+        run: |
+          git config user.name "scrape-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/data
+          git diff --cached --quiet && exit /b 0
+          git commit -q -m "Data (laptop)"
+          git pull --rebase -q && git push -q || (timeout /t 5 >nul & git pull --rebase -q && git push -q)
+      - name: Warn about sources without results
+        if: steps.scrape.outputs.failed == '1'
+        run: echo ::error::car.gr gaf 0 resultaten, zie docs/data/status.json & exit /b 1
