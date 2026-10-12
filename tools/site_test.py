@@ -43,6 +43,37 @@ SITES = [
     ('GR', 'xe.gr', 'https://www.xe.gr/autos/results?query=mercedes%20w124'),
 ]
 
+# Round 2: blocked sites retried with another technique
+# (mode: nav = browser navigation headers, wallapop = app headers, cffi = Chrome TLS impersonation)
+SITES_ROUND2 = [
+    ('NL', 'Gaspedaal [cffi]', 'https://www.gaspedaal.nl/zoeken?q=mercedes+w124', 'cffi'),
+    ('ES', 'Wallapop [api2]', 'https://api.wallapop.com/api/v3/search?keywords=mercedes%20w124&category_ids=100&latitude=40.4168&longitude=-3.7038&source=search_box', 'wallapop'),
+    ('PT', 'OLX.pt [cffi]', 'https://www.olx.pt/carros-motos-e-barcos/carros/mercedes-benz/q-w124/', 'cffi'),
+    ('GR', 'car.gr [nav]', 'https://www.car.gr/classifieds/cars/?q=mercedes%20w124', 'nav'),
+    ('GR', 'car.gr [cffi]', 'https://www.car.gr/classifieds/cars/?q=mercedes%20w124', 'cffi'),
+]
+
+EXTRA_HEADERS = {
+    'nav': {'Sec-Fetch-Dest': 'document', 'Sec-Fetch-Mode': 'navigate', 'Sec-Fetch-Site': 'none',
+            'Upgrade-Insecure-Requests': '1', 'Accept-Language': 'el-GR,el;q=0.9,en;q=0.8'},
+    'wallapop': {'Accept': 'application/json', 'X-DeviceOS': '0',
+                 'Origin': 'https://es.wallapop.com', 'Referer': 'https://es.wallapop.com/'},
+}
+
+
+class ModeSession:
+    """Wraps requests.Session; switches technique per mode."""
+
+    def __init__(self, session, mode):
+        self.session, self.mode = session, mode
+
+    def get(self, url, **kw):
+        if self.mode == 'cffi':
+            from curl_cffi import requests as cffi_requests
+            return cffi_requests.get(url, impersonate='chrome', timeout=kw.get('timeout', 25))
+        return self.session.get(url, headers=EXTRA_HEADERS.get(self.mode, {}), **kw)
+
+
 BLOCK_SIGNS = {
     'cloudflare': ['cf-chl', 'just a moment', 'challenge-platform', 'cf_chl_opt'],
     'datadome': ['datadome', 'captcha-delivery.com'],
@@ -101,8 +132,13 @@ def main():
         'Accept-Language': 'nl-NL,nl;q=0.9,en;q=0.8,de;q=0.7,es;q=0.6,pt;q=0.5',
     })
     rows = []
-    for country, name, url in SITES:
-        row = check(country, name, url, s)
+    if len(sys.argv) > 2 and sys.argv[2] == 'round2':
+        sites = [(c, n, u, ModeSession(s, m)) for c, n, u, m in SITES_ROUND2]
+        label += '_round2'
+    else:
+        sites = [(c, n, u, s) for c, n, u in SITES]
+    for country, name, url, session in sites:
+        row = check(country, name, url, session)
         row['verdict'] = verdict(row)
         rows.append(row)
         print(f"{row['verdict']:8} {country} {name:20} status={row.get('status')} "
