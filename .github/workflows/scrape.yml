@@ -7,6 +7,11 @@ on:
   schedule:
     - cron: '0 4 * * *'   # 06:00 summer time, 05:00 winter time (NL)
   workflow_dispatch:
+    inputs:
+      only_laptop:
+        description: 'Alleen de laptop-bron (car.gr) draaien'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -17,6 +22,7 @@ concurrency:
 
 jobs:
   github:
+    if: ${{ !inputs.only_laptop }}
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
@@ -53,6 +59,8 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: master   # the commit the github job just pushed, not the one the run started on
+      - name: Clear leftover rebase
+        run: if exist .git\rebase-merge git rebase --abort
       - name: Scrape
         id: scrape
         run: python scrape.py --runner laptop || echo failed=1>>"%GITHUB_OUTPUT%"
@@ -63,7 +71,11 @@ jobs:
           git add docs/data
           git diff --cached --quiet && exit /b 0
           git commit -q -m "Data (laptop)"
-          git pull --rebase -q && git push -q || (timeout /t 5 >nul & git pull --rebase -q && git push -q)
+          git pull --rebase -q && git push -q && exit /b 0
+          rem rebase failed (concurrent data commit): abort so the next run starts clean, retry once
+          git rebase --abort
+          ping -n 6 127.0.0.1 >nul
+          git pull --rebase -q && git push -q || (git rebase --abort & exit /b 1)
       - name: Warn about sources without results
         if: steps.scrape.outputs.failed == '1'
         run: echo ::error::car.gr gaf 0 resultaten, zie docs/data/status.json & exit /b 1
