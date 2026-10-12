@@ -8326,18 +8326,23 @@
   "dup_of": null,
   "also_on": [],
   "punten": {
-   "roest": 24.0,
+   "roest": 32.0,
    "motor": 18.0,
    "staat": 6.0,
    "km": 6.6,
    "prijs": 9.0,
    "bouwjaar": 4.8
   },
-  "score": 68.4,
+  "score": 76.4,
   "let_op": [
    "Mogelijk W123: check chassisnummer (WDB124… = W124)"
   ],
-  "rust": null
+  "rust": {
+   "sills": 0,
+   "other": 1,
+   "note": "Eigenlijk een W123 300D; lak verweerd, kleine plekjes op kofferklep, dorpels lijken schoon.",
+   "photos": 4
+  }
  },
  {
   "id": "as24_es_07d97878-f6cd-4235-b3a2-8f44af94df12",
@@ -8874,16 +8879,21 @@
   "dup_of": null,
   "also_on": [],
   "punten": {
-   "roest": 24.0,
+   "roest": 28.0,
    "motor": 18.0,
    "staat": 6.0,
    "km": 9.9,
    "prijs": 7.9,
    "bouwjaar": 6.0
   },
-  "score": 71.8,
+  "score": 75.8,
   "let_op": [],
-  "rust": null
+  "rust": {
+   "sills": null,
+   "other": 0,
+   "note": "Dorpels liggen in de schaduw en zijn onduidelijk; verder geen roest zichtbaar.",
+   "photos": 1
+  }
  },
  {
   "id": "ka_3531904608",
@@ -9187,16 +9197,23 @@
   "dup_of": null,
   "also_on": [],
   "punten": {
-   "roest": 24.0,
+   "roest": 12.0,
    "motor": 18.0,
    "staat": 6.0,
    "km": 5.5,
    "prijs": 9.0,
    "bouwjaar": 6.0
   },
-  "score": 68.5,
-  "let_op": [],
-  "rust": null
+  "score": 56.5,
+  "let_op": [
+   "Roest zichtbaar op foto"
+  ],
+  "rust": {
+   "sills": null,
+   "other": 2,
+   "note": "Wielkast achter in primer gerepareerd, ruitsponning roestig, dorpels grotendeels verborgen door bekleding.",
+   "photos": 1
+  }
  },
  {
   "id": "ka_3519526075",
@@ -9799,16 +9816,21 @@
   "dup_of": null,
   "also_on": [],
   "punten": {
-   "roest": 24.0,
+   "roest": 40.0,
    "motor": 18.0,
    "staat": 6.0,
    "km": 6.1,
    "prijs": 9.0,
    "bouwjaar": 6.0
   },
-  "score": 69.1,
+  "score": 85.1,
   "let_op": [],
-  "rust": null
+  "rust": {
+   "sills": 0,
+   "other": 0,
+   "note": "Zijaanzicht op afstand; dorpels en carrosserie lijken roestvrij, details beperkt zichtbaar.",
+   "photos": 1
+  }
  },
  {
   "id": "ka_3535481069",
@@ -9842,16 +9864,21 @@
   "dup_of": null,
   "also_on": [],
   "punten": {
-   "roest": 24.0,
+   "roest": 40.0,
    "motor": 18.0,
    "staat": 6.0,
    "km": 7.8,
    "prijs": 9.0,
    "bouwjaar": 6.0
   },
-  "score": 70.8,
+  "score": 86.8,
   "let_op": [],
-  "rust": null
+  "rust": {
+   "sills": 0,
+   "other": 0,
+   "note": "Dorpels en carrosserie zien er schoon uit, geen zichtbare roest.",
+   "photos": 1
+  }
  },
  {
   "id": "ka_3491098127",
@@ -9887,16 +9914,21 @@
   "dup_of": null,
   "also_on": [],
   "punten": {
-   "roest": 24.0,
+   "roest": 28.0,
    "motor": 18.0,
    "staat": 7.8,
    "km": 5.4,
    "prijs": 7.0,
    "bouwjaar": 6.0
   },
-  "score": 68.2,
+  "score": 72.2,
   "let_op": [],
-  "rust": null
+  "rust": {
+   "sills": null,
+   "other": 0,
+   "note": "Dorpels in schaduw en met sideskirts bedekt; carrosserie verder zonder zichtbare roest.",
+   "photos": 1
+  }
  },
  {
   "id": "ka_3535082637",
@@ -10326,16 +10358,21 @@
   "dup_of": null,
   "also_on": [],
   "punten": {
-   "roest": 24.0,
+   "roest": 28.0,
    "motor": 18.0,
    "staat": 6.0,
    "km": 6.3,
    "prijs": 9.0,
    "bouwjaar": 6.0
   },
-  "score": 69.3,
+  "score": 73.3,
   "let_op": [],
-  "rust": null
+  "rust": {
+   "sills": null,
+   "other": 0,
+   "note": "Vooraanzicht W124 in donkere garage; dorpels niet zichtbaar, geen roest gezien.",
+   "photos": 1
+  }
  },
  {
   "id": "ka_3528961756",
@@ -10638,18 +10675,23 @@
   "dup_of": null,
   "also_on": [],
   "punten": {
-   "roest": 24.0,
+   "roest": 28.0,
    "motor": 18.0,
    "staat": 3.0,
    "km": 9.9,
    "prijs": 8.1,
    "bouwjaar": 6.0
   },
-  "score": 69.0,
+  "score": 73.0,
   "let_op": [
    "Advertentie noemt: geen keuring"
   ],
-  "rust": null
+  "rust": {
+   "sills": null,
+   "other": 0,
+   "note": "Voorkant en spatbord zien er schoon uit; dorpels niet zichtbaar, bumper alleen bekrast.",
+   "photos": 1
+  }
  },
  {
   "id": "ka_3527934956",
@@ -12048,16 +12090,21 @@
   "dup_of": null,
   "also_on": [],
   "punten": {
-   "roest": 24.0,
+   "roest": 28.0,
    "motor": 18.0,
    "staat": 9.6,
    "km": 4.3,
    "prijs": 7.4,
    "bouwjaar": 6.0
   },
-  "score": 69.3,
+  "score": 73.3,
   "let_op": [],
-  "rust": null
+  "rust": {
+   "sills": null,
+   "other": 0,
+   "note": "Dorpels nauwelijks zichtbaar door hoek en schaduw; carrosserie oogt verder schoon zonder roest.",
+   "photos": 1
+  }
  },
  {
   "id": "ka_3519285357",
@@ -12804,16 +12851,21 @@
   "dup_of": null,
   "also_on": [],
   "punten": {
-   "roest": 24.0,
+   "roest": 28.0,
    "motor": 18.0,
    "staat": 7.8,
    "km": 6.5,
    "prijs": 6.9,
    "bouwjaar": 5.4
   },
-  "score": 68.6,
+  "score": 72.6,
   "let_op": [],
-  "rust": null
+  "rust": {
+   "sills": null,
+   "other": 0,
+   "note": "Achterkant oogt schoon zonder zichtbare roest; dorpels zijn niet zichtbaar op de foto.",
+   "photos": 1
+  }
  },
  {
   "id": "ka_3509137314",
@@ -12847,16 +12899,23 @@
   "dup_of": null,
   "also_on": [],
   "punten": {
-   "roest": 24.0,
+   "roest": 12.0,
    "motor": 18.0,
    "staat": 6.0,
    "km": 5.5,
    "prijs": 9.0,
    "bouwjaar": 6.0
   },
-  "score": 68.5,
-  "let_op": [],
-  "rust": null
+  "score": 56.5,
+  "let_op": [
+   "Beetje roest op dorpels"
+  ],
+  "rust": {
+   "sills": 1,
+   "other": 1,
+   "note": "Dorpels deels zichtbaar, lichte verkleuring; wielkasten en spatbord lijken redelijk, kleine plekjes mogelijk.",
+   "photos": 1
+  }
  },
  {
   "id": "ka_3508771044",
@@ -13825,16 +13884,21 @@
   "dup_of": null,
   "also_on": [],
   "punten": {
-   "roest": 24.0,
+   "roest": 40.0,
    "motor": 18.0,
    "staat": 6.0,
    "km": 5.6,
    "prijs": 8.9,
    "bouwjaar": 6.0
   },
-  "score": 68.5,
+  "score": 84.5,
   "let_op": [],
-  "rust": null
+  "rust": {
+   "sills": 0,
+   "other": 0,
+   "note": "Zwarte W124 oogt strak; dorpels met sideskirts deels zichtbaar, geen roest te zien.",
+   "photos": 1
+  }
  },
  {
   "id": "ka_3495591800",
@@ -16032,16 +16096,21 @@
   "dup_of": null,
   "also_on": [],
   "punten": {
-   "roest": 24.0,
+   "roest": 40.0,
    "motor": 16.2,
    "staat": 6.0,
    "km": 8.0,
    "prijs": 8.6,
    "bouwjaar": 6.0
   },
-  "score": 68.8,
+  "score": 84.8,
   "let_op": [],
-  "rust": null
+  "rust": {
+   "sills": 0,
+   "other": 0,
+   "note": "Witte 190 oogt schoon; dorpels deels zichtbaar zonder roest, geen roest elders zichtbaar.",
+   "photos": 1
+  }
  },
  {
   "id": "ka_3534089576",
@@ -22301,16 +22370,21 @@
   "dup_of": null,
   "also_on": [],
   "punten": {
-   "roest": 24.0,
+   "roest": 20.0,
    "motor": 18.0,
    "staat": 7.8,
    "km": 6.5,
    "prijs": 7.4,
    "bouwjaar": 6.0
   },
-  "score": 69.7,
+  "score": 65.7,
   "let_op": [],
-  "rust": null
+  "rust": {
+   "sills": null,
+   "other": 1,
+   "note": "Dorpels niet goed zichtbaar; kleine beschadiging/roestplek onderaan voorbumperhoek, verder netjes.",
+   "photos": 4
+  }
  },
  {
   "id": "wp_9jdwy9nrr96k",
@@ -22582,16 +22656,21 @@
   "dup_of": null,
   "also_on": [],
   "punten": {
-   "roest": 24.0,
+   "roest": 40.0,
    "motor": 18.0,
    "staat": 7.8,
    "km": 6.9,
    "prijs": 7.6,
    "bouwjaar": 5.4
   },
-  "score": 69.7,
+  "score": 85.7,
   "let_op": [],
-  "rust": null
+  "rust": {
+   "sills": 0,
+   "other": 0,
+   "note": "Dorpels en carrosserie zien er op de zijfoto schoon uit, geen roest zichtbaar.",
+   "photos": 4
+  }
  },
  {
   "id": "wp_8j381e7xp1z9",
@@ -23493,16 +23572,21 @@
   "dup_of": null,
   "also_on": [],
   "punten": {
-   "roest": 24.0,
+   "roest": 40.0,
    "motor": 18.0,
    "staat": 9.6,
    "km": 3.3,
    "prijs": 8.5,
    "bouwjaar": 4.8
   },
-  "score": 68.2,
+  "score": 84.2,
   "let_op": [],
-  "rust": null
+  "rust": {
+   "sills": 0,
+   "other": 0,
+   "note": "Bewerkte foto's tonen geen zichtbare roest; dorpels deels zichtbaar, lijken schoon.",
+   "photos": 4
+  }
  },
  {
   "id": "wp_nz082epo4e6o",
@@ -23542,18 +23626,24 @@
   "dup_of": null,
   "also_on": [],
   "punten": {
-   "roest": 24.0,
+   "roest": 12.0,
    "motor": 18.0,
    "staat": 9.6,
    "km": 8.0,
    "prijs": 5.1,
    "bouwjaar": 4.8
   },
-  "score": 69.5,
+  "score": 57.5,
   "let_op": [
+   "Beetje roest op dorpels",
    "Mogelijk W123: check chassisnummer (WDB124… = W124)"
   ],
-  "rust": null
+  "rust": {
+   "sills": 1,
+   "other": 1,
+   "note": "Eigenlijk een W123 300D; lichte roestplekjes bij dorpels en wielkasten, verder redelijk.",
+   "photos": 4
+  }
  },
  {
   "id": "wp_3zlmd25k9pjx",
@@ -27967,16 +28057,21 @@
   "dup_of": null,
   "also_on": [],
   "punten": {
-   "roest": 24.0,
+   "roest": 28.0,
    "motor": 18.0,
    "staat": 6.0,
    "km": 7.1,
    "prijs": 7.5,
    "bouwjaar": 6.0
   },
-  "score": 68.6,
+  "score": 72.6,
   "let_op": [],
-  "rust": null
+  "rust": {
+   "sills": null,
+   "other": 0,
+   "note": "Dorpels nauwelijks zichtbaar door lage hoek; carrosserie verder zonder zichtbare roest.",
+   "photos": 1
+  }
  },
  {
   "id": "cn_71381012",
@@ -28442,16 +28537,21 @@
   "dup_of": null,
   "also_on": [],
   "punten": {
-   "roest": 24.0,
+   "roest": 40.0,
    "motor": 18.0,
    "staat": 6.0,
    "km": 9.8,
    "prijs": 8.9,
    "bouwjaar": 4.8
   },
-  "score": 71.5,
+  "score": 87.5,
   "let_op": [],
-  "rust": null
+  "rust": {
+   "sills": 0,
+   "other": 0,
+   "note": "Zijaanzicht toont dorpels en carrosserie zonder zichtbare roest, lak oogt netjes.",
+   "photos": 1
+  }
  },
  {
   "id": "cn_62491024",
