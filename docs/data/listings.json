@@ -40,7 +40,8 @@
   },
   "score": 65.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "2dh_m2440034793",
@@ -83,7 +84,8 @@
   },
   "score": 62.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "2dh_m2414786538",
@@ -131,7 +133,8 @@
   },
   "score": 63.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "2dh_m2433007410",
@@ -177,7 +180,8 @@
   "let_op": [
    "LPG-installatie: keuring en tankdatum checken"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "2dh_m2362889134",
@@ -222,7 +226,8 @@
   },
   "score": 57.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "2dh_m2447947116",
@@ -267,7 +272,8 @@
   "let_op": [
    "Bouwjaar onbekend"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "2dh_m2433069574",
@@ -312,7 +318,8 @@
   "let_op": [
    "Bouwjaar onbekend"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "2dh_m2428985625",
@@ -357,7 +364,8 @@
   "let_op": [
    "Bouwjaar onbekend"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "2dh_m2451060051",
@@ -403,7 +411,8 @@
    "Mogelijk W123: check chassisnummer (WDB124… = W124)",
    "Bouwjaar onbekend"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "2dh_m2449132459",
@@ -449,7 +458,8 @@
    "Mogelijk W123: check chassisnummer (WDB124… = W124)",
    "Bouwjaar onbekend"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "2dh_m2448156543",
@@ -497,7 +507,8 @@
    "Mogelijk W123: check chassisnummer (WDB124… = W124)",
    "Bouwjaar onbekend"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "2dh_m2441085306",
@@ -544,7 +555,8 @@
    "Bouwjaar onbekend",
    "4MATIC: duur in onderhoud"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "2dh_m2422333660",
@@ -590,7 +602,8 @@
    "Mogelijk W123: check chassisnummer (WDB124… = W124)",
    "Bouwjaar onbekend"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "2dh_m2417564567",
@@ -636,7 +649,8 @@
    "Mogelijk W123: check chassisnummer (WDB124… = W124)",
    "Bouwjaar onbekend"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "2dh_m2449858925",
@@ -681,7 +695,8 @@
   "let_op": [
    "Bouwjaar onbekend"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "2dh_m2420584549",
@@ -724,7 +739,8 @@
   },
   "score": 67.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "2dh_m2303571758",
@@ -767,7 +783,8 @@
   },
   "score": 60.0,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "2dh_m2417764293",
@@ -810,7 +827,8 @@
   },
   "score": 66.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "2dh_m2395364284",
@@ -855,7 +873,8 @@
   "let_op": [
    "Bouwjaar onbekend"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "2dh_m2450704464",
@@ -913,7 +932,8 @@
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "2dh_m2451999225",
@@ -958,7 +978,8 @@
   },
   "score": 56.0,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "2dh_m2450820819",
@@ -1001,7 +1022,8 @@
   },
   "score": 49.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "2dh_m2441987264",
@@ -1044,7 +1066,8 @@
   },
   "score": 55.0,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "2dh_m2440478455",
@@ -1089,7 +1112,8 @@
   "let_op": [
    "Bouwjaar onbekend"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_nl_d750c462-e945-4b89-a421-1d0a695ec973",
@@ -1135,7 +1159,8 @@
   },
   "score": 61.0,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_nl_eafabb75-1a24-4211-8f82-0e9341700f5f",
@@ -1181,7 +1206,8 @@
   },
   "score": 52.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_nl_02489cc6-856f-487b-9324-dd077c5e1162",
@@ -1232,7 +1258,8 @@
   },
   "score": 54.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_nl_f828927f-5f88-49e0-83fa-d0602126e582",
@@ -1278,7 +1305,8 @@
   },
   "score": 64.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_nl_1cdfb30d-1925-4bce-a043-1174aa7ef766",
@@ -1324,7 +1352,8 @@
   },
   "score": 60.9,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_nl_00671dbe-2df1-4f89-8379-e8ab53795a6d",
@@ -1370,7 +1399,8 @@
   },
   "score": 60.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_nl_f56c48c8-a312-45ca-9fab-64eb4ae5a190",
@@ -1423,7 +1453,8 @@
   },
   "score": 57.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_nl_1541573e-df46-4f7d-b959-55f558437b0b",
@@ -1469,7 +1500,8 @@
   },
   "score": 65.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_nl_617f0379-a788-46fa-8769-2a96326cadac",
@@ -1520,7 +1552,8 @@
   },
   "score": 61.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_nl_ddab19cb-2ea7-49e8-bcb1-e56a9d83648e",
@@ -1566,7 +1599,8 @@
   },
   "score": 55.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_nl_1db136ac-5244-4972-8ed8-8464e55bfc84",
@@ -1612,7 +1646,8 @@
   },
   "score": 53.0,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_nl_16641031-b302-4592-9579-800a74620b13",
@@ -1658,7 +1693,8 @@
   },
   "score": 52.0,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_nl_7807028a-f39f-4cfa-8d7c-6ed9016b743f",
@@ -1711,7 +1747,8 @@
   "let_op": [
    "Hoge kilometerstand"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_nl_8a1c9104-3201-49f1-a448-c61e786895a7",
@@ -1762,7 +1799,8 @@
   },
   "score": 58.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_nl_ae976c84-90f5-4698-8131-162639657fcb",
@@ -1808,7 +1846,8 @@
   },
   "score": 56.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_nl_84f9367f-1f9f-4f04-bfa5-a4c78cbc1742",
@@ -1859,7 +1898,8 @@
   },
   "score": 61.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_nl_8749a52b-cd59-40bf-bf41-24f7beab7555",
@@ -1905,7 +1945,8 @@
   },
   "score": 62.9,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_nl_cb15c272-976c-4656-932d-e68ebdeb9ecb",
@@ -1958,7 +1999,8 @@
   "let_op": [
    "Hoge kilometerstand"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_nl_f179d0d7-45c8-4232-89ae-3fd0be637c6b",
@@ -2004,7 +2046,8 @@
   },
   "score": 61.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_nl_4e4fa730-a67b-43aa-bb10-5a1b46746dc1",
@@ -2052,7 +2095,8 @@
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_nl_536f1e2e-e0b5-440d-8b32-467919ec9bda",
@@ -2100,7 +2144,8 @@
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_nl_2ed2fb70-7d14-4653-876b-cb89872f5d3a",
@@ -2155,7 +2200,8 @@
   },
   "score": 61.6,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_nl_d874d5bd-ed29-4197-ad6f-02de3abd4eeb",
@@ -2206,7 +2252,8 @@
   },
   "score": 54.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_nl_563bdf4d-9a5c-467b-a03d-90b03dc49bca",
@@ -2259,7 +2306,8 @@
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_nl_19f40c7f-1dc0-40ac-bfaf-e646575fe938",
@@ -2305,7 +2353,8 @@
   },
   "score": 63.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_nl_23f8ccf6-c533-490a-9fb4-5c8aa60bf2bf",
@@ -2356,7 +2405,8 @@
   },
   "score": 56.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_nl_1396b194-ce2b-42aa-8685-279762cd3a4f",
@@ -2407,7 +2457,8 @@
   },
   "score": 55.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_nl_09d1b9b9-9036-4a91-bfd4-c5641f042862",
@@ -2458,7 +2509,8 @@
   },
   "score": 60.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_nl_e65c75f5-de1b-4b47-897c-d51868e1348c",
@@ -2513,7 +2565,8 @@
   },
   "score": 59.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_nl_4f880aff-46a1-4e7c-bd3b-312bb900cf0f",
@@ -2559,7 +2612,8 @@
   },
   "score": 52.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_nl_5ae9df38-fc34-4df5-8cfb-338bb26c9b95",
@@ -2605,7 +2659,8 @@
   },
   "score": 58.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_nl_12a00110-0acd-4ebe-90d1-f25ce1491413",
@@ -2656,7 +2711,8 @@
   },
   "score": 56.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_nl_d5c4e5d7-371f-4c7f-8e0a-c83e10f80e03",
@@ -2702,7 +2758,8 @@
   },
   "score": 52.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_nl_02255848-41aa-44f9-bc1c-e4d5791fcf9f",
@@ -2760,7 +2817,8 @@
    "Hoge kilometerstand",
    "16V Cosworth: niet geschikt voor LPG"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_be_b322c844-1b36-46f9-a3d6-9613f80141c7",
@@ -2808,7 +2866,8 @@
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_be_4bfce18a-fce0-48a9-8a27-925e592a200b",
@@ -2854,7 +2913,8 @@
   },
   "score": 55.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_be_9fd1a146-1c18-45a4-b095-3c3d3e8fc347",
@@ -2902,7 +2962,8 @@
   "let_op": [
    "Mogelijk W123: check chassisnummer (WDB124… = W124)"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_be_223874b9-060f-48f9-b83a-ee950198628d",
@@ -2948,7 +3009,8 @@
   },
   "score": 65.0,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_be_f8dc63b7-f775-414b-a8c9-84217239052f",
@@ -2994,7 +3056,8 @@
   },
   "score": 61.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_be_30d720b1-c4cf-420b-b997-2fd3b721c8c1",
@@ -3040,7 +3103,8 @@
   },
   "score": 67.9,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_be_69b60c5c-ec92-44df-b549-cd83eb2979c1",
@@ -3086,7 +3150,8 @@
   },
   "score": 52.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_be_d295a709-14db-49b4-9031-fcf08087deaf",
@@ -3132,7 +3197,8 @@
   },
   "score": 54.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_be_6430fdad-3274-40f8-a9f3-6134bae776fe",
@@ -3178,7 +3244,8 @@
   },
   "score": 56.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_be_4d997923-7bea-4b98-95b8-fc6226e9331b",
@@ -3229,7 +3296,8 @@
   },
   "score": 61.9,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_be_049d53f4-87b7-414a-a7a3-f7bf5d0da7ea",
@@ -3275,7 +3343,8 @@
   },
   "score": 61.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_ffc01f58-14f4-4737-b612-7016bcb6804b",
@@ -3329,7 +3398,8 @@
   },
   "score": 61.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_b61b7485-8534-4362-a7e2-a17debbd1182",
@@ -3375,7 +3445,8 @@
   },
   "score": 56.3,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_d4a7b55a-33fd-43e5-a2e8-5e2ef6111159",
@@ -3426,7 +3497,8 @@
   },
   "score": 64.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_d49274e9-3900-4107-b156-5fed62988e84",
@@ -3474,7 +3546,8 @@
   "let_op": [
    "Hoge kilometerstand"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_dc81b56a-1bac-4b37-a380-5c21f91986d0",
@@ -3525,7 +3598,8 @@
   },
   "score": 64.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_7d8dc2a2-fa05-4c61-96e4-bb10c36ae626",
@@ -3576,7 +3650,8 @@
   },
   "score": 61.0,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_6935c765-5a1e-48e9-94b8-b5b2d2417ea0",
@@ -3627,7 +3702,8 @@
   },
   "score": 62.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_356a7377-a8e7-468b-9b21-37579c9d46fc",
@@ -3675,7 +3751,8 @@
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_474feff3-f1c9-4be6-bfcf-26dc861170aa",
@@ -3723,7 +3800,8 @@
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_2b560f16-d99e-451a-b7e7-3bf3f8a3ae68",
@@ -3774,7 +3852,8 @@
   },
   "score": 54.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_7975f6c3-8d9a-49df-9794-e14a10780c86",
@@ -3822,7 +3901,8 @@
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_1ee8b9cd-6d9a-414f-b75f-092c6c015a26",
@@ -3873,7 +3953,8 @@
   },
   "score": 50.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_0b037e37-acb1-4d0a-bb63-0fe65fc93a38",
@@ -3926,7 +4007,8 @@
   "let_op": [
    "Mogelijk W123: check chassisnummer (WDB124… = W124)"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_4fcbfeb1-bb63-45d3-afcb-a074a6cc82cc",
@@ -3972,7 +4054,8 @@
   },
   "score": 63.9,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_c9f7ec18-0b70-4f9d-b443-99e4e6f31fae",
@@ -4023,7 +4106,8 @@
   },
   "score": 65.3,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_e6cddf3e-9453-4df7-82ed-fae89c4face1",
@@ -4073,7 +4157,8 @@
   },
   "score": 63.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_4e6946a9-64d7-4bd2-8a87-e0558c2748d8",
@@ -4123,7 +4208,8 @@
   },
   "score": 63.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_28e8c788-6c76-473e-81a2-813be808eed3",
@@ -4169,7 +4255,8 @@
   },
   "score": 65.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_57038918-5d48-4a56-a9bf-e95c7417ddd3",
@@ -4220,7 +4307,8 @@
   },
   "score": 62.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_4cab8cc0-ad67-413e-b8ff-4e7adb130cfc",
@@ -4268,7 +4356,8 @@
   "let_op": [
    "Hoge kilometerstand"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_0fca3e0f-bb77-4d5a-87c6-0b1362bd951e",
@@ -4316,7 +4405,8 @@
   "let_op": [
    "Mogelijk W123: check chassisnummer (WDB124… = W124)"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_f32936cc-e78b-42b6-b76f-5341bce2d83d",
@@ -4362,7 +4452,8 @@
   },
   "score": 55.9,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_3993db27-8f01-423f-962e-f36aaa0538f1",
@@ -4408,7 +4499,8 @@
   },
   "score": 59.6,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_5a3381ac-d1c7-44bc-a164-5d2d297e9828",
@@ -4456,7 +4548,8 @@
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_390f40e7-dc6d-4003-88e8-b89c0ef03c7b",
@@ -4502,7 +4595,8 @@
   },
   "score": 61.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_69c6f74b-d732-4a2c-8d1b-0cf6e962edd5",
@@ -4548,7 +4642,8 @@
   },
   "score": 55.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_43862bed-0af1-401d-9b9c-4055d4b8ca6f",
@@ -4603,7 +4698,8 @@
   },
   "score": 63.6,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_08893dac-0214-473f-8acc-294f7474ce2c",
@@ -4656,7 +4752,8 @@
   },
   "score": 61.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_0d138c28-f90b-499b-a63b-9a8dc5a66d5c",
@@ -4704,7 +4801,8 @@
   "let_op": [
    "Mogelijk W123: check chassisnummer (WDB124… = W124)"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_3d1b21cc-4985-4c34-aabb-fbf36d9b794a",
@@ -4755,7 +4853,8 @@
   },
   "score": 58.0,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_f0060b69-b20a-4e4b-9509-8556c4f8f667",
@@ -4806,7 +4905,8 @@
   },
   "score": 55.0,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_b993d595-3328-4f9f-bab4-f6178667671f",
@@ -4852,7 +4952,8 @@
   },
   "score": 59.0,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_d39a2209-4c08-4b64-85da-89c015816e8f",
@@ -4898,7 +4999,8 @@
   },
   "score": 67.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_df8cc6e3-9530-4edd-bd32-7c7ce19e6de1",
@@ -4944,7 +5046,8 @@
   },
   "score": 56.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_86a75e48-5645-4619-90c3-b550ec887759",
@@ -4995,7 +5098,8 @@
   },
   "score": 59.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_c8a65c01-cf33-4c44-b8c8-6f7156bb2ec2",
@@ -5041,7 +5145,8 @@
   "let_op": [
    "Mogelijk W123: check chassisnummer (WDB124… = W124)"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_210a70d0-16b7-4e3c-bbf6-81a6398eb213",
@@ -5092,7 +5197,8 @@
   },
   "score": 57.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_0a3fd352-dfc1-4128-a217-699bc6e72188",
@@ -5138,7 +5244,8 @@
   },
   "score": 67.3,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_fac3c527-91a1-455a-bac4-c670fb850568",
@@ -5186,7 +5293,8 @@
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_96903a99-3991-4803-8e3f-a21e35cab026",
@@ -5232,7 +5340,8 @@
   },
   "score": 59.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_d7e73093-df4a-49a1-a4b6-37120d8949dd",
@@ -5280,7 +5389,8 @@
   "let_op": [
    "Hoge kilometerstand"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_fc4f952e-55af-4e1e-bae2-684f5cb82b66",
@@ -5331,7 +5441,8 @@
   },
   "score": 59.6,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_f77644a9-9932-4dde-931b-99b483532429",
@@ -5379,7 +5490,8 @@
   },
   "score": 62.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_23723a2f-037c-4e53-ac2a-df53654f7e99",
@@ -5425,7 +5537,8 @@
   },
   "score": 67.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_e1a76e50-9067-4319-98d8-694fdb546028",
@@ -5474,7 +5587,8 @@
    "Hoge kilometerstand",
    "16V Cosworth: niet geschikt voor LPG"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_83033fca-aab4-4df3-af27-e417d6e0074a",
@@ -5525,7 +5639,8 @@
   },
   "score": 63.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_0d82b94c-e28c-43bb-b449-6a97aa7054e3",
@@ -5571,7 +5686,8 @@
   },
   "score": 64.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_c588233d-7420-4efb-be4f-5ad4879d0c13",
@@ -5617,7 +5733,8 @@
   },
   "score": 58.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_85d6b65e-b3db-4642-9bc1-06daca650507",
@@ -5663,7 +5780,8 @@
   },
   "score": 64.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_358ff52f-613e-4e5f-ac92-bcb12a3e95bd",
@@ -5709,7 +5827,8 @@
   },
   "score": 57.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_93e3ca79-3680-45ae-b712-0ba0f15054de",
@@ -5755,7 +5874,8 @@
   },
   "score": 57.3,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_095f6632-21a7-41f6-8c2d-2fb0f9e43ee1",
@@ -5801,7 +5921,8 @@
   },
   "score": 61.0,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_703c70b6-88f9-4a55-b687-bff4123a2d7c",
@@ -5847,7 +5968,8 @@
   },
   "score": 62.3,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_876d4968-b8e6-4182-bd48-6366c4c22a51",
@@ -5893,7 +6015,8 @@
   },
   "score": 58.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_faa2d856-6bd4-49a1-bb84-62f8080bd391",
@@ -5939,7 +6062,8 @@
   },
   "score": 52.3,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_b95d441d-6601-41ae-a6c4-e1050ebf90a8",
@@ -5985,7 +6109,8 @@
   },
   "score": 58.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_c186dad5-5982-484e-bd5c-732be9eff00b",
@@ -6033,7 +6158,8 @@
   "let_op": [
    "Hoge kilometerstand"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_382aea43-df33-4af9-8524-082ff4366450",
@@ -6070,18 +6196,26 @@
   "dup_of": null,
   "also_on": [],
   "punten": {
-   "roest": 24.0,
+   "roest": 28.0,
    "motor": 18.0,
    "staat": 6.0,
    "km": 6.8,
    "prijs": 8.5,
    "bouwjaar": 4.8
   },
-  "score": 68.1,
+  "score": 0.0,
   "let_op": [
    "Mogelijk W123: check chassisnummer (WDB124… = W124)"
   ],
-  "rust": null
+  "rust": {
+   "sills": null,
+   "arches": 0,
+   "other": 0,
+   "chassis": "W123",
+   "note": "W123 sedan, dorpels niet van dichtbij te zien; geen zichtbare roest.",
+   "photos": 4
+  },
+  "ai_reject": true
  },
  {
   "id": "as24_de_858b22a2-e30f-4f63-aaa3-b7bc7bd01c70",
@@ -6132,7 +6266,8 @@
   },
   "score": 52.9,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_e32d8f07-5cad-4469-a3ac-83f6aeb41841",
@@ -6187,7 +6322,8 @@
   "let_op": [
    "Mogelijk W123: check chassisnummer (WDB124… = W124)"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_24d3c2e2-ba62-44cf-9aca-a01907a2b5ad",
@@ -6233,7 +6369,8 @@
   },
   "score": 62.3,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_4ebffc56-8c04-4682-9789-cc1fbfc2671b",
@@ -6281,7 +6418,8 @@
   "let_op": [
    "Hoge kilometerstand"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_7414f623-8adf-4efa-b9fd-33fa907c6ac5",
@@ -6332,7 +6470,8 @@
   },
   "score": 59.9,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_ba754e3c-5b51-4ce1-b760-073347385ee2",
@@ -6380,7 +6519,8 @@
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_826fbf1c-4d2f-4368-93ab-b0e75634d7db",
@@ -6426,7 +6566,8 @@
   },
   "score": 56.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_8ae807ad-9ede-4dbe-b554-eb6cfaccb125",
@@ -6472,7 +6613,8 @@
   },
   "score": 55.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_f7007556-c213-4a14-bcea-8debe049158b",
@@ -6520,7 +6662,8 @@
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_d6fb33e3-92ba-4466-9168-a0f7f9bf08fd",
@@ -6573,7 +6716,8 @@
   },
   "score": 58.3,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_e5b6ff97-37c5-44ed-b95a-6fbe744d1b00",
@@ -6624,7 +6768,8 @@
   },
   "score": 56.3,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_451c3ebf-d182-4cc9-97a7-c583fbac3993",
@@ -6675,7 +6820,8 @@
   },
   "score": 55.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_2f871b83-cbae-42b0-a441-d5a1cc6e57ee",
@@ -6726,7 +6872,8 @@
   },
   "score": 66.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_63e8f208-87fd-4b9e-8784-00fa32c4749c",
@@ -6774,7 +6921,8 @@
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_22874190-91e8-4bbe-9e16-08def6f74881",
@@ -6825,7 +6973,8 @@
   },
   "score": 52.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_4f1e41b3-e7de-48ba-83d9-7453444590a0",
@@ -6876,7 +7025,8 @@
   },
   "score": 55.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_d038706c-5b7c-44ba-9dce-6fbead15a184",
@@ -6922,7 +7072,8 @@
   },
   "score": 50.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_3b7a64f1-0e33-4c56-b339-aeb7d8f2266d",
@@ -6968,7 +7119,8 @@
   },
   "score": 59.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_434a9ea6-cb07-4692-b2a2-2a1c39a3cc01",
@@ -7014,7 +7166,8 @@
   },
   "score": 60.6,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_cae1efdb-a472-41d3-88a4-dcdd840c897a",
@@ -7060,7 +7213,8 @@
   },
   "score": 66.3,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_d2c0106d-dff6-485d-b964-787c8f0fa3f2",
@@ -7108,7 +7262,8 @@
   "let_op": [
    "Hoge kilometerstand"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_b6d5db81-4934-454b-b5b4-eadc6cbf18dc",
@@ -7154,7 +7309,8 @@
   },
   "score": 63.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_b337ab0e-5669-4661-92af-ea499978e977",
@@ -7202,7 +7358,8 @@
   },
   "score": 57.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_c723a0db-28b2-4ace-a447-7d26d9d113bc",
@@ -7250,7 +7407,8 @@
   "let_op": [
    "Mogelijk W123: check chassisnummer (WDB124… = W124)"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_bb82e240-5509-442a-9e8b-9c1ec2c5002b",
@@ -7298,7 +7456,8 @@
   "let_op": [
    "Mogelijk W123: check chassisnummer (WDB124… = W124)"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_ad8df6e3-f447-410a-9fc7-d29c7860230f",
@@ -7346,7 +7505,8 @@
   },
   "score": 64.0,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_36dfb5d8-84a7-4efd-b000-fc337e18864d",
@@ -7397,7 +7557,8 @@
   },
   "score": 58.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_46a07cc8-849c-40a2-a7a4-d04a7bfe5276",
@@ -7447,7 +7608,8 @@
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_be8fbc5b-d476-44ff-9f90-0225cb683282",
@@ -7495,7 +7657,8 @@
   "let_op": [
    "Mogelijk W123: check chassisnummer (WDB124… = W124)"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_3c011178-1b92-4acf-a6bb-301004d86203",
@@ -7541,7 +7704,8 @@
   },
   "score": 67.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_de_8e60ea02-017c-4c85-bea8-5f8f6acea802",
@@ -7589,7 +7753,8 @@
   "let_op": [
    "Mogelijk W123: check chassisnummer (WDB124… = W124)"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_es_dca591ba-10fc-4f36-8c71-f7758761486a",
@@ -7635,7 +7800,8 @@
   },
   "score": 59.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_es_09ba06e0-332d-46de-9c7d-31f997c77f7d",
@@ -7686,7 +7852,8 @@
   },
   "score": 65.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_es_a68673c5-a199-4564-973c-ed6530d5dbc6",
@@ -7737,7 +7904,8 @@
   },
   "score": 56.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_es_99ffb1ef-0556-41d3-a3f4-27549dae1842",
@@ -7783,7 +7951,8 @@
   },
   "score": 64.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_es_252f34b0-6d76-4793-887f-eb85a75cc346",
@@ -7829,7 +7998,8 @@
   },
   "score": 65.3,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_es_cbf3a754-513e-4e03-b8c8-d7752cf588e4",
@@ -7877,7 +8047,8 @@
   "let_op": [
    "Hoge kilometerstand"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_es_cf6a1e1d-e7b2-4f31-8663-ad0ce8825cd8",
@@ -7923,7 +8094,8 @@
   },
   "score": 61.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_es_9f588e20-4681-4661-896c-09da48989c80",
@@ -7974,7 +8146,8 @@
   },
   "score": 49.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_es_30e7517d-2cf9-4c77-89e6-be9c8732dce5",
@@ -8022,7 +8195,8 @@
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_es_d8720154-975a-4510-a8f2-8b43d2d0c05e",
@@ -8065,7 +8239,8 @@
   "let_op": [
    "Mogelijk W123: check chassisnummer (WDB124… = W124)"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_es_2f3f3ccc-9607-4879-b922-20c3272559dc",
@@ -8108,7 +8283,8 @@
   "let_op": [
    "Mogelijk W123: check chassisnummer (WDB124… = W124)"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_es_12c1a55a-c94b-4912-93dc-f747a7e5d336",
@@ -8151,7 +8327,8 @@
   "let_op": [
    "Mogelijk W123: check chassisnummer (WDB124… = W124)"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_es_b068e4b7-8233-44dc-a4c0-2b6a15a6fdb7",
@@ -8198,7 +8375,8 @@
   "let_op": [
    "Mogelijk W123: check chassisnummer (WDB124… = W124)"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_es_b2dbd91b-0c26-42fe-a998-8c82a7526e8c",
@@ -8246,7 +8424,8 @@
   "let_op": [
    "Mogelijk W123: check chassisnummer (WDB124… = W124)"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_es_8a98335f-56c3-4b19-bc49-e5591f27133f",
@@ -8289,7 +8468,8 @@
   },
   "score": 57.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_es_8cae9985-713f-4f19-9b56-5409f10f531b",
@@ -8326,23 +8506,28 @@
   "dup_of": null,
   "also_on": [],
   "punten": {
-   "roest": 32.0,
+   "roest": 0.0,
    "motor": 18.0,
    "staat": 6.0,
    "km": 6.6,
    "prijs": 9.0,
    "bouwjaar": 4.8
   },
-  "score": 76.4,
+  "score": 0.0,
   "let_op": [
+   "Beetje roest op dorpels",
+   "Beetje roest wielkasten",
    "Mogelijk W123: check chassisnummer (WDB124… = W124)"
   ],
   "rust": {
-   "sills": 0,
+   "sills": 1,
+   "arches": 1,
    "other": 1,
-   "note": "Eigenlijk een W123 300D; lak verweerd, kleine plekjes op kofferklep, dorpels lijken schoon.",
+   "chassis": "W123",
+   "note": "W123 300D; lichte roestplekjes en verfschade, dorpels halfdichtbij zichtbaar op foto 4.",
    "photos": 4
-  }
+  },
+  "ai_reject": true
  },
  {
   "id": "as24_es_07d97878-f6cd-4235-b3a2-8f44af94df12",
@@ -8393,7 +8578,8 @@
   },
   "score": 65.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "as24_es_6374346e-3f0f-42b7-8680-c41d0374a94d",
@@ -8441,7 +8627,8 @@
   "let_op": [
    "Hoge kilometerstand"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3533889381",
@@ -8484,7 +8671,8 @@
   },
   "score": 64.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3533652119",
@@ -8531,7 +8719,8 @@
   },
   "score": 60.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3487945204",
@@ -8576,7 +8765,8 @@
   "let_op": [
    "Hoge kilometerstand"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3536415155",
@@ -8621,7 +8811,8 @@
   },
   "score": 58.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3538713311",
@@ -8666,7 +8857,8 @@
   },
   "score": 57.9,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3538512385",
@@ -8711,7 +8903,8 @@
   },
   "score": 63.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3538506480",
@@ -8756,7 +8949,8 @@
   },
   "score": 61.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3518821699",
@@ -8802,7 +8996,8 @@
   },
   "score": 58.6,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3530411465",
@@ -8845,7 +9040,8 @@
   },
   "score": 60.9,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3532819555",
@@ -8890,10 +9086,13 @@
   "let_op": [],
   "rust": {
    "sills": null,
+   "arches": 0,
    "other": 0,
-   "note": "Dorpels liggen in de schaduw en zijn onduidelijk; verder geen roest zichtbaar.",
+   "chassis": "W124",
+   "note": "W124 sedan van voorschuin; dorpels niet duidelijk zichtbaar, geen roest gezien.",
    "photos": 1
-  }
+  },
+  "ai_reject": false
  },
  {
   "id": "ka_3531904608",
@@ -8940,7 +9139,8 @@
   "let_op": [
    "Advertentie noemt: geen keuring"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3538235227",
@@ -8983,7 +9183,8 @@
   },
   "score": 61.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3538246905",
@@ -9030,7 +9231,8 @@
   "let_op": [
    "4MATIC: duur in onderhoud"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3538191121",
@@ -9075,7 +9277,8 @@
   "let_op": [
    "Hoge kilometerstand"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3537946705",
@@ -9118,7 +9321,8 @@
   },
   "score": 62.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3537781656",
@@ -9163,7 +9367,8 @@
   "let_op": [
    "Hoge kilometerstand"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3502760063",
@@ -9210,10 +9415,13 @@
   ],
   "rust": {
    "sills": null,
+   "arches": null,
    "other": 2,
+   "chassis": null,
    "note": "Wielkast achter in primer gerepareerd, ruitsponning roestig, dorpels grotendeels verborgen door bekleding.",
    "photos": 1
-  }
+  },
+  "ai_reject": false
  },
  {
   "id": "ka_3519526075",
@@ -9256,7 +9464,8 @@
   },
   "score": 65.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3537292479",
@@ -9299,7 +9508,8 @@
   },
   "score": 58.0,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3487416638",
@@ -9342,7 +9552,8 @@
   },
   "score": 62.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3537100576",
@@ -9385,7 +9596,8 @@
   },
   "score": 61.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3537022825",
@@ -9432,7 +9644,8 @@
   "let_op": [
    "Mogelijk W123: check chassisnummer (WDB124… = W124)"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3536730441",
@@ -9475,7 +9688,8 @@
   },
   "score": 64.3,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3536125924",
@@ -9520,7 +9734,8 @@
   },
   "score": 63.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3536087433",
@@ -9563,7 +9778,8 @@
   },
   "score": 63.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3536028423",
@@ -9606,7 +9822,8 @@
   },
   "score": 61.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3528051572",
@@ -9651,7 +9868,8 @@
   },
   "score": 66.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3527804388",
@@ -9694,7 +9912,8 @@
   },
   "score": 61.0,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3535700506",
@@ -9739,7 +9958,8 @@
   "let_op": [
    "Hoge kilometerstand"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3503788291",
@@ -9782,7 +10002,8 @@
   },
   "score": 63.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3535563182",
@@ -9816,21 +10037,24 @@
   "dup_of": null,
   "also_on": [],
   "punten": {
-   "roest": 40.0,
+   "roest": 28.0,
    "motor": 18.0,
    "staat": 6.0,
    "km": 6.1,
    "prijs": 9.0,
    "bouwjaar": 6.0
   },
-  "score": 85.1,
+  "score": 73.1,
   "let_op": [],
   "rust": {
-   "sills": 0,
+   "sills": null,
+   "arches": 0,
    "other": 0,
-   "note": "Zijaanzicht op afstand; dorpels en carrosserie lijken roestvrij, details beperkt zichtbaar.",
+   "chassis": "W124",
+   "note": "Alleen zijaanzicht van afstand; dorpels niet te beoordelen, geen duidelijke roest zichtbaar.",
    "photos": 1
-  }
+  },
+  "ai_reject": false
  },
  {
   "id": "ka_3535481069",
@@ -9864,21 +10088,28 @@
   "dup_of": null,
   "also_on": [],
   "punten": {
-   "roest": 40.0,
+   "roest": 0.0,
    "motor": 18.0,
    "staat": 6.0,
    "km": 7.8,
    "prijs": 9.0,
    "bouwjaar": 6.0
   },
-  "score": 86.8,
-  "let_op": [],
+  "score": 46.8,
+  "let_op": [
+   "Veel roest op dorpels",
+   "Roest zichtbaar op foto",
+   "Roest wielkasten"
+  ],
   "rust": {
-   "sills": 0,
-   "other": 0,
-   "note": "Dorpels en carrosserie zien er schoon uit, geen zichtbare roest.",
-   "photos": 1
-  }
+   "sills": 3,
+   "arches": 2,
+   "other": 3,
+   "chassis": "W124",
+   "note": "Zware roest onderkant achterdeur/dorpel, instap, wielkastrand, deurlijst en motorkap.",
+   "photos": 15
+  },
+  "ai_reject": false
  },
  {
   "id": "ka_3491098127",
@@ -9925,10 +10156,13 @@
   "let_op": [],
   "rust": {
    "sills": null,
+   "arches": 0,
    "other": 0,
-   "note": "Dorpels in schaduw en met sideskirts bedekt; carrosserie verder zonder zichtbare roest.",
+   "chassis": "W124",
+   "note": "Alleen schuin vooraanzicht van afstand; dorpels niet goed te beoordelen, geen zichtbare roest.",
    "photos": 1
-  }
+  },
+  "ai_reject": false
  },
  {
   "id": "ka_3535082637",
@@ -9971,7 +10205,8 @@
   },
   "score": 66.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3534735048",
@@ -10014,7 +10249,8 @@
   },
   "score": 66.0,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3519653778",
@@ -10059,7 +10295,8 @@
   },
   "score": 67.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3534189607",
@@ -10102,7 +10339,8 @@
   },
   "score": 65.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3533843409",
@@ -10147,7 +10385,8 @@
   "let_op": [
    "Mogelijk W123: check chassisnummer (WDB124… = W124)"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3516070631",
@@ -10190,7 +10429,8 @@
   },
   "score": 65.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3532120124",
@@ -10236,7 +10476,8 @@
   },
   "score": 60.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3531643898",
@@ -10281,7 +10522,8 @@
   },
   "score": 66.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3483063451",
@@ -10324,7 +10566,8 @@
   },
   "score": 63.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3529471675",
@@ -10369,10 +10612,13 @@
   "let_op": [],
   "rust": {
    "sills": null,
+   "arches": 0,
    "other": 0,
-   "note": "Vooraanzicht W124 in donkere garage; dorpels niet zichtbaar, geen roest gezien.",
+   "chassis": "W124",
+   "note": "Alleen vooraanzicht in garage; dorpels niet te beoordelen, geen zichtbare roest.",
    "photos": 1
-  }
+  },
+  "ai_reject": false
  },
  {
   "id": "ka_3528961756",
@@ -10415,7 +10661,8 @@
   },
   "score": 58.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3528882453",
@@ -10460,7 +10707,8 @@
   "let_op": [
    "Hoge kilometerstand"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3528605897",
@@ -10508,7 +10756,8 @@
   },
   "score": 61.9,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3472535979",
@@ -10551,7 +10800,8 @@
   },
   "score": 66.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3469861911",
@@ -10596,7 +10846,8 @@
   },
   "score": 61.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3528212649",
@@ -10639,7 +10890,8 @@
   },
   "score": 63.0,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3528128463",
@@ -10688,10 +10940,13 @@
   ],
   "rust": {
    "sills": null,
+   "arches": 0,
    "other": 0,
-   "note": "Voorkant en spatbord zien er schoon uit; dorpels niet zichtbaar, bumper alleen bekrast.",
+   "chassis": "W124",
+   "note": "Vooraanzicht W124, geen roest zichtbaar; dorpels niet goed te beoordelen.",
    "photos": 1
-  }
+  },
+  "ai_reject": false
  },
  {
   "id": "ka_3527934956",
@@ -10736,7 +10991,8 @@
   },
   "score": 64.6,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3467201243",
@@ -10779,7 +11035,8 @@
   },
   "score": 64.3,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3460359217",
@@ -10815,16 +11072,24 @@
   "dup_of": null,
   "also_on": [],
   "punten": {
-   "roest": 24.0,
+   "roest": 28.0,
    "motor": 14.4,
    "staat": 7.8,
    "km": 6.9,
    "prijs": 9.0,
    "bouwjaar": 6.0
   },
-  "score": 68.1,
+  "score": 72.1,
   "let_op": [],
-  "rust": null
+  "rust": {
+   "sills": null,
+   "arches": 0,
+   "other": 0,
+   "chassis": "W124",
+   "note": "Alleen vooraanzicht van een W124; dorpels niet goed te beoordelen, geen zichtbare roest.",
+   "photos": 1
+  },
+  "ai_reject": false
  },
  {
   "id": "ka_3526845580",
@@ -10869,7 +11134,8 @@
   "let_op": [
    "4MATIC: duur in onderhoud"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3526691371",
@@ -10914,7 +11180,8 @@
   },
   "score": 60.3,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3526481865",
@@ -10957,7 +11224,8 @@
   },
   "score": 61.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3526404513",
@@ -11000,7 +11268,8 @@
   },
   "score": 61.9,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3525633858",
@@ -11048,7 +11317,8 @@
    "Hoge kilometerstand",
    "Advertentie noemt: motor/bak defect"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3525473232",
@@ -11091,7 +11361,8 @@
   },
   "score": 54.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3524388368",
@@ -11136,7 +11407,8 @@
   "let_op": [
    "Hoge kilometerstand"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3523449048",
@@ -11183,7 +11455,8 @@
   "let_op": [
    "Mogelijk W123: check chassisnummer (WDB124… = W124)"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3523177258",
@@ -11226,7 +11499,8 @@
   },
   "score": 56.0,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3523112109",
@@ -11269,7 +11543,8 @@
   },
   "score": 66.3,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3523111306",
@@ -11312,7 +11587,8 @@
   },
   "score": 66.3,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3494053872",
@@ -11355,7 +11631,8 @@
   },
   "score": 65.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3522881591",
@@ -11398,7 +11675,8 @@
   },
   "score": 59.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3522824395",
@@ -11441,7 +11719,8 @@
   },
   "score": 59.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3522773008",
@@ -11484,7 +11763,8 @@
   },
   "score": 65.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3522739829",
@@ -11529,7 +11809,8 @@
   },
   "score": 60.3,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3522712627",
@@ -11572,7 +11853,8 @@
   },
   "score": 60.0,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3522655435",
@@ -11615,7 +11897,8 @@
   },
   "score": 65.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3522305734",
@@ -11658,7 +11941,8 @@
   },
   "score": 61.9,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3402604278",
@@ -11703,7 +11987,8 @@
   },
   "score": 59.0,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3400240395",
@@ -11746,7 +12031,8 @@
   },
   "score": 65.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3522040076",
@@ -11791,7 +12077,8 @@
   },
   "score": 61.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3520716775",
@@ -11834,7 +12121,8 @@
   },
   "score": 57.9,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3520634364",
@@ -11879,7 +12167,8 @@
   "let_op": [
    "Hoge kilometerstand"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3370274919",
@@ -11922,7 +12211,8 @@
   },
   "score": 60.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3355424617",
@@ -11965,7 +12255,8 @@
   },
   "score": 55.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3520609089",
@@ -12010,7 +12301,8 @@
   "let_op": [
    "Hoge kilometerstand"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3520202605",
@@ -12044,16 +12336,24 @@
   "dup_of": null,
   "also_on": [],
   "punten": {
-   "roest": 24.0,
+   "roest": 28.0,
    "motor": 18.0,
    "staat": 6.0,
    "km": 5.1,
    "prijs": 9.0,
    "bouwjaar": 6.0
   },
-  "score": 68.1,
+  "score": 72.1,
   "let_op": [],
-  "rust": null
+  "rust": {
+   "sills": null,
+   "arches": 0,
+   "other": 0,
+   "chassis": "W124",
+   "note": "Alleen zijaanzicht van afstand; dorpels niet te beoordelen, geen zichtbare roest.",
+   "photos": 1
+  },
+  "ai_reject": false
  },
  {
   "id": "ka_3519407178",
@@ -12101,10 +12401,13 @@
   "let_op": [],
   "rust": {
    "sills": null,
+   "arches": 0,
    "other": 0,
-   "note": "Dorpels nauwelijks zichtbaar door hoek en schaduw; carrosserie oogt verder schoon zonder roest.",
+   "chassis": "W124",
+   "note": "Witte W124 vooraanzicht; dorpels niet goed zichtbaar, geen roest gezien op wielkasten.",
    "photos": 1
-  }
+  },
+  "ai_reject": false
  },
  {
   "id": "ka_3519285357",
@@ -12147,7 +12450,8 @@
   },
   "score": 60.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3517645570",
@@ -12193,7 +12497,8 @@
   },
   "score": 60.6,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3515853456",
@@ -12239,7 +12544,8 @@
   },
   "score": 64.6,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3275267674",
@@ -12282,7 +12588,8 @@
   },
   "score": 63.9,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3515758493",
@@ -12327,7 +12634,8 @@
   "let_op": [
    "Mogelijk W123: check chassisnummer (WDB124… = W124)"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3515736218",
@@ -12370,7 +12678,8 @@
   },
   "score": 59.0,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3514398663",
@@ -12418,7 +12727,8 @@
   "let_op": [
    "Hoge kilometerstand"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3514313545",
@@ -12461,7 +12771,8 @@
   },
   "score": 64.9,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3514111251",
@@ -12504,7 +12815,8 @@
   },
   "score": 63.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3216498138",
@@ -12550,7 +12862,8 @@
   },
   "score": 61.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3153992670",
@@ -12596,7 +12909,8 @@
   },
   "score": 66.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3512675203",
@@ -12641,7 +12955,8 @@
   "let_op": [
    "Hoge kilometerstand"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3512657019",
@@ -12684,7 +12999,8 @@
   },
   "score": 62.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3512163048",
@@ -12727,7 +13043,8 @@
   },
   "score": 62.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3511808107",
@@ -12772,7 +13089,8 @@
   },
   "score": 61.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3510783278",
@@ -12815,7 +13133,8 @@
   },
   "score": 64.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3509147893",
@@ -12862,10 +13181,13 @@
   "let_op": [],
   "rust": {
    "sills": null,
+   "arches": 0,
    "other": 0,
-   "note": "Achterkant oogt schoon zonder zichtbare roest; dorpels zijn niet zichtbaar op de foto.",
+   "chassis": "W124",
+   "note": "Alleen achteraanzicht van een witte 260E; dorpels niet zichtbaar, geen roest gezien.",
    "photos": 1
-  }
+  },
+  "ai_reject": false
  },
  {
   "id": "ka_3509137314",
@@ -12912,10 +13234,13 @@
   ],
   "rust": {
    "sills": 1,
+   "arches": null,
    "other": 1,
+   "chassis": null,
    "note": "Dorpels deels zichtbaar, lichte verkleuring; wielkasten en spatbord lijken redelijk, kleine plekjes mogelijk.",
    "photos": 1
-  }
+  },
+  "ai_reject": false
  },
  {
   "id": "ka_3508771044",
@@ -12958,7 +13283,8 @@
   },
   "score": 65.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3507438620",
@@ -13001,7 +13327,8 @@
   },
   "score": 63.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3507366200",
@@ -13044,7 +13371,8 @@
   },
   "score": 54.9,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3507360887",
@@ -13091,7 +13419,8 @@
   "let_op": [
    "Hoge kilometerstand"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_2934895051",
@@ -13134,7 +13463,8 @@
   },
   "score": 58.0,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3504439212",
@@ -13182,7 +13512,8 @@
   },
   "score": 58.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3504427017",
@@ -13225,7 +13556,8 @@
   },
   "score": 55.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3504070897",
@@ -13272,7 +13604,8 @@
   "let_op": [
    "Advertentie noemt: geen keuring"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3502889321",
@@ -13315,7 +13648,8 @@
   },
   "score": 59.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3502455435",
@@ -13360,7 +13694,8 @@
   },
   "score": 64.3,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3501971400",
@@ -13403,7 +13738,8 @@
   },
   "score": 58.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3500901070",
@@ -13453,7 +13789,8 @@
    "Hoge kilometerstand",
    "Advertentie noemt: motor/bak defect"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3500716914",
@@ -13498,7 +13835,8 @@
   "let_op": [
    "Hoge kilometerstand"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3500701669",
@@ -13541,7 +13879,8 @@
   },
   "score": 62.6,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3500693201",
@@ -13584,7 +13923,8 @@
   },
   "score": 55.9,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3500496357",
@@ -13629,7 +13969,8 @@
   },
   "score": 59.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3500496128",
@@ -13674,7 +14015,8 @@
   },
   "score": 59.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3500452593",
@@ -13717,7 +14059,8 @@
   },
   "score": 62.3,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3500249352",
@@ -13760,7 +14103,8 @@
   },
   "score": 65.9,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3498830887",
@@ -13807,7 +14151,8 @@
   "let_op": [
    "Hoge kilometerstand"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3498252393",
@@ -13850,7 +14195,8 @@
   },
   "score": 61.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3497174566",
@@ -13884,21 +14230,24 @@
   "dup_of": null,
   "also_on": [],
   "punten": {
-   "roest": 40.0,
+   "roest": 28.0,
    "motor": 18.0,
    "staat": 6.0,
    "km": 5.6,
    "prijs": 8.9,
    "bouwjaar": 6.0
   },
-  "score": 84.5,
+  "score": 72.5,
   "let_op": [],
   "rust": {
-   "sills": 0,
+   "sills": null,
+   "arches": 0,
    "other": 0,
-   "note": "Zwarte W124 oogt strak; dorpels met sideskirts deels zichtbaar, geen roest te zien.",
+   "chassis": "W124",
+   "note": "Zwarte W124 vanaf schuin voor; dorpels te ver en donker om te beoordelen.",
    "photos": 1
-  }
+  },
+  "ai_reject": false
  },
  {
   "id": "ka_3495591800",
@@ -13941,7 +14290,8 @@
   },
   "score": 60.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3495369379",
@@ -13986,7 +14336,8 @@
   },
   "score": 60.6,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3495003819",
@@ -14029,7 +14380,8 @@
   },
   "score": 58.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3486131481",
@@ -14074,7 +14426,8 @@
   },
   "score": 58.3,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3493369268",
@@ -14117,7 +14470,8 @@
   },
   "score": 66.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3490944782",
@@ -14160,7 +14514,8 @@
   },
   "score": 61.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3490037707",
@@ -14203,7 +14558,8 @@
   },
   "score": 65.6,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3489958527",
@@ -14250,7 +14606,8 @@
   "let_op": [
    "Advertentie noemt: opknapper/sloop"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3488165740",
@@ -14295,7 +14652,8 @@
   },
   "score": 66.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3488129288",
@@ -14341,7 +14699,8 @@
    "Mogelijk W123: check chassisnummer (WDB124… = W124)",
    "Hoge kilometerstand"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3487457782",
@@ -14384,7 +14743,8 @@
   },
   "score": 63.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3487344988",
@@ -14427,7 +14787,8 @@
   },
   "score": 61.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3484041626",
@@ -14470,7 +14831,8 @@
   },
   "score": 61.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3483881222",
@@ -14520,7 +14882,8 @@
   },
   "score": 62.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3483047967",
@@ -14563,7 +14926,8 @@
   },
   "score": 63.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3439512708",
@@ -14608,7 +14972,8 @@
   },
   "score": 67.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3472972253",
@@ -14651,7 +15016,8 @@
   },
   "score": 66.0,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3472811739",
@@ -14694,7 +15060,8 @@
   },
   "score": 66.3,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3470627186",
@@ -14737,7 +15104,8 @@
   },
   "score": 67.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3466409661",
@@ -14782,7 +15150,8 @@
   "let_op": [
    "Mogelijk W123: check chassisnummer (WDB124… = W124)"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3463718763",
@@ -14827,7 +15196,8 @@
   },
   "score": 62.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3458167529",
@@ -14872,7 +15242,8 @@
   },
   "score": 60.0,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3514955399",
@@ -14915,7 +15286,8 @@
   },
   "score": 67.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3531135842",
@@ -14961,7 +15333,8 @@
   },
   "score": 61.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3526555907",
@@ -15006,7 +15379,8 @@
   },
   "score": 61.9,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3522950384",
@@ -15052,7 +15426,8 @@
   },
   "score": 65.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3522425546",
@@ -15095,7 +15470,8 @@
   },
   "score": 50.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3538493264",
@@ -15138,7 +15514,8 @@
   },
   "score": 58.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3537993559",
@@ -15183,7 +15560,8 @@
   },
   "score": 60.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3537600025",
@@ -15226,7 +15604,8 @@
   },
   "score": 66.6,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3537546804",
@@ -15269,7 +15648,8 @@
   },
   "score": 57.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3537552499",
@@ -15314,7 +15694,8 @@
   },
   "score": 64.3,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3537500743",
@@ -15357,7 +15738,8 @@
   },
   "score": 57.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3537459862",
@@ -15400,7 +15782,8 @@
   },
   "score": 54.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3536417166",
@@ -15443,7 +15826,8 @@
   },
   "score": 60.9,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3536409122",
@@ -15486,7 +15870,8 @@
   },
   "score": 54.3,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3536233154",
@@ -15534,7 +15919,8 @@
    "Hoge kilometerstand",
    "16V Cosworth: niet geschikt voor LPG"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3508755755",
@@ -15579,7 +15965,8 @@
   },
   "score": 57.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3478722058",
@@ -15622,7 +16009,8 @@
   },
   "score": 56.3,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3475231836",
@@ -15665,7 +16053,8 @@
   },
   "score": 55.0,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3536164461",
@@ -15708,7 +16097,8 @@
   },
   "score": 62.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3535983109",
@@ -15753,7 +16143,8 @@
   },
   "score": 64.0,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3535673834",
@@ -15796,7 +16187,8 @@
   },
   "score": 56.3,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3535411099",
@@ -15843,7 +16235,8 @@
   "let_op": [
    "Hoge kilometerstand"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3535291762",
@@ -15886,7 +16279,8 @@
   },
   "score": 59.6,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3535062924",
@@ -15929,7 +16323,8 @@
   },
   "score": 52.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3534960305",
@@ -15974,7 +16369,8 @@
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3514678949",
@@ -16017,7 +16413,8 @@
   },
   "score": 56.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3534876308",
@@ -16062,7 +16459,8 @@
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3534591568",
@@ -16096,21 +16494,24 @@
   "dup_of": null,
   "also_on": [],
   "punten": {
-   "roest": 40.0,
+   "roest": 28.0,
    "motor": 16.2,
    "staat": 6.0,
    "km": 8.0,
    "prijs": 8.6,
    "bouwjaar": 6.0
   },
-  "score": 84.8,
+  "score": 72.8,
   "let_op": [],
   "rust": {
-   "sills": 0,
+   "sills": null,
+   "arches": 0,
    "other": 0,
-   "note": "Witte 190 oogt schoon; dorpels deels zichtbaar zonder roest, geen roest elders zichtbaar.",
+   "chassis": "W201",
+   "note": "Witte 190 vanaf voorkant schuin op afstand; dorpels niet goed te beoordelen.",
    "photos": 1
-  }
+  },
+  "ai_reject": false
  },
  {
   "id": "ka_3534089576",
@@ -16153,7 +16554,8 @@
   },
   "score": 60.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3533408882",
@@ -16196,7 +16598,8 @@
   },
   "score": 52.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3533380048",
@@ -16239,7 +16642,8 @@
   },
   "score": 48.6,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3455833166",
@@ -16284,7 +16688,8 @@
   },
   "score": 62.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3532573674",
@@ -16329,7 +16734,8 @@
   },
   "score": 57.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3467955094",
@@ -16374,7 +16780,8 @@
   },
   "score": 59.6,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3444158496",
@@ -16428,7 +16835,8 @@
   },
   "score": 59.0,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3433059416",
@@ -16473,7 +16881,8 @@
   },
   "score": 58.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3532200133",
@@ -16520,7 +16929,8 @@
   "let_op": [
    "Hoge kilometerstand"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3531824144",
@@ -16565,7 +16975,8 @@
   },
   "score": 58.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3531785171",
@@ -16610,7 +17021,8 @@
   },
   "score": 58.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3531696308",
@@ -16655,7 +17067,8 @@
   },
   "score": 55.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3531626712",
@@ -16700,7 +17113,8 @@
   },
   "score": 58.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3531349940",
@@ -16743,7 +17157,8 @@
   },
   "score": 61.3,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3412318844",
@@ -16786,7 +17201,8 @@
   },
   "score": 56.9,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3357878780",
@@ -16831,7 +17247,8 @@
   },
   "score": 57.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3530930543",
@@ -16874,7 +17291,8 @@
   },
   "score": 56.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3530810999",
@@ -16917,7 +17335,8 @@
   },
   "score": 53.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3530683746",
@@ -16960,7 +17379,8 @@
   },
   "score": 64.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3530520847",
@@ -17008,7 +17428,8 @@
    "Hoge kilometerstand",
    "16V Cosworth: niet geschikt voor LPG"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3530511253",
@@ -17056,7 +17477,8 @@
    "Hoge kilometerstand",
    "16V Cosworth: niet geschikt voor LPG"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3529228348",
@@ -17101,7 +17523,8 @@
   },
   "score": 63.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3528745073",
@@ -17146,7 +17569,8 @@
   },
   "score": 60.0,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3528736410",
@@ -17189,7 +17613,8 @@
   },
   "score": 56.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3293586422",
@@ -17232,7 +17657,8 @@
   },
   "score": 55.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3107705314",
@@ -17275,7 +17701,8 @@
   },
   "score": 52.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3528375797",
@@ -17318,7 +17745,8 @@
   },
   "score": 64.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3527672947",
@@ -17363,7 +17791,8 @@
   "let_op": [
    "Hoge kilometerstand"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3527605972",
@@ -17406,7 +17835,8 @@
   },
   "score": 48.6,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3527345124",
@@ -17449,7 +17879,8 @@
   },
   "score": 57.3,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3527091481",
@@ -17492,7 +17923,8 @@
   },
   "score": 54.0,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3526819065",
@@ -17535,7 +17967,8 @@
   },
   "score": 65.9,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3526116845",
@@ -17580,7 +18013,8 @@
   },
   "score": 58.0,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3525906947",
@@ -17625,7 +18059,8 @@
   },
   "score": 60.3,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3524443860",
@@ -17668,7 +18103,8 @@
   },
   "score": 60.3,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3359556506",
@@ -17713,7 +18149,8 @@
   },
   "score": 58.3,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3524283105",
@@ -17758,7 +18195,8 @@
   },
   "score": 59.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3524083035",
@@ -17803,7 +18241,8 @@
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3524051549",
@@ -17846,7 +18285,8 @@
   },
   "score": 49.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3523608647",
@@ -17891,7 +18331,8 @@
   },
   "score": 56.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3523583050",
@@ -17936,7 +18377,8 @@
   },
   "score": 60.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3523498613",
@@ -17979,7 +18421,8 @@
   },
   "score": 59.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3523220636",
@@ -18024,7 +18467,8 @@
   },
   "score": 59.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3523144511",
@@ -18067,7 +18511,8 @@
   },
   "score": 55.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3521779440",
@@ -18110,7 +18555,8 @@
   },
   "score": 57.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3521526953",
@@ -18153,7 +18599,8 @@
   },
   "score": 54.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3521363113",
@@ -18196,7 +18643,8 @@
   },
   "score": 53.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3521346999",
@@ -18239,7 +18687,8 @@
   },
   "score": 53.6,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3521338114",
@@ -18282,7 +18731,8 @@
   },
   "score": 58.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3521312563",
@@ -18327,7 +18777,8 @@
   },
   "score": 61.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3520886159",
@@ -18372,7 +18823,8 @@
   },
   "score": 64.3,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3520647727",
@@ -18420,7 +18872,8 @@
   },
   "score": 57.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3520519332",
@@ -18463,7 +18916,8 @@
   },
   "score": 52.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3520354424",
@@ -18506,7 +18960,8 @@
   },
   "score": 61.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3519857822",
@@ -18549,7 +19004,8 @@
   },
   "score": 57.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3519347691",
@@ -18596,7 +19052,8 @@
   "let_op": [
    "Advertentie noemt: opknapper/sloop"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3518064210",
@@ -18639,7 +19096,8 @@
   },
   "score": 61.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3517075551",
@@ -18682,7 +19140,8 @@
   },
   "score": 59.9,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3516807940",
@@ -18725,7 +19184,8 @@
   },
   "score": 57.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3516723751",
@@ -18768,7 +19228,8 @@
   },
   "score": 58.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3516685450",
@@ -18813,7 +19274,8 @@
   },
   "score": 64.6,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3516552097",
@@ -18856,7 +19318,8 @@
   },
   "score": 50.3,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3515909706",
@@ -18899,7 +19362,8 @@
   },
   "score": 56.0,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3512664825",
@@ -18942,7 +19406,8 @@
   },
   "score": 56.6,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3514778370",
@@ -18985,7 +19450,8 @@
   },
   "score": 48.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3514655572",
@@ -19033,7 +19499,8 @@
   },
   "score": 54.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3514354558",
@@ -19080,7 +19547,8 @@
   "let_op": [
    "Advertentie noemt: geen keuring"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3514142341",
@@ -19125,7 +19593,8 @@
   },
   "score": 58.6,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3514030975",
@@ -19168,7 +19637,8 @@
   },
   "score": 62.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3514005292",
@@ -19213,7 +19683,8 @@
   },
   "score": 64.0,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3513987742",
@@ -19256,7 +19727,8 @@
   },
   "score": 53.6,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3513823472",
@@ -19299,7 +19771,8 @@
   },
   "score": 55.6,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3513821919",
@@ -19342,7 +19815,8 @@
   },
   "score": 55.6,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3513251726",
@@ -19385,7 +19859,8 @@
   },
   "score": 59.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3512837738",
@@ -19434,7 +19909,8 @@
   "let_op": [
    "Advertentie noemt: opknapper/sloop"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3512824318",
@@ -19481,7 +19957,8 @@
   "let_op": [
    "Hoge kilometerstand"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3512702200",
@@ -19524,7 +20001,8 @@
   },
   "score": 62.6,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3511551619",
@@ -19567,7 +20045,8 @@
   },
   "score": 58.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3511047645",
@@ -19614,7 +20093,8 @@
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3510562204",
@@ -19657,7 +20137,8 @@
   },
   "score": 56.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3510525973",
@@ -19702,7 +20183,8 @@
   },
   "score": 57.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3506246261",
@@ -19748,7 +20230,8 @@
   },
   "score": 64.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3506049181",
@@ -19791,7 +20274,8 @@
   },
   "score": 55.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3505622960",
@@ -19834,7 +20318,8 @@
   },
   "score": 57.0,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3505329178",
@@ -19877,7 +20362,8 @@
   },
   "score": 52.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3504356038",
@@ -19924,7 +20410,8 @@
   "let_op": [
    "Advertentie noemt: geen keuring"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3504062400",
@@ -19969,7 +20456,8 @@
   },
   "score": 61.6,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3503097644",
@@ -20012,7 +20500,8 @@
   },
   "score": 59.9,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3500683160",
@@ -20055,7 +20544,8 @@
   },
   "score": 63.6,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3500205129",
@@ -20103,7 +20593,8 @@
   },
   "score": 60.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3499157709",
@@ -20146,7 +20637,8 @@
   },
   "score": 55.0,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3498726037",
@@ -20191,7 +20683,8 @@
   },
   "score": 65.0,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3496747663",
@@ -20234,7 +20727,8 @@
   },
   "score": 55.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3496126432",
@@ -20279,7 +20773,8 @@
   "let_op": [
    "Hoge kilometerstand"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3493449532",
@@ -20322,7 +20817,8 @@
   },
   "score": 54.6,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3493167708",
@@ -20371,7 +20867,8 @@
   "let_op": [
    "Advertentie noemt: opknapper/sloop"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3491692540",
@@ -20414,7 +20911,8 @@
   },
   "score": 56.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3456711569",
@@ -20457,7 +20955,8 @@
   },
   "score": 52.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3486885895",
@@ -20502,7 +21001,8 @@
   },
   "score": 54.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3485743655",
@@ -20551,7 +21051,8 @@
   "let_op": [
    "Advertentie noemt: roest"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3485394827",
@@ -20594,7 +21095,8 @@
   },
   "score": 59.0,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3485044980",
@@ -20637,7 +21139,8 @@
   },
   "score": 52.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3484681103",
@@ -20680,7 +21183,8 @@
   },
   "score": 57.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3483850516",
@@ -20723,7 +21227,8 @@
   },
   "score": 62.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3471011104",
@@ -20766,7 +21271,8 @@
   },
   "score": 58.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3470788225",
@@ -20811,7 +21317,8 @@
   },
   "score": 60.3,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3462497779",
@@ -20854,7 +21361,8 @@
   },
   "score": 61.3,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3460566747",
@@ -20902,7 +21410,8 @@
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3457982766",
@@ -20945,7 +21454,8 @@
   },
   "score": 59.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3455079861",
@@ -20988,7 +21498,8 @@
   },
   "score": 63.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3446456364",
@@ -21034,7 +21545,8 @@
    "Hoge kilometerstand",
    "16V Cosworth: niet geschikt voor LPG"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3442354704",
@@ -21079,7 +21591,8 @@
   },
   "score": 59.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3420367262",
@@ -21122,7 +21635,8 @@
   },
   "score": 54.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3410577071",
@@ -21167,7 +21681,8 @@
   },
   "score": 54.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3346141980",
@@ -21212,7 +21727,8 @@
   },
   "score": 57.3,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3522283139",
@@ -21255,7 +21771,8 @@
   },
   "score": 62.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3532695007",
@@ -21298,7 +21815,8 @@
   },
   "score": 62.9,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3529039341",
@@ -21341,7 +21859,8 @@
   },
   "score": 67.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3522560398",
@@ -21384,7 +21903,8 @@
   },
   "score": 66.0,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3510322783",
@@ -21427,7 +21947,8 @@
   },
   "score": 68.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3496337437",
@@ -21472,7 +21993,8 @@
   },
   "score": 62.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3531268086",
@@ -21518,7 +22040,8 @@
   },
   "score": 62.3,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3524877985",
@@ -21563,7 +22086,8 @@
   },
   "score": 59.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3516882560",
@@ -21606,7 +22130,8 @@
   },
   "score": 61.3,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3500556794",
@@ -21649,7 +22174,8 @@
   },
   "score": 60.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3486673669",
@@ -21692,7 +22218,8 @@
   },
   "score": 58.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3533023914",
@@ -21737,7 +22264,8 @@
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3527028399",
@@ -21780,7 +22308,8 @@
   },
   "score": 61.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3524515704",
@@ -21827,7 +22356,8 @@
   "let_op": [
    "Hoge kilometerstand"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3524052284",
@@ -21870,7 +22400,8 @@
   },
   "score": 50.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3521324112",
@@ -21917,7 +22448,8 @@
   "let_op": [
    "Advertentie noemt: opknapper/sloop"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3515374807",
@@ -21963,7 +22495,8 @@
   },
   "score": 62.3,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3509294506",
@@ -22006,7 +22539,8 @@
   },
   "score": 60.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3500162330",
@@ -22054,7 +22588,8 @@
   },
   "score": 57.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3492611560",
@@ -22097,7 +22632,8 @@
   },
   "score": 60.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3489205240",
@@ -22140,7 +22676,8 @@
   },
   "score": 59.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "wp_0j285kpx1mjy",
@@ -22188,7 +22725,8 @@
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "wp_pj941vg0r26e",
@@ -22234,7 +22772,8 @@
   },
   "score": 60.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "wp_w67v011nn56x",
@@ -22285,7 +22824,8 @@
   },
   "score": 60.9,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "wp_36e5yy2m086d",
@@ -22331,7 +22871,8 @@
   },
   "score": 66.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "wp_qjwr30n99g6o",
@@ -22381,10 +22922,13 @@
   "let_op": [],
   "rust": {
    "sills": null,
+   "arches": null,
    "other": 1,
+   "chassis": null,
    "note": "Dorpels niet goed zichtbaar; kleine beschadiging/roestplek onderaan voorbumperhoek, verder netjes.",
    "photos": 4
-  }
+  },
+  "ai_reject": false
  },
  {
   "id": "wp_9jdwy9nrr96k",
@@ -22430,7 +22974,8 @@
   },
   "score": 65.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "wp_wzyrkg300p65",
@@ -22477,7 +23022,8 @@
   "let_op": [
    "Hoge kilometerstand"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "wp_xzogprkyk5j9",
@@ -22523,7 +23069,8 @@
   },
   "score": 65.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "wp_e65qo4oxng6o",
@@ -22571,7 +23118,8 @@
   },
   "score": 64.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "wp_ejkmo1w51rzx",
@@ -22617,7 +23165,8 @@
   },
   "score": 52.9,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "wp_4z48mennomjy",
@@ -22656,21 +23205,24 @@
   "dup_of": null,
   "also_on": [],
   "punten": {
-   "roest": 40.0,
+   "roest": 28.0,
    "motor": 18.0,
    "staat": 7.8,
    "km": 6.9,
    "prijs": 7.6,
    "bouwjaar": 5.4
   },
-  "score": 85.7,
+  "score": 73.7,
   "let_op": [],
   "rust": {
-   "sills": 0,
+   "sills": null,
+   "arches": 0,
    "other": 0,
-   "note": "Dorpels en carrosserie zien er op de zijfoto schoon uit, geen roest zichtbaar.",
+   "chassis": "W124",
+   "note": "W124 260E alleen van afstand gefotografeerd; dorpels niet goed te beoordelen, geen zichtbare roest.",
    "photos": 4
-  }
+  },
+  "ai_reject": false
  },
  {
   "id": "wp_8j381e7xp1z9",
@@ -22721,7 +23273,8 @@
   },
   "score": 61.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "wp_9jdw03vrol6k",
@@ -22767,7 +23320,8 @@
   },
   "score": 62.6,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "wp_wzvg7mopndzl",
@@ -22813,7 +23367,8 @@
   },
   "score": 66.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "wp_8z883n0e0rz3",
@@ -22861,7 +23416,8 @@
   },
   "score": 58.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "wp_mzn3k1g090jn",
@@ -22909,7 +23465,8 @@
   },
   "score": 56.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "wp_nz08pxoy7r6o",
@@ -22955,7 +23512,8 @@
   },
   "score": 55.6,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "wp_ejkm3wry1rzx",
@@ -23003,7 +23561,8 @@
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "wp_36e57odvry6d",
@@ -23055,7 +23614,8 @@
   "let_op": [
    "Advertentie noemt: opknapper/sloop"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "wp_0j28744dqdjy",
@@ -23103,7 +23663,8 @@
   "let_op": [
    "Hoge kilometerstand"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "wp_wzvgeow7wqzl",
@@ -23153,7 +23714,8 @@
   "let_op": [
    "Hoge kilometerstand"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "wp_v6gpqp5xr26e",
@@ -23199,7 +23761,8 @@
   },
   "score": 60.6,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "wp_nz081el9576o",
@@ -23245,7 +23808,8 @@
   },
   "score": 66.6,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "wp_e65qdko9ok6o",
@@ -23291,7 +23855,8 @@
   },
   "score": 61.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "wp_3zlmp4813qjx",
@@ -23339,7 +23904,8 @@
   },
   "score": 66.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "wp_0j28evn9rnjy",
@@ -23387,7 +23953,8 @@
   },
   "score": 62.9,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "wp_w67vendwk96x",
@@ -23438,7 +24005,8 @@
   },
   "score": 61.0,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "wp_vjrex13eq9zk",
@@ -23486,7 +24054,8 @@
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "wp_0j28enrmvnjy",
@@ -23532,7 +24101,8 @@
   },
   "score": 65.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "wp_v6gpk828en6e",
@@ -23572,21 +24142,24 @@
   "dup_of": null,
   "also_on": [],
   "punten": {
-   "roest": 40.0,
+   "roest": 28.0,
    "motor": 18.0,
    "staat": 9.6,
    "km": 3.3,
    "prijs": 8.5,
    "bouwjaar": 4.8
   },
-  "score": 84.2,
+  "score": 72.2,
   "let_op": [],
   "rust": {
-   "sills": 0,
+   "sills": null,
+   "arches": 0,
    "other": 0,
-   "note": "Bewerkte foto's tonen geen zichtbare roest; dorpels deels zichtbaar, lijken schoon.",
+   "chassis": "W124",
+   "note": "Vooral bewerkte collagefoto's; dorpels niet van dichtbij te zien, geen zichtbare roest.",
    "photos": 4
-  }
+  },
+  "ai_reject": false
  },
  {
   "id": "wp_nz082epo4e6o",
@@ -23640,10 +24213,13 @@
   ],
   "rust": {
    "sills": 1,
+   "arches": null,
    "other": 1,
+   "chassis": null,
    "note": "Eigenlijk een W123 300D; lichte roestplekjes bij dorpels en wielkasten, verder redelijk.",
    "photos": 4
-  }
+  },
+  "ai_reject": false
  },
  {
   "id": "wp_3zlmd25k9pjx",
@@ -23691,7 +24267,8 @@
   },
   "score": 63.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "wp_nzxeq0rvxp62",
@@ -23739,7 +24316,8 @@
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "wp_vjrede9nm9zk",
@@ -23785,7 +24363,8 @@
   },
   "score": 58.3,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "wp_p614xqyod765",
@@ -23836,7 +24415,8 @@
    "Hoge kilometerstand",
    "Advertentie noemt: geen keuring"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "wp_vjrqn7llv9zk",
@@ -23883,7 +24463,8 @@
   "let_op": [
    "Advertentie noemt: opknapper/sloop"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "wp_0j24023perzy",
@@ -23931,7 +24512,8 @@
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "wp_p6140o2dr265",
@@ -23977,7 +24559,8 @@
   },
   "score": 61.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "wp_qjw4e8vrywzo",
@@ -24028,7 +24611,8 @@
    "Hoge kilometerstand",
    "Advertentie noemt: geen keuring"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "wp_wzy5kg1wyej5",
@@ -24078,7 +24662,8 @@
   "let_op": [
    "Advertentie noemt: geen keuring"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "sv_8095820427",
@@ -24128,7 +24713,8 @@
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "cj_44980226",
@@ -24171,7 +24757,8 @@
   },
   "score": 64.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "cj_44815956",
@@ -24214,7 +24801,8 @@
   },
   "score": 57.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "cj_41809369",
@@ -24260,7 +24848,8 @@
    "Bouwjaar onbekend",
    "Advertentie noemt: motor/bak defect"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "olx_673675602",
@@ -24308,7 +24897,8 @@
   "let_op": [
    "Hoge kilometerstand"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "olx_664671791",
@@ -24356,7 +24946,8 @@
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "olx_673887291",
@@ -24404,7 +24995,8 @@
   "let_op": [
    "Hoge kilometerstand"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "olx_670829618",
@@ -24452,7 +25044,8 @@
   "let_op": [
    "Hoge kilometerstand"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "olx_667651771",
@@ -24502,7 +25095,8 @@
    "Hoge kilometerstand",
    "LPG-installatie: keuring en tankdatum checken"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "olx_672485791",
@@ -24550,7 +25144,8 @@
   "let_op": [
    "Hoge kilometerstand"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "olx_673579062",
@@ -24600,7 +25195,8 @@
   "let_op": [
    "Hoge kilometerstand"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "olx_673801521",
@@ -24648,7 +25244,8 @@
   "let_op": [
    "Bouwjaar onbekend"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "olx_674096310",
@@ -24696,7 +25293,8 @@
   "let_op": [
    "Bouwjaar onbekend"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "olx_673633903",
@@ -24741,7 +25339,8 @@
   "let_op": [
    "Bouwjaar onbekend"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "olx_673909442",
@@ -24789,7 +25388,8 @@
   "let_op": [
    "Bouwjaar onbekend"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "cargr_41897858",
@@ -24834,7 +25434,8 @@
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "cargr_53426482",
@@ -24877,7 +25478,8 @@
   },
   "score": 52.9,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "cargr_20962945",
@@ -24922,7 +25524,8 @@
   "let_op": [
    "Mogelijk W123: check chassisnummer (WDB124… = W124)"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "cargr_336676136",
@@ -24965,7 +25568,8 @@
   },
   "score": 59.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "cargr_326790829",
@@ -25008,7 +25612,8 @@
   },
   "score": 59.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "cargr_51645545",
@@ -25051,7 +25656,8 @@
   },
   "score": 62.9,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "cargr_57316356",
@@ -25097,7 +25703,8 @@
   "let_op": [
    "LPG-installatie: keuring en tankdatum checken"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "cargr_56258237",
@@ -25142,7 +25749,8 @@
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "cargr_11586961",
@@ -25187,7 +25795,8 @@
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "cargr_327100677",
@@ -25232,7 +25841,8 @@
   "let_op": [
    "Mogelijk W123: check chassisnummer (WDB124… = W124)"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "cargr_42223281",
@@ -25277,7 +25887,8 @@
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "cargr_56102300",
@@ -25325,7 +25936,8 @@
   },
   "score": 65.3,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "cargr_56715470",
@@ -25368,7 +25980,8 @@
   },
   "score": 59.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "cargr_55810563",
@@ -25411,7 +26024,8 @@
   },
   "score": 63.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "cargr_51338346",
@@ -25454,7 +26068,8 @@
   },
   "score": 61.6,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "cargr_340419815",
@@ -25497,7 +26112,8 @@
   },
   "score": 59.6,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2450612951",
@@ -25542,7 +26158,8 @@
   },
   "score": 62.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2449136236",
@@ -25588,7 +26205,8 @@
   },
   "score": 63.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2452716736",
@@ -25633,7 +26251,8 @@
   },
   "score": 65.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2447538335",
@@ -25676,7 +26295,8 @@
   },
   "score": 59.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2417413205",
@@ -25719,7 +26339,8 @@
   },
   "score": 57.9,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2436245272",
@@ -25762,7 +26383,8 @@
   },
   "score": 53.9,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2415356343",
@@ -25807,7 +26429,8 @@
   },
   "score": 52.3,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2447054001",
@@ -25852,7 +26475,8 @@
   },
   "score": 51.6,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2429307026",
@@ -25895,7 +26519,8 @@
   },
   "score": 53.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2421955652",
@@ -25940,7 +26565,8 @@
   },
   "score": 55.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2451929161",
@@ -25987,7 +26613,8 @@
   "let_op": [
    "Hoge kilometerstand"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2446699211",
@@ -26033,7 +26660,8 @@
   "let_op": [
    "LPG-installatie: keuring en tankdatum checken"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2452893394",
@@ -26076,7 +26704,8 @@
   },
   "score": 58.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2450652694",
@@ -26119,7 +26748,8 @@
   },
   "score": 56.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2450896550",
@@ -26162,7 +26792,8 @@
   },
   "score": 62.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2451642349",
@@ -26208,7 +26839,8 @@
    "Hoge kilometerstand",
    "16V Cosworth: niet geschikt voor LPG"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2450709871",
@@ -26257,7 +26889,8 @@
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2451023090",
@@ -26300,7 +26933,8 @@
   },
   "score": 59.9,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2448863445",
@@ -26343,7 +26977,8 @@
   },
   "score": 54.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2443508912",
@@ -26388,7 +27023,8 @@
   },
   "score": 57.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2440066528",
@@ -26431,7 +27067,8 @@
   },
   "score": 58.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2450261578",
@@ -26474,7 +27111,8 @@
   },
   "score": 56.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2443417181",
@@ -26519,7 +27157,8 @@
   },
   "score": 57.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2451515298",
@@ -26568,7 +27207,8 @@
   "let_op": [
    "Advertentie noemt: geen keuring"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2448790891",
@@ -26613,7 +27253,8 @@
   },
   "score": 57.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2452056387",
@@ -26658,7 +27299,8 @@
   "let_op": [
    "Hoge kilometerstand"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2451247333",
@@ -26701,7 +27343,8 @@
   },
   "score": 54.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2447947369",
@@ -26744,7 +27387,8 @@
   },
   "score": 60.9,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2450637013",
@@ -26791,7 +27435,8 @@
   },
   "score": 57.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2449527631",
@@ -26836,7 +27481,8 @@
   },
   "score": 64.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2447828783",
@@ -26879,7 +27525,8 @@
   },
   "score": 51.0,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2452770383",
@@ -26924,7 +27571,8 @@
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2450352551",
@@ -26967,7 +27615,8 @@
   },
   "score": 54.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2448787319",
@@ -27012,7 +27661,8 @@
   },
   "score": 57.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2448884716",
@@ -27057,7 +27707,8 @@
   },
   "score": 58.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2445092231",
@@ -27104,7 +27755,8 @@
   "let_op": [
    "Hoge kilometerstand"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2446938127",
@@ -27149,7 +27801,8 @@
   },
   "score": 61.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2447916818",
@@ -27192,7 +27845,8 @@
   },
   "score": 52.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2432826100",
@@ -27235,7 +27889,8 @@
   },
   "score": 61.3,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2447792598",
@@ -27280,7 +27935,8 @@
   },
   "score": 54.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2449888894",
@@ -27325,7 +27981,8 @@
   },
   "score": 60.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2416375147",
@@ -27368,7 +28025,8 @@
   },
   "score": 59.0,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2445672390",
@@ -27413,7 +28071,8 @@
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2443404288",
@@ -27458,7 +28117,8 @@
   },
   "score": 58.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2423187094",
@@ -27501,7 +28161,8 @@
   },
   "score": 55.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2446670281",
@@ -27544,7 +28205,8 @@
   },
   "score": 60.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2446669908",
@@ -27587,7 +28249,8 @@
   },
   "score": 60.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2448165832",
@@ -27632,7 +28295,8 @@
   },
   "score": 58.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2451151606",
@@ -27675,7 +28339,8 @@
   },
   "score": 56.0,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "2dh_m2434286808",
@@ -27718,7 +28383,8 @@
   },
   "score": 63.6,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "2dh_m2450452195",
@@ -27763,7 +28429,8 @@
   "let_op": [
    "Bouwjaar onbekend"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "cn_71596816",
@@ -27806,7 +28473,8 @@
   },
   "score": 56.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "cn_71722827",
@@ -27849,7 +28517,8 @@
   },
   "score": 57.6,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "cn_71490457",
@@ -27892,7 +28561,8 @@
   },
   "score": 59.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "cn_71610363",
@@ -27937,7 +28607,8 @@
   "let_op": [
    "Mogelijk W123: check chassisnummer (WDB124… = W124)"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "cn_71589905",
@@ -27980,7 +28651,8 @@
   },
   "score": 60.9,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "cn_71513788",
@@ -28023,7 +28695,8 @@
   },
   "score": 57.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "cn_71425992",
@@ -28068,10 +28741,13 @@
   "let_op": [],
   "rust": {
    "sills": null,
+   "arches": 0,
    "other": 0,
-   "note": "Dorpels nauwelijks zichtbaar door lage hoek; carrosserie verder zonder zichtbare roest.",
+   "chassis": "W201",
+   "note": "Voorhoekaanzicht van een 190; dorpels niet van dichtbij te beoordelen, geen zichtbare roest.",
    "photos": 1
-  }
+  },
+  "ai_reject": false
  },
  {
   "id": "cn_71381012",
@@ -28114,7 +28790,8 @@
   },
   "score": 66.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "cn_71318231",
@@ -28157,7 +28834,8 @@
   },
   "score": 58.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "cn_71299366",
@@ -28200,7 +28878,8 @@
   },
   "score": 61.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "cn_71261306",
@@ -28243,7 +28922,8 @@
   },
   "score": 48.9,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "cn_71233354",
@@ -28288,7 +28968,8 @@
   "let_op": [
    "Hoge kilometerstand"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "cn_71333262",
@@ -28329,7 +29010,8 @@
   },
   "score": 50.9,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "cn_71094101",
@@ -28374,7 +29056,8 @@
   "let_op": [
    "Hoge kilometerstand"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "cn_70944537",
@@ -28417,7 +29100,8 @@
   },
   "score": 58.9,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "cn_70673420",
@@ -28460,7 +29144,8 @@
   },
   "score": 65.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "cn_70412386",
@@ -28503,7 +29188,8 @@
   },
   "score": 51.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "cn_70382040",
@@ -28548,10 +29234,13 @@
   "let_op": [],
   "rust": {
    "sills": 0,
+   "arches": 0,
    "other": 0,
-   "note": "Zijaanzicht toont dorpels en carrosserie zonder zichtbare roest, lak oogt netjes.",
+   "chassis": "W124",
+   "note": "Zijaanzicht W124 op middelafstand; dorpels en wielkasten lijken schoon, geen zichtbare roest.",
    "photos": 1
-  }
+  },
+  "ai_reject": false
  },
  {
   "id": "cn_62491024",
@@ -28594,7 +29283,8 @@
   },
   "score": 55.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "cn_60729733",
@@ -28637,7 +29327,8 @@
   },
   "score": 51.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "cn_57412252",
@@ -28682,7 +29373,8 @@
   "let_op": [
    "Mogelijk W123: check chassisnummer (WDB124… = W124)"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "cn_56516887",
@@ -28725,7 +29417,8 @@
   },
   "score": 59.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2452988758",
@@ -28770,7 +29463,8 @@
   "let_op": [
    "Mogelijk W123: check chassisnummer (WDB124… = W124)"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "2dh_m2452965501",
@@ -28817,7 +29511,8 @@
   },
   "score": 63.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3444071722",
@@ -28863,7 +29558,8 @@
   },
   "score": 62.9,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3282156522",
@@ -28906,7 +29602,8 @@
   },
   "score": 59.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2452822517",
@@ -28949,7 +29646,8 @@
   },
   "score": 62.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2443989009",
@@ -28992,7 +29690,8 @@
   },
   "score": 64.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2440203600",
@@ -29035,7 +29734,8 @@
   },
   "score": 63.0,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2451999962",
@@ -29080,7 +29780,8 @@
   "let_op": [
    "Hoge kilometerstand"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2452861184",
@@ -29128,7 +29829,8 @@
   "let_op": [
    "LPG-installatie: keuring en tankdatum checken"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2449676914",
@@ -29171,7 +29873,8 @@
   },
   "score": 59.3,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2446420718",
@@ -29214,7 +29917,8 @@
   },
   "score": 54.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2448438566",
@@ -29259,7 +29963,8 @@
   },
   "score": 58.3,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2448143112",
@@ -29302,7 +30007,8 @@
   },
   "score": 58.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2448699054",
@@ -29350,7 +30056,8 @@
   "let_op": [
    "LPG-installatie: keuring en tankdatum checken"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2447944766",
@@ -29395,7 +30102,8 @@
   "let_op": [
    "4MATIC: duur in onderhoud"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2448879828",
@@ -29442,7 +30150,8 @@
   "let_op": [
    "Hoge kilometerstand"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2446462328",
@@ -29485,7 +30194,8 @@
   },
   "score": 56.0,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2442752174",
@@ -29530,7 +30240,8 @@
   },
   "score": 55.3,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2445074130",
@@ -29575,7 +30286,8 @@
   },
   "score": 61.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2446112139",
@@ -29618,7 +30330,8 @@
   },
   "score": 64.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2446644250",
@@ -29661,7 +30374,8 @@
   },
   "score": 64.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2435195158",
@@ -29704,7 +30418,8 @@
   },
   "score": 50.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2394933050",
@@ -29747,7 +30462,8 @@
   },
   "score": 56.5,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2439344754",
@@ -29790,7 +30506,8 @@
   },
   "score": 61.6,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2441803279",
@@ -29835,7 +30552,8 @@
   },
   "score": 53.6,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2443936286",
@@ -29878,7 +30596,8 @@
   },
   "score": 63.6,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2447833980",
@@ -29921,7 +30640,8 @@
   },
   "score": 66.9,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2446596822",
@@ -29966,7 +30686,8 @@
   },
   "score": 66.2,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2448964509",
@@ -30011,7 +30732,8 @@
   },
   "score": 53.8,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2448892719",
@@ -30056,7 +30778,8 @@
   },
   "score": 68.6,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2039935381",
@@ -30101,7 +30824,8 @@
   "let_op": [
    "Mogelijk W123: check chassisnummer (WDB124… = W124)"
   ],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2452965772",
@@ -30148,7 +30872,8 @@
   },
   "score": 63.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "2dh_m2441523546",
@@ -30190,7 +30915,8 @@
   },
   "score": 63.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3512818298",
@@ -30230,7 +30956,8 @@
   },
   "score": 49.7,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "ka_3483749734",
@@ -30270,7 +30997,8 @@
   },
   "score": 63.1,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  },
  {
   "id": "mp_m2441523732",
@@ -30312,6 +31040,7 @@
   },
   "score": 63.4,
   "let_op": [],
-  "rust": null
+  "rust": null,
+  "ai_reject": false
  }
 ]
