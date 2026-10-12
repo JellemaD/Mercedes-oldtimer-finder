@@ -12,6 +12,10 @@ on:
         description: 'Alleen de laptop-bron (car.gr) draaien'
         type: boolean
         default: false
+      only_rust:
+        description: 'Niet scrapen, alleen de roestcheck op de huidige lijst'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -34,7 +38,7 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Scrape
         id: scrape
-        run: python scrape.py --runner github || echo "failed=1" >> "$GITHUB_OUTPUT"
+        run: python scrape.py --runner github ${{ inputs.only_rust && '--rust-only' || '' }} || echo "failed=1" >> "$GITHUB_OUTPUT"
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}   # rust check on photos; skipped if missing
       - name: Commit data
@@ -51,7 +55,7 @@ jobs:
 
   laptop:
     needs: github
-    if: always()
+    if: ${{ always() && !inputs.only_rust }}
     runs-on: [self-hosted, scrape]
     timeout-minutes: 15
     defaults:

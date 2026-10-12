@@ -145,7 +145,12 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--runner', choices=['github', 'laptop', 'all'], default='all')
     ap.add_argument('--only')
+    ap.add_argument('--rust-only', action='store_true', help='no scraping, only the rust check on the current list')
     args = ap.parse_args()
+    if args.rust_only:
+        listings = rust.update(score_all(load_json(LISTINGS, [])), score_all)
+        save_json(LISTINGS, listings)
+        return 0
 
     today = date.today().isoformat()
     statuses = {s['module']: s for s in load_json(STATUS, {}).get('sources', [])}
