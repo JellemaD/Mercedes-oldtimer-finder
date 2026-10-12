@@ -61,7 +61,7 @@ def _item(it):
     return listing(NAME, COUNTRY, f"cn_{it['id']}", BASE + url if url.startswith('/') else url,
                    _title(it), text=text,
                    price=it.get('price'), year=it.get('year'), mileage=it.get('km'),
-                   fuel=fuel, location=province, image=it.get('img'),
+                   fuel=fuel, location=province, image=it.get('img'), images=it.get('photos'),
                    attrs={'hp': hp, 'model': it.get('model'), 'city': city,
                           'professional': it.get('isProfessional')})
 

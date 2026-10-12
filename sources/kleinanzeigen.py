@@ -103,6 +103,20 @@ def _query(keyword, ez_from, models):
     return out
 
 
+def detail_images(url):
+    """All gallery photos (960 px) from the ad page; used by the rust check when the search
+    result photos don't show the sills."""
+    soup = BeautifulSoup(text_of(fetch(url)), 'lxml')
+    seen, out = set(), []
+    for im in soup.select('.galleryimage-element img'):
+        src = im.get('data-imgsrc') or im.get('src') or ''
+        base = src.split('?')[0]
+        if base.startswith('https://img.kleinanzeigen.de') and base not in seen:
+            seen.add(base)
+            out.append(base + '?rule=$_59.JPG')
+    return out
+
+
 def scrape():
     items, errors = [], []
     for q in QUERIES:

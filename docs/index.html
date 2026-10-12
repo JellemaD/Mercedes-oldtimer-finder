@@ -111,7 +111,7 @@ NL · BE · DE · ES · PT · GR — <span id="stand">Laden…</span></p>
   <summary>Hoe wordt de score bepaald?</summary>
   <p>Elke ochtend om 6:00 worden tien sites doorzocht. Alleen W124 en W201 t/m bouwjaar 1987 blijven over: diesels met 5 of 6 cilinders (250D, 300D, 300D Turbo, 190D 2.5) en benzinemotoren die goed op LPG kunnen. Elke auto krijgt een score van 0 tot 100; wijs de score aan (of tik erop) voor de berekening.</p>
   <ul>
-    <li><b>40 roest</b>, beoordeeld door AI op de foto's van de advertentie (tot 4 per auto). Geen roest en dorpels goed te zien = 40. Roest elders kost 8 / 16 / 24 (een beetje / duidelijk / veel), roest op de <b>dorpels telt extra zwaar</b>: 20 / 32 / 40. Dorpels niet te zien: −12. De <b>beste 15</b> zijn altijd beoordeeld: valt een auto af door roest, dan wordt de volgende gecheckt. De rest staat op "nog niet beoordeeld" = 24.</li>
+    <li><b>40 roest</b>, beoordeeld door AI op alle foto's van de advertentie (tot 16 per auto). Geen roest en dorpels goed te zien = 40. Roest elders kost 8 / 16 / 24 (een beetje / duidelijk / veel), op de <b>wielkasten</b> 12 / 20 / 32, op de <b>dorpels</b> (telt het zwaarst) 20 / 32 / 40. Dorpels op geen enkele foto van dichtbij te zien: −12. Ziet de AI een W123 of een ander model, dan verdwijnt de auto van de lijst. De <b>beste 15</b> zijn altijd beoordeeld: valt een auto af door roest, dan wordt de volgende gecheckt. De rest staat op "nog niet beoordeeld" = 24.</li>
     <li><b>18 motor</b>: 250D/300D 18, 190D 2.5 16. Benzine naar LPG-geschiktheid: ★★★ 6-cilinder M103 (300E, 260E, 190E 2.6) 18, ★★ 230E/190E 2.3 14, ★ 200/190E 2.0 11, 190E 2.3-16 (16V) 5.</li>
     <li><b>12 staat</b> volgens de tekst: begint op 6. Woorden als roestvrij, H-kenteken, onderhoudshistorie, keuring geldig, eerste eigenaar geven +1,8; roest, motorschade, rijdt niet, opknapper, geen keuring of schade −3.</li>
     <li><b>12 kilometerstand</b>: diesel 0 km = 12, 500.000 km = 0; benzine 0 km = 12, 350.000 km = 0.</li>
@@ -154,7 +154,7 @@ function scoreTip(a) {
   const NIV = ['geen', 'een beetje', 'duidelijk', 'veel'];
   const ro = a.rust;
   const roestTekst = !ro ? 'nog niet beoordeeld' :
-    `dorpels: ${ro.sills === null ? 'niet te zien' : NIV[ro.sills]} · elders: ${NIV[ro.other]}${ro.note ? '<br>' + esc(ro.note) : ''}`;
+    `${ro.photos} foto's · dorpels: ${ro.sills === null ? 'niet te zien' : NIV[ro.sills]} · wielkasten: ${NIV[ro.arches ?? 0]} · elders: ${NIV[ro.other]}${ro.note ? '<br>' + esc(ro.note) : ''}`;
   let r = `
     <tr><td>Roest op de foto's<br><span class="klein">${roestTekst}</span></td><td>${nl(p.roest ?? 0)} / 40</td></tr>
     <tr><td>Motor ${esc(a.model)}<br><span class="klein">${a.fuel === 'diesel' ? a.cyl + '-cil diesel' : 'benzine, LPG ' + (sterren(a.lpg_score) || '–')}</span></td><td>${nl(p.motor)} / 18</td></tr>
@@ -251,7 +251,7 @@ document.addEventListener('click', e => {
 
 Promise.all([fetch('data/listings.json?' + Date.now()).then(r => r.json()), fetch('data/status.json?' + Date.now()).then(r => r.json()).catch(() => null)])
 .then(([listings, status]) => {
-  autos = listings.filter(a => a.active && !a.dup_of);
+  autos = listings.filter(a => a.active && !a.dup_of && !a.ai_reject);  // ai_reject: AI sees a W123 / other model
   nieuwDatum = autos.reduce((m, a) => a.first_seen > m ? a.first_seen : m, '');
   const nieuw = autos.filter(a => a.first_seen === nieuwDatum).length;
   if (status) {

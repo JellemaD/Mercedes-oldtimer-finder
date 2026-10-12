@@ -1,8 +1,9 @@
 """
 Score 0-100 per listing, with the breakdown shown on the website.
 
-    roest           40  photo check (rust.py): starts at 10; rust elsewhere -2/-4/-6, rust on the sills
-                        -5/-8/-10 (counts extra heavy), sills not visible -3; not checked = 6
+    roest           40  photo check (rust.py): starts at 10; rust elsewhere -2/-4/-6, wheel arches
+                        -3/-5/-8, sills -5/-8/-10 (count extra heavy), sills not visible -3;
+                        not checked = 6. AI says W123/other model: score 0, hidden (ai_reject)
     motor           18  diesel 250D/300D = 10, 190D 2.5 = 9; petrol by LPG score (3=10, 2=8, 1=6, 0=3)
     staat           12  starts at 5; good words in the ad +1.5 each, bad words -2.5 each
     kilometerstand  12  diesel: 0 km = 10, 500,000 km = 0; petrol: 0 km = 10, 350,000 km = 0
@@ -22,6 +23,7 @@ WEIGHTS = {'roest': 4.0, 'motor': 1.8, 'staat': 1.2, 'km': 1.2, 'prijs': 0.9, 'b
 LPG_BONUS = 3
 UNKNOWN = 4.0  # points (of 10) for a missing km, price or year: a bit below average
 RUST_OTHER = {0: 0, 1: 2, 2: 4, 3: 6}
+RUST_ARCHES = {0: 0, 1: 3, 2: 5, 3: 8}
 RUST_SILLS = {0: 0, 1: 5, 2: 8, 3: 10}  # sills count extra heavy
 SILLS_UNSEEN = 3
 RUST_UNCHECKED = 6.0  # below "nothing seen" (7), above "a little rust on the sills" (5)
@@ -67,7 +69,7 @@ def _rust(it):
     if not r:
         return RUST_UNCHECKED
     sills = SILLS_UNSEEN if r.get('sills') is None else RUST_SILLS[r['sills']]
-    return max(0.0, 10.0 - RUST_OTHER[r.get('other') or 0] - sills)
+    return max(0.0, 10.0 - RUST_OTHER[r.get('other') or 0] - RUST_ARCHES[r.get('arches') or 0] - sills)
 
 
 def _motor(it):
@@ -121,6 +123,9 @@ def score_all(items):
             punten['al op LPG'] = LPG_BONUS
         it['punten'] = punten
         it['score'] = round(min(100.0, sum(punten.values())), 1)
+        it['ai_reject'] = (it.get('rust') or {}).get('chassis') in ('W123', 'ander')
+        if it['ai_reject']:
+            it['score'] = 0.0
 
         let_op = []
         r = it.get('rust') or {}
@@ -128,6 +133,8 @@ def score_all(items):
             let_op.append(['', 'Beetje roest op dorpels', 'Roest op dorpels', 'Veel roest op dorpels'][r['sills']])
         if (r.get('other') or 0) >= 2:
             let_op.append('Roest zichtbaar op foto')
+        if (r.get('arches') or 0) >= 1:
+            let_op.append(['', 'Beetje roest wielkasten', 'Roest wielkasten', 'Veel roest wielkasten'][r['arches']])
         if it.get('maybe_w123'):
             let_op.append('Mogelijk W123: check chassisnummer (WDB124… = W124)')
         if not it.get('year_known'):

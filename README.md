@@ -28,4 +28,4 @@ python scrape.py --only wallapop # één bron
 python -m http.server 8124 --directory docs
 ```
 
-Besluiten en uitkomsten per fase: [PLAN.md](PLAN.md).
+Besluiten en uitkomsten per fase: [PLAN.md](PLAN.md). Versies: [beheer/VERSIES.md](beheer/VERSIES.md). Wat nog open staat: [beheer/BACKLOG.md](beheer/BACKLOG.md).

@@ -10,6 +10,8 @@
   Opstarten). Een bron met 0 resultaten laat de run mislukken (mail van GitHub), data blijft staan.
 
 ## Werken aan dit project
+- Versiebeheer en backlog in `beheer/`: bij elke inhoudelijke wijziging een regel bovenaan
+  `beheer/VERSIES.md` en het item in `beheer/BACKLOG.md` naar "Gedaan".
 - Test classifier na elke wijziging: `python tests/test_classify.py` (moet ≥ 90%, nu 100%).
   Nieuwe fout gevonden? Eerst als geval in `tests/classify_cases.json`, dan `classify.py` aanpassen.
 - Eén bron testen: `python scrape.py --only <module>`; site lokaal: `python -m http.server 8124 --directory docs`.

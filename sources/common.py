@@ -29,7 +29,7 @@ UA = ('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
       '(KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36')
 DELAY = 1.5
 TIMEOUT = 30
-MAX_IMAGES = 4  # photos kept per listing for the rust check (rust.py)
+MAX_IMAGES = 16  # photos kept per listing for the rust check (rust.py sends them all)
 
 # Search terms per series. Sources pick what fits their search box.
 TERMS_W124 = ['w124', 'mercedes 250d', 'mercedes 300d', 'mercedes 300e', 'mercedes 260e', 'mercedes 230e']

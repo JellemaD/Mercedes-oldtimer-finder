@@ -1,11 +1,18 @@
 """
 Rust check on the listing photos with Claude (vision).
 
-Per listing the model gets up to MAX_IMAGES photos and reports:
-    sills  0-3 or None  rust on the sills (dorpels), jacking points, lower door edges; None = not visible
-    other  0-3          rust anywhere else (wheel arches, wings, boot lid, around windows)
-    note   short Dutch remark shown on the site
+Per listing the model gets up to FIRST_IMAGES photos and reports:
+    sills    0-3 or None  rust on the sills (dorpels), jacking points, lower door edges; None = not visible
+                          (the model must name the photo that shows them, else None)
+    arches   0-3          rust on/around the wheel arches
+    other    0-3          rust anywhere else (wings, door edges, boot lid, around windows)
+    chassis  W124 / W201 / W123 / ander / onzeker   which car the photos show
+    note     short Dutch remark shown on the site
 Levels: 0 none, 1 a little (bubbles, small spots), 2 clear rust, 3 heavy (holes, large areas).
+
+All photos of the ad are sent (up to MAX_PHOTOS); when the search result has few, the ad page is
+read via the source's detail_images(). The AI saying W123/ander removes the car from the site
+(score.py sets ai_reject).
 
 Results are cached in docs/data/rust.json per listing id (and its photo urls), so every car is
 checked once. Without ANTHROPIC_API_KEY nothing is checked and the score treats rust as unknown.
@@ -15,6 +22,7 @@ has a result (a rusty car drops out, the next moves up), at most MAX_CHECKS (30)
 
 import base64
 import hashlib
+import importlib
 import io
 import json
 import os
@@ -32,27 +40,42 @@ MAX_CHECKS = int(os.environ.get('RUST_MAX_CHECKS', '30'))  # hard cap on model c
 PRICE = {'claude-opus-5-5': (4.0, 20.0), 'claude-sonnet-5-5': (2.0, 10.0),
          'claude-haiku-5-5': (0.10, 0.50)}.get(MODEL, (4.0, 20.0))  # $ per million tokens in/out
 USAGE = {'input': 0, 'output': 0}
-MAX_IMAGES = 4
-MAX_SIDE = 1024  # px; photos are scaled down before sending (fewer tokens, under the size limit)
+FIRST_IMAGES = 4  # photos that identify a listing's photo set (cache key)
+MAX_PHOTOS = 16   # photos sent per car; fewer in the search result -> ad page via detail_images()
+MAX_SIDE = 800    # px; photos are scaled down before sending (fewer tokens, rust still visible)
+VERSION = 2       # bump to re-check every car (v2: all ad photos, sills_photo must be named)
+CHASSIS = ['W124', 'W201', 'W123', 'ander', 'onzeker']
 
-PROMPT = """Dit zijn foto's uit een advertentie voor een Mercedes W124 of W201 (190) uit de jaren 80.
-Beoordeel alleen roest, zo nauwkeurig mogelijk:
-- sills: roest op de dorpels (onder de deuren), de krikpunten en de onderkant van de deuren.
-  Gebruik -1 als de dorpels op geen enkele foto goed genoeg te zien zijn om te beoordelen.
-- other: roest op de rest van de carrosserie (wielkasten, spatborden, kofferklep, rond de ruiten,
-  onderkant van de bumpers).
-Niveaus: 0 = geen roest te zien, 1 = een beetje (blaasjes, kleine plekjes), 2 = duidelijke roest,
-3 = veel roest (gaten, grote plekken). Twijfel tussen twee niveaus: kies het hoogste.
+PROMPT = """Dit zijn foto's (genummerd 1, 2, 3 ... in volgorde) uit een advertentie voor een Mercedes
+W124 of W201 (190) uit de jaren 80. Een koper wil weten of er roest is. Bekijk ELKE foto apart.
+- sills_photo: het nummer van de foto waarop de dorpels (onder de deuren, inclusief de onderkant van
+  de deuren en de krikpunten) van dichtbij of halfdichtbij duidelijk te zien zijn; 0 als geen enkele
+  foto dat laat zien. Een vooraanzicht, achteraanzicht of een zijaanzicht van grote afstand telt NIET:
+  daarop kun je roest op de dorpels niet beoordelen. Zeg nooit dat de dorpels schoon zijn als je ze
+  niet echt ziet.
+- sills: roest op de dorpels, de onderkant van de deuren en de krikpunten; -1 als sills_photo 0 is.
+- arches: roest op of rond de wielkasten (wielranden van de spatborden, voor en achter), op welke foto
+  dan ook.
+- other: roest op de rest van de carrosserie (spatborden buiten de wielkast, deurranden, kofferklep,
+  rond de ruiten, onderkant van de bumpers), op welke foto dan ook.
+  Niveaus: 0 = geen roest te zien, 1 = een beetje (blaasjes, kleine plekjes), 2 = duidelijke roest,
+  3 = veel roest (gaten, grote plekken, doorgeroest). Twijfel tussen twee niveaus: kies het hoogste.
+  Roest bij de onderkant van een deur boven de dorpel telt als dorpelroest.
+- chassis: welke auto staat op de foto's? W124 (E-klasse 1984-1995), W201 (190), W123 (voorganger
+  van de W124, met verchroomde staande koplampen en hoekiger lijnen), ander (ander model) of onzeker.
 note: één korte Nederlandse zin (max 15 woorden) over wat je ziet, of waarom je het niet kunt zien."""
 
 SCHEMA = {
     'type': 'object',
     'properties': {
+        'sills_photo': {'type': 'integer'},  # 1-based photo number showing the sills, 0 = none
         'sills': {'type': 'integer', 'enum': [-1, 0, 1, 2, 3]},  # -1 = not visible
+        'arches': {'type': 'integer', 'enum': [0, 1, 2, 3]},
         'other': {'type': 'integer', 'enum': [0, 1, 2, 3]},
+        'chassis': {'type': 'string', 'enum': CHASSIS},
         'note': {'type': 'string'},
     },
-    'required': ['sills', 'other', 'note'],
+    'required': ['sills_photo', 'sills', 'arches', 'other', 'chassis', 'note'],
     'additionalProperties': False,
 }
 
@@ -72,9 +95,12 @@ def save_cache(cache):
     os.replace(tmp, CACHE)
 
 
-def _photos_key(it):
-    urls = (it.get('images') or ([it['image']] if it.get('image') else []))[:MAX_IMAGES]
-    return urls, hashlib.sha1('|'.join(urls).encode()).hexdigest()[:12]
+def _photos(it):
+    return it.get('images') or ([it['image']] if it.get('image') else [])
+
+
+def _key(it):
+    return hashlib.sha1('|'.join(_photos(it)[:FIRST_IMAGES]).encode()).hexdigest()[:12]
 
 
 def larger(url):
@@ -102,7 +128,7 @@ def _image_block(url):
 
 
 def check(client, urls):
-    """Ask the model about one listing. Returns dict or None (no usable photo / refusal / error)."""
+    """Ask the model about one set of photos. Returns dict or None (no usable photo / refusal)."""
     blocks = [b for b in (_image_block(u) for u in urls) if b]
     if not blocks:
         return None
@@ -118,28 +144,44 @@ def check(client, urls):
         return None
     text = next((b.text for b in response.content if b.type == 'text'), '')
     out = json.loads(text)
-    if out['sills'] < 0:
-        out['sills'] = None
+    if out['sills'] < 0 or not 1 <= out.get('sills_photo', 0) <= len(blocks):
+        out['sills'] = None  # no photo actually shows the sills: never count them as clean
     out['photos'] = len(blocks)
     return out
+
+
+def _all_photos(it):
+    """All photos of the ad, up to MAX_PHOTOS. Search results often carry only 1-4 (Kleinanzeigen: 1,
+    a front view): then the ad page is read via the source's detail_images()."""
+    photos = _photos(it)[:MAX_PHOTOS]
+    if len(photos) >= 6:
+        return photos
+    try:
+        mod = importlib.import_module(f"sources.{it.get('source_module')}")
+        more = getattr(mod, 'detail_images', lambda url: [])(it['url'])
+    except Exception as e:
+        print(f'   advertentiefoto\'s ({it["id"]}): {type(e).__name__}: {str(e)[:150]}', file=sys.stderr)
+        more = []
+    bases = {u.split('?')[0] for u in photos}
+    return (photos + [u for u in more if u.split('?')[0] not in bases])[:MAX_PHOTOS]
+
+
+def _valid(entry, key):
+    return entry and entry.get('key') == key and entry.get('v') == VERSION
 
 
 def _attach(listings, cache):
     for it in listings:
         c = cache.get(it['id'])
-        it['rust'] = {k: c[k] for k in ('sills', 'other', 'note', 'photos')} if c and not c.get('unusable') else None
+        it['rust'] = ({k: c.get(k) for k in ('sills', 'arches', 'other', 'chassis', 'note', 'photos')}
+                      if c and not c.get('unusable') else None)
 
 
 def _todo(listings, cache, skip):
-    """Cars in the current top TOP (final score) without a rust result for their current photos."""
+    """Cars in the current top TOP (final score) without a current rust result."""
     top = sorted((it for it in listings if it.get('active') and not it.get('dup_of')),
                  key=lambda it: it.get('score') or 0, reverse=True)[:TOP]
-    out = []
-    for it in top:
-        urls, key = _photos_key(it)
-        if urls and it['id'] not in skip and cache.get(it['id'], {}).get('key') != key:
-            out.append((it, urls, key))
-    return out
+    return [it for it in top if _photos(it) and it['id'] not in skip and not _valid(cache.get(it['id']), _key(it))]
 
 
 def update(listings, rescore):
@@ -160,31 +202,31 @@ def update(listings, rescore):
     else:
         import anthropic
         client = anthropic.Anthropic()
-        checks = errors = 0
+        checks = errors = photos = 0
         skip = set()  # failed this run: don't retry in the loop
         while checks < MAX_CHECKS and errors < 5:
             todo = _todo(listings, cache, skip)
             if not todo:
                 break
-            for it, urls, key in todo[:MAX_CHECKS - checks]:
-                checks += 1
+            for it in todo:
+                if checks >= MAX_CHECKS or errors >= 5:
+                    break
                 try:
-                    res = check(client, urls)
+                    checks += 1
+                    res = check(client, _all_photos(it))
+                    photos += res['photos'] if res else 0
                 except Exception as e:
                     errors += 1
                     skip.add(it['id'])
                     print(f'   roestcheck fout ({it["id"]}): {type(e).__name__}: {str(e)[:200]}', file=sys.stderr)
-                    if errors >= 5:
-                        print('   roestcheck gestopt na 5 fouten', file=sys.stderr)
-                        break
                     continue
-                entry = dict(res, key=key) if res else {'key': key, 'unusable': True}  # no usable photo
+                entry = dict(res, key=_key(it), v=VERSION) if res else {'key': _key(it), 'v': VERSION, 'unusable': True}
                 cache[it['id']] = dict(entry, model=MODEL, date=date.today().isoformat())
             _attach(listings, cache)
             rescore(listings)
         left = len(_todo(listings, cache, skip))
         cost = (USAGE['input'] * PRICE[0] + USAGE['output'] * PRICE[1]) / 1e6
-        print(f'roestcheck: {checks} checks ({errors} fouten), top {TOP} '
+        print(f'roestcheck: {checks} auto\'s, {photos} foto\'s ({errors} fouten), top {TOP} '
               f'{"volledig gecheckt" if not left else f"nog {left} open"}; {USAGE["input"]} input- en '
               f'{USAGE["output"]} output-tokens, ca. ${cost:.2f} ({MODEL})')
     save_cache(cache)
