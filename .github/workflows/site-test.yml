@@ -1,0 +1,24 @@
+# Temporary (phase 1): check which marketplaces are readable from a GitHub-hosted runner.
+name: site-test
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'tools/site_test.py'
+      - '.github/workflows/site-test.yml'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests
+      - run: python tools/site_test.py github
+      - uses: actions/upload-artifact@v4
+        with:
+          name: site-test-github
+          path: site_test_github.json

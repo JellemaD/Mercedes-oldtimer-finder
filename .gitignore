@@ -81,3 +81,4 @@ nul
 
 # Archief (lokaal bewaard, niet in git)
 99 - Archive/
+site_test_*.json
