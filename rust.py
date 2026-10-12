@@ -9,7 +9,7 @@ Levels: 0 none, 1 a little (bubbles, small spots), 2 clear rust, 3 heavy (holes,
 
 Results are cached in docs/data/rust.json per listing id (and its photo urls), so every car is
 checked once. Without ANTHROPIC_API_KEY nothing is checked and the score treats rust as unknown.
-At most MAX_PER_RUN cars per run (highest score first) to cap the cost.
+Only the best TOP (25) cars by score-without-rust are checked; each day only newcomers to that top.
 """
 
 import base64
@@ -26,7 +26,10 @@ import requests
 ROOT = os.path.dirname(os.path.abspath(__file__))
 CACHE = os.path.join(ROOT, 'docs', 'data', 'rust.json')
 MODEL = os.environ.get('RUST_MODEL', 'claude-opus-5-5')
-MAX_PER_RUN = int(os.environ.get('RUST_MAX_PER_RUN', '150'))
+TOP = int(os.environ.get('RUST_TOP', '25'))  # only the best TOP cars get a rust check
+PRICE = {'claude-opus-5-5': (4.0, 20.0), 'claude-sonnet-5-5': (2.0, 10.0),
+         'claude-haiku-5-5': (0.10, 0.50)}.get(MODEL, (4.0, 20.0))  # $ per million tokens in/out
+USAGE = {'input': 0, 'output': 0}
 MAX_IMAGES = 4
 MAX_SIDE = 1024  # px; photos are scaled down before sending (fewer tokens, under the size limit)
 
@@ -107,6 +110,8 @@ def check(client, urls):
         output_config={'effort': 'low', 'format': {'type': 'json_schema', 'schema': SCHEMA}},
         messages=[{'role': 'user', 'content': blocks + [{'type': 'text', 'text': PROMPT}]}],
     )
+    USAGE['input'] += response.usage.input_tokens
+    USAGE['output'] += response.usage.output_tokens
     if response.stop_reason == 'refusal':
         return None
     text = next((b.text for b in response.content if b.type == 'text'), '')
@@ -117,23 +122,27 @@ def check(client, urls):
     return out
 
 
+def _rank(it):
+    """Score without the rust part, so checking rust doesn't shuffle who is in the top."""
+    return sum(v for k, v in (it.get('punten') or {}).items() if k != 'roest')
+
+
 def update(listings):
-    """Check new listings (if an API key is set), then attach cached results to all listings."""
+    """Check the TOP best cars that have no rust result yet (if an API key is set), then attach
+    cached results to all listings."""
     cache = load_cache()
+    top = sorted((it for it in listings if it.get('active') and not it.get('dup_of')), key=_rank, reverse=True)[:TOP]
     todo = []
-    for it in listings:
-        if not it.get('active') or it.get('dup_of'):
-            continue
+    for it in top:
         urls, key = _photos_key(it)
         if urls and cache.get(it['id'], {}).get('key') != key:
             todo.append((it, urls, key))
-    todo.sort(key=lambda t: -(t[0].get('score') or 0))  # best candidates first
 
     if todo and os.environ.get('ANTHROPIC_API_KEY'):
         import anthropic
         client = anthropic.Anthropic()
         done = errors = 0
-        for it, urls, key in todo[:MAX_PER_RUN]:
+        for it, urls, key in todo:
             try:
                 res = check(client, urls)
             except Exception as e:
@@ -147,7 +156,9 @@ def update(listings):
             if res is not None:
                 cache[it['id']] = dict(res, key=key, model=MODEL, date=date.today().isoformat())
                 done += 1
-        print(f'roestcheck: {done} auto\'s beoordeeld, {max(0, len(todo) - MAX_PER_RUN)} wachten op een volgende run, {errors} fouten')
+        cost = (USAGE['input'] * PRICE[0] + USAGE['output'] * PRICE[1]) / 1e6
+        print(f'roestcheck: {done} van de top {TOP} beoordeeld ({errors} fouten), {USAGE["input"]} input- en '
+              f'{USAGE["output"]} output-tokens, ca. ${cost:.2f} ({MODEL})')
     elif todo:
         print(f'roestcheck: overgeslagen (geen ANTHROPIC_API_KEY), {len(todo)} auto\'s wachten')
 
