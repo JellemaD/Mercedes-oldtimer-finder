@@ -24698,6 +24698,9 @@
   "mileage": 245301,
   "location": "ΣΑΛΑΜΙΝΑ Ν. ΑΤΤΙΚΗΣ 18900",
   "image": "https://static.car.gr/41897858_0_n.jpg",
+  "images": [
+   "https://static.car.gr/41897858_0_n.jpg"
+  ],
   "series": "W201",
   "model": "190E 2.3-16",
   "fuel": "benzine",
@@ -24740,6 +24743,9 @@
   "mileage": 260234,
   "location": "ΑΡΓΥΡΟΥΠΟΛΗ Ν. ΑΤΤΙΚΗΣ 16451",
   "image": "https://static.car.gr/53426482_0_n.jpg",
+  "images": [
+   "https://static.car.gr/53426482_0_n.jpg"
+  ],
   "series": "W124",
   "model": "230",
   "fuel": "benzine",
@@ -24780,6 +24786,9 @@
   "mileage": 275000,
   "location": "ΑΘΗΝΑ 11476",
   "image": "https://static.car.gr/20962945_b_n.jpg",
+  "images": [
+   "https://static.car.gr/20962945_b_n.jpg"
+  ],
   "series": "W124",
   "model": "200",
   "fuel": "benzine",
@@ -24822,6 +24831,9 @@
   "mileage": 162300,
   "location": "ΠΑΤΡΑ 26332",
   "image": "https://static.car.gr/336676136_3B_n.jpg",
+  "images": [
+   "https://static.car.gr/336676136_3B_n.jpg"
+  ],
   "series": "W124",
   "model": "260E",
   "fuel": "benzine",
@@ -24862,6 +24874,9 @@
   "mileage": 188000,
   "location": "ΑΡΤΑ Ν. Άρτας 47100",
   "image": "https://static.car.gr/326790829_0_n.jpg",
+  "images": [
+   "https://static.car.gr/326790829_0_n.jpg"
+  ],
   "series": "W124",
   "model": "200E",
   "fuel": "benzine",
@@ -24902,6 +24917,9 @@
   "mileage": 145000,
   "location": "ΧΑΛΚΙΔΑ Ν. Εύβοιας 34100",
   "image": "https://static.car.gr/51645545_0_n.jpg",
+  "images": [
+   "https://static.car.gr/51645545_0_n.jpg"
+  ],
   "series": "W201",
   "model": "190D 2.5",
   "fuel": "diesel",
@@ -24942,6 +24960,9 @@
   "mileage": 220000,
   "location": "ΧΑΛΚΙΔΑ Ν. Εύβοιας 34100",
   "image": "https://static.car.gr/57316356_0_n.jpg",
+  "images": [
+   "https://static.car.gr/57316356_0_n.jpg"
+  ],
   "series": "W124",
   "model": "230E",
   "fuel": "benzine",
@@ -24985,6 +25006,9 @@
   "mileage": 133000,
   "location": "ΓΛΥΦΑΔΑ Ν. ΑΤΤΙΚΗΣ 16561",
   "image": "https://static.car.gr/56258237_4_n.jpg",
+  "images": [
+   "https://static.car.gr/56258237_4_n.jpg"
+  ],
   "series": "W201",
   "model": "190E 2.3-16",
   "fuel": "benzine",
@@ -25027,6 +25051,9 @@
   "mileage": 145000,
   "location": "ΒΟΥΛΑ Ν. ΑΤΤΙΚΗΣ 16673",
   "image": "https://static.car.gr/11586961_0_n.jpg",
+  "images": [
+   "https://static.car.gr/11586961_0_n.jpg"
+  ],
   "series": "W201",
   "model": "190E 2.3-16",
   "fuel": "benzine",
@@ -25069,6 +25096,9 @@
   "mileage": 292000,
   "location": "ΑΘΗΝΑ 11476",
   "image": "https://static.car.gr/327100677_6_n.jpg",
+  "images": [
+   "https://static.car.gr/327100677_6_n.jpg"
+  ],
   "series": "W124",
   "model": "230E",
   "fuel": "benzine",
@@ -25111,6 +25141,9 @@
   "mileage": 208000,
   "location": "ΘΕΣΣΑΛΟΝΙΚΗ 54632",
   "image": "https://static.car.gr/42223281_0_n.jpg",
+  "images": [
+   "https://static.car.gr/42223281_0_n.jpg"
+  ],
   "series": "W201",
   "model": "190E 2.3-16",
   "fuel": "benzine",
@@ -25153,6 +25186,9 @@
   "mileage": 229000,
   "location": "ΑΡΓΟΣ Ν. Αργολίδας 21200",
   "image": "https://static.car.gr/56102300_1_n.jpg",
+  "images": [
+   "https://static.car.gr/56102300_1_n.jpg"
+  ],
   "series": "W124",
   "model": "250D",
   "fuel": "diesel",
@@ -25193,6 +25229,9 @@
   "mileage": 250000,
   "location": "ΠΕΙΡΑΙΑΣ 18537",
   "image": "https://static.car.gr/56715470_0_n.jpg",
+  "images": [
+   "https://static.car.gr/56715470_0_n.jpg"
+  ],
   "series": "W124",
   "model": "200E",
   "fuel": "benzine",
@@ -25233,6 +25272,9 @@
   "mileage": 126000,
   "location": "ΑΘΗΝΑ 11524",
   "image": "https://static.car.gr/55810563_0_n.jpg",
+  "images": [
+   "https://static.car.gr/55810563_0_n.jpg"
+  ],
   "series": "W201",
   "model": "190D 2.5",
   "fuel": "diesel",
@@ -25273,6 +25315,9 @@
   "mileage": 135000,
   "location": "ΗΡΑΚΛΕΙΟ Ν. Ηρακλείου 71409",
   "image": "https://static.car.gr/51338346_0_n.jpg",
+  "images": [
+   "https://static.car.gr/51338346_0_n.jpg"
+  ],
   "series": "W124",
   "model": "250D",
   "fuel": "diesel",
@@ -25313,6 +25358,9 @@
   "mileage": 240275,
   "location": "ΛΑΜΙΑ Ν. Φθιώτιδας 35100",
   "image": "https://static.car.gr/340419815_8_n.jpg",
+  "images": [
+   "https://static.car.gr/340419815_8_n.jpg"
+  ],
   "series": "W201",
   "model": "190",
   "fuel": "benzine",
