@@ -29,6 +29,8 @@ from datetime import date, datetime, timezone
 
 from classify import classify
 import rust
+import travel
+from regions import region_ok
 from score import condition_signals, score_all
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -75,8 +77,11 @@ def run_source(modname):
         traceback.print_exc()
         status['secs'] = round(time.time() - t0)
         return status, []
-    matched = []
+    matched, wet = [], 0
     for item in raw:
+        if not region_ok(item['country'], item.get('location'))[0]:  # wet or salted region
+            wet += 1
+            continue
         attrs = dict(item.get('attrs') or {}, constructionYear=item.get('year'), fuel=item.get('fuel'))
         c = classify(item['title'], item.get('text', ''), attrs, price=item.get('price'))
         if c['match']:
@@ -85,7 +90,8 @@ def run_source(modname):
             out['year'] = c['year']
             out['signals_good'], out['signals_bad'] = condition_signals(f"{item['title']} {item.get('text', '')}")
             matched.append(out)
-    status.update(ok=len(raw) > 0, found=len(raw), matched=len(matched), secs=round(time.time() - t0))
+    status.update(ok=len(raw) > 0, found=len(raw), matched=len(matched), wet_region=wet,
+                  secs=round(time.time() - t0))
     if not raw:
         status['error'] = 'geen resultaten (scraper kapot of geblokkeerd?)'
     return status, matched
@@ -148,7 +154,7 @@ def main():
     ap.add_argument('--rust-only', action='store_true', help='no scraping, only the rust check on the current list')
     args = ap.parse_args()
     if args.rust_only:
-        listings = rust.update(score_all(load_json(LISTINGS, [])), score_all)
+        listings = rust.update(score_all(travel.update(load_json(LISTINGS, []))), score_all)
         save_json(LISTINGS, listings)
         return 0
 
@@ -179,7 +185,7 @@ def main():
         print(f"   gevonden {status['found']}, passend {status['matched']}, "
               f"{status['secs']}s {status['error'] or ''}", flush=True)
 
-    listings = score_all(merge(load_json(LISTINGS, []), fresh, ok_sources, today))
+    listings = score_all(travel.update(merge(load_json(LISTINGS, []), fresh, ok_sources, today)))
     listings = rust.update(listings, score_all)  # keeps the top 15 on final score rust-checked
     save_json(LISTINGS, listings)
     order = {m: i for i, m in enumerate(SOURCES)}

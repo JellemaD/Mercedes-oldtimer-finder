@@ -85,8 +85,13 @@ def _km(it):
     return max(0.0, 10.0 - km / (50000 if it['fuel'] == 'diesel' else 35000))
 
 
+def _total(it):
+    """Asking price plus the fuel to drive it home (travel.py); None without a price."""
+    return it['price'] + (it.get('trip_cost') or 0) if it.get('price') else None
+
+
 def _price(it, medians):
-    p, m = it.get('price'), medians.get(_group(it))
+    p, m = _total(it), medians.get(_group(it))
     if not p or not m:
         return UNKNOWN
     return max(0.0, min(10.0, 10.0 - (p / m - 0.6) * 10))  # 60% of median = 10, 160% = 0
@@ -101,7 +106,7 @@ def _medians(items):
     groups = {}
     for it in items:
         if it.get('price') and it.get('active', True) and not it.get('dup_of'):
-            groups.setdefault(_group(it), []).append(it['price'])
+            groups.setdefault(_group(it), []).append(_total(it))
     return {g: median(v) for g, v in groups.items() if len(v) >= 4}
 
 

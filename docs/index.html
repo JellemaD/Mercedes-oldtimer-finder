@@ -82,7 +82,7 @@ details p,details li{color:var(--muted);font-size:.92rem}
 <main>
 <h1>🚘 Mercedes Oldtimer Finder</h1>
 <p class="sub">Mercedes W124 en W201 t/m bouwjaar 1987 · diesel 5/6-cilinder · benzine geschikt voor LPG<br>
-NL · BE · DE · ES · PT · GR — <span id="stand">Laden…</span></p>
+NL · BE · DE · droog ES/PT/GR · Zuid-Frankrijk · Zuid-Italië — <span id="stand">Laden…</span></p>
 
 <h2>Top 10 van vandaag</h2>
 <div class="legenda"><span><i style="background:#15803d"></i>70+ goed</span><span><i style="background:#ea7a0c"></i>55–70 redelijk</span><span><i style="background:#c81e1e"></i>onder 55 matig</span></div>
@@ -115,12 +115,14 @@ NL · BE · DE · ES · PT · GR — <span id="stand">Laden…</span></p>
     <li><b>18 motor</b>: 250D/300D 18, 190D 2.5 16. Benzine naar LPG-geschiktheid: ★★★ 6-cilinder M103 (300E, 260E, 190E 2.6) 18, ★★ 230E/190E 2.3 14, ★ 200/190E 2.0 11, 190E 2.3-16 (16V) 5.</li>
     <li><b>12 staat</b> volgens de tekst: begint op 6. Woorden als roestvrij, H-kenteken, onderhoudshistorie, keuring geldig, eerste eigenaar geven +1,8; roest, motorschade, rijdt niet, opknapper, geen keuring of schade −3.</li>
     <li><b>12 kilometerstand</b>: diesel 0 km = 12, 500.000 km = 0; benzine 0 km = 12, 350.000 km = 0.</li>
-    <li><b>9 prijs</b> vergeleken met hetzelfde model in de lijst: 60% van de middelste prijs = 9, 160% = 0.</li>
+    <li><b>9 prijs</b>: vraagprijs <b>plus de brandstof om hem zelf naar huis (Soest) te rijden</b>, vergeleken met hetzelfde model in de lijst: 60% van de middelste prijs = 9, 160% = 0.</li>
     <li><b>6 bouwjaar</b>: 1987 = 6 … 1982 = 3.</li>
     <li><b>+3</b> als een benzineauto al een LPG-installatie heeft.</li>
   </ul>
   <p>De AI ziet alleen wat op de foto's staat: een verkoper die de dorpels niet fotografeert, verbergt misschien iets. Kijk bij bezichtiging altijd zelf onder de dorpels, bij de krikpunten en in de wielkasten.</p>
   <p>Onbekende kilometerstand, prijs of bouwjaar telt als iets onder gemiddeld. <b>"Mogelijk W123"</b>: de W123 had dezelfde typenamen (200, 230E, 300D) en werd tot begin 1986 gebouwd; het chassisnummer begint bij een W124 met WDB124.</p>
+  <p><b>Rit naar huis:</b> afstand hemelsbreed × 1,25 naar Soest, verbruik per model op de snelweg (bijv. 250D 8 l, 300E 12 l per 100 km; een benzineauto met LPG rijdt op LPG, 1,2× zoveel liter), brandstof diesel € 2,10, benzine € 1,95, LPG € 0,95 per liter (EU-gemiddelde begin oktober 2026). Tol (Frankrijk, Italië, Spanje), een veerboot naar de eilanden en je reis naar de auto zitten er niet in.</p>
+  <p><b>Alleen droge regio's zonder strooizout:</b> uit Spanje vallen het natte noorden (Galicië, Asturië, Cantabrië, Baskenland, Navarra, La Rioja), het koude binnenland (Castilla y León, Huesca, Teruel) en de Canarische Eilanden weg; uit Portugal het noordwesten en het koude binnenland; uit Griekenland Epirus en West-Macedonië. Uit Frankrijk alleen de Middellandse Zee-departementen, uit Italië alleen het zuiden en de eilanden. Nederland, België en Duitsland strooien wel zout: daar beslist de roestcheck op de foto's.</p>
   <p><b>Auto uit het buitenland:</b> voor een Nederlands kenteken is een RDW-keuring nodig en moet je de BPM uitzoeken.</p>
   <p><b>LPG:</b> de M103-zescilinder (300E, 260E, 190E 2.6) heeft genoeg vermogen om het verlies van 5–10% niet te merken en hydraulische klepstoters. De M102 (230E, 200) is de klassieke taxi-op-LPG. Bij een KE-Jetronic met venturi-installatie hoort een terugslagklep. Bij een auto die al op LPG rijdt: keuring en tankdatum checken.</p>
 </details>
@@ -130,7 +132,7 @@ NL · BE · DE · ES · PT · GR — <span id="stand">Laden…</span></p>
 </details>
 </main>
 <script>
-const COUNTRIES = {NL: 'NL', BE: 'BE', DE: 'DE', ES: 'ES', PT: 'PT', GR: 'GR'};
+const COUNTRIES = {NL: 'NL', BE: 'BE', DE: 'DE', ES: 'ES', PT: 'PT', GR: 'GR', FR: 'FR', IT: 'IT'};
 const LINKS = [
   ['eBay.de W124', 'https://www.ebay.de/sch/9801/i.html?_nkw=mercedes+w124&_sop=10'],
   ['eBay.de 190', 'https://www.ebay.de/sch/9801/i.html?_nkw=mercedes+190+w201&_sop=10'],
@@ -160,7 +162,7 @@ function scoreTip(a) {
     <tr><td>Motor ${esc(a.model)}<br><span class="klein">${a.fuel === 'diesel' ? a.cyl + '-cil diesel' : 'benzine, LPG ' + (sterren(a.lpg_score) || '–')}</span></td><td>${nl(p.motor)} / 18</td></tr>
     <tr><td>Staat volgens advertentie<br><span class="klein">${goed ? '+ ' + esc(goed) : 'geen bijzonderheden'}${(a.signals_bad || []).length ? '<br>− ' + esc(a.signals_bad.join(', ')) : ''}</span></td><td>${nl(p.staat)} / 12</td></tr>
     <tr><td>Kilometerstand ${km}</td><td>${nl(p.km)} / 12</td></tr>
-    <tr><td>Prijs t.o.v. zelfde model</td><td>${nl(p.prijs)} / 9</td></tr>
+    <tr><td>Prijs + rit t.o.v. zelfde model<br><span class="klein">${a.price ? eur(a.price) : 'prijs ?'}${a.trip_cost ? ` + ${eur(a.trip_cost)} ${a.trip_fuel} (${nl(a.trip_km)} km)` : ''}</span></td><td>${nl(p.prijs)} / 9</td></tr>
     <tr><td>Bouwjaar ${a.year || 'onbekend'}</td><td>${nl(p.bouwjaar)} / 6</td></tr>`;
   if (p['al op LPG']) r += `<tr><td>Rijdt al op LPG</td><td>+${nl(p['al op LPG'])}</td></tr>`;
   return `<span class="tip" role="tooltip"><b>Zo is deze score berekend</b><table>${r}<tr class="som"><td><b>Totaal</b></td><td>${nl(a.score)} / 100</td></tr></table></span>`;
@@ -176,7 +178,8 @@ function chips(a) {
   return h;
 }
 function feiten(a) {
-  const d = [a.year || 'bouwjaar ?', a.mileage ? nl(a.mileage) + ' km' : null, a.location, `${COUNTRIES[a.country] || a.country} · ${a.source}`];
+  const rit = a.trip_cost ? `rit naar huis ${nl(a.trip_km)} km ≈ ${eur(a.trip_cost)} ${a.trip_fuel}` : null;
+  const d = [a.year || 'bouwjaar ?', a.mileage ? nl(a.mileage) + ' km' : null, a.location, `${COUNTRIES[a.country] || a.country} · ${a.source}`, rit];
   return d.filter(Boolean).map(esc).join(' · ');
 }
 const prijs = a => a.price ? (a.price_prev && a.price_prev !== a.price ? `<s>${eur(a.price_prev)}</s>` : '') + eur(a.price) : 'prijs ?';

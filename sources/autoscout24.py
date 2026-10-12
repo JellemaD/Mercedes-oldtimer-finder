@@ -21,6 +21,8 @@ SITES = {
     'BE': 'https://www.autoscout24.be/nl',
     'DE': 'https://www.autoscout24.de',
     'ES': 'https://www.autoscout24.es',
+    'FR': 'https://www.autoscout24.fr',  # regions.py keeps only the Mediterranean departments
+    'IT': 'https://www.autoscout24.it',  # regions.py keeps only the south and the islands
 }
 MAX_PAGES = 12
 MAKE_ID = 47  # Mercedes-Benz
