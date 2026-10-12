@@ -51,6 +51,8 @@ jobs:
         shell: cmd   # no PowerShell 7 on the laptop; 5.1 writes GITHUB_OUTPUT as UTF-16
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: master   # the commit the github job just pushed, not the one the run started on
       - name: Scrape
         id: scrape
         run: python scrape.py --runner laptop || echo failed=1>>"%GITHUB_OUTPUT%"
