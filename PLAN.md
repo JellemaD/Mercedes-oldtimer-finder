@@ -177,8 +177,9 @@ prijs 9, bouwjaar 6, LPG-bonus 3).
 `rust.py`: Claude (standaard `claude-opus-5-5`, effort low, te wijzigen met env `RUST_MODEL`) bekijkt tot 4
 foto's per auto (grote versie waar de site die heeft) en geeft dorpels 0-3 of "niet te zien" en elders 0-3.
 Punten (van 10): start 10; elders -2/-4/-6; dorpels -5/-8/-10; dorpels niet te zien -3; niet beoordeeld 6.
-Uitslag per auto bewaard in `docs/data/rust.json` (elke auto één keer). Alleen de **beste 25** op de score
-zonder roest worden beoordeeld (env `RUST_TOP`); daarna dagelijks alleen nieuwkomers in die top 25.
+Uitslag per auto bewaard in `docs/data/rust.json` (elke auto één keer). De **top 15 op de eindscore** blijft
+gecheckt: checken, herberekenen, herhalen tot de hele top 15 een oordeel heeft (een roestige auto zakt weg, de
+volgende schuift op en wordt gecheckt), max 30 checks per run (env `RUST_TOP`, `RUST_MAX_CHECKS`).
 Vereist GitHub-secret `ANTHROPIC_API_KEY`; zonder key wordt de check overgeslagen.
 
 Haiku-classificatie (±$0,50/maand)

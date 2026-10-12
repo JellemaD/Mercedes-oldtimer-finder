@@ -9,7 +9,8 @@ Levels: 0 none, 1 a little (bubbles, small spots), 2 clear rust, 3 heavy (holes,
 
 Results are cached in docs/data/rust.json per listing id (and its photo urls), so every car is
 checked once. Without ANTHROPIC_API_KEY nothing is checked and the score treats rust as unknown.
-Only the best TOP (25) cars by score-without-rust are checked; each day only newcomers to that top.
+The best TOP (15) cars on final score stay checked: check, rescore, repeat until the whole top 15
+has a result (a rusty car drops out, the next moves up), at most MAX_CHECKS (30) model calls per run.
 """
 
 import base64
@@ -26,7 +27,8 @@ import requests
 ROOT = os.path.dirname(os.path.abspath(__file__))
 CACHE = os.path.join(ROOT, 'docs', 'data', 'rust.json')
 MODEL = os.environ.get('RUST_MODEL', 'claude-opus-5-5')
-TOP = int(os.environ.get('RUST_TOP', '25'))  # only the best TOP cars get a rust check
+TOP = int(os.environ.get('RUST_TOP', '15'))  # the best TOP cars on final score stay rust-checked
+MAX_CHECKS = int(os.environ.get('RUST_MAX_CHECKS', '30'))  # hard cap on model calls per run
 PRICE = {'claude-opus-5-5': (4.0, 20.0), 'claude-sonnet-5-5': (2.0, 10.0),
          'claude-haiku-5-5': (0.10, 0.50)}.get(MODEL, (4.0, 20.0))  # $ per million tokens in/out
 USAGE = {'input': 0, 'output': 0}
@@ -122,51 +124,68 @@ def check(client, urls):
     return out
 
 
-def _rank(it):
-    """Score without the rust part, so checking rust doesn't shuffle who is in the top."""
-    return sum(v for k, v in (it.get('punten') or {}).items() if k != 'roest')
+def _attach(listings, cache):
+    for it in listings:
+        c = cache.get(it['id'])
+        it['rust'] = {k: c[k] for k in ('sills', 'other', 'note', 'photos')} if c and not c.get('unusable') else None
 
 
-def update(listings):
-    """Check the TOP best cars that have no rust result yet (if an API key is set), then attach
-    cached results to all listings."""
-    cache = load_cache()
-    top = sorted((it for it in listings if it.get('active') and not it.get('dup_of')), key=_rank, reverse=True)[:TOP]
-    todo = []
+def _todo(listings, cache, skip):
+    """Cars in the current top TOP (final score) without a rust result for their current photos."""
+    top = sorted((it for it in listings if it.get('active') and not it.get('dup_of')),
+                 key=lambda it: it.get('score') or 0, reverse=True)[:TOP]
+    out = []
     for it in top:
         urls, key = _photos_key(it)
-        if urls and cache.get(it['id'], {}).get('key') != key:
-            todo.append((it, urls, key))
+        if urls and it['id'] not in skip and cache.get(it['id'], {}).get('key') != key:
+            out.append((it, urls, key))
+    return out
 
-    if todo and os.environ.get('ANTHROPIC_API_KEY'):
-        import anthropic
-        client = anthropic.Anthropic()
-        done = errors = 0
-        for it, urls, key in todo:
-            try:
-                res = check(client, urls)
-            except Exception as e:
-                errors += 1
-                if errors <= 3:
-                    print(f'   roestcheck fout ({it["id"]}): {type(e).__name__}: {str(e)[:200]}', file=sys.stderr)
-                if errors >= 10:
-                    print('   roestcheck gestopt na 10 fouten', file=sys.stderr)
-                    break
-                continue
-            if res is not None:
-                cache[it['id']] = dict(res, key=key, model=MODEL, date=date.today().isoformat())
-                done += 1
-        cost = (USAGE['input'] * PRICE[0] + USAGE['output'] * PRICE[1]) / 1e6
-        print(f'roestcheck: {done} van de top {TOP} beoordeeld ({errors} fouten), {USAGE["input"]} input- en '
-              f'{USAGE["output"]} output-tokens, ca. ${cost:.2f} ({MODEL})')
-    elif todo:
-        print(f'roestcheck: overgeslagen (geen ANTHROPIC_API_KEY), {len(todo)} auto\'s wachten')
 
+def update(listings, rescore):
+    """Keep the top TOP on final score rust-checked: check the unchecked ones, rescore, repeat
+    (a rusty car drops out, the next one moves up and gets checked), at most MAX_CHECKS per run.
+    rescore(listings) recomputes the scores (score.score_all). Returns the rescored listings."""
+    cache = load_cache()
     active_ids = {it['id'] for it in listings}
     for k in [k for k in cache if k not in active_ids]:  # cars that dropped out of the list
         del cache[k]
+    _attach(listings, cache)
+    rescore(listings)
+
+    if not os.environ.get('ANTHROPIC_API_KEY'):
+        waiting = len(_todo(listings, cache, set()))
+        if waiting:
+            print(f"roestcheck: overgeslagen (geen ANTHROPIC_API_KEY), {waiting} auto's in de top {TOP} wachten")
+    else:
+        import anthropic
+        client = anthropic.Anthropic()
+        checks = errors = 0
+        skip = set()  # failed this run: don't retry in the loop
+        while checks < MAX_CHECKS and errors < 5:
+            todo = _todo(listings, cache, skip)
+            if not todo:
+                break
+            for it, urls, key in todo[:MAX_CHECKS - checks]:
+                checks += 1
+                try:
+                    res = check(client, urls)
+                except Exception as e:
+                    errors += 1
+                    skip.add(it['id'])
+                    print(f'   roestcheck fout ({it["id"]}): {type(e).__name__}: {str(e)[:200]}', file=sys.stderr)
+                    if errors >= 5:
+                        print('   roestcheck gestopt na 5 fouten', file=sys.stderr)
+                        break
+                    continue
+                entry = dict(res, key=key) if res else {'key': key, 'unusable': True}  # no usable photo
+                cache[it['id']] = dict(entry, model=MODEL, date=date.today().isoformat())
+            _attach(listings, cache)
+            rescore(listings)
+        left = len(_todo(listings, cache, skip))
+        cost = (USAGE['input'] * PRICE[0] + USAGE['output'] * PRICE[1]) / 1e6
+        print(f'roestcheck: {checks} checks ({errors} fouten), top {TOP} '
+              f'{"volledig gecheckt" if not left else f"nog {left} open"}; {USAGE["input"]} input- en '
+              f'{USAGE["output"]} output-tokens, ca. ${cost:.2f} ({MODEL})')
     save_cache(cache)
-    for it in listings:
-        c = cache.get(it['id'])
-        it['rust'] = {k: c[k] for k in ('sills', 'other', 'note', 'photos')} if c else None
     return listings

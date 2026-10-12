@@ -175,7 +175,7 @@ def main():
               f"{status['secs']}s {status['error'] or ''}", flush=True)
 
     listings = score_all(merge(load_json(LISTINGS, []), fresh, ok_sources, today))
-    listings = score_all(rust.update(listings))  # first score picks which cars get the photo check first
+    listings = rust.update(listings, score_all)  # keeps the top 15 on final score rust-checked
     save_json(LISTINGS, listings)
     order = {m: i for i, m in enumerate(SOURCES)}
     save_json(STATUS, {'updated': datetime.now(timezone.utc).isoformat(timespec='seconds'),
