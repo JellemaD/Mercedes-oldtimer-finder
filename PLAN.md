@@ -55,5 +55,28 @@ Draaikosten €0 (publieke repo). Geen AI in de dagelijkse run.
 | 5 Automatiseren | Workflow (cron + handmatig), jobs A/B, melding bij 0 resultaten per bron, Pages aan | Eerste automatische run online |
 | 6 Afronden | CLAUDE.md-tabel, `Mijn websites.html`, README `mijn-websites` | Link werkt vanaf startpagina |
 
+## Uitkomst fase 1 (12-10-2026)
+
+Getest met `tools/site_test.py` (laptop) en workflow `site-test` (GitHub-runner).
+
+| Land | Site | Laptop | GitHub | Techniek | Besluit |
+|---|---|---|---|---|---|
+| NL | Marktplaats | ✅ | ✅ | JSON-API `/lrp/api/search` | scrapen |
+| NL | AutoTrack | ✅ | ✅ | `__NEXT_DATA__` | scrapen |
+| NL | Gaspedaal | ✅ | ✅ (met curl_cffi) | curl_cffi | scrapen (aggregator, overlap) |
+| NL/BE/DE/ES | AutoScout24 | ✅ | ✅ | `__NEXT_DATA__` | scrapen (één scraper, 4 landen) |
+| BE | 2dehands | ✅ | ✅ | JSON-API (zelfde platform als Marktplaats) | scrapen |
+| DE | Kleinanzeigen | ✅ | ✅ | HTML + ld+json | scrapen |
+| DE | eBay.de | ❌ | ❌ | 3 technieken 403 | zoeklink |
+| DE | mobile.de | ❌ | ❌ | Akamai | zoeklink |
+| ES | coches.net | ✅ | ✅ | HTML + ld+json | scrapen |
+| ES | Wallapop | ✅ | ✅ | JSON-API met app-headers | scrapen |
+| ES | Milanuncios | ❌ | ❌ | captcha | zoeklink |
+| PT | Standvirtual | ✅ | ✅ | `__NEXT_DATA__` | scrapen |
+| PT | CustoJusto | ✅ | ✅ | `__NEXT_DATA__` | scrapen |
+| PT | OLX.pt | ✅ | ✅ | curl_cffi | scrapen |
+| GR | car.gr | ✅ | ❌ Cloudflare | navigatie-headers | scrapen via **laptop-runner** |
+| GR | xe.gr | – | – | geen auto-rubriek meer | vervalt |
+
 Geblokkeerde sites worden vaste zoeklinks op de site. Haiku-classificatie (±$0,50/maand)
 alleen als fase 2 onder 90% blijft.
