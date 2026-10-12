@@ -1,0 +1,1248 @@
+[
+ {
+  "id": "mp-0",
+  "title": "Turbo Mercedes W222 C126 C140 C215 C216 C217 W123 W124 R107",
+  "text": "Uw mercedes turbo kapot? U kunt hem nu geheel zelf repareren metde turbo reparatieset van aps turbo-onderdelen.nl al vanaf € 149,00 . Vele malengoedkoper dan een gereviseerde, gebruikte of nieuwe mercedes turbo. Turbo-onderdelen.nl is de site vo...",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "mp-1",
+  "title": "Mercedes W124 200D 1986 5 bak",
+  "text": "Te koop aangeboden: hele nette mercedes w124 200d uit mei 1986 dus volledig wegenbelastingvrij. Apk t/m 31 mei 2027 de mercedes is roestvrij en beschikt over een 5 bak wat hem natuurlijk erg zuinig maakt, ik ben ermee op en neer gereden naar parijs z...",
+  "attrs": {
+   "constructionYear": "1986",
+   "engineDisplacement": "1983 cc"
+  },
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "mp-2",
+  "title": "Deurvanger / deurvastzetter , Mercedes W124 W126 W201 (190)",
+  "text": "Nieuwe deurvanger. Mercedes onderdeelnummer: 1267200016 1267200516 alleen ter vergelijking. Direct bestellen in onze webshop = snel geleverd! Wij bieden u: service zoals u niet meer gewend bent goede (telefonische) bereikbaarheid betalen met ideal, p...",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "mp-3",
+  "title": "Deurvastzetter | Mercedes w124",
+  "text": "Deurvastzetter mercedes no:126 720 00 16 voorzijde /achterzijde deurvastzetter voorzijde / achterzijde. Prijs per stuk mercedes nummer 1267200016 dit product wordt u aangeboden door steronderdelen.nl! Voordelen: snelle levering wij leveren bijna alle...",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "mp-4",
+  "title": "Mercedes w124 300 Diesel automaat belastingvrij",
+  "text": "Te koop aangeboden; mercedes 300d w124 belastingvrij automaat oldtimer 275.000 Km 1987 automaat schuifdak apk 1/4/2027 bouwjaar 1/1987 wordt in januari belastingvrij recent een grote onderhoudsbeurt gehad. Wordt geleverd op nederlandse kenteken vaste...",
+  "attrs": {
+   "constructionYear": "1987",
+   "fuel": "Diesel"
+  },
+  "expect": {
+   "match": true,
+   "model": "300D",
+   "fuel": "diesel",
+   "cyl": 6,
+   "lpg_score": 0
+  }
+ },
+ {
+  "id": "mp-5",
+  "title": "Mercedes-Benz E-Klasse 300E-24 W124 (bj 1991)",
+  "text": "Mercedes-benz e-klasse 300e-24 w124, 1991. Twee eigenaren, 50.311 Km, onderhoudsboekjes vanaf nieuw. Das beste oder nichts. Zo luidde het credo dat mercedes-benz in de jaren '80 en '90 niet in een... Mercedes-benz e-klasse 300e-24 w12...",
+  "attrs": {
+   "constructionYear": "1991"
+  },
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "mp-6",
+  "title": "Slotcilinder, contactslot | Mercedes w124",
+  "text": "Slotcilinder,contactslot meyle mercedes – 126 460 06 04 zie info eigenschappen - ---------------------------------------------------------------------------------------------------------- gebruiksnummer - ---------------------------------------------...",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "mp-7",
+  "title": "1992 Mercedes-Benz 200-500 (W124) Combi 200 TE, 64-LL-XD",
+  "text": "Alle informatie in de omschrijving dient u zelf tijdens de kijkdag op werking en aanwezigheid te controleren. ... 1992 Mercedes-benz 200-500 (w124) combi 200 te, 64-ll-xd veiling: - sluitdatum: 12 okt. 2026 - Type: online - website: https:troostwijkauctions.com/l/1992-mercedes-benz-200-500-%28w124%29-combi-200-te-64-ll-xd-a1-40744-612?utm_source=marktplaat...",
+  "attrs": {
+   "constructionYear": "1992"
+  },
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "mp-8",
+  "title": "Mercedes Benz W124 buitenspiegel rechts",
+  "text": "Mercedes benz w124 buitenspiegel rechts.",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "mp-9",
+  "title": "Hot Wheels 1:64 - Modelauto (6) - Lot of 6 – Car Culture",
+  "text": "Titel: hot wheels 1:64 - modelauto (6) - lot of 6 – car culture geschatte waarde: €130.0 Belangrijk: winnende biedingen zijn exclusief 9% koperbescherming + €3 kavel beschrijving een volledige set van de 2025 hot wheels premium car culture ...",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "mp-10",
+  "title": "Mercedes W124 250 D | LMV| el. schuif/kanteldak | trekhaak",
+  "text": "Een mooie mercedes benz 250d uit maart 1991 met slechts 176.663 Km’s op de teller. Voorzien van de 5-cilinder 2.5 Motor met 94pk, gekoppeld aan een 4-traps automaat. Een mercedes uit de w124 serie, gebouwd voor de eeuwigheid. Een auto uit een tijd wa...",
+  "attrs": {
+   "constructionYear": "1991"
+  },
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "mp-11",
+  "title": "Motorkappen motorkap Mercedes e klasse w124 s124 1985",
+  "text": "Motorkap mercedes e klasse w124 s124 bouwjaar 1985",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "mp-12",
+  "title": "Mercedes 230e W124 Schuifdak 1987 ( belastingvrij ! )",
+  "text": "Te koop aangeboden goed rijdende mb 230e w124 06.04.1987 ( 01.01.1987 Belastingvrij ) 260099 km 2 sleutels apk tot 01.10.2028 Auto rijd goed schuifdak ( werkend ) onderhoudsboek aanwezig, volledig ingevuld tot 200000km voor meer informatie gelieve te...",
+  "attrs": {
+   "constructionYear": "1987"
+  },
+  "expect": {
+   "match": true,
+   "model": "230E",
+   "fuel": "benzine",
+   "cyl": 4,
+   "lpg_score": 2
+  }
+ },
+ {
+  "id": "mp-13",
+  "title": "Mercedes 200 w124 diesel oldtimer belastingvrij",
+  "text": "Te koop belastingvrije mercedes w124 200diesel auto rijdt en schakelt goed 1985 apk mei 2027 210.000 Km wordt geleverd op nl kenteken beide achter schermen zijn niet mooi, zitten 2 schermen bij. Vaste prijs",
+  "attrs": {
+   "fuel": "Diesel"
+  },
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "mp-14",
+  "title": "Norev 1:18 - Modelauto - Mercedes-Benz 300TE W124 familiar",
+  "text": "Titel: norev 1:18 - modelauto - mercedes-benz 300te w124 familiar geschatte waarde: €150.0 Belangrijk: winnende biedingen zijn exclusief 9% koperbescherming + €3 kavel beschrijving mercedes-benz 300 te (w124) familiar op schaal 1:18 van nor...",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "mp-15",
+  "title": "Mercedes Benz W124 buitenspiegel rechts",
+  "text": "Te koop aangeboden: mercedes benz w124 buitenspiegel rechts.",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "mp190-16",
+  "title": "Mercedes 190d 2,5 belastingvrij 1986",
+  "text": "Mooie witte belastingvrije mercedes 2,5 diesel handgeschakeld 5 bak. Spaanse auto, nog nooit geen wegenzout gezien. Eerste tenaamstelling 1986 voor de liefhebber. Bel of app met jan 0655117770 auto staat in holten overijssel vraagprijs deze week 9685...",
+  "attrs": {
+   "constructionYear": "1986",
+   "fuel": "Diesel",
+   "engineDisplacement": "2500 cc"
+  },
+  "expect": {
+   "match": true,
+   "model": "190D 2.5",
+   "fuel": "diesel",
+   "cyl": 5,
+   "lpg_score": 0
+  }
+ },
+ {
+  "id": "mp190-17",
+  "title": "Hardtop voor Mercedes 190 SL met schuifdak",
+  "text": "Zeer unieke en zeldzame hardtop voor een mercedes 190 sl, voorzien van een schuifdak. Het schuifdak heeft een mooie passing. De binnenhemel dient vervangen te worden en de chromen randen moeten gepoetst worden voor een optimale uitstraling. Een prach...",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "mp190-18",
+  "title": "Mercedes-Benz 190 2.0 - 1986 - Automaat - Oldtimer (sept.)",
+  "text": "Te koop: zeer nette, roestvrije en goed onderhouden mercedes 190 2.0 Benzine uit 1986. Automatische transmissie, schuifdak, kleur grijs. Kilometerstand: 142.000 Km. De auto is recent grondig aangepakt en opnieuw afgesteld. Alles wat aan vervanging to...",
+  "attrs": {
+   "constructionYear": "1986",
+   "fuel": "Benzine"
+  },
+  "expect": {
+   "match": true,
+   "model": "190",
+   "fuel": "benzine",
+   "cyl": 4,
+   "lpg_score": 1
+  }
+ },
+ {
+  "id": "mp190-19",
+  "title": "Mercedes-Benz 190 2.0 Bj 1988 Automaat Uniek Schuurvonds moe",
+  "text": "Unieke mercedes-benz 190 in uitzonderlijk originele staat een mercedes-benz 190 zoals deze kom je tegenwoordig nog maar zelden tegen. Deze prachtige 190 is maar liefst 5 jaar droog en beschut in een... Mercedes-benz 190-serie 2.0 Bj 1988 automaat uni...",
+  "attrs": {
+   "constructionYear": "1988",
+   "fuel": "Benzine"
+  },
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "mp190-20",
+  "title": "MERCEDES EQB 250 190pk Luxury Line | SoH 98% | Sfeer | Camer",
+  "text": "Algemene informatie aantal deuren: 5 kleur: zwart metallic referentienummer: 146 technische informatie vermogen: 140 kw (190 pk) transmissie: 1 versnellingen, automaat topsnelheid: 160 km/u accuconditie: 98% geschikt voor snelladen: ja interieur inte...",
+  "attrs": {
+   "constructionYear": "2022",
+   "fuel": "Elektrisch"
+  },
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "mp190-21",
+  "title": "Mercedes-Benz 190-serie 2.3-16v Cosworth / 1985",
+  "text": "Algemene informatie aantal deuren: 4 kleur: zwart metallic technische informatie vermogen: 136 kw (185 pk) aantal cilinders: 4 maten wielbasis: 267 cm gewichten ledig gewicht: 1.190 Kg laadvermogen: 570 kg gvw: 1.760 Kg max. Trekgewicht: 1.200 Kg (on...",
+  "attrs": {
+   "constructionYear": "1985",
+   "fuel": "Benzine",
+   "engineDisplacement": "2290 cc"
+  },
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "mp190-22",
+  "title": "Mercedes 190 SL Cabriolet | 1961",
+  "text": "Mercedes 190 sl cabriolet | 1961 mercedes-benz 190 sl | uitvoerig gerestaureerd | zeer goede staat | 1961 highlights: -    uitvoerig gerestaureerd in 2019 -    fotoreportage + facturen aanwezig  -    slechts 2 vorige eigenaren  -    17 jaar in het be...",
+  "attrs": {
+   "constructionYear": "1961",
+   "fuel": "Benzine"
+  },
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "mp190-23",
+  "title": "Mercedes-Benz 190-Serie 1.8 E U9 1992 Grijs - APK ✅",
+  "text": "❗️te koop ❗️ mercedes benz - 190 serie - 1.8E basic - bluetooth radio - apk ✅ ☎️een beller is altijd sneller 0️⃣6️⃣1️⃣2️⃣2️⃣7️⃣2️⃣3️⃣0️⃣1️⃣ kenteken: fj-jf-06 ✅ 1992 🚗 ✅ 196.526 Km nap 🛞 ✅ 04-02-2027 apk ✅ 109 pk 🐴 ✅ benzine ⛽️ ✅ €4.950,- 💶 ...",
+  "attrs": {
+   "constructionYear": "1992",
+   "fuel": "Benzine"
+  },
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "mp190-24",
+  "title": "Mercedes-Benz 190-Serie 2.0 D 1986 Wit",
+  "text": "In uitstekende staat verkerende mercedes 190 2.0D oldtimer dus belastingvrij !!!",
+  "attrs": {
+   "constructionYear": "1986",
+   "fuel": "Diesel"
+  },
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "mp190-25",
+  "title": "Mercedes-Benz 190 W201  190D Baby Benz Diesel Oldtimer APK 1",
+  "text": "In zeer goede staat verkerende nette mercedes-benz w201 190 d 4 cilinder diesel om601 in het wit. De legendarische 190d 'baby benz' oldtimer. Voorzien van de onverwoestbare 2 liter om601 4 cilinder diesel met 72pk (53kw) en 123nm koppel...",
+  "attrs": {
+   "constructionYear": "1985",
+   "fuel": "Diesel"
+  },
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "2dh-26",
+  "title": "sebrano kachelpaneel  mercedes w124",
+  "text": "Sebrano kachelpaneel mercedes w124 mercedes w124 kachelpaneel sebrano tevens ook wortelnoten aanwezig .  Wij hebben vele onderdelen voor de mercedes w124 en de w201 op voorraad . Extra product informatie: prijs : prijs op aanvraag levering: ophalen o...",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "2dh-27",
+  "title": "Mercedes w124 coupe gordelaangevers",
+  "text": "Mercedes-benz w124 coupe gordelaangevers links en rechts",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "2dh-28",
+  "title": "Mercedes W124 schakelpook omlijsting",
+  "text": "Schakelpook omlijsting voor mercedes w124. Kenmerken: • omlijsting voor schakelpook • kunststof uitvoering • aftermarket onderdeel geschikt voor: • mercedes w124 sedan • mercedes s124 touring • mercedes c124 coupé • mercedes a124 cabrio met zorg geco...",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "2dh-29",
+  "title": "Mercedes W124 W201 Stappenmotor 000 141 2225",
+  "text": "Mercedes w124 w201 stappenmotor 000 141 2225 mercedes w124 w201 stappenmotor 000 141 2225 extra product informatie: prijs : €100,00 levering: ophalen of verzenden verzendkosten:€21,00 conditie: gebruikt referentienummer: 2839396 producttype...",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "2dh-30",
+  "title": "mercedes w124 kleur permelut of zoiets",
+  "text": "W124 deur volledig compleet en ook delen apart te koop. Bieden naar waarde",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "2dh-31",
+  "title": "Verticale stabilisatorstang Mercedes W124 W201 202 208 W123",
+  "text": "Verticale stabilisatorstang mercedes w124 w201 202 208 w123 verticale stabilisatorstang set prijs 25 euro   nieuw set inhoud: 2x stabilisatorstangen achterzijde l en r 4x moeren 2x bouten in voorraad afhalen of verzenden meer info bel ons 06 410 470 ...",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "2dh-32",
+  "title": "Mercedes W124 Coupe Sierlijsten",
+  "text": "Mercedes w124 coupe sierlijsten c124 complete set in goede staat alleen per set te koop prijs bespreekbaar",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "2dh-33",
+  "title": "Mercedes W124 subframe rubbers Mercedes W201 subframe rubber",
+  "text": "Mercedes w124 subframe rubbers mercedes w201 subframe rubber set prijs 75 euro  achteras nieuw in verpakking   set inhoud: 2x subframe rubbers voorste van de subframe 2x subframe rubbers achterste van de subframe 2x lager 2x bouten in voorraad  afhal...",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "2dh-34",
+  "title": "Mercedes W124 sierlijst achterspatbord rechts chroom",
+  "text": "Aftermarket sierlijst voor het rechter achterspatbord van mercedes w124. Kenmerken: • positie: achter rechts • voor montage op het achterspatbord • uitvoering met chroomaccent • zorgt voor een nette originele uitstraling • aftermarket onderdeel pasvo...",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "2dh-35",
+  "title": "mercedes w124 rechter achter deur",
+  "text": "W124 rechter achter deur bieden",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "wp-36",
+  "title": "Mando Mercedes W124 Intermitentes Limpia",
+  "text": "Mando de intermitentes y limpiaparabrisas para Mercedes W124.\n\n- Incluye palanca y base de montaje.\n- Símbolos de control de limpiaparabrisas visibles.",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "wp-37",
+  "title": "Funda Coche Mercedes W124 Impermeable",
+  "text": "Funda para coche Mercedes W124, fabricada con material impermeable y resistente.\n\n- Tejido de 10 capas.\n- Protección contra rayos UV.\n- Interior de algodón suave para proteger la pintura.",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "wp-38",
+  "title": "Copas Faro Antiniebla Mercedes W124",
+  "text": "Copas de faro antiniebla para Mercedes Benz W124. Piezas de repuesto para tu vehículo.\n\n- Diseño ovalado.\n- Acabado reflectante.",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "wp-39",
+  "title": "PILOTO TRASERO DERECHO MERCEDES W124",
+  "text": "Piloto trasero derecho proveniente de Mercedes clase e w124, completo y original.\n\nCualquier duda o más información, preguntar sin compromiso, se hacen envíos.",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "wp-40",
+  "title": "Silencioso Mercedes W124",
+  "text": "Silencioso de escape para Mercedes W124 tramo final esta en perfecto estado hay de una salida o de dos salidas.",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "wp-41",
+  "title": "Amortecedores Frente Mercedes W124",
+  "text": "Conjunto de amortecedores dianteiros para Mercedes W124.\n\n- Peças de substituição.\n- Compatível com modelos W124.",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "wp-42",
+  "title": "Carcasa espejo retrovisor Mercedes W124 conductor",
+  "text": "Carcasa para el espejo retrovisor del lado del conductor de un Mercedes W124. Color oscuro.\n\n- Pieza de recambio para el espejo retrovisor.\n- Diseñada para el lado del conductor.",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "wp-43",
+  "title": "Termómetro Mercedes W124 Reformado",
+  "text": "Termómetro digital para Mercedes W124. Muestra la temperatura ambiente. Tambien vale para w123\n\n- Pantalla LED naranja.\n- Marco negro.",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "wp-44",
+  "title": "Espejo Retrovisor Interior Mercedes W124",
+  "text": "Espejo retrovisor interior para Mercedes W124, con diseño clásico y acabado en color negro.\n\n- Pieza original.\n- Montaje sencillo.\nSin manchas el cristal , sin holgura en la bola . Tiene una pequeña grieta en la carcasa interior que se puede pegar y sellar . Precio no negociable. ",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "wp-45",
+  "title": "Potenciómetro cuadro Mercedes W124 VDO",
+  "text": "Potenciómetro para el cuadro de instrumentos de Mercedes W124. En perfecto estado de funcionamiento, comprobado. ",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "wp-46",
+  "title": "Foco Delantero Dcho Mercedes W124 Restyling",
+  "text": "Faro delantero derecho para Mercedes W124 restyling. Original ,un pequeño roto pero encaja igual igual.",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "wp-47",
+  "title": "Hot Wheels Mercedes-Benz 500E (W124) Verde",
+  "text": "Coche de colección Hot Wheels, modelo Mercedes-Benz 500E (W124) en color verde oscuro con detalles brillantes. Forma parte de la serie 70s vs 90s.\n\n- Escala 1:64.\n- Serie 52/250.\n- Edición 3/10.",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "ka-48",
+  "title": "Mercedes Benz W124 E200:  H-Kennzeichen, HU 05/26 keine Mängel",
+  "text": "Gummi und Textilfußmatten. Kofferraumwanne.\nOriginal Ersatzradkappen\nBatterie 04/26\nHU 05/26 keine Mängel.\nHab Ihn aus Dritter Hand.\nWertgutachten ist vorhanden.\nMotorhaube 2021 neue lackiert.\nBaustellen:\nLackpflege steht an, rund Rum minimal, Rad...",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "ka-49",
+  "title": "Mercedes-Benz 230 / Schiebedach / W124 / Radio",
+  "text": "Ausstattung:- Armlehne\n- Elektr. Seitenspiegel\n- Lordosenstütze\n- Bordcomputer\n- Servolenkung\n- Allwetterreifen\n\nSicherheit:- Fernlichtassistent\n- Gepäckraumabtrennung\n- Geschwindigkeitsbegrenzer\n\nInnenausstattung:- Stoff\n\nFarbe der Innenausstattu...",
+  "attrs": {},
+  "expect": {
+   "match": true,
+   "model": "230",
+   "fuel": "benzine",
+   "cyl": 4,
+   "lpg_score": 2
+  }
+ },
+ {
+  "id": "ka-50",
+  "title": "Mercedes-Benz 230 W 124 OLDTIMER*Schiebedach*KeinTüv*",
+  "text": "- Willkommen Bei Northsidecars Stade\n\n- Kein Tüv Wird ohne tüv Verkauft\n- Zv\n- Schiebedach\n- Motor Getriebe Gut\n- CD\n- Armlehne\n\n++ WIR SIND FÜR SIE DA ! +++\n\n\nÖ F F N U N G S Z E I T E N\n\nUnser Verkaufsteam ist für Sie Werktags von 09.00-17.00 Uh...",
+  "attrs": {},
+  "expect": {
+   "match": true,
+   "model": "230",
+   "fuel": "benzine",
+   "cyl": 4,
+   "lpg_score": 2
+  }
+ },
+ {
+  "id": "ka-51",
+  "title": "Mercedes w124 E280 Kombi EURO 2 Wertgutachten 19.500 € TAUSCH",
+  "text": "Zum Verkauf steht mein Mercedes-Benz E 280 T-Modell (S124), Baujahr 1995, mit dem 2,8-Liter-Sechszylinder und 4-Gang-Automatik. Ursprünglich ein Schweizer Importfahrzeug.\n\nIn den vergangenen Jahren wurde sehr viel Zeit und Geld in den Erhalt des F...",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "ka-52",
+  "title": "Mercedes Benz W124 220e 1993 Automatik Klimaananlage",
+  "text": "Ich verkaufe einen Mercedes-Benz W124, Baujahr 1993.\n\nDas Fahrzeug befindet sich altersbedingt in einem optisch nicht mehr besonders schönen Zustand. Technisch ist es grundsätzlich in Ordnung und das Fahrzeug fährt. Die hinteren Bremsen müssen ern...",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "ka-53",
+  "title": "Mercedes Benz W124 S 300 TE",
+  "text": "Ich biete meinen 300 TE zum Verkauf an.\nDas Fahrzeug ist seit 7 Jahren in meiem Besitz. Vor 7 Jahren habe ich den Benz Eisgestrahlt und das Getriebe überholt, es waren nur kleine Sachen zu Schweißen. Es wurden alle Scheiben ausgebaut und das Fahrz...",
+  "attrs": {},
+  "expect": {
+   "match": true,
+   "model": "300TE",
+   "fuel": "benzine",
+   "cyl": 6,
+   "lpg_score": 3
+  }
+ },
+ {
+  "id": "ka-54",
+  "title": "Mercedes 260E Langversion W124 Automatik Klima Standheizung ",
+  "text": "Zum Verkauf steht ein Mercedes-Benz 260 E der Baureihe W124.\nDas Fahrzeug wurde am 22.10.1990 erstmals zugelassen und ist in Blauschwarz Metallic lackiert.\nAusstattung / Daten:\n- Mercedes-Benz 260 E\n- Baureihe W124\n- Erstzulassung: 22.10.1990\n- Au...",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "ka-55",
+  "title": "Mercedes-Benz W124 230CE",
+  "text": "Zum Verkauf steht ein Mercedes-Benz W124 230 CE Coupé aus dem Jahr 1992, welches wir im Kundenauftrag anbieten. Das Fahrzeug befindet sich für einen W124 in einem erfreulich guten Zustand und weist vergleichsweise wenig Rost auf. Der Motor ...",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "ka-56",
+  "title": "Mercedes 300TE 24v sportline W124 S124",
+  "text": "Seltener 300er 24v Sportline aus seriösem Vorbesitz abzugeben, neben der nahezu Vollausstattung hat er das begehrte Sportgetriebe (erster Gang unten links) verbaut.\n\nAllgemein innen und außen in einem guten und gepflegten Zustand, Laufleistung sie...",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "ka-57",
+  "title": "W 124 230 E",
+  "text": "Hiermit verkaufe ich meine geliebte Oldtimer mit H-Kennzeichen. Alle Service gemacht. Einfach ummelden und fahren Unterhalt ist sehr günstig jährliche Versicherung 240€ Vollkasko 191 € Steuer jährlich. Für weitere Frage können Sie mich gerne schre...",
+  "attrs": {},
+  "expect": {
+   "match": true,
+   "model": "230E",
+   "fuel": "benzine",
+   "cyl": 4,
+   "lpg_score": 2
+  }
+ },
+ {
+  "id": "ka-58",
+  "title": "W124 230e  H-Kennzeichen",
+  "text": "Zum Verkauf steht ein liebevoll gepflegter Mercedes-Benz W124. Das Fahrzeug wurde stets mit viel Sorgfalt behandelt und immer trocken untergestellt, in der Tiefgarage oder im Carport. Entsprechend präsentiert er sich in einem sehr guten, altersgem...",
+  "attrs": {},
+  "expect": {
+   "match": true,
+   "model": "230E",
+   "fuel": "benzine",
+   "cyl": 4,
+   "lpg_score": 2
+  }
+ },
+ {
+  "id": "ka-59",
+  "title": "Mercedes Benz W124 220E",
+  "text": "Mercedes-Benz W124 220E – Baujahr 1991 | Almandinrot Metallic | Recaro | AMG Styling II\n\nZum Verkauf steht ein Mercedes-Benz W124 220E aus dem Jahr 1991 in der seltenen Farbe Almandinrot Metallic. Mit 192.000 km und einer außergewöhnlichen Ausstat...",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "ka-60",
+  "title": "Mercedes-Benz 230 E W124 – Bj. 1988 – nur ca. 33.000 km nachweisb",
+  "text": "Zum Verkauf steht ein außergewöhnlich gut erhaltener Mercedes-Benz 230 E der Baureihe W124, Baujahr 1988, in klassischem Silber und mit einer nachweisbaren Laufleistung von lediglich ca. 33.000 km.\n\nDas Besondere an diesem Fahrzeug ist jedoch nich...",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "ka-61",
+  "title": "Mercedes-Benz W124 300E – Klassiker mit TÜV bis 01/2028",
+  "text": "Zum Verkauf steht ein gepflegter Mercedes-Benz W124 300E.\nFahrzeugdaten:\nModell: Mercedes-Benz 300E (W124)\nMotor: 3,0 Liter Reihensechszylinder Benziner\nLeistung: 180 PS (132 kW)\nKilometerstand: 186.000 km\nTÜV: bis Januar 2028\nGetriebe: (Automatik...",
+  "attrs": {},
+  "expect": {
+   "match": true,
+   "model": "300E",
+   "fuel": "benzine",
+   "cyl": 6,
+   "lpg_score": 3
+  }
+ },
+ {
+  "id": "olx-62",
+  "title": "Mercedes-Benz W124 E250 Turbo de 1993",
+  "text": "",
+  "attrs": {
+   "price": 3750
+  },
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "olx-63",
+  "title": "Mercedes W124 200D",
+  "text": "",
+  "attrs": {
+   "price": 1000
+  },
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "olx-64",
+  "title": "Mercedes w124 200D",
+  "text": "",
+  "attrs": {
+   "price": 1000
+  },
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "olx-65",
+  "title": "Mercedes-Benz 300E-24V W124",
+  "text": "",
+  "attrs": {
+   "price": 15850
+  },
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "olx-66",
+  "title": "Mercedes-Benz W124 (1984-1997)",
+  "text": "",
+  "attrs": {
+   "price": 20000
+  },
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "olx-67",
+  "title": "Mercedes w124 E220 cabrio",
+  "text": "",
+  "attrs": {
+   "price": 27500
+  },
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "olx-68",
+  "title": "Mercedes-Benz W124 (1984-1997) 250 TD",
+  "text": "",
+  "attrs": {
+   "price": 2750
+  },
+  "expect": {
+   "match": true,
+   "model": "250TD",
+   "fuel": "diesel",
+   "cyl": 5,
+   "lpg_score": 0
+  }
+ },
+ {
+  "id": "olx-69",
+  "title": "Mercedes W124 250TD  1986",
+  "text": "",
+  "attrs": {
+   "price": 3000
+  },
+  "expect": {
+   "match": true,
+   "model": "250TD",
+   "fuel": "diesel",
+   "cyl": 5,
+   "lpg_score": 0
+  }
+ },
+ {
+  "id": "olx-70",
+  "title": "Mercedes-Benz W124 (1984-1997) 250 D Turbo",
+  "text": "",
+  "attrs": {
+   "price": 13600
+  },
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "olx-71",
+  "title": "Mercedes W124 2.5D, Excelente estado geral!",
+  "text": "",
+  "attrs": {
+   "price": 3800
+  },
+  "expect": {
+   "match": true,
+   "model": "250D",
+   "fuel": "diesel",
+   "cyl": 5,
+   "lpg_score": 0
+  }
+ },
+ {
+  "id": "cj-72",
+  "title": "Mercedes-Benz E 500 W124 Mercedes-Benz - 94",
+  "text": "",
+  "attrs": {
+   "price": 85000
+  },
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "cj-73",
+  "title": "Bomba de travões MERCEDES-BENZ SEDÁN (W124) (1984-1989) 200 D (124.120)",
+  "text": "",
+  "attrs": {
+   "price": 88
+  },
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "cj-74",
+  "title": "Suporte de pala de sol Mercedes W123 W124 W201",
+  "text": "",
+  "attrs": {
+   "price": 6
+  },
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "cj-75",
+  "title": "deposito agua de motor mercedes W201 W124 S124",
+  "text": "",
+  "attrs": {
+   "price": 20
+  },
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "cj-76",
+  "title": "Pistola Da Mala Mercedes-Benz Três Volumes (W124)",
+  "text": "",
+  "attrs": {
+   "price": 32
+  },
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "cj-77",
+  "title": "Farol Ótica Mercedes W124",
+  "text": "",
+  "attrs": {
+   "price": 35
+  },
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "sv-78",
+  "title": "Mercedes-Benz W114/W115 (1968-1974) 250 CE",
+  "text": "",
+  "attrs": {
+   "fuelType": "Gasolina",
+   "modelDate": "1970"
+  },
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "sv-79",
+  "title": "Mercedes-Benz R107 (1971-1989)",
+  "text": "",
+  "attrs": {
+   "fuelType": "Gasolina",
+   "modelDate": "1977"
+  },
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "sv-80",
+  "title": "Mercedes-Benz W113 (1963-1970) 230 SL Automatic",
+  "text": "",
+  "attrs": {
+   "fuelType": "Gasolina",
+   "modelDate": "1965"
+  },
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "sv-81",
+  "title": "Mercedes-Benz W126 (1979-1992)",
+  "text": "",
+  "attrs": {
+   "fuelType": "Gasolina",
+   "modelDate": "1984"
+  },
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "syn-0",
+  "title": "Mercedes 300E W124 1986 LPG Prins",
+  "text": "Rijdt op LPG, Prins installatie",
+  "attrs": {},
+  "expect": {
+   "match": true,
+   "model": "300E",
+   "fuel": "benzine",
+   "cyl": 6,
+   "lpg_score": 3,
+   "has_lpg": true
+  }
+ },
+ {
+  "id": "syn-1",
+  "title": "Mercedes-Benz 230 E 1987",
+  "text": "Motor gasolina con instalación GLP, ITV en vigor",
+  "attrs": {},
+  "expect": {
+   "match": true,
+   "model": "230E",
+   "fuel": "benzine",
+   "cyl": 4,
+   "lpg_score": 2,
+   "has_lpg": true
+  }
+ },
+ {
+  "id": "syn-2",
+  "title": "Mercedes W124 260E 1987",
+  "text": "Gasolina e GPL, bom estado",
+  "attrs": {},
+  "expect": {
+   "match": true,
+   "model": "260E",
+   "fuel": "benzine",
+   "cyl": 6,
+   "lpg_score": 3,
+   "has_lpg": true
+  }
+ },
+ {
+  "id": "syn-3",
+  "title": "Mercedes-Benz 300 D '86",
+  "text": "Πετρέλαιο, άριστη κατάσταση",
+  "attrs": {},
+  "expect": {
+   "match": true,
+   "model": "300D",
+   "fuel": "diesel",
+   "cyl": 6,
+   "lpg_score": 0,
+   "has_lpg": false
+  }
+ },
+ {
+  "id": "syn-4",
+  "title": "Mercedes 190E 2.6 1987",
+  "text": "Βενζίνη και υγραέριο",
+  "attrs": {},
+  "expect": {
+   "match": true,
+   "model": "190E 2.6",
+   "fuel": "benzine",
+   "cyl": 6,
+   "lpg_score": 3,
+   "has_lpg": true
+  }
+ },
+ {
+  "id": "syn-5",
+  "title": "Mercedes W123 300D 1984",
+  "text": "",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "syn-6",
+  "title": "Mercedes 300D 1983 automaat",
+  "text": "",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "syn-7",
+  "title": "Mercedes W124 200 Schalter",
+  "text": "Mercedes-Benz 200 (W124) 2.0 Benziner/LPG, Baujahr 1986",
+  "attrs": {},
+  "expect": {
+   "match": true,
+   "model": "200",
+   "fuel": "benzine",
+   "cyl": 4,
+   "lpg_score": 1,
+   "has_lpg": true
+  }
+ },
+ {
+  "id": "syn-8",
+  "title": "Mercedes 190E 2.3 1985",
+  "text": "",
+  "attrs": {},
+  "expect": {
+   "match": true,
+   "model": "190E 2.3",
+   "fuel": "benzine",
+   "cyl": 4,
+   "lpg_score": 2,
+   "has_lpg": false
+  }
+ },
+ {
+  "id": "syn-9",
+  "title": "Mercedes 250D 1985 automaat",
+  "text": "",
+  "attrs": {},
+  "expect": {
+   "match": true,
+   "model": "250D",
+   "fuel": "diesel",
+   "cyl": 5,
+   "lpg_score": 0,
+   "has_lpg": false
+  }
+ },
+ {
+  "id": "syn-10",
+  "title": "Mercedes 300TD Turbo 1987",
+  "text": "",
+  "attrs": {},
+  "expect": {
+   "match": true,
+   "model": "300TD Turbo",
+   "fuel": "diesel",
+   "cyl": 6,
+   "lpg_score": 0,
+   "has_lpg": false
+  }
+ },
+ {
+  "id": "syn-11",
+  "title": "Mercedes E 300 Diesel 1994",
+  "text": "",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "syn-12",
+  "title": "Mercedes 190 D 2.5 W201",
+  "text": "5 cilinder diesel, bouwjaar 1987",
+  "attrs": {},
+  "expect": {
+   "match": true,
+   "model": "190D 2.5",
+   "fuel": "diesel",
+   "cyl": 5,
+   "lpg_score": 0,
+   "has_lpg": false
+  }
+ },
+ {
+  "id": "syn-13",
+  "title": "Mercedes 190D W201 1986",
+  "text": "",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "hold-0",
+  "title": "Mercedes W124 draagarmen Mercedes W201 draagarm Mercedes A12",
+  "text": "",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "hold-1",
+  "title": "Mercedes stuur hout leder w124 w201",
+  "text": "",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "hold-2",
+  "title": "Mercedes 124 Motorsteun Mercedes W201 motorsteun A1242401717",
+  "text": "",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "hold-3",
+  "title": "NOS stationairuitschakelventielrelais Mercedes W124 W201",
+  "text": "",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "hold-4",
+  "title": "Carter voor Mercedes om603 300D w124",
+  "text": "",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "hold-5",
+  "title": "Koppelingsplaat | Mercedes w124",
+  "text": "",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "hold-6",
+  "title": "Mercedes E W124 ECU Motor Computer A0165455532",
+  "text": "",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "hold-7",
+  "title": "Mercedes W124 230 Benzin  Bobine",
+  "text": "",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "hold-8",
+  "title": "Discos de freno Mercedes W124",
+  "text": "",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "hold-9",
+  "title": "Cenicero Mercedes CE W124",
+  "text": "",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "hold-10",
+  "title": "Mercedes-Benz GLA 200 (cdi) d urban",
+  "text": "",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "hold-11",
+  "title": "Mercedes-Benz C 300 e AMG Line | Stoelverwarming | Camera | Ambiance V",
+  "text": "",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "hold-12",
+  "title": "Mercedes-Benz C 250 Premium+ AMG Keyless|Sfeer|360Cam",
+  "text": "",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "hold-13",
+  "title": "Mercedes-Benz A 200 Business Solution AMG | CAMERA",
+  "text": "",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "hold-14",
+  "title": "Mercedes-Benz GLA-Klasse - 250 Prestige | AUTOMAAT | TREKHAAK | CAMERA",
+  "text": "",
+  "attrs": {},
+  "expect": {
+   "match": false
+  }
+ },
+ {
+  "id": "holdp-0",
+  "title": "Mercedes-Benz E-Klasse 200-500 230 E LPG . (bj 1985)",
+  "text": "",
+  "attrs": {},
+  "expect": {
+   "match": true,
+   "model": "230E",
+   "fuel": "benzine",
+   "cyl": 4,
+   "lpg_score": 2,
+   "has_lpg": true
+  }
+ },
+ {
+  "id": "holdp-1",
+  "title": "Mercedes 190d 2.5 wegenbelastingvrij APK tot 2028 met 5bak",
+  "text": "bouwjaar 1986",
+  "attrs": {},
+  "expect": {
+   "match": true,
+   "model": "190D 2.5",
+   "fuel": "diesel",
+   "cyl": 5,
+   "lpg_score": 0,
+   "has_lpg": false
+  }
+ },
+ {
+  "id": "holdp-2",
+  "title": "Mercedes W124 300 TE 4-matic Automaat 7-pers Leer Airco",
+  "text": "bouwjaar 1987",
+  "attrs": {},
+  "expect": {
+   "match": true,
+   "model": "300TE",
+   "fuel": "benzine",
+   "cyl": 6,
+   "lpg_score": 3,
+   "has_lpg": false
+  }
+ },
+ {
+  "id": "holdp-3",
+  "title": "Mercedes-Benz 190-serie 2.3 E, First Paint / Erstlack",
+  "text": "1986",
+  "attrs": {},
+  "expect": {
+   "match": true,
+   "model": "190E 2.3",
+   "fuel": "benzine",
+   "cyl": 4,
+   "lpg_score": 2,
+   "has_lpg": false
+  }
+ }
+]
