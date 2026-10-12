@@ -27202,6 +27202,9 @@
   "active": true,
   "dup_of": null,
   "also_on": [],
+  "trip_km": 2648,
+  "trip_fuel": "benzine",
+  "trip_cost": 542,
   "punten": {
    "roest": 24.0,
    "motor": 5.4,
@@ -27211,14 +27214,11 @@
    "bouwjaar": 4.8
   },
   "score": 49.5,
+  "ai_reject": false,
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
   ],
-  "rust": null,
-  "ai_reject": false,
-  "trip_km": 2648,
-  "trip_fuel": "benzine",
-  "trip_cost": 542
+  "rust": null
  },
  {
   "id": "cargr_53426482",
@@ -27251,6 +27251,9 @@
   "active": true,
   "dup_of": null,
   "also_on": [],
+  "trip_km": 2671,
+  "trip_fuel": "benzine",
+  "trip_cost": 547,
   "punten": {
    "roest": 24.0,
    "motor": 14.4,
@@ -27260,12 +27263,9 @@
    "bouwjaar": 5.4
   },
   "score": 52.9,
-  "let_op": [],
-  "rust": null,
   "ai_reject": false,
-  "trip_km": 2671,
-  "trip_fuel": "benzine",
-  "trip_cost": 547
+  "let_op": [],
+  "rust": null
  },
  {
   "id": "cargr_20962945",
@@ -27298,6 +27298,9 @@
   "active": true,
   "dup_of": null,
   "also_on": [],
+  "trip_km": 2661,
+  "trip_fuel": "benzine",
+  "trip_cost": 519,
   "punten": {
    "roest": 24.0,
    "motor": 10.8,
@@ -27307,14 +27310,11 @@
    "bouwjaar": 4.8
   },
   "score": 57.2,
+  "ai_reject": false,
   "let_op": [
    "Mogelijk W123: check chassisnummer (WDB124… = W124)"
   ],
-  "rust": null,
-  "ai_reject": false,
-  "trip_km": 2661,
-  "trip_fuel": "benzine",
-  "trip_cost": 519
+  "rust": null
  },
  {
   "id": "cargr_336676136",
@@ -27347,6 +27347,9 @@
   "active": true,
   "dup_of": null,
   "also_on": [],
+  "trip_km": 2510,
+  "trip_fuel": "benzine",
+  "trip_cost": 563,
   "punten": {
    "roest": 24.0,
    "motor": 18.0,
@@ -27356,12 +27359,9 @@
    "bouwjaar": 5.4
   },
   "score": 59.8,
-  "let_op": [],
-  "rust": null,
   "ai_reject": false,
-  "trip_km": 2510,
-  "trip_fuel": "benzine",
-  "trip_cost": 563
+  "let_op": [],
+  "rust": null
  },
  {
   "id": "cargr_326790829",
@@ -27394,6 +27394,9 @@
   "active": true,
   "dup_of": null,
   "also_on": [],
+  "trip_km": 2356,
+  "trip_fuel": "benzine",
+  "trip_cost": 459,
   "punten": {
    "roest": 24.0,
    "motor": 10.8,
@@ -27403,12 +27406,9 @@
    "bouwjaar": 6.0
   },
   "score": 58.0,
-  "let_op": [],
-  "rust": null,
   "ai_reject": false,
-  "trip_km": 2356,
-  "trip_fuel": "benzine",
-  "trip_cost": 459
+  "let_op": [],
+  "rust": null
  },
  {
   "id": "cargr_51645545",
@@ -27441,6 +27441,9 @@
   "active": true,
   "dup_of": null,
   "also_on": [],
+  "trip_km": 2599,
+  "trip_fuel": "diesel",
+  "trip_cost": 409,
   "punten": {
    "roest": 24.0,
    "motor": 16.2,
@@ -27450,12 +27453,9 @@
    "bouwjaar": 6.0
   },
   "score": 64.0,
-  "let_op": [],
-  "rust": null,
   "ai_reject": false,
-  "trip_km": 2599,
-  "trip_fuel": "diesel",
-  "trip_cost": 409
+  "let_op": [],
+  "rust": null
  },
  {
   "id": "cargr_57316356",
@@ -27488,6 +27488,9 @@
   "active": true,
   "dup_of": "wp_w67vendwk96x",
   "also_on": [],
+  "trip_km": 2599,
+  "trip_fuel": "lpg",
+  "trip_cost": 311,
   "punten": {
    "roest": 24.0,
    "motor": 14.4,
@@ -27498,14 +27501,11 @@
    "al op LPG": 3
   },
   "score": 60.4,
+  "ai_reject": false,
   "let_op": [
    "LPG-installatie: keuring en tankdatum checken"
   ],
-  "rust": null,
-  "ai_reject": false,
-  "trip_km": 2599,
-  "trip_fuel": "lpg",
-  "trip_cost": 311
+  "rust": null
  },
  {
   "id": "cargr_56258237",
@@ -27538,6 +27538,9 @@
   "active": true,
   "dup_of": null,
   "also_on": [],
+  "trip_km": 2674,
+  "trip_fuel": "benzine",
+  "trip_cost": 548,
   "punten": {
    "roest": 24.0,
    "motor": 5.4,
@@ -27547,14 +27550,11 @@
    "bouwjaar": 3.6
   },
   "score": 55.4,
+  "ai_reject": false,
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
   ],
-  "rust": null,
-  "ai_reject": false,
-  "trip_km": 2674,
-  "trip_fuel": "benzine",
-  "trip_cost": 548
+  "rust": null
  },
  {
   "id": "cargr_11586961",
@@ -27587,6 +27587,9 @@
   "active": true,
   "dup_of": null,
   "also_on": [],
+  "trip_km": 2679,
+  "trip_fuel": "benzine",
+  "trip_cost": 549,
   "punten": {
    "roest": 24.0,
    "motor": 5.4,
@@ -27596,14 +27599,11 @@
    "bouwjaar": 5.4
   },
   "score": 55.1,
+  "ai_reject": false,
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
   ],
-  "rust": null,
-  "ai_reject": false,
-  "trip_km": 2679,
-  "trip_fuel": "benzine",
-  "trip_cost": 549
+  "rust": null
  },
  {
   "id": "cargr_327100677",
@@ -27636,6 +27636,9 @@
   "active": true,
   "dup_of": null,
   "also_on": [],
+  "trip_km": 2661,
+  "trip_fuel": "benzine",
+  "trip_cost": 545,
   "punten": {
    "roest": 24.0,
    "motor": 14.4,
@@ -27645,14 +27648,11 @@
    "bouwjaar": 4.8
   },
   "score": 60.2,
+  "ai_reject": false,
   "let_op": [
    "Mogelijk W123: check chassisnummer (WDB124… = W124)"
   ],
-  "rust": null,
-  "ai_reject": false,
-  "trip_km": 2661,
-  "trip_fuel": "benzine",
-  "trip_cost": 545
+  "rust": null
  },
  {
   "id": "cargr_42223281",
@@ -27685,6 +27685,9 @@
   "active": true,
   "dup_of": null,
   "also_on": [],
+  "trip_km": 2319,
+  "trip_fuel": "benzine",
+  "trip_cost": 475,
   "punten": {
    "roest": 24.0,
    "motor": 5.4,
@@ -27694,14 +27697,11 @@
    "bouwjaar": 5.4
   },
   "score": 52.3,
+  "ai_reject": false,
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
   ],
-  "rust": null,
-  "ai_reject": false,
-  "trip_km": 2319,
-  "trip_fuel": "benzine",
-  "trip_cost": 475
+  "rust": null
  },
  {
   "id": "cargr_56102300",
@@ -27739,6 +27739,9 @@
     "url": "https://www.marktplaats.nl/v/auto-s/mercedes-benz/m2451999962-mercedes-w124-250d-diesel-12-12-1986-bijna-belastingvrij"
    }
   ],
+  "trip_km": 2636,
+  "trip_fuel": "diesel",
+  "trip_cost": 443,
   "punten": {
    "roest": 28.0,
    "motor": 18.0,
@@ -27748,6 +27751,7 @@
    "bouwjaar": 5.4
   },
   "score": 71.6,
+  "ai_reject": false,
   "let_op": [],
   "rust": {
    "sills": null,
@@ -27756,11 +27760,7 @@
    "chassis": "W124",
    "note": "Vooraanzicht van een blauwe W124; dorpels niet goed te beoordelen, geen zichtbare roest.",
    "photos": 1
-  },
-  "ai_reject": false,
-  "trip_km": 2636,
-  "trip_fuel": "diesel",
-  "trip_cost": 443
+  }
  },
  {
   "id": "cargr_56715470",
@@ -27793,6 +27793,9 @@
   "active": true,
   "dup_of": null,
   "also_on": [],
+  "trip_km": 2662,
+  "trip_fuel": "benzine",
+  "trip_cost": 519,
   "punten": {
    "roest": 24.0,
    "motor": 10.8,
@@ -27802,12 +27805,9 @@
    "bouwjaar": 6.0
   },
   "score": 59.1,
-  "let_op": [],
-  "rust": null,
   "ai_reject": false,
-  "trip_km": 2662,
-  "trip_fuel": "benzine",
-  "trip_cost": 519
+  "let_op": [],
+  "rust": null
  },
  {
   "id": "cargr_55810563",
@@ -27840,6 +27840,9 @@
   "active": true,
   "dup_of": null,
   "also_on": [],
+  "trip_km": 2662,
+  "trip_fuel": "diesel",
+  "trip_cost": 419,
   "punten": {
    "roest": 24.0,
    "motor": 16.2,
@@ -27849,12 +27852,9 @@
    "bouwjaar": 6.0
   },
   "score": 64.5,
-  "let_op": [],
-  "rust": null,
   "ai_reject": false,
-  "trip_km": 2662,
-  "trip_fuel": "diesel",
-  "trip_cost": 419
+  "let_op": [],
+  "rust": null
  },
  {
   "id": "cargr_51338346",
@@ -27887,6 +27887,9 @@
   "active": true,
   "dup_of": null,
   "also_on": [],
+  "trip_km": 3056,
+  "trip_fuel": "diesel",
+  "trip_cost": 513,
   "punten": {
    "roest": 24.0,
    "motor": 18.0,
@@ -27896,12 +27899,9 @@
    "bouwjaar": 4.8
   },
   "score": 64.7,
-  "let_op": [],
-  "rust": null,
   "ai_reject": false,
-  "trip_km": 3056,
-  "trip_fuel": "diesel",
-  "trip_cost": 513
+  "let_op": [],
+  "rust": null
  },
  {
   "id": "cargr_340419815",
@@ -27934,6 +27934,9 @@
   "active": true,
   "dup_of": null,
   "also_on": [],
+  "trip_km": 2478,
+  "trip_fuel": "benzine",
+  "trip_cost": 435,
   "punten": {
    "roest": 24.0,
    "motor": 10.8,
@@ -27943,12 +27946,9 @@
    "bouwjaar": 6.0
   },
   "score": 59.6,
-  "let_op": [],
-  "rust": null,
   "ai_reject": false,
-  "trip_km": 2478,
-  "trip_fuel": "benzine",
-  "trip_cost": 435
+  "let_op": [],
+  "rust": null
  },
  {
   "id": "mp_m2450612951",
