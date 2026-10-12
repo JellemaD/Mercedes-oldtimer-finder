@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
 Unified Mercedes Diesel Scraper V2
-Uses ONLY scrape_extra_sources.py (proven working scrapers)
-Skips broken Marktplaats scraper from scrapers.py
+Combines ALL sources: Marktplaats + Extra sources
 
 Sources:
+- Marktplaats.nl
 - AutoScout24 (DE, NL)
 - eBay.de
 - Kleinanzeigen.de
@@ -28,7 +28,7 @@ def main():
     print(f"Models: {config.MODELS}")
     print(f"Year range: {config.YEAR_FROM}-{config.YEAR_TO}")
     print()
-    print("Using: scrape_extra_sources.py (AutoScout24, eBay, Kleinanzeigen, etc.)")
+    print("Using: Marktplaats + scrape_extra_sources.py (all sources)")
     print()
 
     db = Database()
@@ -49,6 +49,29 @@ def main():
         print(f"ERROR: Could not import scrape_extra_sources.py: {e}")
         print("Make sure scrape_extra_sources.py is in the same directory!")
         sys.exit(1)
+
+    # Import Marktplaats from fetch_real_data
+    try:
+        from fetch_real_data import scrape_marktplaats
+    except ImportError:
+        print("WARNING: Could not import Marktplaats scraper from fetch_real_data.py")
+        scrape_marktplaats = None
+
+    # ========================================================================
+    # Marktplaats.nl
+    # ========================================================================
+    print("\n" + "="*60)
+    print("MARKTPLAATS.NL")
+    print("="*60)
+    if scrape_marktplaats:
+        try:
+            results = scrape_marktplaats()
+            all_results.extend(results)
+            print(f"✅ Added {len(results)} ads from Marktplaats.nl")
+        except Exception as e:
+            print(f"❌ Error: {e}")
+    else:
+        print("⚠️  Marktplaats scraper not available")
 
     # ========================================================================
     # AutoScout24 Germany

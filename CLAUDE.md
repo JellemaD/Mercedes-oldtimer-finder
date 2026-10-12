@@ -64,3 +64,19 @@ python web_app.py
 - **Poort:** 5000
 - **Database:** mercedes_diesel.db
 - **Scheduler:** Dagelijks om 06:00
+
+---
+
+## Uitgebreide Lessons Learned
+
+Voor een volledige lijst van alle lessons learned uit dit project, zie **[LESSONS_LEARNED.md](LESSONS_LEARNED.md)**
+
+Belangrijkste categorieën:
+1. **Deployment & Server Management** - Process killing, cache clearing, multi-process issues
+2. **Web Scraping** - Bot detection, rate limiting, HTML structure changes, multiple sources
+3. **Data Management** - Duplicate detection, data preservation, filtering strategies
+4. **Data Extraction & Parsing** - Multiple date formats, classic vs modern filtering, price parsing
+5. **Code Architecture** - Graceful degradation, modular design, error isolation
+6. **Testing & Debugging** - Incremental testing, backup versions, git restore strategies
+7. **Project Scope Evolution** - Focus refinement, feature additions, user feedback
+8. **Platform-Specific Issues** - UTF-8 encoding, PythonAnywhere deployment
