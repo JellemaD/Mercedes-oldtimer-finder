@@ -43,7 +43,7 @@ USAGE = {'input': 0, 'output': 0}
 FIRST_IMAGES = 4  # photos that identify a listing's photo set (cache key)
 MAX_PHOTOS = 16   # photos sent per car; fewer in the search result -> ad page via detail_images()
 MAX_SIDE = 800    # px; photos are scaled down before sending (fewer tokens, rust still visible)
-VERSION = 2       # bump to re-check every car (v2: all ad photos, sills_photo must be named)
+VERSION = 3       # bump to re-check every car (v2: all ad photos, sills photo named; v3: Kleinanzeigen both layouts)
 CHASSIS = ['W124', 'W201', 'W123', 'ander', 'onzeker']
 
 PROMPT = """Dit zijn foto's (genummerd 1, 2, 3 ... in volgorde) uit een advertentie voor een Mercedes

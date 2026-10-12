@@ -12,6 +12,7 @@ Cards: <article data-adid data-href>, h3 title, snippet, price, tags 'EZ 05/1986
 
 import json
 import re
+from html import unescape as html_unescape
 
 from bs4 import BeautifulSoup
 
@@ -106,15 +107,18 @@ def _query(keyword, ez_from, models):
 def detail_images(url):
     """All gallery photos (960 px) from the ad page; used by the rust check when the search
     result photos don't show the sills."""
-    soup = BeautifulSoup(text_of(fetch(url)), 'lxml')
-    seen, out = set(), []
-    for im in soup.select('.galleryimage-element img'):
-        src = im.get('data-imgsrc') or im.get('src') or ''
-        base = src.split('?')[0]
-        if base.startswith('https://img.kleinanzeigen.de') and base not in seen:
-            seen.add(base)
-            out.append(base + '?rule=$_59.JPG')
-    return out
+    # Kleinanzeigen serves two page layouts at random:
+    # - app layout (~3 MB): the ad's photos are the first "imageList" in the embedded data;
+    # - classic layout (~250 kB): each gallery photo is referenced 5+ times, other ads' photos 1-3 times.
+    page = html_unescape(text_of(fetch(url)))
+    pattern = r'prod-ads/images/([0-9a-f]{2}/[0-9a-f-]{36})'
+    start = page.find('"imageList"')
+    if start >= 0:
+        gallery = list(dict.fromkeys(re.findall(pattern, page[start:page.find('}]]]', start) + 4])))
+    else:
+        paths = re.findall(pattern, page)
+        gallery = [p for p in dict.fromkeys(paths) if paths.count(p) >= 4]
+    return [f'https://img.kleinanzeigen.de/api/v1/prod-ads/images/{p}?rule=$_59.JPG' for p in gallery]
 
 
 def scrape():
