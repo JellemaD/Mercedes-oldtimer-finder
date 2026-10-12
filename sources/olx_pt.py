@@ -66,7 +66,7 @@ def _item(ad):
         mileage=p.get('quilometros'),
         fuel=fuel,
         location=', '.join(s for s in (loc.get('cityName'), loc.get('regionName')) if s),
-        image=photos[0] if photos else None,
+        image=photos[0] if photos else None, images=photos,
         attrs={'modelo': p.get('modelo'), 'engine_capacity': p.get('engine_capacity'),
                'origin': p.get('origin')},
     )

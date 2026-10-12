@@ -69,7 +69,7 @@ def _item(raw, code, base):
         NAME, code, f"as24_{code.lower()}_{raw['id']}", url, title,
         text=details, price=price, year=tr.get('firstRegistration'),
         mileage=tr.get('mileage') or v.get('mileageInKm'), fuel=v.get('fuel'),
-        location=location, image=images[0] if images else None,
+        location=location, image=images[0] if images else None, images=images,
         attrs={'model': v.get('model'), 'modelId': v.get('modelId'),
                'firstRegistration': tr.get('firstRegistration'),
                'displacement': v.get('engineDisplacementInCCM')})

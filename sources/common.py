@@ -10,7 +10,8 @@ Every source module in this package defines:
 A listing dict has these keys (use listing() to build one):
     required: source, country, id (unique, prefixed per source), url (absolute), title
     optional: text (description/snippet), price (int EUR), year (int), mileage (int km),
-              fuel (raw string from the site), location, image (absolute url), attrs (dict)
+              fuel (raw string from the site), location, image (absolute url), attrs (dict),
+              images (list of photo urls, first MAX_IMAGES kept; used for the rust check)
 
 Rules for scrapers:
 - Be polite: fetch() waits DELAY seconds between requests; keep total requests per source < ~40.
@@ -28,6 +29,7 @@ UA = ('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
       '(KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36')
 DELAY = 1.5
 TIMEOUT = 30
+MAX_IMAGES = 4  # photos kept per listing for the rust check (rust.py)
 
 # Search terms per series. Sources pick what fits their search box.
 TERMS_W124 = ['w124', 'mercedes 250d', 'mercedes 300d', 'mercedes 300e', 'mercedes 260e', 'mercedes 230e']
@@ -103,16 +105,17 @@ def clean(s, limit=None):
 
 
 def listing(source, country, id, url, title, text='', price=None, year=None, mileage=None,
-            fuel=None, location=None, image=None, attrs=None):
+            fuel=None, location=None, image=None, attrs=None, images=None):
     price = to_int(price)
     mileage = to_int(mileage)
+    images = [u for u in (images or []) if u][:MAX_IMAGES] or ([image] if image else [])
     return {
         'source': source, 'country': country, 'id': str(id), 'url': url,
         'title': clean(title, 200), 'text': clean(text, 600),
         'price': price if price and 100 <= price <= 500_000 else None,
         'year': to_year(year), 'mileage': mileage if mileage and mileage < 2_000_000 else None,
         'fuel': clean(fuel) or None, 'location': clean(location) or None,
-        'image': image or None, 'attrs': attrs or {},
+        'image': image or (images[0] if images else None), 'images': images, 'attrs': attrs or {},
     }
 
 

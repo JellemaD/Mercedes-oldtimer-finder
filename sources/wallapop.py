@@ -41,6 +41,7 @@ def _to_listing(it):
         year=ta.get('year'), mileage=ta.get('km'), fuel=ta.get('engine'),
         location=', '.join(x for x in (loc.get('city'), loc.get('region2')) if x) or None,
         image=((images[0].get('urls') or {}).get('medium')) if images else None,
+        images=[(im.get('urls') or {}).get('medium') for im in images],
         attrs={k: ta[k] for k in ('model', 'version', 'gearbox', 'horsepower') if ta.get(k)},
     )
 

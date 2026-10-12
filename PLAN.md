@@ -168,5 +168,17 @@ dealeradvertenties (storing of ombouw bij Marktplaats). Morgen opnieuw testen; z
 **Nog te checken:** de eerste geplande run (13-10 04:00 UTC) met beide jobs achter elkaar; Marktplaats en
 coches.net vanaf de laptop-IP herstellen vanzelf (worden niet meer vanaf de laptop gescraped).
 
+## Roest op de foto's (12-10-2026)
+
+Op verzoek van Durk: roest telt voor **40%** van de score, roest op de **dorpels extra zwaar**; de andere
+onderdelen behouden hun onderlinge verhouding en zijn teruggeschaald naar 60% (motor 18, staat 12, km 12,
+prijs 9, bouwjaar 6, LPG-bonus 3).
+
+`rust.py`: Claude (standaard `claude-opus-5-5`, effort low, te wijzigen met env `RUST_MODEL`) bekijkt tot 4
+foto's per auto (grote versie waar de site die heeft) en geeft dorpels 0-3 of "niet te zien" en elders 0-3.
+Punten (van 10): start 10; elders -2/-4/-6; dorpels -5/-8/-10; dorpels niet te zien -3; niet beoordeeld 6.
+Uitslag per auto bewaard in `docs/data/rust.json` (elke auto één keer), max 150 auto's per run (beste eerst).
+Vereist GitHub-secret `ANTHROPIC_API_KEY`; zonder key wordt de check overgeslagen.
+
 Haiku-classificatie (±$0,50/maand)
 alleen als fase 2 onder 90% blijft.

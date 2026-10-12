@@ -111,13 +111,15 @@ NL · BE · DE · ES · PT · GR — <span id="stand">Laden…</span></p>
   <summary>Hoe wordt de score bepaald?</summary>
   <p>Elke ochtend om 6:00 worden tien sites doorzocht. Alleen W124 en W201 t/m bouwjaar 1987 blijven over: diesels met 5 of 6 cilinders (250D, 300D, 300D Turbo, 190D 2.5) en benzinemotoren die goed op LPG kunnen. Elke auto krijgt een score van 0 tot 100; wijs de score aan (of tik erop) voor de berekening.</p>
   <ul>
-    <li><b>30 motor</b>: 250D/300D 30, 190D 2.5 27. Benzine naar LPG-geschiktheid: ★★★ 6-cilinder M103 (300E, 260E, 190E 2.6) 30, ★★ 230E/190E 2.3 24, ★ 200/190E 2.0 18, 190E 2.3-16 (16V) 9.</li>
-    <li><b>20 staat</b>: begint op 10. Woorden als roestvrij, H-kenteken, onderhoudshistorie, keuring geldig, eerste eigenaar geven +3; roest, motorschade, rijdt niet, opknapper, geen keuring of schade −5.</li>
-    <li><b>20 kilometerstand</b>: diesel 0 km = 20, 500.000 km = 0; benzine 0 km = 20, 350.000 km = 0.</li>
-    <li><b>15 prijs</b> vergeleken met hetzelfde model in de lijst: 60% van de middelste prijs = 15, 160% = 0.</li>
-    <li><b>10 bouwjaar</b>: 1987 = 10, 1986 = 9 … 1982 = 5.</li>
-    <li><b>+5</b> als een benzineauto al een LPG-installatie heeft.</li>
+    <li><b>40 roest</b>, beoordeeld door AI op de foto's van de advertentie (tot 4 per auto). Geen roest en dorpels goed te zien = 40. Roest elders kost 8 / 16 / 24 (een beetje / duidelijk / veel), roest op de <b>dorpels telt extra zwaar</b>: 20 / 32 / 40. Dorpels niet te zien: −12. Nog niet beoordeeld = 24.</li>
+    <li><b>18 motor</b>: 250D/300D 18, 190D 2.5 16. Benzine naar LPG-geschiktheid: ★★★ 6-cilinder M103 (300E, 260E, 190E 2.6) 18, ★★ 230E/190E 2.3 14, ★ 200/190E 2.0 11, 190E 2.3-16 (16V) 5.</li>
+    <li><b>12 staat</b> volgens de tekst: begint op 6. Woorden als roestvrij, H-kenteken, onderhoudshistorie, keuring geldig, eerste eigenaar geven +1,8; roest, motorschade, rijdt niet, opknapper, geen keuring of schade −3.</li>
+    <li><b>12 kilometerstand</b>: diesel 0 km = 12, 500.000 km = 0; benzine 0 km = 12, 350.000 km = 0.</li>
+    <li><b>9 prijs</b> vergeleken met hetzelfde model in de lijst: 60% van de middelste prijs = 9, 160% = 0.</li>
+    <li><b>6 bouwjaar</b>: 1987 = 6 … 1982 = 3.</li>
+    <li><b>+3</b> als een benzineauto al een LPG-installatie heeft.</li>
   </ul>
+  <p>De AI ziet alleen wat op de foto's staat: een verkoper die de dorpels niet fotografeert, verbergt misschien iets. Kijk bij bezichtiging altijd zelf onder de dorpels, bij de krikpunten en in de wielkasten.</p>
   <p>Onbekende kilometerstand, prijs of bouwjaar telt als iets onder gemiddeld. <b>"Mogelijk W123"</b>: de W123 had dezelfde typenamen (200, 230E, 300D) en werd tot begin 1986 gebouwd; het chassisnummer begint bij een W124 met WDB124.</p>
   <p><b>Auto uit het buitenland:</b> voor een Nederlands kenteken is een RDW-keuring nodig en moet je de BPM uitzoeken.</p>
   <p><b>LPG:</b> de M103-zescilinder (300E, 260E, 190E 2.6) heeft genoeg vermogen om het verlies van 5–10% niet te merken en hydraulische klepstoters. De M102 (230E, 200) is de klassieke taxi-op-LPG. Bij een KE-Jetronic met venturi-installatie hoort een terugslagklep. Bij een auto die al op LPG rijdt: keuring en tankdatum checken.</p>
@@ -149,12 +151,17 @@ const sterren = n => n ? '★'.repeat(n) : '';
 function scoreTip(a) {
   const p = a.punten || {}, km = a.mileage ? nl(a.mileage) + ' km' : 'onbekend';
   const goed = (a.signals_good || []).join(', ');
+  const NIV = ['geen', 'een beetje', 'duidelijk', 'veel'];
+  const ro = a.rust;
+  const roestTekst = !ro ? 'nog niet beoordeeld' :
+    `dorpels: ${ro.sills === null ? 'niet te zien' : NIV[ro.sills]} · elders: ${NIV[ro.other]}${ro.note ? '<br>' + esc(ro.note) : ''}`;
   let r = `
-    <tr><td>Motor ${esc(a.model)}<br><span class="klein">${a.fuel === 'diesel' ? a.cyl + '-cil diesel' : 'benzine, LPG ' + (sterren(a.lpg_score) || '–')}</span></td><td>${nl(p.motor)} / 30</td></tr>
-    <tr><td>Staat volgens advertentie<br><span class="klein">${goed ? '+ ' + esc(goed) : 'geen bijzonderheden'}${(a.signals_bad || []).length ? '<br>− ' + esc(a.signals_bad.join(', ')) : ''}</span></td><td>${nl(p.staat)} / 20</td></tr>
-    <tr><td>Kilometerstand ${km}</td><td>${nl(p.km)} / 20</td></tr>
-    <tr><td>Prijs t.o.v. zelfde model</td><td>${nl(p.prijs)} / 15</td></tr>
-    <tr><td>Bouwjaar ${a.year || 'onbekend'}</td><td>${nl(p.bouwjaar)} / 10</td></tr>`;
+    <tr><td>Roest op de foto's<br><span class="klein">${roestTekst}</span></td><td>${nl(p.roest ?? 0)} / 40</td></tr>
+    <tr><td>Motor ${esc(a.model)}<br><span class="klein">${a.fuel === 'diesel' ? a.cyl + '-cil diesel' : 'benzine, LPG ' + (sterren(a.lpg_score) || '–')}</span></td><td>${nl(p.motor)} / 18</td></tr>
+    <tr><td>Staat volgens advertentie<br><span class="klein">${goed ? '+ ' + esc(goed) : 'geen bijzonderheden'}${(a.signals_bad || []).length ? '<br>− ' + esc(a.signals_bad.join(', ')) : ''}</span></td><td>${nl(p.staat)} / 12</td></tr>
+    <tr><td>Kilometerstand ${km}</td><td>${nl(p.km)} / 12</td></tr>
+    <tr><td>Prijs t.o.v. zelfde model</td><td>${nl(p.prijs)} / 9</td></tr>
+    <tr><td>Bouwjaar ${a.year || 'onbekend'}</td><td>${nl(p.bouwjaar)} / 6</td></tr>`;
   if (p['al op LPG']) r += `<tr><td>Rijdt al op LPG</td><td>+${nl(p['al op LPG'])}</td></tr>`;
   return `<span class="tip" role="tooltip"><b>Zo is deze score berekend</b><table>${r}<tr class="som"><td><b>Totaal</b></td><td>${nl(a.score)} / 100</td></tr></table></span>`;
 }

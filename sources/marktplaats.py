@@ -49,15 +49,15 @@ def _to_listing(item, base, source, country, prefix):
     url = item.get('vipUrl') or ''
     if not url or not item.get('itemId'):
         return None
-    images = item.get('imageUrls') or []
-    image = ('https:' + images[0]) if images and images[0].startswith('//') else (images[0] if images else None)
+    images = [('https:' + u) if u.startswith('//') else u for u in item.get('imageUrls') or []]
+    image = images[0] if images else None
     cents = (item.get('priceInfo') or {}).get('priceCents')
     return listing(
         source, country, prefix + item['itemId'], base + url, item.get('title'),
         text=item.get('categorySpecificDescription') or item.get('description'),
         price=cents // 100 if cents else None,
         year=_attr(item, 'constructionYear'), mileage=_attr(item, 'mileage'), fuel=_attr(item, 'fuel'),
-        location=(item.get('location') or {}).get('cityName'), image=image,
+        location=(item.get('location') or {}).get('cityName'), image=image, images=images,
         attrs={'categoryId': item.get('categoryId'), 'priceType': (item.get('priceInfo') or {}).get('priceType')},
     )
 

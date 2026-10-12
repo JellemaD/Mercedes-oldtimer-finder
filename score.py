@@ -1,12 +1,15 @@
 """
 Score 0-100 per listing, with the breakdown shown on the website.
 
-    motor           30  diesel 250D/300D = 10, 190D 2.5 = 9; petrol by LPG score (3=10, 2=8, 1=6, 0=3)
-    staat           20  starts at 5; good words in the ad +1.5 each, bad words -2.5 each
-    kilometerstand  20  diesel: 0 km = 10, 500,000 km = 0; petrol: 0 km = 10, 350,000 km = 0
-    prijs           15  price against the median of the same model in today's list
-    bouwjaar        10  1987 = 10 ... 1982 = 5
-    al op LPG       +5  petrol car that already has an LPG installation
+    roest           40  photo check (rust.py): starts at 10; rust elsewhere -2/-4/-6, rust on the sills
+                        -5/-8/-10 (counts extra heavy), sills not visible -3; not checked = 6
+    motor           18  diesel 250D/300D = 10, 190D 2.5 = 9; petrol by LPG score (3=10, 2=8, 1=6, 0=3)
+    staat           12  starts at 5; good words in the ad +1.5 each, bad words -2.5 each
+    kilometerstand  12  diesel: 0 km = 10, 500,000 km = 0; petrol: 0 km = 10, 350,000 km = 0
+    prijs            9  price against the median of the same model in today's list
+    bouwjaar         6  1987 = 10 ... 1982 = 5
+    al op LPG       +3  petrol car that already has an LPG installation
+(Rust was added at 40%; the other parts kept their mutual proportions, scaled to 60%.)
 
 condition_signals() needs the ad text, so scrape.py calls it per listing; score_all() needs the
 whole list (median prices), so scrape.py calls it after the merge.
@@ -15,9 +18,13 @@ whole list (median prices), so scrape.py calls it after the merge.
 import re
 from statistics import median
 
-WEIGHTS = {'motor': 3.0, 'staat': 2.0, 'km': 2.0, 'prijs': 1.5, 'bouwjaar': 1.0}
-LPG_BONUS = 5
+WEIGHTS = {'roest': 4.0, 'motor': 1.8, 'staat': 1.2, 'km': 1.2, 'prijs': 0.9, 'bouwjaar': 0.6}
+LPG_BONUS = 3
 UNKNOWN = 4.0  # points (of 10) for a missing km, price or year: a bit below average
+RUST_OTHER = {0: 0, 1: 2, 2: 4, 3: 6}
+RUST_SILLS = {0: 0, 1: 5, 2: 8, 3: 10}  # sills count extra heavy
+SILLS_UNSEEN = 3
+RUST_UNCHECKED = 6.0  # below "nothing seen" (7), above "a little rust on the sills" (5)
 
 GOOD = {
     'roestvrij': r'roestvrij|rostfrei|ohne rost|kein rost|sin [oó]xido|sem ferrugem|χωρ[ίι]ς σκουρι',
@@ -53,6 +60,14 @@ def condition_signals(text):
     """(good, bad): lists of signal names found in title + description."""
     t = (text or '').lower()
     return [k for k, rx in _GOOD.items() if rx.search(t)], [k for k, rx in _BAD.items() if rx.search(t)]
+
+
+def _rust(it):
+    r = it.get('rust')
+    if not r:
+        return RUST_UNCHECKED
+    sills = SILLS_UNSEEN if r.get('sills') is None else RUST_SILLS[r['sills']]
+    return max(0.0, 10.0 - RUST_OTHER[r.get('other') or 0] - sills)
 
 
 def _motor(it):
@@ -94,6 +109,7 @@ def score_all(items):
     for it in items:
         good, bad = it.get('signals_good') or [], it.get('signals_bad') or []
         parts = {
+            'roest': _rust(it),
             'motor': _motor(it),
             'staat': max(0.0, min(10.0, 5 + 1.5 * len(good) - 2.5 * len(bad))),
             'km': _km(it),
@@ -107,6 +123,11 @@ def score_all(items):
         it['score'] = round(min(100.0, sum(punten.values())), 1)
 
         let_op = []
+        r = it.get('rust') or {}
+        if (r.get('sills') or 0) >= 1:
+            let_op.append(['', 'Beetje roest op dorpels', 'Roest op dorpels', 'Veel roest op dorpels'][r['sills']])
+        if (r.get('other') or 0) >= 2:
+            let_op.append('Roest zichtbaar op foto')
         if it.get('maybe_w123'):
             let_op.append('Mogelijk W123: check chassisnummer (WDB124… = W124)')
         if not it.get('year_known'):
