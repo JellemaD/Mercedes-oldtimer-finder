@@ -97,7 +97,8 @@ NL · BE · DE · droog ES/PT/GR · Zuid-Frankrijk · Zuid-Italië — <span id=
   <div class="frij"><span>Overig</span><div id="f-extra"></div></div>
   <div class="frij"><span>Max prijs</span><input id="f-prijs" type="number" inputmode="numeric" step="500" min="0" placeholder="geen">
     <span style="min-width:auto">Sorteer</span>
-    <select id="f-sort"><option value="score">Score</option><option value="nieuw">Nieuwste eerst</option><option value="prijs">Prijs laag–hoog</option><option value="jaar">Bouwjaar nieuw–oud</option><option value="km">Kilometers laag–hoog</option></select></div>
+    <select id="f-sort"><option value="score">Score</option><option value="nieuw">Nieuwste eerst</option><option value="prijs">Prijs laag–hoog</option><option value="totaal">Prijs + rit laag–hoog</option><option value="jaar">Bouwjaar nieuw–oud</option><option value="km">Kilometers laag–hoog</option></select></div>
+  <div class="frij"><span>Rit naar huis</span><div id="f-route"></div></div>
 </div>
 <p class="teller" id="teller"></p>
 <div id="lijst" class="lijst"></div>
@@ -121,7 +122,7 @@ NL · BE · DE · droog ES/PT/GR · Zuid-Frankrijk · Zuid-Italië — <span id=
   </ul>
   <p>De AI ziet alleen wat op de foto's staat: een verkoper die de dorpels niet fotografeert, verbergt misschien iets. Kijk bij bezichtiging altijd zelf onder de dorpels, bij de krikpunten en in de wielkasten.</p>
   <p>Onbekende kilometerstand, prijs of bouwjaar telt als iets onder gemiddeld. <b>"Mogelijk W123"</b>: de W123 had dezelfde typenamen (200, 230E, 300D) en werd tot begin 1986 gebouwd; het chassisnummer begint bij een W124 met WDB124.</p>
-  <p><b>Rit naar huis:</b> afstand hemelsbreed × 1,25 naar Soest, verbruik per model op de snelweg (bijv. 250D 8 l, 300E 12 l per 100 km; een benzineauto met LPG rijdt op LPG, 1,2× zoveel liter), brandstof diesel € 2,10, benzine € 1,95, LPG € 0,95 per liter (EU-gemiddelde begin oktober 2026). Tol (Frankrijk, Italië, Spanje), een veerboot naar de eilanden en je reis naar de auto zitten er niet in.</p>
+  <p><b>Rit naar huis:</b> afstand hemelsbreed × 1,25 naar Soest, verbruik per model op de snelweg (bijv. 250D 8 l, 300E 12 l per 100 km; een benzineauto met LPG rijdt op LPG, 1,2× zoveel liter), brandstof diesel € 2,10, benzine € 1,95, LPG € 0,95 per liter (EU-gemiddelde begin oktober 2026). Twee routes: <b>snelweg met tol</b> (Frankrijk ± € 0,095/km, Italië ± € 0,075/km + Zwitsers vignet CHF 40, Spanje ± € 15, Portugal ± € 20, Balkan vanuit Griekenland ± € 90) of <b>binnendoor zonder tol</b> (± 15% meer km, gemiddeld 65 in plaats van 95 km/u). Een veerboot van Sicilië (± € 40) of Sardinië (± € 200) telt bij beide. De score rekent met de goedkoopste route; bij "Rit naar huis" kies je welke je ziet. Je reis naar de auto zit er niet in.</p>
   <p><b>Alleen droge regio's zonder strooizout:</b> uit Spanje vallen het natte noorden (Galicië, Asturië, Cantabrië, Baskenland, Navarra, La Rioja), het koude binnenland (Castilla y León, Huesca, Teruel) en de Canarische Eilanden weg; uit Portugal het noordwesten en het koude binnenland; uit Griekenland Epirus en West-Macedonië. Uit Frankrijk alleen de Middellandse Zee-departementen, uit Italië alleen het zuiden en de eilanden. Nederland, België en Duitsland strooien wel zout: daar beslist de roestcheck op de foto's.</p>
   <p><b>Auto uit het buitenland:</b> voor een Nederlands kenteken is een RDW-keuring nodig en moet je de BPM uitzoeken.</p>
   <p><b>LPG:</b> de M103-zescilinder (300E, 260E, 190E 2.6) heeft genoeg vermogen om het verlies van 5–10% niet te merken en hydraulische klepstoters. De M102 (230E, 200) is de klassieke taxi-op-LPG. Bij een KE-Jetronic met venturi-installatie hoort een terugslagklep. Bij een auto die al op LPG rijdt: keuring en tankdatum checken.</p>
@@ -146,7 +147,17 @@ const eur = n => '€ ' + n.toLocaleString('nl-NL');
 const nl = n => n.toLocaleString('nl-NL', {maximumFractionDigits: 1});
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 let autos = [], nieuwDatum = '', toonAantal = 40;
-const f = {land: new Set(), serie: 'alle', fuel: 'alle', lpg: 'alle', extra: new Set(), prijs: null, sort: 'score'};
+const f = {land: new Set(), serie: 'alle', fuel: 'alle', lpg: 'alle', extra: new Set(), prijs: null, sort: 'score', route: 'goedkoopst'};
+const FUEL_NL = {diesel: 'diesel', benzine: 'benzine', lpg: 'LPG'};
+// Route shown for a car: 'toll' (snelweg met tol), 'free' (binnendoor) or the cheaper of the two
+function route(a) {
+  const t = a.trip;
+  if (!t) return null;
+  const key = f.route === 'tol' ? 'toll' : f.route === 'binnendoor' ? 'free' : (t.free.cost < t.toll.cost ? 'free' : 'toll');
+  return {...t[key], naam: key === 'toll' ? 'snelweg' : 'binnendoor', fuel: FUEL_NL[t.fuel]};
+}
+const ritTekst = r => `${nl(r.km)} km ${r.naam} ≈ ${eur(r.cost)} (${eur(r.fuel_cost)} ${r.fuel}${r.toll ? ' + ' + eur(r.toll) + ' tol' : ''}, ±${nl(r.hours)} u)`;
+const totaal = a => a.price ? a.price + (route(a)?.cost || 0) : null;
 
 const kleur = s => s >= 70 ? 'groen' : s >= 55 ? 'oranje' : 'rood';
 const sterren = n => n ? '★'.repeat(n) : '';
@@ -162,7 +173,7 @@ function scoreTip(a) {
     <tr><td>Motor ${esc(a.model)}<br><span class="klein">${a.fuel === 'diesel' ? a.cyl + '-cil diesel' : 'benzine, LPG ' + (sterren(a.lpg_score) || '–')}</span></td><td>${nl(p.motor)} / 18</td></tr>
     <tr><td>Staat volgens advertentie<br><span class="klein">${goed ? '+ ' + esc(goed) : 'geen bijzonderheden'}${(a.signals_bad || []).length ? '<br>− ' + esc(a.signals_bad.join(', ')) : ''}</span></td><td>${nl(p.staat)} / 12</td></tr>
     <tr><td>Kilometerstand ${km}</td><td>${nl(p.km)} / 12</td></tr>
-    <tr><td>Prijs + rit t.o.v. zelfde model<br><span class="klein">${a.price ? eur(a.price) : 'prijs ?'}${a.trip_cost ? ` + ${eur(a.trip_cost)} ${a.trip_fuel} (${nl(a.trip_km)} km)` : ''}</span></td><td>${nl(p.prijs)} / 9</td></tr>
+    <tr><td>Prijs + rit t.o.v. zelfde model<br><span class="klein">${a.price ? eur(a.price) : 'prijs ?'}${a.trip ? ` + goedkoopste rit ${eur(a.trip_cost)}` : ''}${a.trip ? `<br>snelweg: ${ritTekst({...a.trip.toll, naam: 'met tol', fuel: FUEL_NL[a.trip.fuel]})}<br>binnendoor: ${ritTekst({...a.trip.free, naam: 'zonder tol', fuel: FUEL_NL[a.trip.fuel]})}` : ''}</span></td><td>${nl(p.prijs)} / 9</td></tr>
     <tr><td>Bouwjaar ${a.year || 'onbekend'}</td><td>${nl(p.bouwjaar)} / 6</td></tr>`;
   if (p['al op LPG']) r += `<tr><td>Rijdt al op LPG</td><td>+${nl(p['al op LPG'])}</td></tr>`;
   return `<span class="tip" role="tooltip"><b>Zo is deze score berekend</b><table>${r}<tr class="som"><td><b>Totaal</b></td><td>${nl(a.score)} / 100</td></tr></table></span>`;
@@ -171,14 +182,15 @@ const badge = a => `<span class="score ${kleur(a.score)}" tabindex="0" aria-labe
 function chips(a) {
   let h = a.first_seen === nieuwDatum ? '<span class="chip new">Nieuw</span>' : '';
   h += `<span class="chip">${esc(a.model)}</span>`;
-  if (a.fuel === 'benzine' && a.lpg_score) h += `<span class="chip">LPG ${sterren(a.lpg_score)}</span>`;
+  if (a.fuel === 'benzine' && a.lpg_score) h += `<span class="chip" title="Geschikt om naar LPG om te bouwen">LPG-geschikt ${sterren(a.lpg_score)}</span>`;
   if (a.has_lpg && a.fuel === 'benzine') h += '<span class="chip good">Rijdt al op LPG</span>';
   if (a.price_prev && a.price < a.price_prev) h += '<span class="chip good">Prijs verlaagd</span>';
   for (const w of a.let_op || []) h += `<span class="chip warn">${esc(w)}</span>`;
   return h;
 }
 function feiten(a) {
-  const rit = a.trip_cost ? `rit naar huis ${nl(a.trip_km)} km ≈ ${eur(a.trip_cost)} ${a.trip_fuel}` : null;
+  const r = route(a);
+  const rit = r ? 'rit naar huis ' + ritTekst(r) : null;
   const d = [a.year || 'bouwjaar ?', a.mileage ? nl(a.mileage) + ' km' : null, a.location, `${COUNTRIES[a.country] || a.country} · ${a.source}`, rit];
   return d.filter(Boolean).map(esc).join(' · ');
 }
@@ -205,7 +217,11 @@ function knoppen(id, opties, actief, multi) {
     if (multi) { f[key].has(b.dataset.v) ? f[key].delete(b.dataset.v) : f[key].add(b.dataset.v); }
     else f[key] = b.dataset.v;
     tekenFilters(); toonLijst(true);
+    if (key === 'route') tekenTop();
   };
+}
+function tekenTop() {
+  document.getElementById('top').innerHTML = [...autos].sort(SORT.score).slice(0, 10).map(kaart).join('');
 }
 function tekenFilters() {
   const landen = Object.keys(COUNTRIES).filter(c => autos.some(a => a.country === c));
@@ -214,6 +230,7 @@ function tekenFilters() {
   knoppen('f-fuel', [['alle', 'Alle'], ['diesel', 'Diesel'], ['benzine', 'Benzine']], f.fuel);
   knoppen('f-lpg', [['alle', 'Alle'], ['3', '★★★'], ['2', '★★+'], ['al', 'Rijdt al op LPG']], f.lpg);
   knoppen('f-extra', [['nieuw', 'Nieuw vandaag'], ['zekerW124', 'Zonder "mogelijk W123"'], ['jaarbekend', 'Bouwjaar bekend'], ['verlaagd', 'Prijs verlaagd']], f.extra, true);
+  knoppen('f-route', [['goedkoopst', 'Goedkoopst'], ['tol', 'Snelweg met tol'], ['binnendoor', 'Binnendoor zonder tol']], f.route);
 }
 function gefilterd() {
   return autos.filter(a =>
@@ -233,6 +250,7 @@ const SORT = {
   prijs: (a, b) => (a.price || 1e9) - (b.price || 1e9),
   jaar: (a, b) => (b.year || 0) - (a.year || 0) || b.score - a.score,
   km: (a, b) => (a.mileage || 1e9) - (b.mileage || 1e9),
+  totaal: (a, b) => (totaal(a) || 1e9) - (totaal(b) || 1e9),
 };
 function toonLijst(reset) {
   if (reset) toonAantal = 40;
@@ -262,7 +280,7 @@ Promise.all([fetch('data/listings.json?' + Date.now()).then(r => r.json()), fetc
     document.getElementById('stand').textContent = `bijgewerkt ${t.toLocaleDateString('nl-NL', {weekday: 'long', day: 'numeric', month: 'long'})} om ${t.toLocaleTimeString('nl-NL', {hour: '2-digit', minute: '2-digit'})} · ${autos.length} auto's` + (nieuw && nieuw < autos.length ? ` · ${nieuw} nieuw` : '');
     document.getElementById('status').innerHTML = status.sources.map(s => `<tr><td>${esc(s.name || s.module)}</td><td>${esc(s.country || '')}</td><td>${s.ok ? `${s.matched} passend van ${s.found}` : `<span class="fout">${esc(s.error || 'fout')}</span>`}</td><td>${s.last_ok ? 'laatst gelukt ' + new Date(s.last_ok).toLocaleDateString('nl-NL') : ''}</td></tr>`).join('');
   } else document.getElementById('stand').textContent = `${autos.length} auto's`;
-  document.getElementById('top').innerHTML = [...autos].sort(SORT.score).slice(0, 10).map(kaart).join('');
+  tekenTop();
   tekenFilters(); toonLijst(true);
 }).catch(() => { document.getElementById('stand').textContent = 'kon de gegevens niet laden. Probeer het later opnieuw.'; });
 </script>

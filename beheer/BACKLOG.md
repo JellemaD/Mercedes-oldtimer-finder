@@ -21,7 +21,7 @@ Af = naar "Gedaan" onderaan met datum en versie. Maximaal 3 items tegelijk "bezi
 | 7 | Marktplaats volgen: gaf op 12-10 middag vanaf de laptop alleen dealeradvertenties; vanaf GitHub wel normaal | Als het terugkomt op GitHub: scraper aanpassen |
 | 8 | Subito.it (particuliere markt Italië) testen; lukt het niet: zoeklink, net als Leboncoin/La Centrale | AutoScout24.it gaf maar 9 passende auto's in het zuiden |
 | 9 | Besluit: Nederland, België en Duitsland (strooizout) houden of laten vallen? | Nu gehouden; de roestcheck beoordeelt die auto's. Durk wil "geen roest" |
-| 10 | Rit naar huis: tol (FR/IT/ES) en veerboot (Sardinië, Sicilië, Griekenland) toevoegen | Nu alleen brandstof |
+| 10 | Tolschattingen verfijnen met echte routes (bijv. per traject i.p.v. per land) als ze in de praktijk te ver afwijken | Nu vaste bedragen per land |
 
 ## Ooit / misschien
 
@@ -33,6 +33,7 @@ Af = naar "Gedaan" onderaan met datum en versie. Maximaal 3 items tegelijk "bezi
 
 | Datum | Versie | Wat |
 |---|---|---|
+| 12-10-2026 | 2.3 | Tol en routekeuze (snelweg/binnendoor), label LPG-geschikt |
 | 12-10-2026 | 2.2 | Droge regio's, Zuid-Frankrijk en Zuid-Italië, rit naar huis in de prijs |
 | 12-10-2026 | 2.1 | Kleinanzeigen-foto's in beide opmaken |
 | 12-10-2026 | 2.0 | Roestcheck op alle advertentiefoto's, dorpelfoto aanwijzen, wielkasten apart, W123-controle door AI |
