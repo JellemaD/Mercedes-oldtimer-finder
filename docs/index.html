@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#1e3a5f">
+<title>W124 &amp; 190 Finder</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚘</text></svg>">
+<style>
+:root{--bg:#f4f5f7;--card:#fff;--ink:#1b2129;--muted:#5d6672;--line:#e1e4e8;--accent:#1e3a5f;--accent-soft:#e6edf5;--warn:#9a5b06;--warn-soft:#fcf0dc;--new:#be185d;--good:#15803d;--good-soft:#e5f4ea}
+@media (prefers-color-scheme:dark){:root{--bg:#11151a;--card:#1a2028;--ink:#e6e9ed;--muted:#9aa3ae;--line:#2b333d;--accent:#7fb0e6;--accent-soft:#1c2a3a;--warn:#f0b04a;--warn-soft:#33270f;--new:#f472b6;--good:#4ade80;--good-soft:#16301f}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:780px;margin:0 auto;padding:20px 16px 48px}
+h1{font-size:1.6rem;margin:0 0 4px}
+.sub{color:var(--muted);margin:0 0 14px;font-size:.95rem}
+h2{font-size:1.15rem;margin:28px 0 12px}
+a{color:var(--accent)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;margin-bottom:14px;display:block;color:inherit;text-decoration:none}
+.card:active{transform:scale(.995)}
+.top .foto{width:100%;aspect-ratio:4/3;object-fit:cover;background:var(--line);display:block;border-radius:13px 13px 0 0}
+.body{padding:12px 14px 14px}
+.rij{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.titel{font-weight:650;font-size:1.05rem;margin:0}
+.prijs{font-weight:700;font-size:1.15rem;white-space:nowrap}
+.prijs s{font-weight:400;font-size:.8rem;color:var(--muted);margin-right:4px}
+.feiten{color:var(--muted);font-size:.92rem;margin:4px 0 8px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font-size:.78rem;padding:3px 8px;border-radius:999px;background:var(--accent-soft);color:var(--accent);font-weight:600}
+.chip.warn{background:var(--warn-soft);color:var(--warn)}
+.chip.good{background:var(--good-soft);color:var(--good)}
+.chip.new{background:var(--new);color:#fff}
+.ook{font-size:.82rem;color:var(--muted);margin:8px 0 0}
+.rang{position:absolute;top:10px;left:10px;background:var(--accent);color:#fff;font-weight:700;border-radius:10px;padding:4px 10px;font-size:.95rem}
+@media (prefers-color-scheme:dark){.rang{color:#11151a}}
+.score{position:absolute;top:10px;right:10px;background:#555;color:#fff;border:2px solid #fff;border-radius:12px;padding:5px 12px;font-size:1.35rem;font-weight:800;line-height:1.1;cursor:help;z-index:5;box-shadow:0 2px 10px rgba(0,0,0,.35);text-align:center}
+.score>small{display:block;font-size:.62rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;opacity:.95}
+.score>small::after{content:" ⓘ"}
+.score.groen{background:#15803d}.score.oranje{background:#ea7a0c}.score.rood{background:#c81e1e}
+.legenda{display:flex;gap:12px;flex-wrap:wrap;font-size:.85rem;color:var(--muted);margin:-4px 0 12px}
+.legenda i{display:inline-block;width:12px;height:12px;border-radius:4px;margin-right:5px;vertical-align:-1px}
+.tip{display:none;position:absolute;top:calc(100% + 6px);right:0;width:290px;max-width:calc(100vw - 40px);background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:12px;padding:10px 12px;box-shadow:0 8px 24px rgba(0,0,0,.18);font-size:.85rem;line-height:1.4;cursor:default;white-space:normal;text-align:left;font-weight:400;letter-spacing:0;text-transform:none}
+.score.open .tip{display:block}
+.score.open,.score:hover{z-index:20}
+@media (hover:hover){.score:hover .tip{display:block}}
+.tip table{width:100%;border-collapse:collapse;margin:6px 0 4px}
+.tip td{padding:3px 0;vertical-align:top}
+.tip td:last-child{text-align:right;white-space:nowrap;font-weight:600;padding-left:8px}
+.tip .som td{border-top:1px solid var(--line);padding-top:6px}
+.klein{color:var(--muted);font-size:.78rem}
+.fotowrap{position:relative}
+.lijst .card>a{align-items:stretch}
+.lijst .fotowrap{width:110px;flex:none}
+.lijst .foto{width:110px;height:100%;min-height:84px;object-fit:cover;background:var(--line);display:block;border-radius:13px 0 0 13px}
+.lijst .score{left:4px;right:auto;top:4px;font-size:.8rem;padding:2px 6px;border-radius:8px;border-width:1.5px}
+.lijst .score>small{font-size:.5rem}
+.lijst .tip{left:0;right:auto}
+.lijst .body{padding:10px 12px 10px 0;flex:1;min-width:0}
+.lijst .titel{font-size:.95rem;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.filters{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px 12px;margin-bottom:12px}
+.frij{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin:4px 0}
+.frij>span{font-size:.8rem;color:var(--muted);min-width:70px}
+.filters button{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:5px 11px;font:inherit;font-size:.85rem;cursor:pointer}
+.filters button[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:#fff}
+@media (prefers-color-scheme:dark){.filters button[aria-pressed=true]{color:#11151a}}
+.filters select,.filters input{font:inherit;font-size:.85rem;padding:5px 8px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink)}
+.filters input{width:100px}
+.teller{font-size:.85rem;color:var(--muted);margin:0 0 10px}
+.links{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 6px}
+.links a{font-size:.85rem;padding:5px 11px;border:1px solid var(--line);border-radius:999px;background:var(--card);text-decoration:none;color:var(--ink)}
+details{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin-top:16px}
+summary{font-weight:600;cursor:pointer}
+details p,details li{color:var(--muted);font-size:.92rem}
+.status td{font-size:.85rem;padding:2px 8px 2px 0;color:var(--muted)}
+.status .fout{color:var(--warn);font-weight:600}
+.leeg{color:var(--muted)}
+.meer{display:block;margin:6px auto 0;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:8px 18px;font:inherit;cursor:pointer}
+</style>
+</head>
+<body>
+<main>
+<h1>🚘 W124 &amp; 190 Finder</h1>
+<p class="sub">Mercedes W124 en W201 t/m bouwjaar 1987 · diesel 5/6-cilinder · benzine geschikt voor LPG<br>
+NL · BE · DE · ES · PT · GR — <span id="stand">Laden…</span></p>
+
+<h2>Top 10 van vandaag</h2>
+<div class="legenda"><span><i style="background:#15803d"></i>70+ goed</span><span><i style="background:#ea7a0c"></i>55–70 redelijk</span><span><i style="background:#c81e1e"></i>onder 55 matig</span></div>
+<div id="top" class="top"></div>
+
+<h2>Alle auto's</h2>
+<div class="filters" id="filters">
+  <div class="frij"><span>Land</span><div id="f-land"></div></div>
+  <div class="frij"><span>Serie</span><div id="f-serie"></div></div>
+  <div class="frij"><span>Brandstof</span><div id="f-fuel"></div></div>
+  <div class="frij"><span>LPG</span><div id="f-lpg"></div></div>
+  <div class="frij"><span>Overig</span><div id="f-extra"></div></div>
+  <div class="frij"><span>Max prijs</span><input id="f-prijs" type="number" inputmode="numeric" step="500" min="0" placeholder="geen">
+    <span style="min-width:auto">Sorteer</span>
+    <select id="f-sort"><option value="score">Score</option><option value="nieuw">Nieuwste eerst</option><option value="prijs">Prijs laag–hoog</option><option value="jaar">Bouwjaar nieuw–oud</option><option value="km">Kilometers laag–hoog</option></select></div>
+</div>
+<p class="teller" id="teller"></p>
+<div id="lijst" class="lijst"></div>
+<button class="meer" id="meer" hidden>Meer tonen</button>
+
+<h2>Zelf zoeken</h2>
+<p class="sub" style="margin-bottom:8px">Deze sites blokkeren automatisch zoeken; de links openen een voorgefilterde zoekopdracht.</p>
+<div class="links" id="links"></div>
+
+<details>
+  <summary>Hoe wordt de score bepaald?</summary>
+  <p>Elke ochtend om 6:00 worden tien sites doorzocht. Alleen W124 en W201 t/m bouwjaar 1987 blijven over: diesels met 5 of 6 cilinders (250D, 300D, 300D Turbo, 190D 2.5) en benzinemotoren die goed op LPG kunnen. Elke auto krijgt een score van 0 tot 100; wijs de score aan (of tik erop) voor de berekening.</p>
+  <ul>
+    <li><b>30 motor</b>: 250D/300D 30, 190D 2.5 27. Benzine naar LPG-geschiktheid: ★★★ 6-cilinder M103 (300E, 260E, 190E 2.6) 30, ★★ 230E/190E 2.3 24, ★ 200/190E 2.0 18, 190E 2.3-16 (16V) 9.</li>
+    <li><b>20 staat</b>: begint op 10. Woorden als roestvrij, H-kenteken, onderhoudshistorie, keuring geldig, eerste eigenaar geven +3; roest, motorschade, rijdt niet, opknapper, geen keuring of schade −5.</li>
+    <li><b>20 kilometerstand</b>: diesel 0 km = 20, 500.000 km = 0; benzine 0 km = 20, 350.000 km = 0.</li>
+    <li><b>15 prijs</b> vergeleken met hetzelfde model in de lijst: 60% van de middelste prijs = 15, 160% = 0.</li>
+    <li><b>10 bouwjaar</b>: 1987 = 10, 1986 = 9 … 1982 = 5.</li>
+    <li><b>+5</b> als een benzineauto al een LPG-installatie heeft.</li>
+  </ul>
+  <p>Onbekende kilometerstand, prijs of bouwjaar telt als iets onder gemiddeld. <b>"Mogelijk W123"</b>: de W123 had dezelfde typenamen (200, 230E, 300D) en werd tot begin 1986 gebouwd; het chassisnummer begint bij een W124 met WDB124.</p>
+  <p><b>Auto uit het buitenland:</b> voor een Nederlands kenteken is een RDW-keuring nodig en moet je de BPM uitzoeken.</p>
+  <p><b>LPG:</b> de M103-zescilinder (300E, 260E, 190E 2.6) heeft genoeg vermogen om het verlies van 5–10% niet te merken en hydraulische klepstoters. De M102 (230E, 200) is de klassieke taxi-op-LPG. Bij een KE-Jetronic met venturi-installatie hoort een terugslagklep. Bij een auto die al op LPG rijdt: keuring en tankdatum checken.</p>
+</details>
+<details>
+  <summary>Status per bron</summary>
+  <table class="status" id="status"></table>
+</details>
+</main>
+<script>
+const COUNTRIES = {NL: 'NL', BE: 'BE', DE: 'DE', ES: 'ES', PT: 'PT', GR: 'GR'};
+const LINKS = [
+  ['eBay.de W124', 'https://www.ebay.de/sch/9801/i.html?_nkw=mercedes+w124&_sop=10'],
+  ['eBay.de 190', 'https://www.ebay.de/sch/9801/i.html?_nkw=mercedes+190+w201&_sop=10'],
+  ['mobile.de', 'https://suchen.mobile.de/fahrzeuge/search.html?ms=17200%3B%3B%3B&minFirstRegistrationDate=1982-01-01&maxFirstRegistrationDate=1987-12-31&isSearchRequest=true'],
+  ['Milanuncios W124', 'https://www.milanuncios.com/coches-de-segunda-mano/?s=mercedes%20w124'],
+  ['Milanuncios 190', 'https://www.milanuncios.com/coches-de-segunda-mano/?s=mercedes%20190'],
+  ['AutoTrack', 'https://www.autotrack.nl/aanbod/mercedes-benz?q=w124'],
+  ['Gaspedaal', 'https://www.gaspedaal.nl/zoeken?q=mercedes+w124'],
+];
+const eur = n => '€ ' + n.toLocaleString('nl-NL');
+const nl = n => n.toLocaleString('nl-NL', {maximumFractionDigits: 1});
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let autos = [], nieuwDatum = '', toonAantal = 40;
+const f = {land: new Set(), serie: 'alle', fuel: 'alle', lpg: 'alle', extra: new Set(), prijs: null, sort: 'score'};
+
+const kleur = s => s >= 70 ? 'groen' : s >= 55 ? 'oranje' : 'rood';
+const sterren = n => n ? '★'.repeat(n) : '';
+function scoreTip(a) {
+  const p = a.punten || {}, km = a.mileage ? nl(a.mileage) + ' km' : 'onbekend';
+  const goed = (a.signals_good || []).join(', ');
+  let r = `
+    <tr><td>Motor ${esc(a.model)}<br><span class="klein">${a.fuel === 'diesel' ? a.cyl + '-cil diesel' : 'benzine, LPG ' + (sterren(a.lpg_score) || '–')}</span></td><td>${nl(p.motor)} / 30</td></tr>
+    <tr><td>Staat volgens advertentie<br><span class="klein">${goed ? '+ ' + esc(goed) : 'geen bijzonderheden'}${(a.signals_bad || []).length ? '<br>− ' + esc(a.signals_bad.join(', ')) : ''}</span></td><td>${nl(p.staat)} / 20</td></tr>
+    <tr><td>Kilometerstand ${km}</td><td>${nl(p.km)} / 20</td></tr>
+    <tr><td>Prijs t.o.v. zelfde model</td><td>${nl(p.prijs)} / 15</td></tr>
+    <tr><td>Bouwjaar ${a.year || 'onbekend'}</td><td>${nl(p.bouwjaar)} / 10</td></tr>`;
+  if (p['al op LPG']) r += `<tr><td>Rijdt al op LPG</td><td>+${nl(p['al op LPG'])}</td></tr>`;
+  return `<span class="tip" role="tooltip"><b>Zo is deze score berekend</b><table>${r}<tr class="som"><td><b>Totaal</b></td><td>${nl(a.score)} / 100</td></tr></table></span>`;
+}
+const badge = a => `<span class="score ${kleur(a.score)}" tabindex="0" aria-label="Score ${a.score} van 100, tik voor uitleg"><small>score</small>${nl(a.score)}${scoreTip(a)}</span>`;
+function chips(a) {
+  let h = a.first_seen === nieuwDatum ? '<span class="chip new">Nieuw</span>' : '';
+  h += `<span class="chip">${esc(a.model)}</span>`;
+  if (a.fuel === 'benzine' && a.lpg_score) h += `<span class="chip">LPG ${sterren(a.lpg_score)}</span>`;
+  if (a.has_lpg && a.fuel === 'benzine') h += '<span class="chip good">Rijdt al op LPG</span>';
+  if (a.price_prev && a.price < a.price_prev) h += '<span class="chip good">Prijs verlaagd</span>';
+  for (const w of a.let_op || []) h += `<span class="chip warn">${esc(w)}</span>`;
+  return h;
+}
+function feiten(a) {
+  const d = [a.year || 'bouwjaar ?', a.mileage ? nl(a.mileage) + ' km' : null, a.location, `${COUNTRIES[a.country] || a.country} · ${a.source}`];
+  return d.filter(Boolean).map(esc).join(' · ');
+}
+const prijs = a => a.price ? (a.price_prev && a.price_prev !== a.price ? `<s>${eur(a.price_prev)}</s>` : '') + eur(a.price) : 'prijs ?';
+const ook = a => (a.also_on || []).length ? `<p class="ook">Ook op: ${a.also_on.map(o => `<a href="${esc(o.url)}" target="_blank" rel="noopener">${esc(o.source)}</a>`).join(', ')}</p>` : '';
+const foto = a => a.image ? `<img class="foto" src="${esc(a.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'foto'}))">` : '<div class="foto"></div>';
+function kaart(a, i) {
+  const top = i !== undefined;
+  return `<div class="card"><a href="${esc(a.url)}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none;display:${top ? 'block' : 'flex'};gap:12px">
+    <div class="fotowrap">${foto(a)}${top ? `<span class="rang">#${i + 1}</span>` : ''}${badge(a)}</div>
+    <div class="body">
+      <div class="rij"><p class="titel">${esc(a.title)}</p><span class="prijs">${prijs(a)}</span></div>
+      <div class="feiten">${feiten(a)}</div>
+      <div class="chips">${chips(a)}</div>
+    </div></a><div style="padding:0 14px ${(a.also_on || []).length ? '12px' : '0'}">${ook(a)}</div></div>`;
+}
+
+function knoppen(id, opties, actief, multi) {
+  const el = document.getElementById(id);
+  el.innerHTML = opties.map(([v, t]) => `<button data-v="${esc(v)}" aria-pressed="${multi ? actief.has(v) : actief === v}">${esc(t)}</button>`).join(' ');
+  el.onclick = e => {
+    const b = e.target.closest('button'); if (!b) return;
+    const key = id.slice(2);
+    if (multi) { f[key].has(b.dataset.v) ? f[key].delete(b.dataset.v) : f[key].add(b.dataset.v); }
+    else f[key] = b.dataset.v;
+    tekenFilters(); toonLijst(true);
+  };
+}
+function tekenFilters() {
+  const landen = Object.keys(COUNTRIES).filter(c => autos.some(a => a.country === c));
+  knoppen('f-land', landen.map(c => [c, `${COUNTRIES[c]} (${autos.filter(a => a.country === c).length})`]), f.land, true);
+  knoppen('f-serie', [['alle', 'Alle'], ['W124', 'W124'], ['W201', 'W201 (190)']], f.serie);
+  knoppen('f-fuel', [['alle', 'Alle'], ['diesel', 'Diesel'], ['benzine', 'Benzine']], f.fuel);
+  knoppen('f-lpg', [['alle', 'Alle'], ['3', '★★★'], ['2', '★★+'], ['al', 'Rijdt al op LPG']], f.lpg);
+  knoppen('f-extra', [['nieuw', 'Nieuw vandaag'], ['zekerW124', 'Zonder "mogelijk W123"'], ['jaarbekend', 'Bouwjaar bekend'], ['verlaagd', 'Prijs verlaagd']], f.extra, true);
+}
+function gefilterd() {
+  return autos.filter(a =>
+    (!f.land.size || f.land.has(a.country)) &&
+    (f.serie === 'alle' || a.series === f.serie) &&
+    (f.fuel === 'alle' || a.fuel === f.fuel) &&
+    (f.lpg === 'alle' || (f.lpg === 'al' ? a.has_lpg && a.fuel === 'benzine' : a.fuel === 'benzine' && a.lpg_score >= +f.lpg)) &&
+    (!f.extra.has('nieuw') || a.first_seen === nieuwDatum) &&
+    (!f.extra.has('zekerW124') || !a.maybe_w123) &&
+    (!f.extra.has('jaarbekend') || a.year_known) &&
+    (!f.extra.has('verlaagd') || (a.price_prev && a.price < a.price_prev)) &&
+    (!f.prijs || (a.price && a.price <= f.prijs)));
+}
+const SORT = {
+  score: (a, b) => b.score - a.score,
+  nieuw: (a, b) => b.first_seen.localeCompare(a.first_seen) || b.score - a.score,
+  prijs: (a, b) => (a.price || 1e9) - (b.price || 1e9),
+  jaar: (a, b) => (b.year || 0) - (a.year || 0) || b.score - a.score,
+  km: (a, b) => (a.mileage || 1e9) - (b.mileage || 1e9),
+};
+function toonLijst(reset) {
+  if (reset) toonAantal = 40;
+  const lijst = gefilterd().sort(SORT[f.sort]);
+  document.getElementById('teller').textContent = `${lijst.length} van ${autos.length} auto's`;
+  document.getElementById('lijst').innerHTML = lijst.length ? lijst.slice(0, toonAantal).map(a => kaart(a)).join('') : '<p class="leeg">Geen auto\'s in deze selectie.</p>';
+  document.getElementById('meer').hidden = lijst.length <= toonAantal;
+}
+document.getElementById('meer').onclick = () => { toonAantal += 40; toonLijst(); };
+document.getElementById('f-prijs').oninput = e => { f.prijs = +e.target.value || null; toonLijst(true); };
+document.getElementById('f-sort').onchange = e => { f.sort = e.target.value; toonLijst(true); };
+document.getElementById('links').innerHTML = LINKS.map(([t, u]) => `<a href="${u}" target="_blank" rel="noopener">${esc(t)} ↗</a>`).join('');
+// Telefoon heeft geen mouse-over: tik op de score opent de uitleg (en opent niet de advertentie).
+document.addEventListener('click', e => {
+  const b = e.target.closest('.score');
+  document.querySelectorAll('.score.open').forEach(x => { if (x !== b) x.classList.remove('open'); });
+  if (b) { e.preventDefault(); e.stopPropagation(); if (!e.target.closest('.tip')) b.classList.toggle('open'); }
+});
+
+Promise.all([fetch('data/listings.json?' + Date.now()).then(r => r.json()), fetch('data/status.json?' + Date.now()).then(r => r.json()).catch(() => null)])
+.then(([listings, status]) => {
+  autos = listings.filter(a => a.active && !a.dup_of);
+  nieuwDatum = autos.reduce((m, a) => a.first_seen > m ? a.first_seen : m, '');
+  const nieuw = autos.filter(a => a.first_seen === nieuwDatum).length;
+  if (status) {
+    const t = new Date(status.updated);
+    document.getElementById('stand').textContent = `bijgewerkt ${t.toLocaleDateString('nl-NL', {weekday: 'long', day: 'numeric', month: 'long'})} om ${t.toLocaleTimeString('nl-NL', {hour: '2-digit', minute: '2-digit'})} · ${autos.length} auto's` + (nieuw && nieuw < autos.length ? ` · ${nieuw} nieuw` : '');
+    document.getElementById('status').innerHTML = status.sources.map(s => `<tr><td>${esc(s.name || s.module)}</td><td>${esc(s.country || '')}</td><td>${s.ok ? `${s.matched} passend van ${s.found}` : `<span class="fout">${esc(s.error || 'fout')}</span>`}</td><td>${s.last_ok ? 'laatst gelukt ' + new Date(s.last_ok).toLocaleDateString('nl-NL') : ''}</td></tr>`).join('');
+  } else document.getElementById('stand').textContent = `${autos.length} auto's`;
+  document.getElementById('top').innerHTML = [...autos].sort(SORT.score).slice(0, 10).map(kaart).join('');
+  tekenFilters(); toonLijst(true);
+}).catch(() => { document.getElementById('stand').textContent = 'kon de gegevens niet laden. Probeer het later opnieuw.'; });
+</script>
+</body>
+</html>

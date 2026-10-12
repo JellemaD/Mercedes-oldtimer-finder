@@ -28,6 +28,7 @@ import traceback
 from datetime import date, datetime, timezone
 
 from classify import classify
+from score import condition_signals, score_all
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(ROOT, 'docs', 'data')
@@ -80,6 +81,7 @@ def run_source(modname):
             out = {k: item.get(k) for k in KEEP_FIELDS}
             out.update({k: c[k] for k in CLASS_FIELDS})
             out['year'] = c['year']
+            out['signals_good'], out['signals_bad'] = condition_signals(f"{item['title']} {item.get('text', '')}")
             matched.append(out)
     status.update(ok=len(raw) > 0, found=len(raw), matched=len(matched), secs=round(time.time() - t0))
     if not raw:
@@ -170,7 +172,7 @@ def main():
         print(f"   gevonden {status['found']}, passend {status['matched']}, "
               f"{status['secs']}s {status['error'] or ''}", flush=True)
 
-    listings = merge(load_json(LISTINGS, []), fresh, ok_sources, today)
+    listings = score_all(merge(load_json(LISTINGS, []), fresh, ok_sources, today))
     save_json(LISTINGS, listings)
     order = {m: i for i, m in enumerate(SOURCES)}
     save_json(STATUS, {'updated': datetime.now(timezone.utc).isoformat(timespec='seconds'),

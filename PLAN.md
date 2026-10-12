@@ -56,7 +56,7 @@ Draaikosten €0 (publieke repo). Geen AI in de dagelijkse run.
 | 1 Sites testen ✅ | Per site testen vanaf GitHub-runner en laptop. ES: autoscout24.es, coches.net, milanuncios, wallapop. PT: standvirtual, olx.pt, custojusto. GR: car.gr, xe.gr. Plus bestaande NL/DE/BE-bronnen. Max 2 pogingen per site. | Tabel: werkt GitHub / werkt laptop / wordt zoeklink |
 | 2 Classifier ✅ | Eén `classify()` voor model, motor, brandstof, cilinders, jaar, LPG-score, "al LPG" | ≥90% goed op ±50 echte titels in 5 talen ✅ |
 | 3 Scrapers ✅ | `scrape.py` → `docs/data/listings.json`; Flask, APScheduler, SQLite eruit; prijs/km-parser met grenzen (fix "int too large") | Lokale run levert geldige JSON |
-| 4 Site | Filters: land, groep, brandstof, cilinders, LPG-score, al LPG, jaar, prijs, nieuw. Werkt op telefoon | Lokaal te openen en filteren |
+| 4 Site ✅ | Filters: land, groep, brandstof, cilinders, LPG-score, al LPG, jaar, prijs, nieuw. Werkt op telefoon | Lokaal te openen en filteren |
 | 5 Automatiseren | Workflow (cron + handmatig), jobs A/B, melding bij 0 resultaten per bron, Pages aan | Eerste automatische run online |
 | 6 Afronden | CLAUDE.md-tabel, `Mijn websites.html`, README `mijn-websites` | Link werkt vanaf startpagina |
 
@@ -133,6 +133,22 @@ voor 5-cil diesels, brandstof van de site gaat voor, W123-regel (≤1984 zonder 
 1985 = label "mogelijk W123"). Testset 138/138.
 
 Oude Flask-app, SQLite en scheduler staan in `99 - Archive`.
+
+## Uitkomst fase 4 (12-10-2026)
+
+`docs/index.html` (statische pagina, leest `docs/data/listings.json` + `status.json`; lokaal testen:
+`python -m http.server 8124 --directory docs`). Zelfde opzet als Auto voor Annemarie: top 10 met grote
+kaarten, daaronder alle auto's met filters (land, serie, brandstof, LPG, nieuw, zonder "mogelijk W123",
+bouwjaar bekend, prijs verlaagd, max prijs, sortering), zoeklinks naar de geblokkeerde sites, uitleg en
+status per bron. Getest op telefoonbreedte (375 px): geen horizontale scroll, geen consolefouten.
+
+**Score 0-100** (`score.py`), tik op de score voor de opbouw:
+motor 30 · staat 20 (woorden in de advertentie: roestvrij, H-kenteken, onderhoudshistorie, keuring,
+eerste eigenaar ↔ roest, motorschade, rijdt niet, opknapper, geen keuring, schade) · kilometerstand 20 ·
+prijs t.o.v. hetzelfde model 15 · bouwjaar 10 · +5 als benzine al op LPG rijdt.
+
+**Open punt:** Marktplaats gaf op 12-10 middag 0 auto's: de eigen zoekfunctie toont alleen betaalde
+dealeradvertenties (storing of ombouw bij Marktplaats). Morgen opnieuw testen; zo nodig scraper aanpassen.
 
 Haiku-classificatie (±$0,50/maand)
 alleen als fase 2 onder 90% blijft.
