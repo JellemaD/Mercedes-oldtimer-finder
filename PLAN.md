@@ -16,7 +16,12 @@ NL, DE, BE, ES, PT en GR, als website op GitHub Pages. Geen server, geen PythonA
 | W124 benzine (LPG) | 300E/TE/CE, 260E, 230E/TE/CE, 200 | 1984–1987 | 6 / 4 |
 | W201 benzine (LPG) | 190E 2.6, 190E 2.3, 190E 2.0, 190 | 1984–1987 | 6 / 4 |
 
-Vervalt: W123, W210, W124 200D, 190D 2.0, 190E 2.3-16 (verzamelobject).
+Vervalt: W123, W210, W124 200D, 190D 2.0 (4-cil diesel).
+
+**Bouwjaar beslist: t/m 31-12-1987.** Alle varianten die in 1987 bestonden doen mee, ook de 190E 2.3-16
+(LPG-score 0: 16V Cosworth-kop af te raden voor LPG). Alleen varianten die pas later kwamen vallen af:
+220E/280E/320E/500E en E-benaming (1992/93+), 300E-24 (1989), 250D Turbo (1988), 190D 2.5 Turbo (1988),
+190E 2.5-16 (1988).
 
 ### LPG-score (benzine)
 

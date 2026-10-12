@@ -243,7 +243,11 @@
    "engineDisplacement": "2290 cc"
   },
   "expect": {
-   "match": false
+   "match": true,
+   "model": "190E 2.3-16",
+   "fuel": "benzine",
+   "cyl": 4,
+   "lpg_score": 0
   }
  },
  {
@@ -1243,6 +1247,15 @@
    "cyl": 4,
    "lpg_score": 2,
    "has_lpg": false
+  }
+ },
+ {
+  "id": "syn-16v-25",
+  "title": "Mercedes 190E 2.5-16 1989",
+  "text": "",
+  "attrs": {},
+  "expect": {
+   "match": false
   }
  }
 ]

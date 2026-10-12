@@ -4,7 +4,9 @@ Classify a marketplace listing against the search profile (see PLAN.md).
 Profile: Mercedes W124 and W201, built up to and including 1987.
 - Diesel: 5 or 6 cylinders only (W124 250D/TD, 300D/TD, 300TD Turbo; W201 190D 2.5).
 - Petrol: anything that converts well to LPG, scored 1-3 stars
-  (M103 6-cyl: 300E/260E/190E 2.6 = 3; M102 2.3 = 2; M102 2.0 = 1).
+  (M103 6-cyl: 300E/260E/190E 2.6 = 3; M102 2.3 = 2; M102 2.0 = 1; 190E 2.3-16 = 0).
+- Build year decides (up to 31-12-1987). Model names are only rejected for variants that did not
+  exist yet in 1987 (220E/280E/320E/500E, E-naming, 300E-24, 250D Turbo, 190D 2.5 Turbo, 2.5-16).
 
 classify(title, text, attrs) -> dict with 'match' plus model details and a 'reason'.
 """
@@ -128,7 +130,9 @@ def _w201(s, full, fuel_hint):
             return ('190D 2.5', 'diesel', 5, 0), None
         return None, 'diesel 4-cilinder'
     if SIXTEEN_V.search(s):
-        return None, '190E 16V (verzamelobject)'
+        if re.search(r'2\.5\s?-?\s?16|\bevo\b', s):
+            return None, '190E 2.5-16 (na 1987)'
+        return ('190E 2.3-16', 'benzine', 4, 0), None  # 16V Cosworth head: not advised for LPG
     if size == '2.6':
         return ('190E 2.6', 'benzine', 6, 3), None
     if size == '2.3':
