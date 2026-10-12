@@ -57,8 +57,8 @@ Draaikosten €0 (publieke repo). Geen AI in de dagelijkse run.
 | 2 Classifier ✅ | Eén `classify()` voor model, motor, brandstof, cilinders, jaar, LPG-score, "al LPG" | ≥90% goed op ±50 echte titels in 5 talen ✅ |
 | 3 Scrapers ✅ | `scrape.py` → `docs/data/listings.json`; Flask, APScheduler, SQLite eruit; prijs/km-parser met grenzen (fix "int too large") | Lokale run levert geldige JSON |
 | 4 Site ✅ | Filters: land, groep, brandstof, cilinders, LPG-score, al LPG, jaar, prijs, nieuw. Werkt op telefoon | Lokaal te openen en filteren |
-| 5 Automatiseren | Workflow (cron + handmatig), jobs A/B, melding bij 0 resultaten per bron, Pages aan | Eerste automatische run online |
-| 6 Afronden | CLAUDE.md-tabel, `Mijn websites.html`, README `mijn-websites` | Link werkt vanaf startpagina |
+| 5 Automatiseren ✅ | Workflow (cron + handmatig), jobs A/B, melding bij 0 resultaten per bron, Pages aan | Eerste automatische run online |
+| 6 Afronden ✅ | CLAUDE.md-tabel, `Mijn websites.html`, README `mijn-websites` | Link werkt vanaf startpagina |
 
 ## Uitkomst fase 1 (12-10-2026)
 
@@ -149,6 +149,24 @@ prijs t.o.v. hetzelfde model 15 · bouwjaar 10 · +5 als benzine al op LPG rijdt
 
 **Open punt:** Marktplaats gaf op 12-10 middag 0 auto's: de eigen zoekfunctie toont alleen betaalde
 dealeradvertenties (storing of ombouw bij Marktplaats). Morgen opnieuw testen; zo nodig scraper aanpassen.
+
+## Uitkomst fase 5 en 6 (12-10-2026)
+
+- Repo hernoemd naar **JellemaD/Mercedes-oldtimer-finder** (oude naam stuurt door); site:
+  **https://jellemad.github.io/Mercedes-oldtimer-finder/** (GitHub Pages, master `/docs`).
+- `.github/workflows/scrape.yml`: dagelijks 04:00 UTC (06:00 zomer / 05:00 winter). Job `github` (9 bronnen,
+  ubuntu) → job `laptop` (car.gr, self-hosted runner `laptop-oldtimer`, label `scrape`,
+  `C:\actions-runner-oldtimer`, snelkoppeling "GitHub runner oldtimer" in Opstarten). Elke job commit
+  `docs/data`. Bron met 0 resultaten → run mislukt na opslaan → mail van GitHub. Handmatig: Actions →
+  scrape → Run workflow (optie "alleen laptop").
+- Eerste runs: github-job 9/9 bronnen, 659 advertenties (Marktplaats werkt vanaf GitHub wel); laptop-job
+  car.gr 16 passend. Twee kinderziektes opgelost: laptop-job pakte de oude commit (nu `ref: master`) en een
+  half afgebroken rebase bleef in de runner-map hangen (nu opgeruimd vóór elke run).
+- Bijgewerkt: CLAUDE.md (GitHub-tabel en Actieve Projecten), `Mijn websites.html`, README van `mijn-websites`,
+  project-CLAUDE.md (oude Flask-deployinstructies vervangen).
+
+**Nog te checken:** de eerste geplande run (13-10 04:00 UTC) met beide jobs achter elkaar; Marktplaats en
+coches.net vanaf de laptop-IP herstellen vanzelf (worden niet meer vanaf de laptop gescraped).
 
 Haiku-classificatie (±$0,50/maand)
 alleen als fase 2 onder 90% blijft.
