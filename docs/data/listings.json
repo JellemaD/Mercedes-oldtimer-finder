@@ -35283,25 +35283,10 @@
   "source_module": "car_gr",
   "price_prev": null,
   "first_seen": "2026-10-12",
-  "last_seen": "2026-10-12",
+  "last_seen": "2026-10-13",
   "active": true,
   "dup_of": null,
   "also_on": [],
-  "trip_cost": 624,
-  "punten": {
-   "roest": 24.0,
-   "motor": 5.4,
-   "staat": 6.0,
-   "km": 3.6,
-   "prijs": 5.7,
-   "bouwjaar": 4.8
-  },
-  "score": 49.5,
-  "ai_reject": false,
-  "let_op": [
-   "16V Cosworth: niet geschikt voor LPG"
-  ],
-  "rust": null,
   "trip": {
    "fuel": "benzine",
    "l100": 10.5,
@@ -35319,7 +35304,22 @@
     "cost": 624,
     "hours": 46.9
    }
-  }
+  },
+  "trip_cost": 624,
+  "punten": {
+   "roest": 24.0,
+   "motor": 5.4,
+   "staat": 6.0,
+   "km": 3.6,
+   "prijs": 5.7,
+   "bouwjaar": 4.8
+  },
+  "score": 49.5,
+  "ai_reject": false,
+  "let_op": [
+   "16V Cosworth: niet geschikt voor LPG"
+  ],
+  "rust": null
  },
  {
   "id": "cargr_53426482",
@@ -35348,23 +35348,10 @@
   "source_module": "car_gr",
   "price_prev": null,
   "first_seen": "2026-10-12",
-  "last_seen": "2026-10-12",
+  "last_seen": "2026-10-13",
   "active": true,
   "dup_of": null,
   "also_on": [],
-  "trip_cost": 629,
-  "punten": {
-   "roest": 24.0,
-   "motor": 14.4,
-   "staat": 6.0,
-   "km": 3.1,
-   "prijs": 0.0,
-   "bouwjaar": 5.4
-  },
-  "score": 52.9,
-  "ai_reject": false,
-  "let_op": [],
-  "rust": null,
   "trip": {
    "fuel": "benzine",
    "l100": 10.5,
@@ -35382,7 +35369,20 @@
     "cost": 629,
     "hours": 47.3
    }
-  }
+  },
+  "trip_cost": 629,
+  "punten": {
+   "roest": 24.0,
+   "motor": 14.4,
+   "staat": 6.0,
+   "km": 3.1,
+   "prijs": 0.0,
+   "bouwjaar": 5.4
+  },
+  "score": 52.9,
+  "ai_reject": false,
+  "let_op": [],
+  "rust": null
  },
  {
   "id": "cargr_20962945",
@@ -35411,25 +35411,10 @@
   "source_module": "car_gr",
   "price_prev": null,
   "first_seen": "2026-10-12",
-  "last_seen": "2026-10-12",
+  "last_seen": "2026-10-13",
   "active": true,
   "dup_of": null,
   "also_on": [],
-  "trip_cost": 597,
-  "punten": {
-   "roest": 24.0,
-   "motor": 10.8,
-   "staat": 6.0,
-   "km": 2.6,
-   "prijs": 9.0,
-   "bouwjaar": 4.8
-  },
-  "score": 57.2,
-  "ai_reject": false,
-  "let_op": [
-   "Mogelijk W123: check chassisnummer (WDB124… = W124)"
-  ],
-  "rust": null,
   "trip": {
    "fuel": "benzine",
    "l100": 10.0,
@@ -35447,7 +35432,22 @@
     "cost": 597,
     "hours": 47.1
    }
-  }
+  },
+  "trip_cost": 597,
+  "punten": {
+   "roest": 24.0,
+   "motor": 10.8,
+   "staat": 6.0,
+   "km": 2.6,
+   "prijs": 9.0,
+   "bouwjaar": 4.8
+  },
+  "score": 57.2,
+  "ai_reject": false,
+  "let_op": [
+   "Mogelijk W123: check chassisnummer (WDB124… = W124)"
+  ],
+  "rust": null
  },
  {
   "id": "cargr_336676136",
@@ -35476,23 +35476,10 @@
   "source_module": "car_gr",
   "price_prev": null,
   "first_seen": "2026-10-12",
-  "last_seen": "2026-10-12",
+  "last_seen": "2026-10-13",
   "active": true,
   "dup_of": null,
   "also_on": [],
-  "trip_cost": 647,
-  "punten": {
-   "roest": 24.0,
-   "motor": 18.0,
-   "staat": 6.0,
-   "km": 6.4,
-   "prijs": 0.0,
-   "bouwjaar": 5.4
-  },
-  "score": 59.8,
-  "ai_reject": false,
-  "let_op": [],
-  "rust": null,
   "trip": {
    "fuel": "benzine",
    "l100": 11.5,
@@ -35510,7 +35497,20 @@
     "cost": 647,
     "hours": 44.4
    }
-  }
+  },
+  "trip_cost": 647,
+  "punten": {
+   "roest": 24.0,
+   "motor": 18.0,
+   "staat": 6.0,
+   "km": 6.4,
+   "prijs": 0.0,
+   "bouwjaar": 5.4
+  },
+  "score": 59.8,
+  "ai_reject": false,
+  "let_op": [],
+  "rust": null
  },
  {
   "id": "cargr_326790829",
@@ -35539,23 +35539,10 @@
   "source_module": "car_gr",
   "price_prev": null,
   "first_seen": "2026-10-12",
-  "last_seen": "2026-10-12",
+  "last_seen": "2026-10-13",
   "active": true,
   "dup_of": null,
   "also_on": [],
-  "trip_cost": 528,
-  "punten": {
-   "roest": 24.0,
-   "motor": 10.8,
-   "staat": 6.0,
-   "km": 5.6,
-   "prijs": 5.4,
-   "bouwjaar": 6.0
-  },
-  "score": 57.8,
-  "ai_reject": false,
-  "let_op": [],
-  "rust": null,
   "trip": {
    "fuel": "benzine",
    "l100": 10.0,
@@ -35573,7 +35560,20 @@
     "cost": 528,
     "hours": 41.7
    }
-  }
+  },
+  "trip_cost": 528,
+  "punten": {
+   "roest": 24.0,
+   "motor": 10.8,
+   "staat": 6.0,
+   "km": 5.6,
+   "prijs": 5.4,
+   "bouwjaar": 6.0
+  },
+  "score": 57.8,
+  "ai_reject": false,
+  "let_op": [],
+  "rust": null
  },
  {
   "id": "cargr_51645545",
@@ -35602,23 +35602,10 @@
   "source_module": "car_gr",
   "price_prev": null,
   "first_seen": "2026-10-12",
-  "last_seen": "2026-10-12",
+  "last_seen": "2026-10-13",
   "active": true,
   "dup_of": null,
   "also_on": [],
-  "trip_cost": 471,
-  "punten": {
-   "roest": 24.0,
-   "motor": 16.2,
-   "staat": 6.0,
-   "km": 8.5,
-   "prijs": 2.9,
-   "bouwjaar": 6.0
-  },
-  "score": 63.6,
-  "ai_reject": false,
-  "let_op": [],
-  "rust": null,
   "trip": {
    "fuel": "diesel",
    "l100": 7.5,
@@ -35636,7 +35623,20 @@
     "cost": 471,
     "hours": 46.0
    }
-  }
+  },
+  "trip_cost": 471,
+  "punten": {
+   "roest": 24.0,
+   "motor": 16.2,
+   "staat": 6.0,
+   "km": 8.5,
+   "prijs": 2.9,
+   "bouwjaar": 6.0
+  },
+  "score": 63.6,
+  "ai_reject": false,
+  "let_op": [],
+  "rust": null
  },
  {
   "id": "cargr_57316356",
@@ -35665,26 +35665,10 @@
   "source_module": "car_gr",
   "price_prev": null,
   "first_seen": "2026-10-12",
-  "last_seen": "2026-10-12",
+  "last_seen": "2026-10-13",
   "active": true,
   "dup_of": "wp_w67vendwk96x",
   "also_on": [],
-  "trip_cost": 358,
-  "punten": {
-   "roest": 24.0,
-   "motor": 14.4,
-   "staat": 6.0,
-   "km": 4.5,
-   "prijs": 1.9,
-   "bouwjaar": 6.0,
-   "al op LPG": 3
-  },
-  "score": 59.8,
-  "ai_reject": false,
-  "let_op": [
-   "LPG-installatie: keuring en tankdatum checken"
-  ],
-  "rust": null,
   "trip": {
    "fuel": "lpg",
    "l100": 12.6,
@@ -35702,7 +35686,23 @@
     "cost": 358,
     "hours": 46.0
    }
-  }
+  },
+  "trip_cost": 358,
+  "punten": {
+   "roest": 24.0,
+   "motor": 14.4,
+   "staat": 6.0,
+   "km": 4.5,
+   "prijs": 1.9,
+   "bouwjaar": 6.0,
+   "al op LPG": 3
+  },
+  "score": 59.8,
+  "ai_reject": false,
+  "let_op": [
+   "LPG-installatie: keuring en tankdatum checken"
+  ],
+  "rust": null
  },
  {
   "id": "cargr_56258237",
@@ -35731,25 +35731,10 @@
   "source_module": "car_gr",
   "price_prev": null,
   "first_seen": "2026-10-12",
-  "last_seen": "2026-10-12",
+  "last_seen": "2026-10-13",
   "active": true,
   "dup_of": null,
   "also_on": [],
-  "trip_cost": 630,
-  "punten": {
-   "roest": 24.0,
-   "motor": 5.4,
-   "staat": 6.0,
-   "km": 7.4,
-   "prijs": 9.0,
-   "bouwjaar": 3.6
-  },
-  "score": 55.4,
-  "ai_reject": false,
-  "let_op": [
-   "16V Cosworth: niet geschikt voor LPG"
-  ],
-  "rust": null,
   "trip": {
    "fuel": "benzine",
    "l100": 10.5,
@@ -35767,7 +35752,22 @@
     "cost": 630,
     "hours": 47.3
    }
-  }
+  },
+  "trip_cost": 630,
+  "punten": {
+   "roest": 24.0,
+   "motor": 5.4,
+   "staat": 6.0,
+   "km": 7.4,
+   "prijs": 9.0,
+   "bouwjaar": 3.6
+  },
+  "score": 55.4,
+  "ai_reject": false,
+  "let_op": [
+   "16V Cosworth: niet geschikt voor LPG"
+  ],
+  "rust": null
  },
  {
   "id": "cargr_11586961",
@@ -35796,25 +35796,10 @@
   "source_module": "car_gr",
   "price_prev": null,
   "first_seen": "2026-10-12",
-  "last_seen": "2026-10-12",
+  "last_seen": "2026-10-13",
   "active": true,
   "dup_of": null,
   "also_on": [],
-  "trip_cost": 631,
-  "punten": {
-   "roest": 24.0,
-   "motor": 5.4,
-   "staat": 6.0,
-   "km": 7.0,
-   "prijs": 7.2,
-   "bouwjaar": 5.4
-  },
-  "score": 55.0,
-  "ai_reject": false,
-  "let_op": [
-   "16V Cosworth: niet geschikt voor LPG"
-  ],
-  "rust": null,
   "trip": {
    "fuel": "benzine",
    "l100": 10.5,
@@ -35832,7 +35817,22 @@
     "cost": 631,
     "hours": 47.4
    }
-  }
+  },
+  "trip_cost": 631,
+  "punten": {
+   "roest": 24.0,
+   "motor": 5.4,
+   "staat": 6.0,
+   "km": 7.0,
+   "prijs": 7.2,
+   "bouwjaar": 5.4
+  },
+  "score": 55.0,
+  "ai_reject": false,
+  "let_op": [
+   "16V Cosworth: niet geschikt voor LPG"
+  ],
+  "rust": null
  },
  {
   "id": "cargr_327100677",
@@ -35861,25 +35861,10 @@
   "source_module": "car_gr",
   "price_prev": null,
   "first_seen": "2026-10-12",
-  "last_seen": "2026-10-12",
+  "last_seen": "2026-10-13",
   "active": true,
   "dup_of": null,
   "also_on": [],
-  "trip_cost": 627,
-  "punten": {
-   "roest": 24.0,
-   "motor": 14.4,
-   "staat": 6.0,
-   "km": 2.0,
-   "prijs": 9.0,
-   "bouwjaar": 4.8
-  },
-  "score": 60.2,
-  "ai_reject": false,
-  "let_op": [
-   "Mogelijk W123: check chassisnummer (WDB124… = W124)"
-  ],
-  "rust": null,
   "trip": {
    "fuel": "benzine",
    "l100": 10.5,
@@ -35897,7 +35882,22 @@
     "cost": 627,
     "hours": 47.1
    }
-  }
+  },
+  "trip_cost": 627,
+  "punten": {
+   "roest": 24.0,
+   "motor": 14.4,
+   "staat": 6.0,
+   "km": 2.0,
+   "prijs": 9.0,
+   "bouwjaar": 4.8
+  },
+  "score": 60.2,
+  "ai_reject": false,
+  "let_op": [
+   "Mogelijk W123: check chassisnummer (WDB124… = W124)"
+  ],
+  "rust": null
  },
  {
   "id": "cargr_42223281",
@@ -35926,25 +35926,10 @@
   "source_module": "car_gr",
   "price_prev": null,
   "first_seen": "2026-10-12",
-  "last_seen": "2026-10-12",
+  "last_seen": "2026-10-13",
   "active": true,
   "dup_of": null,
   "also_on": [],
-  "trip_cost": 546,
-  "punten": {
-   "roest": 24.0,
-   "motor": 5.4,
-   "staat": 6.0,
-   "km": 4.9,
-   "prijs": 6.6,
-   "bouwjaar": 5.4
-  },
-  "score": 52.3,
-  "ai_reject": false,
-  "let_op": [
-   "16V Cosworth: niet geschikt voor LPG"
-  ],
-  "rust": null,
   "trip": {
    "fuel": "benzine",
    "l100": 10.5,
@@ -35962,7 +35947,22 @@
     "cost": 546,
     "hours": 41.0
    }
-  }
+  },
+  "trip_cost": 546,
+  "punten": {
+   "roest": 24.0,
+   "motor": 5.4,
+   "staat": 6.0,
+   "km": 4.9,
+   "prijs": 6.6,
+   "bouwjaar": 5.4
+  },
+  "score": 52.3,
+  "ai_reject": false,
+  "let_op": [
+   "16V Cosworth: niet geschikt voor LPG"
+  ],
+  "rust": null
  },
  {
   "id": "cargr_56102300",
@@ -35991,7 +35991,7 @@
   "source_module": "car_gr",
   "price_prev": null,
   "first_seen": "2026-10-12",
-  "last_seen": "2026-10-12",
+  "last_seen": "2026-10-13",
   "active": true,
   "dup_of": null,
   "also_on": [
@@ -36000,6 +36000,24 @@
     "url": "https://www.marktplaats.nl/v/auto-s/mercedes-benz/m2451999962-mercedes-w124-250d-diesel-12-12-1986-bijna-belastingvrij"
    }
   ],
+  "trip": {
+   "fuel": "diesel",
+   "l100": 8.0,
+   "toll": {
+    "km": 2636,
+    "fuel_cost": 443,
+    "toll": 90,
+    "cost": 533,
+    "hours": 27.8
+   },
+   "free": {
+    "km": 3032,
+    "fuel_cost": 509,
+    "toll": 0,
+    "cost": 509,
+    "hours": 46.6
+   }
+  },
   "trip_cost": 509,
   "punten": {
    "roest": 28.0,
@@ -36019,24 +36037,6 @@
    "chassis": "W124",
    "note": "Vooraanzicht van een blauwe W124; dorpels niet goed te beoordelen, geen zichtbare roest.",
    "photos": 1
-  },
-  "trip": {
-   "fuel": "diesel",
-   "l100": 8.0,
-   "toll": {
-    "km": 2636,
-    "fuel_cost": 443,
-    "toll": 90,
-    "cost": 533,
-    "hours": 27.8
-   },
-   "free": {
-    "km": 3032,
-    "fuel_cost": 509,
-    "toll": 0,
-    "cost": 509,
-    "hours": 46.6
-   }
   }
  },
  {
@@ -36066,23 +36066,10 @@
   "source_module": "car_gr",
   "price_prev": null,
   "first_seen": "2026-10-12",
-  "last_seen": "2026-10-12",
+  "last_seen": "2026-10-13",
   "active": true,
   "dup_of": null,
   "also_on": [],
-  "trip_cost": 597,
-  "punten": {
-   "roest": 24.0,
-   "motor": 10.8,
-   "staat": 6.0,
-   "km": 3.4,
-   "prijs": 8.8,
-   "bouwjaar": 6.0
-  },
-  "score": 59.0,
-  "ai_reject": false,
-  "let_op": [],
-  "rust": null,
   "trip": {
    "fuel": "benzine",
    "l100": 10.0,
@@ -36100,7 +36087,20 @@
     "cost": 597,
     "hours": 47.1
    }
-  }
+  },
+  "trip_cost": 597,
+  "punten": {
+   "roest": 24.0,
+   "motor": 10.8,
+   "staat": 6.0,
+   "km": 3.4,
+   "prijs": 8.8,
+   "bouwjaar": 6.0
+  },
+  "score": 59.0,
+  "ai_reject": false,
+  "let_op": [],
+  "rust": null
  },
  {
   "id": "cargr_55810563",
@@ -36129,23 +36129,10 @@
   "source_module": "car_gr",
   "price_prev": null,
   "first_seen": "2026-10-12",
-  "last_seen": "2026-10-12",
+  "last_seen": "2026-10-13",
   "active": true,
   "dup_of": null,
   "also_on": [],
-  "trip_cost": 482,
-  "punten": {
-   "roest": 24.0,
-   "motor": 16.2,
-   "staat": 6.0,
-   "km": 9.0,
-   "prijs": 2.9,
-   "bouwjaar": 6.0
-  },
-  "score": 64.1,
-  "ai_reject": false,
-  "let_op": [],
-  "rust": null,
   "trip": {
    "fuel": "diesel",
    "l100": 7.5,
@@ -36163,7 +36150,20 @@
     "cost": 482,
     "hours": 47.1
    }
-  }
+  },
+  "trip_cost": 482,
+  "punten": {
+   "roest": 24.0,
+   "motor": 16.2,
+   "staat": 6.0,
+   "km": 9.0,
+   "prijs": 2.9,
+   "bouwjaar": 6.0
+  },
+  "score": 64.1,
+  "ai_reject": false,
+  "let_op": [],
+  "rust": null
  },
  {
   "id": "cargr_51338346",
@@ -36192,23 +36192,10 @@
   "source_module": "car_gr",
   "price_prev": null,
   "first_seen": "2026-10-12",
-  "last_seen": "2026-10-12",
+  "last_seen": "2026-10-13",
   "active": true,
   "dup_of": null,
   "also_on": [],
-  "trip_cost": 590,
-  "punten": {
-   "roest": 24.0,
-   "motor": 18.0,
-   "staat": 6.0,
-   "km": 8.8,
-   "prijs": 0.0,
-   "bouwjaar": 4.8
-  },
-  "score": 61.6,
-  "ai_reject": false,
-  "let_op": [],
-  "rust": null,
   "trip": {
    "fuel": "diesel",
    "l100": 8.0,
@@ -36226,7 +36213,20 @@
     "cost": 590,
     "hours": 54.1
    }
-  }
+  },
+  "trip_cost": 590,
+  "punten": {
+   "roest": 24.0,
+   "motor": 18.0,
+   "staat": 6.0,
+   "km": 8.8,
+   "prijs": 0.0,
+   "bouwjaar": 4.8
+  },
+  "score": 61.6,
+  "ai_reject": false,
+  "let_op": [],
+  "rust": null
  },
  {
   "id": "cargr_340419815",
@@ -36255,23 +36255,10 @@
   "source_module": "car_gr",
   "price_prev": null,
   "first_seen": "2026-10-12",
-  "last_seen": "2026-10-12",
+  "last_seen": "2026-10-13",
   "active": true,
   "dup_of": null,
   "also_on": [],
-  "trip_cost": 500,
-  "punten": {
-   "roest": 24.0,
-   "motor": 10.8,
-   "staat": 6.0,
-   "km": 3.8,
-   "prijs": 9.0,
-   "bouwjaar": 6.0
-  },
-  "score": 59.6,
-  "ai_reject": false,
-  "let_op": [],
-  "rust": null,
   "trip": {
    "fuel": "benzine",
    "l100": 9.0,
@@ -36289,7 +36276,20 @@
     "cost": 500,
     "hours": 43.8
    }
-  }
+  },
+  "trip_cost": 500,
+  "punten": {
+   "roest": 24.0,
+   "motor": 10.8,
+   "staat": 6.0,
+   "km": 3.8,
+   "prijs": 9.0,
+   "bouwjaar": 6.0
+  },
+  "score": 59.6,
+  "ai_reject": false,
+  "let_op": [],
+  "rust": null
  },
  {
   "id": "mp_m2450612951",
