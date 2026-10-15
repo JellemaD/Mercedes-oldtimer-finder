@@ -398,5 +398,18 @@
   "v": 3,
   "model": "claude-opus-5-5",
   "date": "2026-10-12"
+ },
+ "wp_x6qq0pvylo6y": {
+  "sills_photo": 7,
+  "sills": 0,
+  "arches": 0,
+  "other": 0,
+  "chassis": "W124",
+  "note": "W124 met verweerde lak; dorpels en wielkasten zichtbaar zonder duidelijke roest.",
+  "photos": 9,
+  "key": "d44fb0dfab19",
+  "v": 3,
+  "model": "claude-opus-5-5",
+  "date": "2026-10-15"
  }
 }
