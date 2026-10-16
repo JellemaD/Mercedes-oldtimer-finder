@@ -5,12 +5,12 @@
   "arches": 0,
   "other": 0,
   "chassis": "W124",
-  "note": "Nette W124 zonder zichtbare roest; dorpels halfdichtbij op foto 3 schoon.",
+  "note": "Nette W124 sedan; dorpels halfdichtbij op foto 3 zonder zichtbare roest.",
   "photos": 9,
-  "key": "76b4603e18cc",
+  "key": "b2cfaae94653",
   "v": 3,
   "model": "claude-opus-5-5",
-  "date": "2026-10-12"
+  "date": "2026-10-16"
  },
  "cn_70382040": {
   "sills_photo": 1,
@@ -411,5 +411,18 @@
   "v": 3,
   "model": "claude-opus-5-5",
   "date": "2026-10-15"
+ },
+ "wp_vjrede9nm9zk": {
+  "sills_photo": 3,
+  "sills": 1,
+  "arches": 1,
+  "other": 2,
+  "chassis": "W201",
+  "note": "W201 met roestplekjes op dorpels, wielranden en duidelijke roest op motorkapslotplaat.",
+  "photos": 8,
+  "key": "74e8f39ed237",
+  "v": 3,
+  "model": "claude-opus-5-5",
+  "date": "2026-10-16"
  }
 }
