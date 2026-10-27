@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#1e3a5f">
+<title>Onderdelen W124 250D</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔧</text></svg>">
+<style>
+:root{--bg:#f4f5f7;--card:#fff;--ink:#1b2129;--muted:#5d6672;--line:#e1e4e8;--accent:#1e3a5f;--accent-soft:#e6edf5;--warn:#9a5b06;--warn-soft:#fcf0dc;--new:#be185d;--good:#15803d;--good-soft:#e5f4ea}
+@media (prefers-color-scheme:dark){:root{--bg:#11151a;--card:#1a2028;--ink:#e6e9ed;--muted:#9aa3ae;--line:#2b333d;--accent:#7fb0e6;--accent-soft:#1c2a3a;--warn:#f0b04a;--warn-soft:#33270f;--new:#f472b6;--good:#4ade80;--good-soft:#16301f}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:780px;margin:0 auto;padding:20px 16px 48px}
+h1{font-size:1.6rem;margin:0 0 4px}
+.sub{color:var(--muted);margin:0 0 14px;font-size:.95rem}
+h2{font-size:1.15rem;margin:28px 0 4px}
+.waarom{color:var(--muted);font-size:.9rem;margin:0 0 10px}
+a{color:var(--accent)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;margin-bottom:10px;display:flex;color:inherit;text-decoration:none;overflow:hidden}
+.card.weg{opacity:.5}
+.foto{width:96px;flex:none;object-fit:cover;background:var(--line);min-height:72px}
+.body{padding:10px 12px;flex:1;min-width:0}
+.rij{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.titel{font-weight:650;font-size:.98rem;margin:0}
+.prijs{font-weight:700;font-size:1.05rem;white-space:nowrap}
+.feiten{color:var(--muted);font-size:.85rem;margin:3px 0 6px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font-size:.75rem;padding:2px 8px;border-radius:999px;background:var(--accent-soft);color:var(--accent);font-weight:600}
+.chip.new{background:var(--new);color:#fff}
+.chip.good{background:var(--good-soft);color:var(--good)}
+.chip.warn{background:var(--warn-soft);color:var(--warn)}
+.leeg{color:var(--muted);font-size:.9rem;padding:8px 0}
+.status{font-size:.82rem;color:var(--muted);margin-top:28px;border-top:1px solid var(--line);padding-top:12px}
+.status b{color:var(--ink)}
+.fout{color:var(--warn)}
+details{margin:0 0 6px}
+summary{cursor:pointer;color:var(--muted);font-size:.9rem}
+</style>
+</head>
+<body>
+<main>
+<h1>Onderdelen W124 250D</h1>
+<p class="sub" id="sub">Laden…</p>
+<div id="lijst"></div>
+<div class="status" id="status"></div>
+</main>
+<script>
+const NEW_DAYS = 7;
+const fmtPrijs = p => p == null ? 'bieden' : '€ ' + p.toLocaleString('nl-NL');
+const dagen = iso => Math.round((Date.now() - new Date(iso)) / 864e5);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+fetch('data/onderdelen.json?' + Date.now()).then(r => r.json()).then(d => {
+  const a = d.auto;
+  document.getElementById('sub').textContent =
+    `${a.kenteken} · ${a.type} · ${a.bouwjaar} · bijgewerkt ${new Date(d.updated).toLocaleString('nl-NL', {dateStyle:'short', timeStyle:'short'})}`;
+  const lijst = document.getElementById('lijst');
+  const actief = d.treffers.filter(t => t.active);
+  for (const o of d.onderdelen) {
+    const hits = actief.filter(t => t.onderdelen.includes(o.id)).sort((x, y) => (x.price ?? 1e9) - (y.price ?? 1e9));
+    const nieuw = hits.filter(t => dagen(t.first_seen) <= NEW_DAYS).length;
+    const h = document.createElement('div');
+    let html = `<h2>${esc(o.naam)} <span class="chip ${o.status === 'zoeken' ? '' : 'good'}">${esc(o.status)}</span>` +
+      (nieuw ? ` <span class="chip new">${nieuw} nieuw</span>` : '') + `</h2>` +
+      `<p class="waarom">${esc(o.waarom)} Kant: ${esc(o.kant)}.` + (o.nummer ? ` Nummer: ${esc(o.nummer)}.` : '') + `</p>`;
+    if (o.status === 'nieuw-kopen') html += `<p class="leeg">Niet gezocht: nieuw kopen.</p>`;
+    else if (!hits.length) html += `<p class="leeg">Nog niets gevonden.</p>`;
+    const top = hits.slice(0, 8), rest = hits.slice(8);
+    html += top.map(kaart).join('');
+    if (rest.length) html += `<details><summary>nog ${rest.length} meer</summary>${rest.map(kaart).join('')}</details>`;
+    h.innerHTML = html;
+    lijst.appendChild(h);
+  }
+  const st = d.bronnen.map(b => `<b>${esc(b.name || b.module)}</b>: ` + (b.ok
+    ? `${b.found} gevonden, ${b.matched} passend`
+    : `<span class="fout">mislukt (${esc(b.error || '?')})</span>`)).join(' · ');
+  document.getElementById('status').innerHTML = st + `<br>Weg = advertentie niet meer gevonden. Bron: <a href="https://github.com/JellemaD/Mercedes-oldtimer-finder">Mercedes-oldtimer-finder</a>, map 01 - Onderdelenzoeker.`;
+}).catch(e => { document.getElementById('sub').textContent = 'Kon data niet laden: ' + e; });
+
+function kaart(t) {
+  const n = dagen(t.first_seen) <= NEW_DAYS;
+  return `<a class="card${t.active ? '' : ' weg'}" href="${esc(t.url)}" target="_blank" rel="noopener">` +
+    (t.image ? `<img class="foto" src="${esc(t.image)}" alt="" loading="lazy">` : `<div class="foto"></div>`) +
+    `<div class="body"><div class="rij"><p class="titel">${esc(t.title)}</p><span class="prijs">${fmtPrijs(t.price)}</span></div>` +
+    `<div class="feiten">${esc(t.source)} · ${esc(t.location || t.country)} · gezien ${esc(t.first_seen)}</div>` +
+    `<div class="chips">${n ? '<span class="chip new">nieuw</span>' : ''}` +
+    (t.price_prev ? `<span class="chip warn">was € ${t.price_prev}</span>` : '') +
+    (t.onderdelen.length > 1 ? `<span class="chip">ook: ${esc(t.onderdelen.join(', '))}</span>` : '') +
+    `</div></div></a>`;
+}
+</script>
+</body>
+</html>

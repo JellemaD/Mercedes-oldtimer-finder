@@ -82,3 +82,7 @@ nul
 # Archief (lokaal bewaard, niet in git)
 99 - Archive/
 site_test_*.json
+
+# Onderdelenzoeker: foto's van de eigen auto blijven lokaal
+01 - Onderdelenzoeker W124 250D 1986/fotos/
+01 - Onderdelenzoeker W124 250D 1986/Nieuwe map/

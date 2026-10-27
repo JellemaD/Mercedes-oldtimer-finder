@@ -1,0 +1,90 @@
+{
+  "auto": {
+    "kenteken": "57-RVV-3",
+    "type": "Mercedes-Benz 250 D (W124 sedan, Mopf 0 / vormopf)",
+    "bouwjaar": 1986,
+    "motor": "OM602, 5 cilinder, 2479 cc, 66 kW",
+    "kleur": "groen (lakcode nog opzoeken op typeplaatje)",
+    "beplanking": "donkergrijs, kleurcode nog opzoeken (Mopf 0: bijv. 7700 altograu / 7738 satograu / 7166)"
+  },
+  "_uitleg": "Per onderdeel: 'zoek' = zoektermen per site (de = Kleinanzeigen, nl = Marktplaats); 'match' = regex, een advertentie telt als die op minstens een regel past en op geen regel uit 'niet'; 'nummer' = Mercedes-onderdeelnummers zoals gezien in advertenties (nog controleren met chassisnummer); 'status' = zoeken | gevonden | besteld | gemonteerd | nieuw-kopen. Titel en tekst moeten ook W124 noemen (zie zoek.py); coupe/cabrio (C124/A124), AMG en bodykits vallen af.",
+  "onderdelen": [
+    {
+      "id": "beplanking-voorspatbord",
+      "naam": "Beplanking voorspatbord onder (Beplankung Kotflügel vorn)",
+      "kant": "links of rechts: nog bevestigen",
+      "nummer": "links A1246901340, rechts A1246901440 (uit advertenties, controleren)",
+      "waarom": "Ontbreekt; onderrand spatbord roest bij de bevestiging (foto 20261027_115031).",
+      "prio": 1,
+      "status": "zoeken",
+      "zoek": {
+        "de": ["w124 beplankung kotflügel", "w124 kotflügel verkleidung unten", "w124 seitenbeplankung vorne"],
+        "nl": ["w124 beplanking spatbord", "w124 sacco spatbord", "w124 bekleding voorscherm"]
+      },
+      "match": ["(beplankung|verkleidung|beplanking|bekleding|sacco|sakko|seitenverkleidung).*(kotfl|spatbord|voorscherm|vorn)", "(kotfl|spatbord|voorscherm).*(beplankung|verkleidung|beplanking|bekleding|sacco|sakko)", "beplankung.*(satz|komplett|set)", "beplanking.*(set|compleet)", "124690134|124690144"],
+      "niet": ["hinten", "achter", "radlauf", "t[üu]r"],
+      "foto": "fotos/01 - Foto ontbrekende onderdelen buitenkant auto/20261027_115031.jpg"
+    },
+    {
+      "id": "beplanking-achterscherm",
+      "naam": "Beplanking achterscherm onder (Beplankung Seitenwand hinten, Kniestück)",
+      "kant": "links of rechts: nog bevestigen",
+      "nummer": "links A1246901740, rechts A1246901840; ook A1246908840 gezien (uit advertenties, controleren)",
+      "waarom": "Ontbreekt; clips en schroef zitten er nog, plaat zelf is weg (foto 20261027_115013).",
+      "prio": 1,
+      "status": "zoeken",
+      "zoek": {
+        "de": ["w124 beplankung seitenwand", "w124 beplankung hinten", "w124 seitenbeplankung hinten", "w124 kniestück beplankung"],
+        "nl": ["w124 beplanking achterscherm", "w124 sacco achterscherm", "w124 bekleding achterscherm"]
+      },
+      "match": ["(beplankung|verkleidung|beplanking|bekleding|sacco|sakko).*(seitenwand|hinten|achterscherm|achter|heck|radlauf|knie)", "(seitenwand|achterscherm|radlauf|knie).*(beplankung|verkleidung|beplanking|bekleding|sacco|sakko)", "beplankung.*(satz|komplett|set)", "beplanking.*(set|compleet)", "124690174|124690184|124690884"],
+      "niet": ["t[üu]r(-|\\s)?beplankung", "beplankung\\s+t[üu]r", "t[üu]r hinten", "vorn", "d[üu]bel", "spreizniet", "\\bclip"],
+      "foto": "fotos/01 - Foto ontbrekende onderdelen buitenkant auto/20261027_115013.jpg"
+    },
+    {
+      "id": "dorpelbekleding",
+      "naam": "Dorpelbekleding links en rechts (Schwellerverkleidung)",
+      "kant": "beide",
+      "nummer": "links A1246902340, rechts A1246902440 (uit advertenties, controleren)",
+      "waarom": "Gat bij krikpunt, lak bladdert, roest rond de krikdop (foto's 20261027_114944, 20261027_114949). Sedan en T-model passen, coupe/cabrio niet.",
+      "prio": 2,
+      "status": "zoeken",
+      "zoek": {
+        "de": ["w124 schwellerverkleidung", "w124 schweller verkleidung", "w124 schwellerabdeckung"],
+        "nl": ["w124 dorpel bekleding", "w124 dorpelbekleding", "w124 sacco dorpel"]
+      },
+      "match": ["schweller(verkleidung|abdeckung| verkleidung| abdeckung)", "dorpel(bekleding|lijst|beplanking| bekleding| beplanking)", "sacco.*dorpel", "dorpels", "124690234|124690244"],
+      "niet": ["d[üu]bel", "spreizniet", "\\bclip"],
+      "foto": "fotos/01 - Foto ontbrekende onderdelen buitenkant auto/20261027_114944.jpg"
+    },
+    {
+      "id": "krikdop",
+      "naam": "Afdekdop krikpunt in dorpelbekleding (Stopfen Wagenheberaufnahme)",
+      "kant": "minstens 1 ontbreekt (foto 20261027_114944), andere kant controleren",
+      "nummer": "A1249970486 (uit advertenties, controleren)",
+      "waarom": "Dop weg, gat open, roest eromheen. Klein deel, vaak in een set met de dorpelbekleding.",
+      "prio": 2,
+      "status": "zoeken",
+      "zoek": {
+        "de": ["w124 wagenheber abdeckung schweller", "w124 stopfen wagenheberaufnahme", "w124 abdeckkappe wagenheber"],
+        "nl": ["w124 krik dop dorpel", "w124 afdekdop krikpunt"]
+      },
+      "match": ["wagenheber.*(abdeck|stopfen|kappe|deckel|puffer)", "(abdeck|stopfen|kappe|deckel).*wagenheber", "krik.*(dop|kap|afdek)", "(dop|kap|afdek).*krik", "124997048"],
+      "niet": [],
+      "foto": "fotos/01 - Foto ontbrekende onderdelen buitenkant auto/20261027_114944.jpg"
+    },
+    {
+      "id": "clips-beplanking",
+      "naam": "Clips en spreidnieten beplanking (Spreizniet / Dübel Beplankung)",
+      "kant": "n.v.t.",
+      "nummer": "o.a. A0009884425 (Dübel Radhaus/Schwellerverkleidung, gezien in advertentie)",
+      "waarom": "Nodig bij montage van nieuwe beplanking; goedkoop nieuw (Febi/Mercedes). Alleen meenemen als ze in een set zitten.",
+      "prio": 3,
+      "status": "nieuw-kopen",
+      "zoek": {"de": [], "nl": []},
+      "match": [],
+      "niet": [],
+      "foto": null
+    }
+  ]
+}

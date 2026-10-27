@@ -1,0 +1,42 @@
+# Daily parts search for the W124 250D (57-RVV-3): Kleinanzeigen, Marktplaats, MercedesForum.nl,
+# W124-Board.de. Writes docs/data/onderdelen.json, read by docs/onderdelen.html. A source with
+# 0 results makes the run fail at the end (after saving), so GitHub sends a "Run failed" e-mail.
+name: onderdelen
+
+on:
+  schedule:
+    - cron: '30 4 * * *'   # 06:30 summer time, 05:30 winter time (NL); after the car scrape
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape   # same group as scrape.yml: never two jobs pushing docs/data at once
+  cancel-in-progress: false
+
+jobs:
+  zoek:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Zoek onderdelen
+        id: zoek
+        run: python "01 - Onderdelenzoeker W124 250D 1986/zoek.py" || echo "failed=1" >> "$GITHUB_OUTPUT"
+      - name: Commit data
+        run: |
+          git config user.name "scrape-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/data/onderdelen.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Onderdelen $(date -u +%F)"
+          for i in 1 2 3; do git pull --rebase -q && git push -q && exit 0; sleep 5; done; exit 1
+      - name: Warn about sources without results
+        if: steps.zoek.outputs.failed == '1'
+        run: echo "::error::Een of meer bronnen gaven 0 resultaten, zie docs/data/onderdelen.json" && exit 1

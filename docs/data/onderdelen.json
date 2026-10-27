@@ -1,0 +1,963 @@
+{
+ "updated": "2026-10-27T14:09:02+00:00",
+ "auto": {
+  "kenteken": "57-RVV-3",
+  "type": "Mercedes-Benz 250 D (W124 sedan, Mopf 0 / vormopf)",
+  "bouwjaar": 1986,
+  "motor": "OM602, 5 cilinder, 2479 cc, 66 kW",
+  "kleur": "groen (lakcode nog opzoeken op typeplaatje)",
+  "beplanking": "donkergrijs, kleurcode nog opzoeken (Mopf 0: bijv. 7700 altograu / 7738 satograu / 7166)"
+ },
+ "onderdelen": [
+  {
+   "id": "beplanking-voorspatbord",
+   "naam": "Beplanking voorspatbord onder (Beplankung Kotflügel vorn)",
+   "kant": "links of rechts: nog bevestigen",
+   "nummer": "links A1246901340, rechts A1246901440 (uit advertenties, controleren)",
+   "waarom": "Ontbreekt; onderrand spatbord roest bij de bevestiging (foto 20261027_115031).",
+   "prio": 1,
+   "status": "zoeken",
+   "foto": "fotos/01 - Foto ontbrekende onderdelen buitenkant auto/20261027_115031.jpg"
+  },
+  {
+   "id": "beplanking-achterscherm",
+   "naam": "Beplanking achterscherm onder (Beplankung Seitenwand hinten, Kniestück)",
+   "kant": "links of rechts: nog bevestigen",
+   "nummer": "links A1246901740, rechts A1246901840; ook A1246908840 gezien (uit advertenties, controleren)",
+   "waarom": "Ontbreekt; clips en schroef zitten er nog, plaat zelf is weg (foto 20261027_115013).",
+   "prio": 1,
+   "status": "zoeken",
+   "foto": "fotos/01 - Foto ontbrekende onderdelen buitenkant auto/20261027_115013.jpg"
+  },
+  {
+   "id": "dorpelbekleding",
+   "naam": "Dorpelbekleding links en rechts (Schwellerverkleidung)",
+   "kant": "beide",
+   "nummer": "links A1246902340, rechts A1246902440 (uit advertenties, controleren)",
+   "waarom": "Gat bij krikpunt, lak bladdert, roest rond de krikdop (foto's 20261027_114944, 20261027_114949). Sedan en T-model passen, coupe/cabrio niet.",
+   "prio": 2,
+   "status": "zoeken",
+   "foto": "fotos/01 - Foto ontbrekende onderdelen buitenkant auto/20261027_114944.jpg"
+  },
+  {
+   "id": "krikdop",
+   "naam": "Afdekdop krikpunt in dorpelbekleding (Stopfen Wagenheberaufnahme)",
+   "kant": "minstens 1 ontbreekt (foto 20261027_114944), andere kant controleren",
+   "nummer": "A1249970486 (uit advertenties, controleren)",
+   "waarom": "Dop weg, gat open, roest eromheen. Klein deel, vaak in een set met de dorpelbekleding.",
+   "prio": 2,
+   "status": "zoeken",
+   "foto": "fotos/01 - Foto ontbrekende onderdelen buitenkant auto/20261027_114944.jpg"
+  },
+  {
+   "id": "clips-beplanking",
+   "naam": "Clips en spreidnieten beplanking (Spreizniet / Dübel Beplankung)",
+   "kant": "n.v.t.",
+   "nummer": "o.a. A0009884425 (Dübel Radhaus/Schwellerverkleidung, gezien in advertentie)",
+   "waarom": "Nodig bij montage van nieuwe beplanking; goedkoop nieuw (Febi/Mercedes). Alleen meenemen als ze in een set zitten.",
+   "prio": 3,
+   "status": "nieuw-kopen",
+   "foto": null
+  }
+ ],
+ "treffers": [
+  {
+   "id": "ka_3202433930",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-beplankung-kotfluegel-radlauf-hinten-r-a1246908840/3202433930-223-4570",
+   "title": "Mercedes W124 Beplankung Kotflügel Radlauf Hinten R A1246908840",
+   "price": null,
+   "location": "63179 Obertshausen",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4b/4b4be961-55c3-43be-af8d-384a0b4cf552?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Zum Verkauf steht hier ein/e: Original Mercedes-Benz W124 Beplankung Kotflügel Radlauf Hinten... · Versand möglich",
+   "onderdelen": [
+    "beplanking-achterscherm"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "ka_3522070997",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/w-124-beplankung-kotfluegel-vorne-links-grau-1246901340/3522070997-223-8112",
+   "title": "W 124 Beplankung Kotflügel vorne links Grau 1246901340",
+   "price": 30,
+   "location": "72160 Horb am Neckar",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c7/c7295d9f-ecb9-4ea9-ab40-9e73fc734a01?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Zum Verkauf steht eine gebrauchte, originale Beplankung für die linke Seite in der Farbe Grau wie... · Versand möglich",
+   "onderdelen": [
+    "beplanking-voorspatbord"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "ka_2990167851",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/2x-mercedes-w124-beplankung-kotfluegel-vorne-r-l-1246901440-7166/2990167851-223-1207",
+   "title": "2X Mercedes W124 Beplankung Kotflügel vorne R-L 1246901440 7166",
+   "price": 60,
+   "location": "41836 Hückelhoven",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/1b/1b5a804e-a281-4e65-8dfd-74e857e6270a?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "2X 2X Mercedes W124 Beplankung Kotflügel vorne R-L 1246901440 7166 Barth Autoverwertung – Ihr... · Versand möglich",
+   "onderdelen": [
+    "beplanking-voorspatbord"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "ka_3068446714",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/w124-sakkobrett-beplankung-vorne-rechts-kotfluegel-oem/3068446714-223-5697",
+   "title": "W124 / Sakkobrett / Beplankung / Vorne Rechts / Kotflügel / OEM",
+   "price": 29,
+   "location": "83342 Tacherting",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/46/46f07516-a767-40ce-b482-7cf62ebbf944?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Angeboten wird ein Sakkobrett für eine W124er Limousine. Kotflügel Vorne Rechts. Farbe... · Versand möglich",
+   "onderdelen": [
+    "beplanking-voorspatbord"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "ka_3543716836",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-beplankung-kotfluegel-vorne-rechts-a1246901440-r/3543716836-223-2605",
+   "title": "Mercedes W124 Beplankung Kotflügel vorne rechts A1246901440 R",
+   "price": 45,
+   "location": "49170 Hagen am Teutoburger Wald",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f7/f753983c-d656-4cf3-a329-3c5ac4f4b94c?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Originale Beplankung vom w124 A1246901440 R · Versand möglich",
+   "onderdelen": [
+    "beplanking-voorspatbord"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "ka_3411979920",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-w124-kotfluegel-beplankung-saccobrett-1246901440/3411979920-223-3266",
+   "title": "Mercedes Benz W124 Kotflügel Beplankung Saccobrett 1246901440",
+   "price": 15,
+   "location": "21376 Salzhausen",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4f/4f7d2cc3-776b-4d35-b568-82c2b700b555?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Direkt kaufen",
+     "Versand möglich"
+    ]
+   },
+   "text": "Ich biete hier 4 Beplankungen (Sacco Bretter) an von einem W124 oder S124 Kotflügel 3x rechts 1x... · Direkt kaufen · Versand möglich",
+   "onderdelen": [
+    "beplanking-voorspatbord"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "ka_3553065903",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-seitenbeplankung-kotfluegel-vorne-rechts-1246901440/3553065903-223-5374",
+   "title": "Mercedes W124 Seitenbeplankung Kotflügel vorne rechts 1246901440",
+   "price": 20,
+   "location": "67435 Neustadt an der Weinstraße",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/74/74e0aadf-3508-48f1-8982-769135aec862?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Direkt kaufen",
+     "Versand möglich"
+    ]
+   },
+   "text": "Verkaufe eine originale Mercedes-Benz Seitenbeplankung für den vorderen rechten Kotflügel, mit... · Direkt kaufen · Versand möglich",
+   "onderdelen": [
+    "beplanking-voorspatbord"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "ka_2971247773",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-w124-seitenbeplankung-saco-vorn-fahrerseite/2971247773-223-7849",
+   "title": "Mercedes Benz W124 Seitenbeplankung Saco vorn Fahrerseite",
+   "price": 50,
+   "location": "16269 Wriezen",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/af/af95dcdc-e4cf-43c7-bcbb-f47c8f1c2a0b?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Verkaufe hier eine linke vordere Seitenbeplankung / Saco (Fahrerseite) für einen Mercedes Benz... · Versand möglich",
+   "onderdelen": [
+    "beplanking-voorspatbord"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "ka_3028653728",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/zierleiste-beplankung-seitenwand-hl-mercedes-w124-1246901940/3028653728-223-8165",
+   "title": "Zierleiste Beplankung Seitenwand HL Mercedes W124 1246901940",
+   "price": 29,
+   "location": "76448 Durmersheim",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/6b/6b729df1-aa2e-4f9c-86b2-fb2fd19a6cb0?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Artikelzustand: Gebraucht gereinigt & geprüft voll funktionsfähig 12 Monate... · Versand möglich",
+   "onderdelen": [
+    "beplanking-achterscherm"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "ka_3350342863",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mb-w-124-er-limo-beplankung-seitenplanke-hinten-links-1246901740l/3350342863-223-1952",
+   "title": "MB W 124 er Limo Beplankung Seitenplanke hinten links 1246901740L",
+   "price": 40,
+   "location": "46238 Bottrop",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/48/48aa9feb-680b-4570-8858-7e74ce93427a?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Am Kämpchen 108 46238 Bottrop Telefonnummer: 02041 / 42451 + 43271 Fahrzeug Typ : MB 124... · Versand möglich",
+   "onderdelen": [
+    "beplanking-achterscherm"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "ka_3350330182",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mb-w-124-limo-beplankung-seitenplanke-hinten-rechts-124690184r/3350330182-223-1952",
+   "title": "MB W 124 Limo Beplankung seitenplanke hinten rechts 124690184R",
+   "price": 45,
+   "location": "46238 Bottrop",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/07/078cb6c7-2084-4ef1-8894-408491880130?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Am Kämpchen 108 46238 Bottrop Telefonnummer: 02041 / 42451 + 43271 Fahrzeug Typ : MB W 124... · Versand möglich",
+   "onderdelen": [
+    "beplanking-achterscherm"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "ka_3079733352",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/a1246908840-neue-beplankung-hinten-rechts-mercedes-w124/3079733352-223-21584",
+   "title": "A1246908840 Neue Beplankung hinten rechts Mercedes W124",
+   "price": 175,
+   "location": "71711 Murr Württemberg",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f0/f03ca27f-30ce-4a43-874e-a27f8e9268d1?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Verkauft wird eine neue, original Mercedes, Beplankung hinten rechts, für den Mercedes... · Versand möglich",
+   "onderdelen": [
+    "beplanking-achterscherm"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "ka_3508951201",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/beplankung-saccobrett-hinten-links-1246901740-mercedes-benz-w124/3508951201-223-9245",
+   "title": "Beplankung Saccobrett hinten links 1246901740 Mercedes Benz W124",
+   "price": 12,
+   "location": "74072 Heilbronn",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/90/9067560a-ec39-4b9f-bd2a-26f9a8d3ce7b?rule=$_59.AUTO",
+   "attrs": {
+    "tags": []
+   },
+   "text": "Biete eine Beplankung / Saccobrett hinten links für den Mercedes Benz W124 an. Teilenummer...",
+   "onderdelen": [
+    "beplanking-achterscherm"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "ka_3292770707",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/beplankung-fuer-w124-te-kombi-hinten-links-in-der-farbe-rot-/3292770707-223-8098",
+   "title": "Beplankung für W124 TE Kombi Hinten Links in der Farbe Rot.",
+   "price": 20,
+   "location": "71149 Bondorf",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/3c/3c8de9a4-8070-45fd-9f37-901ec458ac42?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Biete hier wie auf den Bild zu sehen eine Beplankung für den W124 TE Kombi in der Farbe Rot. Hinten... · Versand möglich",
+   "onderdelen": [
+    "beplanking-achterscherm"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "ka_3412549817",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-kniestueck-beplankung-saccobretter-1246901940-l/3412549817-223-1021",
+   "title": "Mercedes W124 Kniestück Beplankung Saccobretter 1246901940 L",
+   "price": 29,
+   "location": "58454 Witten",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c0/c00d64b4-2550-4cd0-8a62-c82586a67d52?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Verkauft wird ein Kniestück links Fahrerseite für Mercedes W124. Garagenfund ohne Garantie oder... · Versand möglich",
+   "onderdelen": [
+    "beplanking-achterscherm"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "ka_3552570560",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-schwellerverkleidungen-7738-satograu/3552570560-223-8957",
+   "title": "Mercedes W124 Schwellerverkleidungen 7738 satograu",
+   "price": 160,
+   "location": "89568 Hermaringen",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e4/e4adf5bd-5b22-4679-98c2-03c17801fb72?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Biete hier einen Satz Schwellerverkleidungen für die W124 Limousinen oder Kombis Farbcode 7738... · Versand möglich",
+   "onderdelen": [
+    "dorpelbekleding"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "ka_3552567402",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-schwellerverkleidungen-7700-altograu/3552567402-223-8957",
+   "title": "Mercedes W124 Schwellerverkleidungen 7700 altograu",
+   "price": 120,
+   "location": "89568 Hermaringen",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/37/3750b359-f43a-4ba7-8d8f-58583c7ff476?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Biete hier einen Satz Schwellerverkleidungen für die W124 Limousinen oder Kombis Farbcode 7700... · Versand möglich",
+   "onderdelen": [
+    "dorpelbekleding"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "ka_3403547426",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/orig-mercedes-w124-e-klasse-satz-schwellerverkleidung-r-l-neu/3403547426-223-8375",
+   "title": "Orig Mercedes W124 E-Klasse \" Satz Schwellerverkleidung R+L ! NEU",
+   "price": null,
+   "location": "74626 Bretzfeld",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0a/0ae3f4a6-274a-4b2c-bf5b-f2833983b928?rule=$_59.AUTO",
+   "attrs": {
+    "tags": []
+   },
+   "text": "Zum Verkaufen Original Längsträger Schwellerverkleidung Unten Rechts + Links für Mercedes-Benz W124...",
+   "onderdelen": [
+    "dorpelbekleding"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "ka_3400913115",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/origi-mercedes-w124-e-klasse-schwellerverkleidung-unten-r-l-neu/3400913115-223-8375",
+   "title": "Origi Mercedes W124 E-Klasse Schwellerverkleidung Unten R+L ! NEU",
+   "price": null,
+   "location": "74626 Bretzfeld",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/37/37535909-1693-4421-84cf-d6d102d96fdb?rule=$_59.AUTO",
+   "attrs": {
+    "tags": []
+   },
+   "text": "Zum Verkaufen Original Längsträger Schwellerverkleidung Unten Rechts + Links für Mercedes-Benz W124...",
+   "onderdelen": [
+    "dorpelbekleding"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "ka_3399867610",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/origi-mercedes-w124-e-klasse-set-schwellerverkleidung-r-l-neu/3399867610-223-8375",
+   "title": "Origi Mercedes W124 E-Klasse * Set Schwellerverkleidung R+L ! NEU",
+   "price": null,
+   "location": "74626 Bretzfeld",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5f/5ff3d2a6-efe4-442d-a0a6-0e1215a3511d?rule=$_59.AUTO",
+   "attrs": {
+    "tags": []
+   },
+   "text": "Zum Verkaufen Original Längsträger Schwellerverkleidung Unten Rechts + Links für Mercedes-Benz W124...",
+   "onderdelen": [
+    "dorpelbekleding"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "ka_3399717629",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/origina-mercedes-w124-e-klasse-set-schwellerverkleidung-r-l-neu/3399717629-223-8375",
+   "title": "Origina Mercedes W124 E-Klasse Set Schwellerverkleidung R+L ! NEU",
+   "price": null,
+   "location": "74626 Bretzfeld",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d7/d77f060c-6c01-4892-b598-436279f1f143?rule=$_59.AUTO",
+   "attrs": {
+    "tags": []
+   },
+   "text": "Zum Verkaufen Original Längsträger Schwellerverkleidung Unten Rechts + Links für Mercedes-Benz W124...",
+   "onderdelen": [
+    "dorpelbekleding"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "ka_3399684958",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/origin-mercedes-w124-e-klasse-satz-schwellerverkleidung-r-l-neu/3399684958-223-8375",
+   "title": "Origin Mercedes W124 E-Klasse Satz Schwellerverkleidung R+L ! NEU",
+   "price": null,
+   "location": "74626 Bretzfeld",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/25/25d15d65-6f46-4ef9-8bfb-ee4da04cc3a7?rule=$_59.AUTO",
+   "attrs": {
+    "tags": []
+   },
+   "text": "Zum Verkaufen Original Längsträger Schwellerverkleidung Unten Rechts + Links für Mercedes-Benz W124...",
+   "onderdelen": [
+    "dorpelbekleding"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "ka_3398845171",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/original-mercedes-w124-e-klasse-schwellerverkleidung-r-l-neu-/3398845171-223-8375",
+   "title": "Original Mercedes W124 E-Klasse Schwellerverkleidung R+L ! NEU !",
+   "price": null,
+   "location": "74626 Bretzfeld",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5f/5fd36a2a-c784-4e04-b167-5f507fec62c4?rule=$_59.AUTO",
+   "attrs": {
+    "tags": []
+   },
+   "text": "Zum Verkaufen Original Längsträger Schwellerverkleidung Unten Rechts + Links für Mercedes-Benz W124...",
+   "onderdelen": [
+    "dorpelbekleding"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "ka_3429292428",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-w-124-t-modell-schwellerverkleidungen-original/3429292428-223-4630",
+   "title": "Mercedes Benz W 124 T Modell Schwellerverkleidungen Original",
+   "price": 60,
+   "location": "36251 Bad Hersfeld",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7d/7d13f591-3001-4a25-9261-8b8561c69630?rule=$_59.AUTO",
+   "attrs": {
+    "tags": []
+   },
+   "text": "Biete hier zwei Mercedes Benz W124 Schwellerverkleidungen an. Es handelt sich um Originalteile, es...",
+   "onderdelen": [
+    "dorpelbekleding"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "ka_3280180242",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/schwellerverkleidung-links-rechts-w124-mercedes-t-modell/3280180242-223-2519",
+   "title": "Schwellerverkleidung links/rechts W124 Mercedes T Modell",
+   "price": 50,
+   "location": "31637 Rodewald",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b5/b5b7633b-6772-4203-9dcd-112d0beff7b1?rule=$_59.AUTO",
+   "attrs": {
+    "tags": []
+   },
+   "text": "Satz schwellerverkleidungen Gebraucht mit Gebrauchsspuren aber ohne Risse oder sonstige...",
+   "onderdelen": [
+    "dorpelbekleding"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "ka_3116525362",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/w124-mercedes-schwellerverkleidung-grau/3116525362-223-19313",
+   "title": "w124 Mercedes Schwellerverkleidung grau",
+   "price": 1,
+   "location": "24960 Glücksburg",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5e/5e5b85d4-5fd4-4bb5-a61e-b68f2ac75bfe?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Direkt kaufen",
+     "Versand möglich"
+    ]
+   },
+   "text": "Zum Kauf stehen diese Schmuckstücke...Detailphotos gern auf Anfrage. Der Preis von einem Euro ist... · Direkt kaufen · Versand möglich",
+   "onderdelen": [
+    "dorpelbekleding"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "ka_2498332160",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/w124-schwellerverkleidung-1246902340-links-rechts-1246902440/2498332160-223-4721",
+   "title": "W124 Schwellerverkleidung 1246902340 links rechts 1246902440",
+   "price": 50,
+   "location": "35452 Heuchelheim",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/39/3967ed77-e0b6-4f09-8394-c5db88a522f7?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "W124 Schwellerverkleidung 1246902340 links oder rechts 1246902440. Versand möglich Preis pro Seite.... · Versand möglich",
+   "onderdelen": [
+    "dorpelbekleding"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "ka_2056748431",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/w124-schwellerverkleidung-sacco-bretter-beplankung-seitenverkl/2056748431-223-7729",
+   "title": "W124 Schwellerverkleidung, Sacco Bretter, Beplankung, Seitenverkl",
+   "price": 229,
+   "location": "14612 Falkensee",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7c/7cfd02f8-2b2d-4c5d-baf0-0496393eb1ae?rule=$_59.AUTO",
+   "attrs": {
+    "tags": []
+   },
+   "text": "Update: kleinste Planke hinten rechts ist nicht mehr verfügbar und somit nicht mehr Bestandteil...",
+   "onderdelen": [
+    "beplanking-achterscherm",
+    "dorpelbekleding"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "ka_3533593875",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/meredes-w124-te-schwellerabdeckung-schwellerleiste-schweller/3533593875-223-2590",
+   "title": "Meredes W124 TE Schwellerabdeckung Schwellerleiste Schweller",
+   "price": 65,
+   "location": "49661 Cloppenburg",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/14/1473dd7f-fbd4-4f2b-b972-c589ab01db5c?rule=$_59.AUTO",
+   "attrs": {
+    "tags": []
+   },
+   "text": "Die Schwellerabdeckung kommt aus einem Mercedes W124 Kombi aus Bj. 95. Die vier Abdeckungen sind...",
+   "onderdelen": [
+    "dorpelbekleding"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "ka_2907294062",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-schwellerabdeckung-abdeckung-1246980330/2907294062-223-1393",
+   "title": "Mercedes W124 Schwellerabdeckung Abdeckung 1246980330",
+   "price": 19,
+   "location": "52391 Vettweiß",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/1b/1b4110b0-2a6a-4bf3-aba8-a13b201477c3?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Mercedes W124 Schwellerabdeckung Abdeckung 1246980330 Schweller original Artikelzustand:... · Versand möglich",
+   "onderdelen": [
+    "dorpelbekleding"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "ka_3283717151",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/w124-schweller-wagenheber-abdeckung/3283717151-223-17392",
+   "title": "W124 Schweller Wagenheber Abdeckung",
+   "price": 40,
+   "location": "24943 Flensburg",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/fa/fa4a586a-3306-4b7d-9a8c-b4a285c6b149?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Direkt kaufen",
+     "Versand möglich"
+    ]
+   },
+   "text": "W124 Schweller Wagenheber Abdeckung · Direkt kaufen · Versand möglich",
+   "onderdelen": [
+    "krikdop"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "ka_3497073944",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/w-124-gummipuffer-stopfen-wagenheberaufnahme-kappe-1249970486/3497073944-223-8112",
+   "title": "W 124 Gummipuffer Stopfen Wagenheberaufnahme Kappe 1249970486",
+   "price": 15,
+   "location": "72160 Horb am Neckar",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4e/4e3ec190-e5f0-4cca-9c26-0a6af7e0a3ee?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Zum Verkauf steht ein originaler, gebrauchter Stopfen, wie auf den Bildern zu sehen. Auf den... · Versand möglich",
+   "onderdelen": [
+    "krikdop"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "ka_3517820007",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/w124-stopfen-fuer-wagenheberaufnahmen-a-124-997-04-86/3517820007-223-1752",
+   "title": "W124 Stopfen für Wagenheberaufnahmen A 124 997 04 86",
+   "price": 50,
+   "location": "44532 Lünen",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ed/ed1fd2e2-f8cc-4d48-93ae-058e8689af8f?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Zum Verkauf stehen Abdeckkappen (Stopfen) für die Wagenheberaufnahmen. Alle Teile stammen aus... · Versand möglich",
+   "onderdelen": [
+    "krikdop"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "ka_3486623913",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/w124-wagenheberaufnahme-stopfen-gummipuffer/3486623913-223-17560",
+   "title": "W124 Wagenheberaufnahme Stopfen Gummipuffer",
+   "price": 5,
+   "location": "38899 Hasselfelde",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ed/ed195b9a-7b1e-428d-8192-d6c7a7f38b53?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Direkt kaufen",
+     "Versand möglich"
+    ]
+   },
+   "text": "Verkaufe hier gebrauchte Stopfen für die Wagenheberaufnahmen vom W124 erste Serie. Bei Fragen... · Direkt kaufen · Versand möglich",
+   "onderdelen": [
+    "krikdop"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "mp_m2449058966",
+   "source": "Marktplaats",
+   "country": "NL",
+   "url": "https://www.marktplaats.nl/v/auto-onderdelen/sidebars/m2449058966-w124-sacco-dorpels-skirts",
+   "title": "W124 sacco dorpels skirts",
+   "price": null,
+   "location": "Sommelsdijk",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/35d5e640-a111-46de-a955-29b11944fa2d?rule=ecg_mp_eps$_82.jpg",
+   "attrs": {
+    "categoryId": 3061,
+    "priceType": "FAST_BID"
+   },
+   "text": "W124 sacco dorpels skirts facelift sacco past op sedan en combi de advertentie staat op bieden en er is geen mimimale/uiterste/laatste prijs dus daar hoef je niet naar te vragen",
+   "onderdelen": [
+    "dorpelbekleding"
+   ],
+   "source_module": "marktplaats",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "ka_3396175108",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-duebel-radhaus-schwellerverkleidung-neu-a0009884425/3396175108-223-3072",
+   "title": "Mercedes W124 Dübel Radhaus Schwellerverkleidung NEU A0009884425",
+   "price": 7,
+   "location": "38444 Wolfsburg",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/8a/8ab31823-b3db-4a1c-8316-8f7295784abb?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Direkt kaufen",
+     "Versand möglich"
+    ]
+   },
+   "text": "Verkaufe diese Dübel/Stopfen für die Verkleidung am hinteren Radlauf/Schweller beim... · Direkt kaufen · Versand möglich",
+   "onderdelen": [
+    "beplanking-achterscherm"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-10-27",
+   "active": false
+  }
+ ],
+ "bronnen": [
+  {
+   "module": "kleinanzeigen",
+   "ok": true,
+   "found": 47,
+   "matched": 34,
+   "error": null,
+   "name": "Kleinanzeigen",
+   "country": "DE",
+   "secs": 25,
+   "last_run": "2026-10-27T14:08:32+00:00",
+   "last_ok": "2026-10-27T14:08:32+00:00"
+  },
+  {
+   "module": "marktplaats",
+   "ok": true,
+   "found": 80,
+   "matched": 1,
+   "error": null,
+   "name": "Marktplaats",
+   "country": "NL",
+   "secs": 19,
+   "last_run": "2026-10-27T14:08:51+00:00",
+   "last_ok": "2026-10-27T14:08:51+00:00"
+  },
+  {
+   "module": "mercedesforum",
+   "ok": true,
+   "found": 150,
+   "matched": 0,
+   "error": null,
+   "name": "MercedesForum.nl",
+   "country": "NL",
+   "secs": 5,
+   "last_run": "2026-10-27T14:08:56+00:00",
+   "last_ok": "2026-10-27T14:08:56+00:00"
+  },
+  {
+   "module": "w124board",
+   "ok": true,
+   "found": 46,
+   "matched": 0,
+   "error": null,
+   "name": "W124-Board.de",
+   "country": "DE",
+   "secs": 5,
+   "last_run": "2026-10-27T14:09:02+00:00",
+   "last_ok": "2026-10-27T14:09:02+00:00"
+  }
+ ]
+}
