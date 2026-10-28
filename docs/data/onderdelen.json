@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T14:14:40+00:00",
+ "updated": "2026-10-28T10:46:28+00:00",
  "auto": {
   "kenteken": "57-RVV-3",
   "type": "Mercedes-Benz 250 D (W124 sedan, Mopf 0 / vormopf)",
@@ -62,6 +62,52 @@
  ],
  "treffers": [
   {
+   "id": "mp_m2458914795",
+   "source": "Marktplaats",
+   "country": "NL",
+   "url": "https://www.marktplaats.nl/v/auto-onderdelen/interieur-en-bekleding/m2458914795-nos-bekleding-achterzijde-achterbank-mercedes-w124-t-model-s",
+   "title": "NOS bekleding achterzijde achterbank Mercedes W124 T-model S",
+   "price": 50,
+   "location": "Schagen",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/7035a3b1-2097-48e6-adaa-28af55fda217?rule=ecg_mp_eps$_82.jpg",
+   "attrs": {
+    "categoryId": 2913,
+    "priceType": "FIXED"
+   },
+   "text": "Nos bekleding achterzijde achterbank mercedes w124 t-model s124 nos bekleding achterzijde achterbank rechts zwart voor mercedes-benz w124 t-model s124 dit onderdeel is een nieuw en origineel mercedes-benz onderdeel uit oude voorraad. Origineel onderd...",
+   "onderdelen": [
+    "beplanking-achterscherm"
+   ],
+   "source_module": "marktplaats",
+   "first_seen": "2026-10-28",
+   "price_prev": null,
+   "last_seen": "2026-10-28",
+   "active": true
+  },
+  {
+   "id": "mp_m2458914793",
+   "source": "Marktplaats",
+   "country": "NL",
+   "url": "https://www.marktplaats.nl/v/auto-onderdelen/interieur-en-bekleding/m2458914793-nos-bekleding-achterzijde-achterbank-mercedes-w124-t-model-s",
+   "title": "NOS bekleding achterzijde achterbank Mercedes W124 T-model S",
+   "price": 120,
+   "location": "Schagen",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/969dd9f7-5e9d-4d66-9eea-8f159814e18f?rule=ecg_mp_eps$_82.jpg",
+   "attrs": {
+    "categoryId": 2913,
+    "priceType": "FIXED"
+   },
+   "text": "Nos bekleding achterzijde achterbank mercedes w124 t-model s124 nos bekleding achterzijde achterbank l+r zwart voor mercedes-benz w124 t-model s124 dit onderdeel is een nieuw en origineel mercedes-benz onderdeel uit oude voorraad. Origineel onderdeel...",
+   "onderdelen": [
+    "beplanking-achterscherm"
+   ],
+   "source_module": "marktplaats",
+   "first_seen": "2026-10-28",
+   "price_prev": null,
+   "last_seen": "2026-10-28",
+   "active": true
+  },
+  {
    "id": "ka_3202433930",
    "source": "Kleinanzeigen",
    "country": "DE",
@@ -82,7 +128,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "active": true
   },
   {
@@ -106,31 +152,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-27",
-   "active": true
-  },
-  {
-   "id": "ka_2990167851",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/2x-mercedes-w124-beplankung-kotfluegel-vorne-r-l-1246901440-7166/2990167851-223-1207",
-   "title": "2X Mercedes W124 Beplankung Kotflügel vorne R-L 1246901440 7166",
-   "price": 60,
-   "location": "41836 Hückelhoven",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/1b/1b5a804e-a281-4e65-8dfd-74e857e6270a?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "2X 2X Mercedes W124 Beplankung Kotflügel vorne R-L 1246901440 7166 Barth Autoverwertung – Ihr... · Versand möglich",
-   "onderdelen": [
-    "beplanking-voorspatbord"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-10-27",
-   "price_prev": null,
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "active": true
   },
   {
@@ -154,7 +176,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "active": true
   },
   {
@@ -178,7 +200,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "active": true
   },
   {
@@ -203,7 +225,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "active": true
   },
   {
@@ -228,7 +250,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "active": true
   },
   {
@@ -252,7 +274,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "active": true
   },
   {
@@ -276,7 +298,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "active": true
   },
   {
@@ -300,7 +322,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "active": true
   },
   {
@@ -324,7 +346,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "active": true
   },
   {
@@ -348,7 +370,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "active": true
   },
   {
@@ -370,7 +392,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "active": true
   },
   {
@@ -394,7 +416,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "active": true
   },
   {
@@ -418,7 +440,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "active": true
   },
   {
@@ -442,7 +464,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "active": true
   },
   {
@@ -466,7 +488,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "active": true
   },
   {
@@ -488,7 +510,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "active": true
   },
   {
@@ -510,7 +532,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "active": true
   },
   {
@@ -532,7 +554,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "active": true
   },
   {
@@ -554,7 +576,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "active": true
   },
   {
@@ -576,7 +598,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "active": true
   },
   {
@@ -598,7 +620,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "active": true
   },
   {
@@ -620,7 +642,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "active": true
   },
   {
@@ -642,7 +664,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "active": true
   },
   {
@@ -667,7 +689,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "active": true
   },
   {
@@ -691,7 +713,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "active": true
   },
   {
@@ -714,7 +736,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "active": true
   },
   {
@@ -736,7 +758,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "active": true
   },
   {
@@ -760,7 +782,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "active": true
   },
   {
@@ -785,7 +807,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "active": true
   },
   {
@@ -809,7 +831,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "active": true
   },
   {
@@ -833,7 +855,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "active": true
   },
   {
@@ -858,7 +880,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "active": true
   },
   {
@@ -881,8 +903,32 @@
    "source_module": "marktplaats",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "active": true
+  },
+  {
+   "id": "ka_2990167851",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/2x-mercedes-w124-beplankung-kotfluegel-vorne-r-l-1246901440-7166/2990167851-223-1207",
+   "title": "2X Mercedes W124 Beplankung Kotflügel vorne R-L 1246901440 7166",
+   "price": 60,
+   "location": "41836 Hückelhoven",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/1b/1b5a804e-a281-4e65-8dfd-74e857e6270a?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "2X 2X Mercedes W124 Beplankung Kotflügel vorne R-L 1246901440 7166 Barth Autoverwertung – Ihr... · Versand möglich",
+   "onderdelen": [
+    "beplanking-voorspatbord"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-10-27",
+   "active": false
   },
   {
    "id": "ka_3396175108",
@@ -914,26 +960,26 @@
   {
    "module": "kleinanzeigen",
    "ok": true,
-   "found": 47,
-   "matched": 34,
+   "found": 46,
+   "matched": 33,
    "error": null,
    "name": "Kleinanzeigen",
    "country": "DE",
-   "secs": 27,
-   "last_run": "2026-10-27T14:14:07+00:00",
-   "last_ok": "2026-10-27T14:14:07+00:00"
+   "secs": 25,
+   "last_run": "2026-10-28T10:45:55+00:00",
+   "last_ok": "2026-10-28T10:45:55+00:00"
   },
   {
    "module": "marktplaats",
    "ok": true,
-   "found": 83,
-   "matched": 1,
+   "found": 76,
+   "matched": 3,
    "error": null,
    "name": "Marktplaats",
    "country": "NL",
    "secs": 21,
-   "last_run": "2026-10-27T14:14:28+00:00",
-   "last_ok": "2026-10-27T14:14:28+00:00"
+   "last_run": "2026-10-28T10:46:16+00:00",
+   "last_ok": "2026-10-28T10:46:16+00:00"
   },
   {
    "module": "mercedesforum",
@@ -943,9 +989,9 @@
    "error": null,
    "name": "MercedesForum.nl",
    "country": "NL",
-   "secs": 7,
-   "last_run": "2026-10-27T14:14:34+00:00",
-   "last_ok": "2026-10-27T14:14:34+00:00"
+   "secs": 6,
+   "last_run": "2026-10-28T10:46:23+00:00",
+   "last_ok": "2026-10-28T10:46:23+00:00"
   },
   {
    "module": "w124board",
@@ -956,8 +1002,8 @@
    "name": "W124-Board.de",
    "country": "DE",
    "secs": 6,
-   "last_run": "2026-10-27T14:14:40+00:00",
-   "last_ok": "2026-10-27T14:14:40+00:00"
+   "last_run": "2026-10-28T10:46:28+00:00",
+   "last_ok": "2026-10-28T10:46:28+00:00"
   }
  ]
 }
