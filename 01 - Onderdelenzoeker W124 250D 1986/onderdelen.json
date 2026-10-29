@@ -13,8 +13,8 @@
     {
       "id": "beplanking-voorspatbord",
       "naam": "Beplanking voorspatbord onder (Beplankung Kotflügel vorn)",
-      "kant": "links of rechts: nog bevestigen",
-      "nummer": "links A1246901340, rechts A1246901440 (uit advertenties, controleren)",
+      "kant": "rechts (bijrijderskant)",
+      "nummer": "rechts A1246901440 (links zou A1246901340 zijn); uit advertenties, controleren",
       "waarom": "Ontbreekt; onderrand spatbord roest bij de bevestiging (foto 20261027_115031).",
       "prio": 1,
       "status": "zoeken",
@@ -48,8 +48,8 @@
     {
       "id": "beplanking-achterscherm",
       "naam": "Beplanking achterscherm onder (Beplankung Seitenwand hinten, Kniestück)",
-      "kant": "links of rechts: nog bevestigen",
-      "nummer": "links A1246901740, rechts A1246901840; ook A1246908840 gezien (uit advertenties, controleren)",
+      "kant": "rechts (bijrijderskant)",
+      "nummer": "rechts A1246901840, ook A1246908840 gezien (links zou A1246901740 zijn); uit advertenties, controleren",
       "waarom": "Ontbreekt; clips en schroef zitten er nog, plaat zelf is weg (foto 20261027_115013).",
       "prio": 1,
       "status": "zoeken",
@@ -121,8 +121,8 @@
     {
       "id": "krikdop",
       "naam": "Afdekdop krikpunt in dorpelbekleding (Stopfen Wagenheberaufnahme)",
-      "kant": "minstens 1 ontbreekt (foto 20261027_114944), andere kant controleren",
-      "nummer": "A1249970486 (uit advertenties, controleren)",
+      "kant": "links (bestuurderskant), gat in de dorpelbekleding",
+      "nummer": "A1249970486, past links en rechts (uit advertenties, controleren)",
       "waarom": "Dop weg, gat open, roest eromheen. Klein deel, vaak in een set met de dorpelbekleding.",
       "prio": 2,
       "status": "zoeken",
