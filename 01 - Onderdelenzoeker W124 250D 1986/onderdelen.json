@@ -4,8 +4,9 @@
     "type": "Mercedes-Benz 250 D (W124 sedan, Mopf 0 / vormopf)",
     "bouwjaar": 1986,
     "motor": "OM602, 5 cilinder, 2479 cc, 66 kW",
-    "kleur": "groen (lakcode nog opzoeken op typeplaatje)",
-    "beplanking": "donkergrijs, kleurcode nog opzoeken (Mopf 0: bijv. 7700 altograu / 7738 satograu / 7166)"
+    "kleur": "groen, lakcode 261 (typeplaatje)",
+    "beplanking": "donkergrijs; code hoort bij lak 261, nog opzoeken op de Datenkarte (Mopf 0 kleuren o.a. 7700 altograu / 7738 satograu / 7166)",
+    "opties": "412 420 466 470 506 532 550 (typeplaatje)"
   },
   "_uitleg": "Per onderdeel: 'zoek' = zoektermen per site (de = Kleinanzeigen, nl = Marktplaats); 'match' = regex, een advertentie telt als die op minstens een regel past en op geen regel uit 'niet'; 'nummer' = Mercedes-onderdeelnummers zoals gezien in advertenties (nog controleren met chassisnummer); 'status' = zoeken | gevonden | besteld | gemonteerd | nieuw-kopen. Titel en tekst moeten ook W124 noemen (zie zoek.py); coupe/cabrio (C124/A124), AMG en bodykits vallen af.",
   "onderdelen": [
@@ -18,11 +19,30 @@
       "prio": 1,
       "status": "zoeken",
       "zoek": {
-        "de": ["w124 beplankung kotflügel", "w124 kotflügel verkleidung unten", "w124 seitenbeplankung vorne"],
-        "nl": ["w124 beplanking spatbord", "w124 sacco spatbord", "w124 bekleding voorscherm"]
+        "de": [
+          "w124 beplankung kotflügel",
+          "w124 kotflügel verkleidung unten",
+          "w124 seitenbeplankung vorne"
+        ],
+        "nl": [
+          "w124 beplanking spatbord",
+          "w124 sacco spatbord",
+          "w124 bekleding voorscherm"
+        ]
       },
-      "match": ["(beplankung|verkleidung|beplanking|bekleding|sacco|sakko|seitenverkleidung).*(kotfl|spatbord|voorscherm|vorn)", "(kotfl|spatbord|voorscherm).*(beplankung|verkleidung|beplanking|bekleding|sacco|sakko)", "beplankung.*(satz|komplett|set)", "beplanking.*(set|compleet)", "124690134|124690144"],
-      "niet": ["hinten", "achter", "radlauf", "t[üu]r"],
+      "match": [
+        "(beplankung|verkleidung|beplanking|bekleding|sacco|sakko|seitenverkleidung).*(kotfl|spatbord|voorscherm|vorn)",
+        "(kotfl|spatbord|voorscherm).*(beplankung|verkleidung|beplanking|bekleding|sacco|sakko)",
+        "beplankung.*(satz|komplett|set)",
+        "beplanking.*(set|compleet)",
+        "124690134|124690144"
+      ],
+      "niet": [
+        "hinten",
+        "achter",
+        "radlauf",
+        "t[üu]r"
+      ],
       "foto": "fotos/01 - Foto ontbrekende onderdelen buitenkant auto/20261027_115031.jpg"
     },
     {
@@ -34,11 +54,34 @@
       "prio": 1,
       "status": "zoeken",
       "zoek": {
-        "de": ["w124 beplankung seitenwand", "w124 beplankung hinten", "w124 seitenbeplankung hinten", "w124 kniestück beplankung"],
-        "nl": ["w124 beplanking achterscherm", "w124 sacco achterscherm", "w124 bekleding achterscherm"]
+        "de": [
+          "w124 beplankung seitenwand",
+          "w124 beplankung hinten",
+          "w124 seitenbeplankung hinten",
+          "w124 kniestück beplankung"
+        ],
+        "nl": [
+          "w124 beplanking achterscherm",
+          "w124 sacco achterscherm",
+          "w124 bekleding achterscherm"
+        ]
       },
-      "match": ["(beplankung|verkleidung|beplanking|bekleding|sacco|sakko).*(seitenwand|hinten|achterscherm|achter|heck|radlauf|knie)", "(seitenwand|achterscherm|radlauf|knie).*(beplankung|verkleidung|beplanking|bekleding|sacco|sakko)", "beplankung.*(satz|komplett|set)", "beplanking.*(set|compleet)", "124690174|124690184|124690884"],
-      "niet": ["t[üu]r(-|\\s)?beplankung", "beplankung\\s+t[üu]r", "t[üu]r hinten", "vorn", "d[üu]bel", "spreizniet", "\\bclip"],
+      "match": [
+        "(beplankung|verkleidung|beplanking|bekleding|sacco|sakko).*(seitenwand|hinten|achterscherm|achter|heck|radlauf|knie)",
+        "(seitenwand|achterscherm|radlauf|knie).*(beplankung|verkleidung|beplanking|bekleding|sacco|sakko)",
+        "beplankung.*(satz|komplett|set)",
+        "beplanking.*(set|compleet)",
+        "124690174|124690184|124690884"
+      ],
+      "niet": [
+        "t[üu]r(-|\\s)?beplankung",
+        "beplankung\\s+t[üu]r",
+        "t[üu]r hinten",
+        "vorn",
+        "d[üu]bel",
+        "spreizniet",
+        "\\bclip"
+      ],
       "foto": "fotos/01 - Foto ontbrekende onderdelen buitenkant auto/20261027_115013.jpg"
     },
     {
@@ -50,11 +93,29 @@
       "prio": 2,
       "status": "zoeken",
       "zoek": {
-        "de": ["w124 schwellerverkleidung", "w124 schweller verkleidung", "w124 schwellerabdeckung"],
-        "nl": ["w124 dorpel bekleding", "w124 dorpelbekleding", "w124 sacco dorpel"]
+        "de": [
+          "w124 schwellerverkleidung",
+          "w124 schweller verkleidung",
+          "w124 schwellerabdeckung"
+        ],
+        "nl": [
+          "w124 dorpel bekleding",
+          "w124 dorpelbekleding",
+          "w124 sacco dorpel"
+        ]
       },
-      "match": ["schweller(verkleidung|abdeckung| verkleidung| abdeckung)", "dorpel(bekleding|lijst|beplanking| bekleding| beplanking)", "sacco.*dorpel", "dorpels", "124690234|124690244"],
-      "niet": ["d[üu]bel", "spreizniet", "\\bclip"],
+      "match": [
+        "schweller(verkleidung|abdeckung| verkleidung| abdeckung)",
+        "dorpel(bekleding|lijst|beplanking| bekleding| beplanking)",
+        "sacco.*dorpel",
+        "dorpels",
+        "124690234|124690244"
+      ],
+      "niet": [
+        "d[üu]bel",
+        "spreizniet",
+        "\\bclip"
+      ],
       "foto": "fotos/01 - Foto ontbrekende onderdelen buitenkant auto/20261027_114944.jpg"
     },
     {
@@ -66,10 +127,23 @@
       "prio": 2,
       "status": "zoeken",
       "zoek": {
-        "de": ["w124 wagenheber abdeckung schweller", "w124 stopfen wagenheberaufnahme", "w124 abdeckkappe wagenheber"],
-        "nl": ["w124 krik dop dorpel", "w124 afdekdop krikpunt"]
+        "de": [
+          "w124 wagenheber abdeckung schweller",
+          "w124 stopfen wagenheberaufnahme",
+          "w124 abdeckkappe wagenheber"
+        ],
+        "nl": [
+          "w124 krik dop dorpel",
+          "w124 afdekdop krikpunt"
+        ]
       },
-      "match": ["wagenheber.*(abdeck|stopfen|kappe|deckel|puffer)", "(abdeck|stopfen|kappe|deckel).*wagenheber", "krik.*(dop|kap|afdek)", "(dop|kap|afdek).*krik", "124997048"],
+      "match": [
+        "wagenheber.*(abdeck|stopfen|kappe|deckel|puffer)",
+        "(abdeck|stopfen|kappe|deckel).*wagenheber",
+        "krik.*(dop|kap|afdek)",
+        "(dop|kap|afdek).*krik",
+        "124997048"
+      ],
       "niet": [],
       "foto": "fotos/01 - Foto ontbrekende onderdelen buitenkant auto/20261027_114944.jpg"
     },
@@ -81,7 +155,10 @@
       "waarom": "Nodig bij montage van nieuwe beplanking; goedkoop nieuw (Febi/Mercedes). Alleen meenemen als ze in een set zitten.",
       "prio": 3,
       "status": "nieuw-kopen",
-      "zoek": {"de": [], "nl": []},
+      "zoek": {
+        "de": [],
+        "nl": []
+      },
       "match": [],
       "niet": [],
       "foto": null
