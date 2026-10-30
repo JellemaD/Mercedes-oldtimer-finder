@@ -6,9 +6,10 @@
     "motor": "OM602, 5 cilinder, 2479 cc, 66 kW",
     "kleur": "groen, lakcode 261 (typeplaatje)",
     "beplanking": "donkergrijs; code hoort bij lak 261, nog opzoeken op de Datenkarte (Mopf 0 kleuren o.a. 7700 altograu / 7738 satograu / 7166)",
-    "opties": "412 420 466 470 506 532 550 (typeplaatje)"
+    "opties": "412 420 466 470 506 532 550 (typeplaatje)",
+    "transmissie": "automaat (722.3)"
   },
-  "_uitleg": "Per onderdeel: 'zoek' = zoektermen per site (de = Kleinanzeigen, nl = Marktplaats); 'match' = regex, een advertentie telt als die op minstens een regel past en op geen regel uit 'niet'; 'nummer' = Mercedes-onderdeelnummers zoals gezien in advertenties (nog controleren met chassisnummer); 'status' = zoeken | gevonden | besteld | gemonteerd | nieuw-kopen. Titel en tekst moeten ook W124 noemen (zie zoek.py); coupe/cabrio (C124/A124), AMG en bodykits vallen af.",
+  "_uitleg": "Per onderdeel: 'zoek' = zoektermen per site (de = Kleinanzeigen, nl = Marktplaats); 'match' = regex, een advertentie telt als die op minstens een regel past en op geen regel uit 'niet'; 'nummer' = Mercedes-onderdeelnummers zoals gezien in advertenties (nog controleren met chassisnummer); 'status' = diagnose | zoeken | gevonden | besteld | gemonteerd | nieuw-kopen (diagnose = oorzaak nog niet zeker, wordt niet gezocht). Titel en tekst moeten ook W124 noemen (zie zoek.py); coupe/cabrio (C124/A124), AMG en bodykits vallen af.",
   "onderdelen": [
     {
       "id": "beplanking-voorspatbord",
@@ -155,6 +156,80 @@
       "waarom": "Nodig bij montage van nieuwe beplanking; goedkoop nieuw (Febi/Mercedes). Alleen meenemen als ze in een set zitten.",
       "prio": 3,
       "status": "nieuw-kopen",
+      "zoek": {
+        "de": [],
+        "nl": []
+      },
+      "match": [],
+      "niet": [],
+      "foto": null
+    },
+    {
+      "id": "bumpergeleider-achter-links",
+      "naam": "Bumpergeleider / steun achterbumper links (Führung Stoßfänger hinten links)",
+      "kant": "links (bestuurderskant)",
+      "nummer": "nog opzoeken",
+      "waarom": "Bumperhoek linksachter staat los en zakt af (foto 30-10-2026); roest op de naad erboven. Mogelijk oorzaak van het kraken bij optrekken en in bochten: handtest doen.",
+      "prio": 2,
+      "status": "diagnose",
+      "zoek": {
+        "de": [
+          "w124 stoßstange hinten führung",
+          "w124 stoßfänger halter hinten",
+          "w124 stoßstangenhalter hinten links"
+        ],
+        "nl": [
+          "w124 bumpersteun achter",
+          "w124 bumper geleider achter"
+        ]
+      },
+      "match": [
+        "sto(ß|ss)(stange|fänger).*(führung|halter|halterung|aufnahme)",
+        "(führung|halter|halterung).*sto(ß|ss)(stange|fänger)",
+        "bumper.*(steun|geleider|houder)",
+        "(steun|geleider|houder).*bumper"
+      ],
+      "niet": [
+        "vorn",
+        "voor"
+      ],
+      "foto": "fotos/bumperhoek-links-achter.jpg"
+    },
+    {
+      "id": "achteras-rubbers",
+      "naam": "Achterasdrager- en differentieelrubbers (Hinterachsträgerlager, Differentiallager)",
+      "kant": "achteras, 4 draagrubbers + 2 differentieelrubbers",
+      "nummer": "nog opzoeken (Lemförder/Febi nieuw is gangbaar)",
+      "waarom": "Kraken 2-3 s bij optrekken vanuit stilstand en in bochten, niet bij drempels: klassieke W124-kwaal. Koppeltest met automaat (D/R op de rem) doen.",
+      "prio": 1,
+      "status": "diagnose",
+      "zoek": {
+        "de": [
+          "w124 hinterachsträger lager",
+          "w124 differentiallager"
+        ],
+        "nl": [
+          "w124 achteras rubber",
+          "w124 differentieel rubber"
+        ]
+      },
+      "match": [
+        "hinterachs(träger)?lager",
+        "differential(lager|aufhängung)",
+        "achteras.*(rubber|lager|steun)",
+        "differentieel.*(rubber|lager|steun)"
+      ],
+      "niet": [],
+      "foto": null
+    },
+    {
+      "id": "hardyschijf-middenlager",
+      "naam": "Flexschijf (Hardyscheibe) en cardan-middenlager (Mittellager)",
+      "kant": "aandrijfas",
+      "nummer": "nog opzoeken (nieuw kopen: veiligheidsdeel)",
+      "waarom": "Klok of kraak bij inschakelen D/R past hierbij. Slijtdeel: bij vervanging nieuw, niet tweedehands.",
+      "prio": 2,
+      "status": "diagnose",
       "zoek": {
         "de": [],
         "nl": []

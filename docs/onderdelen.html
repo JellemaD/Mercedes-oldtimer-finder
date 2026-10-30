@@ -62,10 +62,11 @@ fetch('data/onderdelen.json?' + Date.now()).then(r => r.json()).then(d => {
     const hits = actief.filter(t => t.onderdelen.includes(o.id)).sort((x, y) => (x.price ?? 1e9) - (y.price ?? 1e9));
     const nieuw = hits.filter(t => dagen(t.first_seen) <= NEW_DAYS).length;
     const h = document.createElement('div');
-    let html = `<h2>${esc(o.naam)} <span class="chip ${o.status === 'zoeken' ? '' : 'good'}">${esc(o.status)}</span>` +
+    let html = `<h2>${esc(o.naam)} <span class="chip ${o.status === 'zoeken' ? '' : o.status === 'diagnose' ? 'warn' : 'good'}">${esc(o.status)}</span>` +
       (nieuw ? ` <span class="chip new">${nieuw} nieuw</span>` : '') + `</h2>` +
       `<p class="waarom">${esc(o.waarom)} Kant: ${esc(o.kant)}.` + (o.nummer ? ` Nummer: ${esc(o.nummer)}.` : '') + `</p>`;
     if (o.status === 'nieuw-kopen') html += `<p class="leeg">Niet gezocht: nieuw kopen.</p>`;
+    else if (o.status === 'diagnose') html += `<p class="leeg">Nog niet gezocht: eerst vaststellen of dit de oorzaak is.</p>`;
     else if (!hits.length) html += `<p class="leeg">Nog niets gevonden.</p>`;
     const top = hits.slice(0, 8), rest = hits.slice(8);
     html += top.map(kaart).join('');
