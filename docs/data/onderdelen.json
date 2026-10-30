@@ -1,19 +1,20 @@
 {
- "updated": "2026-10-29T11:03:30+00:00",
+ "updated": "2026-10-30T10:59:51+00:00",
  "auto": {
   "kenteken": "57-RVV-3",
   "type": "Mercedes-Benz 250 D (W124 sedan, Mopf 0 / vormopf)",
   "bouwjaar": 1986,
   "motor": "OM602, 5 cilinder, 2479 cc, 66 kW",
-  "kleur": "groen (lakcode nog opzoeken op typeplaatje)",
-  "beplanking": "donkergrijs, kleurcode nog opzoeken (Mopf 0: bijv. 7700 altograu / 7738 satograu / 7166)"
+  "kleur": "groen, lakcode 261 (typeplaatje)",
+  "beplanking": "donkergrijs; code hoort bij lak 261, nog opzoeken op de Datenkarte (Mopf 0 kleuren o.a. 7700 altograu / 7738 satograu / 7166)",
+  "opties": "412 420 466 470 506 532 550 (typeplaatje)"
  },
  "onderdelen": [
   {
    "id": "beplanking-voorspatbord",
    "naam": "Beplanking voorspatbord onder (Beplankung Kotflügel vorn)",
-   "kant": "links of rechts: nog bevestigen",
-   "nummer": "links A1246901340, rechts A1246901440 (uit advertenties, controleren)",
+   "kant": "rechts (bijrijderskant)",
+   "nummer": "rechts A1246901440 (links zou A1246901340 zijn); uit advertenties, controleren",
    "waarom": "Ontbreekt; onderrand spatbord roest bij de bevestiging (foto 20261027_115031).",
    "prio": 1,
    "status": "zoeken",
@@ -22,8 +23,8 @@
   {
    "id": "beplanking-achterscherm",
    "naam": "Beplanking achterscherm onder (Beplankung Seitenwand hinten, Kniestück)",
-   "kant": "links of rechts: nog bevestigen",
-   "nummer": "links A1246901740, rechts A1246901840; ook A1246908840 gezien (uit advertenties, controleren)",
+   "kant": "rechts (bijrijderskant)",
+   "nummer": "rechts A1246901840, ook A1246908840 gezien (links zou A1246901740 zijn); uit advertenties, controleren",
    "waarom": "Ontbreekt; clips en schroef zitten er nog, plaat zelf is weg (foto 20261027_115013).",
    "prio": 1,
    "status": "zoeken",
@@ -42,8 +43,8 @@
   {
    "id": "krikdop",
    "naam": "Afdekdop krikpunt in dorpelbekleding (Stopfen Wagenheberaufnahme)",
-   "kant": "minstens 1 ontbreekt (foto 20261027_114944), andere kant controleren",
-   "nummer": "A1249970486 (uit advertenties, controleren)",
+   "kant": "links (bestuurderskant), gat in de dorpelbekleding",
+   "nummer": "A1249970486, past links en rechts (uit advertenties, controleren)",
    "waarom": "Dop weg, gat open, roest eromheen. Klein deel, vaak in een set met de dorpelbekleding.",
    "prio": 2,
    "status": "zoeken",
@@ -61,6 +62,119 @@
   }
  ],
  "treffers": [
+  {
+   "id": "ka_3556328502",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/beplankung-saccobrett-hinten-links-1246901740-mercedes-benz-w124/3556328502-223-9245",
+   "title": "Beplankung Saccobrett hinten links 1246901740 Mercedes Benz W124",
+   "price": 12,
+   "location": "74072 Heilbronn",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0a/0a273681-4140-4164-b04d-3e4e7fa37429?rule=$_59.AUTO",
+   "attrs": {
+    "tags": []
+   },
+   "text": "Biete eine Beplankung / Saccobrett hinten links für den Mercedes Benz W124 an. Teilenummer...",
+   "onderdelen": [
+    "beplanking-achterscherm"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-30",
+   "price_prev": null,
+   "last_seen": "2026-10-30",
+   "active": true
+  },
+  {
+   "id": "ka_3555649084",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-s124-schwellerverkleidungen-7700-altograu/3555649084-223-7696",
+   "title": "Mercedes W124 S124 Schwellerverkleidungen 7700 Altograu",
+   "price": 50,
+   "location": "97078 Würzburg",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7c/7c2f5f06-fe4a-4b76-b647-a2724f3c6907?rule=$_59.AUTO",
+   "attrs": {
+    "tags": []
+   },
+   "text": "Beide Schwellerverkleidungen von einem 1993 T Modell zu verkaufen Zustand wie im Bild, der Preis...",
+   "onderdelen": [
+    "dorpelbekleding"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-30",
+   "price_prev": null,
+   "last_seen": "2026-10-30",
+   "active": true
+  },
+  {
+   "id": "mp_m2459676660",
+   "source": "Marktplaats",
+   "country": "NL",
+   "url": "https://www.marktplaats.nl/v/auto-onderdelen/carrosserie-en-plaatwerk/m2459676660-nos-flankbeplating-voorscherm-rechts-mercedes-benz-w124",
+   "title": "NOS Flankbeplating voorscherm rechts Mercedes-Benz W124",
+   "price": 100,
+   "location": "Schagen",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/6bf5a8bb-0a33-4647-a4f8-3af2c543c305?rule=ecg_mp_eps$_82.jpg",
+   "attrs": {
+    "categoryId": 2909,
+    "priceType": "FIXED"
+   },
+   "text": "Nos flankbeplating voorscherm rechts mercedes-benz w124 nos flankbeplating voorscherm rechts mercedes-benz w124 rioblau dit onderdeel is een nieuw en origineel mercedes-benz onderdeel uit oude voorraad. Origineel onderdeelnummer: a1246901440 5309 / a...",
+   "onderdelen": [
+    "beplanking-voorspatbord"
+   ],
+   "source_module": "marktplaats",
+   "first_seen": "2026-10-30",
+   "price_prev": null,
+   "last_seen": "2026-10-30",
+   "active": true
+  },
+  {
+   "id": "mp_m2459674724",
+   "source": "Marktplaats",
+   "country": "NL",
+   "url": "https://www.marktplaats.nl/v/auto-onderdelen/interieur-en-bekleding/m2459674724-nos-bekleding-achterklep-grijs-voor-mercedes-w124-t-model",
+   "title": "NOS bekleding achterklep grijs voor Mercedes W124 T-model",
+   "price": 175,
+   "location": "Schagen",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/0b7c95c4-d28a-46af-baa8-a40de197ea6d?rule=ecg_mp_eps$_82.jpg",
+   "attrs": {
+    "categoryId": 2913,
+    "priceType": "FIXED"
+   },
+   "text": "Nos bekleding achterklep grijs voor mercedes w124 t-model nos bekleding achterklep grijs voor mercedes-benz w124 t-model dit onderdeel is een nieuw en origineel mercedes-benz onderdeel uit oude voorraad. Origineel onderdeelnummer: a1247400070 7144 on...",
+   "onderdelen": [
+    "beplanking-achterscherm"
+   ],
+   "source_module": "marktplaats",
+   "first_seen": "2026-10-30",
+   "price_prev": null,
+   "last_seen": "2026-10-30",
+   "active": true
+  },
+  {
+   "id": "mp_m2459674443",
+   "source": "Marktplaats",
+   "country": "NL",
+   "url": "https://www.marktplaats.nl/v/auto-onderdelen/interieur-en-bekleding/m2459674443-nos-bekleding-achterste-stijl-zwart-mercedes-benz-w124-kombi",
+   "title": "NOS bekleding achterste stijl zwart Mercedes-Benz W124 Kombi",
+   "price": 35,
+   "location": "Schagen",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/4e3aced8-f148-4827-a3f8-9648ba345256?rule=ecg_mp_eps$_82.jpg",
+   "attrs": {
+    "categoryId": 2913,
+    "priceType": "FIXED"
+   },
+   "text": "Nos bekleding achterste stijl zwart mercedes-benz w124 kombi nos bekleding achterste stijl links zwart mercedes-benz w124 kombi dit onderdeel is een nieuw en origineel mercedes-benz onderdeel uit oude voorraad. Origineel onderdeelnummer: a1246901525 ...",
+   "onderdelen": [
+    "beplanking-achterscherm"
+   ],
+   "source_module": "marktplaats",
+   "first_seen": "2026-10-30",
+   "price_prev": null,
+   "last_seen": "2026-10-30",
+   "active": true
+  },
   {
    "id": "ka_3555317002",
    "source": "Kleinanzeigen",
@@ -80,7 +194,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-29",
    "price_prev": null,
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "active": true
   },
   {
@@ -103,7 +217,7 @@
    "source_module": "marktplaats",
    "first_seen": "2026-10-28",
    "price_prev": null,
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "active": true
   },
   {
@@ -126,7 +240,7 @@
    "source_module": "marktplaats",
    "first_seen": "2026-10-28",
    "price_prev": null,
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "active": true
   },
   {
@@ -150,7 +264,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "active": true
   },
   {
@@ -174,7 +288,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "active": true
   },
   {
@@ -198,7 +312,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "active": true
   },
   {
@@ -223,7 +337,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "active": true
   },
   {
@@ -248,7 +362,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "active": true
   },
   {
@@ -272,7 +386,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "active": true
   },
   {
@@ -296,7 +410,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "active": true
   },
   {
@@ -320,7 +434,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "active": true
   },
   {
@@ -344,7 +458,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "active": true
   },
   {
@@ -368,29 +482,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-29",
-   "active": true
-  },
-  {
-   "id": "ka_3508951201",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/beplankung-saccobrett-hinten-links-1246901740-mercedes-benz-w124/3508951201-223-9245",
-   "title": "Beplankung Saccobrett hinten links 1246901740 Mercedes Benz W124",
-   "price": 12,
-   "location": "74072 Heilbronn",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/90/9067560a-ec39-4b9f-bd2a-26f9a8d3ce7b?rule=$_59.AUTO",
-   "attrs": {
-    "tags": []
-   },
-   "text": "Biete eine Beplankung / Saccobrett hinten links für den Mercedes Benz W124 an. Teilenummer...",
-   "onderdelen": [
-    "beplanking-achterscherm"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-10-27",
-   "price_prev": null,
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "active": true
   },
   {
@@ -414,7 +506,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "active": true
   },
   {
@@ -438,7 +530,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "active": true
   },
   {
@@ -462,7 +554,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "active": true
   },
   {
@@ -486,7 +578,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "active": true
   },
   {
@@ -508,7 +600,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "active": true
   },
   {
@@ -530,7 +622,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "active": true
   },
   {
@@ -552,7 +644,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "active": true
   },
   {
@@ -574,7 +666,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "active": true
   },
   {
@@ -596,7 +688,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "active": true
   },
   {
@@ -618,7 +710,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "active": true
   },
   {
@@ -640,7 +732,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "active": true
   },
   {
@@ -662,7 +754,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "active": true
   },
   {
@@ -687,7 +779,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "active": true
   },
   {
@@ -711,7 +803,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "active": true
   },
   {
@@ -734,7 +826,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "active": true
   },
   {
@@ -756,7 +848,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "active": true
   },
   {
@@ -780,7 +872,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "active": true
   },
   {
@@ -805,7 +897,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "active": true
   },
   {
@@ -829,7 +921,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "active": true
   },
   {
@@ -853,7 +945,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "active": true
   },
   {
@@ -878,7 +970,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "active": true
   },
   {
@@ -901,8 +993,30 @@
    "source_module": "marktplaats",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "active": true
+  },
+  {
+   "id": "ka_3508951201",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/beplankung-saccobrett-hinten-links-1246901740-mercedes-benz-w124/3508951201-223-9245",
+   "title": "Beplankung Saccobrett hinten links 1246901740 Mercedes Benz W124",
+   "price": 12,
+   "location": "74072 Heilbronn",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/90/9067560a-ec39-4b9f-bd2a-26f9a8d3ce7b?rule=$_59.AUTO",
+   "attrs": {
+    "tags": []
+   },
+   "text": "Biete eine Beplankung / Saccobrett hinten links für den Mercedes Benz W124 an. Teilenummer...",
+   "onderdelen": [
+    "beplanking-achterscherm"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-10-29",
+   "active": false
   },
   {
    "id": "ka_3202433930",
@@ -982,26 +1096,26 @@
   {
    "module": "kleinanzeigen",
    "ok": true,
-   "found": 46,
-   "matched": 33,
+   "found": 45,
+   "matched": 34,
    "error": null,
    "name": "Kleinanzeigen",
    "country": "DE",
    "secs": 26,
-   "last_run": "2026-10-29T11:02:56+00:00",
-   "last_ok": "2026-10-29T11:02:56+00:00"
+   "last_run": "2026-10-30T10:59:15+00:00",
+   "last_ok": "2026-10-30T10:59:15+00:00"
   },
   {
    "module": "marktplaats",
    "ok": true,
-   "found": 75,
-   "matched": 3,
+   "found": 60,
+   "matched": 6,
    "error": null,
    "name": "Marktplaats",
    "country": "NL",
-   "secs": 20,
-   "last_run": "2026-10-29T11:03:17+00:00",
-   "last_ok": "2026-10-29T11:03:17+00:00"
+   "secs": 21,
+   "last_run": "2026-10-30T10:59:36+00:00",
+   "last_ok": "2026-10-30T10:59:36+00:00"
   },
   {
    "module": "mercedesforum",
@@ -1011,9 +1125,9 @@
    "error": null,
    "name": "MercedesForum.nl",
    "country": "NL",
-   "secs": 7,
-   "last_run": "2026-10-29T11:03:23+00:00",
-   "last_ok": "2026-10-29T11:03:23+00:00"
+   "secs": 9,
+   "last_run": "2026-10-30T10:59:45+00:00",
+   "last_ok": "2026-10-30T10:59:45+00:00"
   },
   {
    "module": "w124board",
@@ -1023,9 +1137,9 @@
    "error": null,
    "name": "W124-Board.de",
    "country": "DE",
-   "secs": 7,
-   "last_run": "2026-10-29T11:03:30+00:00",
-   "last_ok": "2026-10-29T11:03:30+00:00"
+   "secs": 6,
+   "last_run": "2026-10-30T10:59:51+00:00",
+   "last_ok": "2026-10-30T10:59:51+00:00"
   }
  ]
 }
