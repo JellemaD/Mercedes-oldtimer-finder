@@ -6,7 +6,7 @@ Cost of driving the car home yourself: distance from the seller to HOME x consum
 - Road distance = straight line x ROAD_FACTOR (rough; islands also need a ferry, not included).
 - Consumption per model on the motorway (litres/100 km, indicative for an 80s car); a petrol car that
   already runs on LPG drives home on LPG (1.2 x the petrol litres).
-- Fuel prices: EU averages, week of 5 Oct 2026 (EU Oil Bulletin via fuel-prices.eu); LPG estimated.
+- Fuel prices: NL pump prices as given by Durk on 1 Nov 2026 (were EU averages of 5 Oct 2026).
 - Two routes: 'toll' (fastest motorway, with tolls/vignettes: France ~0.095 euro/km, Italy ~0.075
   euro/km + Swiss vignette CHF 40, flat estimates for Spain, Portugal, the Balkans) and 'free'
   (binnendoor: ~15% more km, slower, no tolls). Ferries from Sicily/Sardinia count on both.
@@ -28,7 +28,7 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 CACHE = os.path.join(ROOT, 'docs', 'data', 'geo.json')
 HOME = (52.1736, 5.2917)  # Soest
 ROAD_FACTOR = 1.25
-FUEL_PRICE = {'diesel': 2.10, 'benzine': 1.95, 'lpg': 0.95}  # euro per litre
+FUEL_PRICE = {'diesel': 2.40, 'benzine': 2.20, 'lpg': 0.90}  # euro per litre, set by Durk 1 Nov 2026
 LPG_FACTOR = 1.2
 
 # Tolls 2026 (estimates; see the docstring): France ~0.095 euro/km (class 1), Italy ~0.075 euro/km,
