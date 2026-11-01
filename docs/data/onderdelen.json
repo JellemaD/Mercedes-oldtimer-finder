@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T19:41:56+00:00",
+ "updated": "2026-11-01T11:28:01+00:00",
  "auto": {
   "kenteken": "57-RVV-3",
   "type": "Mercedes-Benz 250 D (W124 sedan, Mopf 0 / vormopf)",
@@ -112,7 +112,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-31",
    "price_prev": null,
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "active": true
   },
   {
@@ -134,7 +134,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-31",
    "price_prev": null,
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "active": true
   },
   {
@@ -157,7 +157,7 @@
    "source_module": "marktplaats",
    "first_seen": "2026-10-31",
    "price_prev": null,
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "active": true
   },
   {
@@ -180,7 +180,7 @@
    "source_module": "marktplaats",
    "first_seen": "2026-10-31",
    "price_prev": null,
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "active": true
   },
   {
@@ -203,7 +203,7 @@
    "source_module": "marktplaats",
    "first_seen": "2026-10-31",
    "price_prev": null,
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "active": true
   },
   {
@@ -225,7 +225,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-29",
    "price_prev": null,
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "active": true
   },
   {
@@ -249,7 +249,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "active": true
   },
   {
@@ -273,7 +273,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "active": true
   },
   {
@@ -297,7 +297,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "active": true
   },
   {
@@ -322,7 +322,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "active": true
   },
   {
@@ -347,7 +347,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "active": true
   },
   {
@@ -371,7 +371,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "active": true
   },
   {
@@ -395,7 +395,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "active": true
   },
   {
@@ -419,7 +419,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "active": true
   },
   {
@@ -443,7 +443,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "active": true
   },
   {
@@ -467,7 +467,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "active": true
   },
   {
@@ -491,7 +491,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "active": true
   },
   {
@@ -500,7 +500,7 @@
    "country": "DE",
    "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-kniestueck-beplankung-saccobretter-1246901940-l/3412549817-223-1021",
    "title": "Mercedes W124 Kniestück Beplankung Saccobretter 1246901940 L",
-   "price": 29,
+   "price": 25,
    "location": "58454 Witten",
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c0/c00d64b4-2550-4cd0-8a62-c82586a67d52?rule=$_59.AUTO",
    "attrs": {
@@ -514,8 +514,8 @@
    ],
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
-   "price_prev": null,
-   "last_seen": "2026-10-31",
+   "price_prev": 29,
+   "last_seen": "2026-11-01",
    "active": true
   },
   {
@@ -539,7 +539,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "active": true
   },
   {
@@ -563,7 +563,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "active": true
   },
   {
@@ -585,7 +585,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "active": true
   },
   {
@@ -607,7 +607,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "active": true
   },
   {
@@ -629,7 +629,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "active": true
   },
   {
@@ -651,7 +651,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "active": true
   },
   {
@@ -673,7 +673,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "active": true
   },
   {
@@ -695,7 +695,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "active": true
   },
   {
@@ -717,7 +717,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "active": true
   },
   {
@@ -739,7 +739,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "active": true
   },
   {
@@ -764,7 +764,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "active": true
   },
   {
@@ -788,7 +788,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "active": true
   },
   {
@@ -811,7 +811,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "active": true
   },
   {
@@ -833,7 +833,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "active": true
   },
   {
@@ -857,7 +857,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "active": true
   },
   {
@@ -882,7 +882,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "active": true
   },
   {
@@ -906,7 +906,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "active": true
   },
   {
@@ -930,7 +930,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "active": true
   },
   {
@@ -955,7 +955,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "active": true
   },
   {
@@ -978,7 +978,7 @@
    "source_module": "marktplaats",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "active": true
   },
   {
@@ -1133,20 +1133,20 @@
    "name": "Kleinanzeigen",
    "country": "DE",
    "secs": 25,
-   "last_run": "2026-10-31T19:41:17+00:00",
-   "last_ok": "2026-10-31T19:41:17+00:00"
+   "last_run": "2026-11-01T11:27:28+00:00",
+   "last_ok": "2026-11-01T11:27:28+00:00"
   },
   {
    "module": "marktplaats",
    "ok": true,
-   "found": 59,
+   "found": 68,
    "matched": 4,
    "error": null,
    "name": "Marktplaats",
    "country": "NL",
-   "secs": 26,
-   "last_run": "2026-10-31T19:41:44+00:00",
-   "last_ok": "2026-10-31T19:41:44+00:00"
+   "secs": 21,
+   "last_run": "2026-11-01T11:27:49+00:00",
+   "last_ok": "2026-11-01T11:27:49+00:00"
   },
   {
    "module": "mercedesforum",
@@ -1157,8 +1157,8 @@
    "name": "MercedesForum.nl",
    "country": "NL",
    "secs": 6,
-   "last_run": "2026-10-31T19:41:50+00:00",
-   "last_ok": "2026-10-31T19:41:50+00:00"
+   "last_run": "2026-11-01T11:27:55+00:00",
+   "last_ok": "2026-11-01T11:27:55+00:00"
   },
   {
    "module": "w124board",
@@ -1169,8 +1169,8 @@
    "name": "W124-Board.de",
    "country": "DE",
    "secs": 6,
-   "last_run": "2026-10-31T19:41:56+00:00",
-   "last_ok": "2026-10-31T19:41:56+00:00"
+   "last_run": "2026-11-01T11:28:01+00:00",
+   "last_ok": "2026-11-01T11:28:01+00:00"
   }
  ]
 }
