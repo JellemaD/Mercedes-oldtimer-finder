@@ -77,6 +77,8 @@ main{max-width:760px;margin:0 auto;padding:14px 14px 90px}
 .fig{margin:.6em 0 1.1em}
 .fig img{width:100%;height:auto;border-radius:10px;border:1px solid var(--line);display:block;cursor:zoom-in}
 .fig figcaption{font-size:.85em;color:var(--muted);margin-top:5px;line-height:1.35}
+.fig .wrap{position:relative}
+.fig .mk{position:absolute;transform:translate(-50%,-50%);width:26px;height:26px;border-radius:50%;background:var(--gold);color:#1d1d1b;border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.6);font:700 13px/22px "IBM Plex Sans",sans-serif;font-style:normal;text-align:center;pointer-events:none}
 .legend{font-size:.9em;margin:0 0 1em;padding-left:0;list-style:none}
 .legend li{display:flex;gap:8px;margin:0 0 5px;align-items:flex-start}
 .legend li>b{flex:0 0 24px;height:24px;border-radius:50%;background:var(--gold);color:#1d1d1b;font-size:13px;display:flex;align-items:center;justify-content:center}
@@ -116,6 +118,9 @@ main{max-width:760px;margin:0 auto;padding:14px 14px 90px}
 
 <script>
 const F = n => `<figure class="fig"><img src="motorcursus/${n}.jpg" alt="" loading="lazy"><figcaption>${FC[n]}</figcaption></figure>`;
+// photo with numbered markers; pts = [[nr, x%, y%], ...] measured on the photo
+const FM = (n, pts) => `<figure class="fig"><div class="wrap"><img src="motorcursus/${n}.jpg" alt="" loading="lazy">${pts.map(p=>`<i class="mk" style="left:${p[1]}%;top:${p[2]}%">${p[0]}</i>`).join('')}</div><figcaption>${FC[n]}</figcaption></figure>`;
+const PTS_OVERZICHT = [[1,41,46],[2,61,32],[3,46,57],[4,70,47],[5,14,16],[6,12,33],[7,5,50],[8,86,20],[9,88,62],[10,53,86]];
 const FC = {
  '01-overzicht': 'Jouw motorruimte van voren (maart 2026). Links in beeld is de bijrijderskant van de auto, rechts de bestuurderskant.',
  '02-rechterkant': 'Bijrijderskant: accu (achter), expansievat met gele dop, daaronder het roestbruine uitlaatspruitstuk. Groene streep = peilstok.',
@@ -166,7 +171,7 @@ const DATA = [
 <p>Na dit hoofdstuk wijs je op jouw auto aan: motor, inlaat, uitlaat, accu, koeling, remmen, luchtfilter, brandstoffilter en stuurbekrachtiging. En je weet welke kant links en rechts is.</p>
 <h2>Links en rechts</h2>
 <p>Links en rechts zijn altijd <b>gezien vanaf de bestuurdersstoel</b>, in de rijrichting. Op een foto die van voren is genomen staat dat dus gespiegeld: links op de foto is rechts aan de auto. Hieronder staat het er steeds bij.</p>
-${F('01-overzicht')}
+${FM('01-overzicht', PTS_OVERZICHT)}
 <ul class="legend">
 <li><b>1</b><span><b>Motor OM602</b> in het midden, langs geplaatst. Het zwarte deksel met de ster is het kleppendeksel; daaronder zitten nokkenas en kleppen.</span></li>
 <li><b>2</b><span><b>Inlaatspruitstuk</b>: vijf grijze gebogen buizen bovenop de rechterkant van de motor (links op de foto). Eén per cilinder, dus vijf.</span></li>
