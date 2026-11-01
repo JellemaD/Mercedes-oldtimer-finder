@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#1b4d89">
+<title>Motorcursus W124 250D</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔩</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Sans:wght@400;600&display=swap">
+<style>
+:root{
+  --bg:#f6f4ee; --card:#ffffff; --ink:#1d1d1b; --muted:#6b6b66; --line:#dcd9d0;
+  --accent:#1b4d89; --accent-ink:#ffffff; --gold:#c99a2e;
+  --ok:#2e7d4f; --ok-bg:#e3f3e8; --bad:#b3362b; --bad-bg:#fbe6e3;
+  --code-bg:#efece4; --shadow:0 1px 3px rgba(0,0,0,.08);
+  --zg:#2e7d4f; --zy:#b8860b; --zr:#b3362b; --zg-bg:#e3f3e8; --zy-bg:#fbf1d6; --zr-bg:#fbe6e3;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#15171a; --card:#1f2226; --ink:#e9e7e1; --muted:#a09d95; --line:#33373d;
+    --accent:#6ea3e6; --accent-ink:#0f1a2a; --gold:#e0b04a;
+    --ok:#6fcf97; --ok-bg:#1f3a2b; --bad:#f08c7d; --bad-bg:#3f221f;
+    --code-bg:#262a30; --shadow:0 1px 3px rgba(0,0,0,.4);
+    --zg:#6fcf97; --zy:#e0b04a; --zr:#f08c7d; --zg-bg:#1f3a2b; --zy-bg:#3a3120; --zr-bg:#3f221f;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#15171a; --card:#1f2226; --ink:#e9e7e1; --muted:#a09d95; --line:#33373d;
+  --accent:#6ea3e6; --accent-ink:#0f1a2a; --gold:#e0b04a;
+  --ok:#6fcf97; --ok-bg:#1f3a2b; --bad:#f08c7d; --bad-bg:#3f221f;
+  --code-bg:#262a30; --shadow:0 1px 3px rgba(0,0,0,.4);
+  --zg:#6fcf97; --zy:#e0b04a; --zr:#f08c7d; --zg-bg:#1f3a2b; --zy-bg:#3a3120; --zr-bg:#3f221f;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Source Serif 4",Georgia,"Times New Roman",serif;font-size:var(--fs,17px);line-height:1.5}
+.sans,.btn,.opt b,.pill,.row .s,.card h2,.zone,.legend,.fig figcaption{font-family:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+header{position:sticky;top:0;z-index:5;background:var(--accent);color:var(--accent-ink);padding:env(safe-area-inset-top) 0 0;box-shadow:var(--shadow)}
+.bar{display:flex;align-items:center;gap:8px;padding:10px 12px;min-height:52px}
+.bar h1{font-size:16px;margin:0;flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:600}
+.bar button{background:transparent;border:0;color:inherit;font-size:22px;padding:4px 8px;line-height:1;cursor:pointer;border-radius:8px}
+.bar button:active{background:rgba(255,255,255,.2)}
+main{max-width:760px;margin:0 auto;padding:14px 14px 90px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:0 0 12px;box-shadow:var(--shadow)}
+.card h2{margin:0 0 6px;font-size:15px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;border:0}
+.row{display:flex;align-items:center;gap:12px;padding:11px 0;border-top:1px solid var(--line);cursor:pointer;-webkit-tap-highlight-color:transparent}
+.row:first-of-type{border-top:0}
+.row .n{flex:0 0 34px;height:34px;border-radius:50%;background:var(--accent);color:var(--accent-ink);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:14px}
+.row .t{flex:1;min-width:0}
+.row .t b{display:block;font-size:16px;line-height:1.25}
+.row .t small{color:var(--muted);font-size:13px}
+.row .s{font-size:13px;color:var(--muted);white-space:nowrap}
+.zone{display:inline-block;padding:3px 9px;border-radius:6px;font-size:13px;font-weight:600;white-space:nowrap}
+.zone.g{background:var(--zg-bg);color:var(--zg)}.zone.y{background:var(--zy-bg);color:var(--zy)}.zone.r{background:var(--zr-bg);color:var(--zr)}
+.score .big.g{color:var(--zg)}.score .big.y{color:var(--zy)}.score .big.r{color:var(--zr)}
+.btn{display:inline-block;background:var(--accent);color:var(--accent-ink);border:0;border-radius:10px;padding:12px 18px;font-size:16px;font-weight:600;cursor:pointer;text-align:center;-webkit-tap-highlight-color:transparent}
+.btn.sec{background:transparent;color:var(--accent);border:2px solid var(--accent)}
+.btn.block{display:block;width:100%;margin:8px 0}
+.btn:disabled{opacity:.5}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.prog{height:8px;background:var(--line);border-radius:4px;overflow:hidden;margin:6px 0 2px}
+.prog i{display:block;height:100%;background:var(--gold)}
+.content h1{font-size:1.45em;line-height:1.25;margin:.2em 0 .6em}
+.content h2{font-size:1.2em;margin:1.4em 0 .5em;padding-bottom:.2em;border-bottom:1px solid var(--line)}
+.content h3{font-size:1.05em;margin:1.2em 0 .4em}
+.content p{margin:0 0 .8em}
+.content ul,.content ol{padding-left:1.3em;margin:0 0 .9em}
+.content li{margin-bottom:.3em}
+.content table{border-collapse:collapse;width:100%;font-size:.9em;margin:.6em 0 1em;display:block;overflow-x:auto}
+.content th,.content td{border:1px solid var(--line);padding:6px 8px;vertical-align:top;text-align:left}
+.content th{background:var(--code-bg)}
+.content blockquote{margin:.6em 0;padding:.2em 0 .2em .9em;border-left:3px solid var(--gold);color:var(--muted)}
+.content .warn{border-left:4px solid var(--bad);background:var(--bad-bg);padding:8px 12px;border-radius:0 10px 10px 0;margin:.6em 0 1em}
+.content .tip{border-left:4px solid var(--ok);background:var(--ok-bg);padding:8px 12px;border-radius:0 10px 10px 0;margin:.6em 0 1em}
+.fig{margin:.6em 0 1.1em}
+.fig img{width:100%;height:auto;border-radius:10px;border:1px solid var(--line);display:block;cursor:zoom-in}
+.fig figcaption{font-size:.85em;color:var(--muted);margin-top:5px;line-height:1.35}
+.legend{font-size:.9em;margin:0 0 1em;padding-left:0;list-style:none}
+.legend li{display:flex;gap:8px;margin:0 0 5px;align-items:flex-start}
+.legend li>b{flex:0 0 24px;height:24px;border-radius:50%;background:var(--gold);color:#1d1d1b;font-size:13px;display:flex;align-items:center;justify-content:center}
+.q{font-size:1.05em;margin:0 0 14px}
+.q .nr{color:var(--muted);font-size:.85em;display:block;margin-bottom:4px}
+.opt{display:flex;gap:10px;align-items:flex-start;width:100%;text-align:left;background:var(--card);border:2px solid var(--line);border-radius:10px;padding:11px 12px;margin:0 0 8px;font:inherit;color:inherit;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.opt b{flex:0 0 22px;color:var(--accent)}
+.opt.ok{border-color:var(--ok);background:var(--ok-bg)}
+.opt.bad{border-color:var(--bad);background:var(--bad-bg)}
+.opt:disabled{cursor:default;opacity:1}
+.expl{border-left:4px solid var(--gold);background:var(--card);padding:10px 12px;margin:10px 0;border-radius:0 10px 10px 0}
+.expl.ok{border-color:var(--ok)}.expl.bad{border-color:var(--bad)}
+.expl .v{font-weight:700;display:block;margin-bottom:4px}
+.score{text-align:center;padding:18px 0}
+.score .big{font-size:52px;font-weight:700;line-height:1;color:var(--accent)}
+.score .sub{color:var(--muted);margin:6px 0 14px}
+.pill{display:inline-block;padding:3px 9px;border-radius:99px;font-size:12px;background:var(--code-bg);color:var(--muted);margin-right:6px}
+.hidden{display:none!important}
+.bottomnav{position:fixed;left:0;right:0;bottom:0;background:var(--card);border-top:1px solid var(--line);display:flex;padding:6px 10px calc(6px + env(safe-area-inset-bottom));gap:8px;z-index:5}
+.bottomnav .btn{flex:1;padding:10px;font-size:15px}
+.muted{color:var(--muted)}
+.small{font-size:.9em}
+#lightbox{position:fixed;inset:0;background:rgba(0,0,0,.92);z-index:20;display:flex;align-items:center;justify-content:center;cursor:zoom-out}
+#lightbox img{max-width:100%;max-height:100%}
+</style>
+</head>
+<body>
+<header><div class="bar sans">
+  <button id="back" aria-label="Terug" class="hidden">‹</button>
+  <h1 id="title">Motorcursus W124 250D</h1>
+  <button id="fontBtn" aria-label="Lettergrootte">Aa</button>
+  <button id="homeBtn" aria-label="Start">⌂</button>
+</div></header>
+<main id="main"></main>
+<div id="bnav" class="bottomnav sans hidden"></div>
+<div id="lightbox" class="hidden"><img alt=""></div>
+
+<script>
+const F = n => `<figure class="fig"><img src="motorcursus/${n}.jpg" alt="" loading="lazy"><figcaption>${FC[n]}</figcaption></figure>`;
+const FC = {
+ '01-overzicht': 'Jouw motorruimte van voren (maart 2026). Links in beeld is de bijrijderskant van de auto, rechts de bestuurderskant.',
+ '02-rechterkant': 'Bijrijderskant: accu (achter), expansievat met gele dop, daaronder het roestbruine uitlaatspruitstuk. Groene streep = peilstok.',
+ '03-inlaat-injectie': 'Bovenkant motor: vijf grijze inlaatbuizen (inlaatspruitstuk), daaronder vijf dunne stalen injectieleidingen naar de verstuivers.',
+ '04-kleppendeksel-stangen': 'Kleppendeksel met ster. De stangen en veren ervoor zijn de gasbediening naar de injectiepomp.',
+ '05-uitlaatspruitstuk': 'Uitlaatspruitstuk, gietijzer, nummer 602 142 0101 (602 = OM602). De gele streep is de peilstok.',
+ '06-rembekrachtiger': 'Bestuurderskant: ronde zwarte rembekrachtiger met daarop het remvloeistofreservoir; rechts het luchtfilterhuis.',
+ '07-abs-remleidingen': 'Bestuurderskant, binnenscherm: ABS-hydraulische unit (zwart, opschrift ABS) met de remleidingen; drie gasstangen eroverheen.',
+ '08-expansievat-accu': 'Expansievat koelvloeistof (gele dop; vul tot het merkteken, koude motor). Onder: de accu met rode pluskabel.',
+ '09-brandstoffilter': 'Hoofdbrandstoffilter (zwarte Bosch-bus) op de houder; de doorzichtige slang is een brandstofleiding.',
+ '10-stuurbekrachtiging-pot': 'Metalen pot met bout bovenop: reservoir van de stuurbekrachtiging (filter zit erin). Rechts de ribbelslang naar het luchtfilter.',
+ '11-vacuumslangen': 'Vacuümslangen met gekleurde ringen bovenop de inlaat. Zo schakelt de W124 slot, motorstop en kachelkleppen zonder elektronica.',
+ '12-riemen': 'Riemen en poelies aan de voorkant: aandrijving van waterpomp, dynamo en stuurpomp. Scheurtjes of glazig = vervangen.',
+ '13-onder-voor': 'Van onderen, voor: koelerblok, zwarte ventilatorkap, rechts een pomp met rood label en hogedrukleidingen (stuurbekrachtiging, controleren).',
+ '14-onder-tank': 'Van onderen, achter: zwarte brandstoftank met ribben. Links boven roest op de naad van de bodem: in de gaten houden.',
+ '15-onder-wielophanging': 'Van onderen, voorwiel: draagarm, fusee en stuurstang; het blauwe tape is een markering.',
+ '16-uitlaat-602': 'Het uitlaatspruitstuk van dichtbij met de koelslang ernaast. Roestkleur op gietijzer is normaal; blazen of scheuren niet.',
+ '17-zekeringkast': 'Zekeringkast (bestuurderskant achterin, onder een klepje): de ouderwetse Mercedes-zekeringen met gekleurde strips.',
+};
+
+const DATA = [
+{id:'ch00', num:0, title:'Hoe je deze cursus gebruikt, en jouw auto', part:0, partShort:'Start', partLong:'Vooraf', q:[], html:`
+<h2>Doel</h2>
+<p>Na deze cursus kun je elk onderdeel onder jouw eigen motorkap benoemen, weet je wat het doet, en kun je vijf onderhoudsklussen zelf. Alles is gebaseerd op foto's van jouw auto (maart 2026) en op de fabrieksgegevens van de 250 D, niet op een willekeurige W124.</p>
+<h2>Zo werkt het</h2>
+<ul>
+<li>Tien hoofdstukken van 8 tot 15 minuten, samen ongeveer 2 uur. Lees op de telefoon, liefst naast de auto met de kap open.</li>
+<li>Na elk hoofdstuk 5 oefenvragen. Scores blijven op dit apparaat staan en kleuren als buffers: groen 80% of meer, geel 60 tot 79, rood daaronder.</li>
+<li>Klaar? Doe de eindtoets (30 vragen door elkaar). Rood of geel: lees dat hoofdstuk nog een keer.</li>
+<li>Tik op een foto om hem groot te zien. Knop Aa maakt de letters groter.</li>
+</ul>
+<h2>Jouw auto: 57-RVV-3</h2>
+<table>
+<tr><th>Type</th><td>Mercedes-Benz 250 D, W124 sedan, bouwjaar 1986 (eerste serie, "Mopf 0")</td></tr>
+<tr><th>Motor</th><td>OM602.911: 5 cilinders in lijn, 2.497 cc, 66 kW (90 pk) bij 4.600 tpm, 154 Nm bij 2.800 tpm, voorkamerdiesel, geen turbo</td></tr>
+<tr><th>Bak</th><td>Viertraps automaat 722.4, eindoverbrenging 3,07. Bij 120 km/u ongeveer 3.150 toeren</td></tr>
+<tr><th>Verbruik fabriek</th><td>5,9 / 7,7 / 8,8 l per 100 km (90 km/u, 120 km/u, stad); mix 7,5. Praktijk: reken 1 tot 1,5 l erbij</td></tr>
+<tr><th>Brandstof</th><td>Gewone diesel (EN 590). HVO100 kan. Geen B100</td></tr>
+<tr><th>Kleur</th><td>Lak 261 (groen), beplanking donkergrijs</td></tr>
+<tr><th>Stand</th><td>ca. 205.000 km (kentekenbewijs)</td></tr>
+<tr><th>Bekende punten</th><td>Kraken bij optrekken linksachter (achteras- of differentieelrubbers, nog vast te stellen); ontbrekende beplanking rechts; krikdop links</td></tr>
+</table>
+<p class="small muted">Bronnen voor de cijfers: fabrieks-datenblatt 250 D (W124 Complete Guide), ADAC-autokatalog, Wikipedia DE Baureihe 124. Rest van de cursus: werkplaatshandboek OM602, MercedesSource, PeachParts en W124-Board, plus de training van februari 2026.</p>
+`},
+
+{id:'ch01', num:1, title:'Rondleiding onder de motorkap', part:1, partShort:'Deel 1', partLong:'Wat is wat', html:`
+<h2>Leerdoelen</h2>
+<p>Na dit hoofdstuk wijs je op jouw auto aan: motor, inlaat, uitlaat, accu, koeling, remmen, luchtfilter, brandstoffilter en stuurbekrachtiging. En je weet welke kant links en rechts is.</p>
+<h2>Links en rechts</h2>
+<p>Links en rechts zijn altijd <b>gezien vanaf de bestuurdersstoel</b>, in de rijrichting. Op een foto die van voren is genomen staat dat dus gespiegeld: links op de foto is rechts aan de auto. Hieronder staat het er steeds bij.</p>
+${F('01-overzicht')}
+<ul class="legend">
+<li><b>1</b><span><b>Motor OM602</b> in het midden, langs geplaatst. Het zwarte deksel met de ster is het kleppendeksel; daaronder zitten nokkenas en kleppen.</span></li>
+<li><b>2</b><span><b>Inlaatspruitstuk</b>: vijf grijze gebogen buizen bovenop de rechterkant van de motor (links op de foto). Eén per cilinder, dus vijf.</span></li>
+<li><b>3</b><span><b>Uitlaatspruitstuk</b>: roestbruin gietijzer, onder de inlaat aan dezelfde kant. Op de OM602 zitten inlaat en uitlaat allebei rechts.</span></li>
+<li><b>4</b><span><b>Injectiepomp</b>: aan de linkerkant van het blok, onder de gasstangen. Hij maakt de hoge druk en bepaalt wanneer en hoeveel diesel elke cilinder krijgt.</span></li>
+<li><b>5</b><span><b>Accu</b>: rechtsachter in de hoek bij de voorruit (linksboven op de foto).</span></li>
+<li><b>6</b><span><b>Expansievat koelvloeistof</b>: beige vat met gele dop, rechts voor de accu.</span></li>
+<li><b>7</b><span><b>Ruitensproeierreservoir</b>: witte tank, rechtsvoor (linksonder op de foto).</span></li>
+<li><b>8</b><span><b>Luchtfilterhuis</b>: zwarte doos linksachter (rechtsboven op de foto); de dikke zwarte ribbelslang voert de lucht naar de inlaat.</span></li>
+<li><b>9</b><span><b>Rembekrachtiger</b> met daarop het remvloeistofreservoir: ronde zwarte trommel links bij het schutbord.</span></li>
+<li><b>10</b><span><b>Radiateur</b> met ventilatorkap: helemaal vooraan, met het typeplaatje op de dwarsbalk.</span></li>
+</ul>
+<h2>De rechterkant (bijrijder)</h2>
+${F('02-rechterkant')}
+<p>Alles wat heet of met lucht te maken heeft zit rechts: inlaat, uitlaat, dipstick. Verder de accu, het expansievat en de ruitensproeiertank. De groene streep is een markering op de peilstok, zodat je hem snel terugvindt.</p>
+<h2>De linkerkant (bestuurder)</h2>
+${F('06-rembekrachtiger')}
+${F('07-abs-remleidingen')}
+<p>Links zit de techniek die jij bedient: gasstangen naar de injectiepomp, remmen (bekrachtiger, hoofdremcilinder, ABS-unit), luchtfilterhuis en de zekeringkast achterin onder een klepje. Jouw auto heeft ABS; dat zie je aan de zwarte unit met opschrift ABS waar de remleidingen in gaan.</p>
+<h2>Twee potten die je verwart</h2>
+${F('10-stuurbekrachtiging-pot')}
+<p>De grijze metalen pot met een bout bovenop is het <b>reservoir van de stuurbekrachtiging</b>; het filter zit in de pot. Verwar hem niet met het <b>brandstoffilter</b>, de zwarte Bosch-bus ernaast (hoofdstuk 4). De remvloeistof zit in het witte reservoir op de rembekrachtiger, met gele dop.</p>
+<div class="tip"><b>Doe nu:</b> kap open, loop de tien nummers langs en leg je hand erop. Dat beklijft beter dan lezen.</div>
+`, q:[
+{n:1,q:'Je staat voor de auto en kijkt naar de motor. Het luchtfilterhuis zie je rechtsboven in beeld. Aan welke kant van de auto zit het?',opts:{A:'Rechts (bijrijderskant)',B:'Links (bestuurderskant)',C:'In het midden, achter de motor',D:'Dat hangt af van het bouwjaar'},a:'B',e:'Links en rechts zijn gezien vanaf de bestuurdersstoel. Van voren bekeken staat alles gespiegeld: rechts op de foto is links aan de auto. Het luchtfilterhuis zit op de W124 diesel links, bij het schutbord.'},
+{n:2,q:'Aan welke kant van de OM602 zitten inlaat- en uitlaatspruitstuk?',opts:{A:'Inlaat links, uitlaat rechts',B:'Inlaat rechts, uitlaat links',C:'Allebei rechts (bijrijderskant)',D:'Allebei links (bestuurderskant)'},a:'C',e:'De OM602 heeft inlaat en uitlaat aan dezelfde kant, rechts. Op jouw foto zie je de vijf grijze inlaatbuizen met daaronder het roestbruine gietijzeren uitlaatspruitstuk (nummer 602 142 0101).'},
+{n:3,q:'Hoeveel inlaatbuizen tel je op het inlaatspruitstuk van jouw motor, en waarom?',opts:{A:'Vier, één per cilinder',B:'Vijf, één per cilinder',C:'Zes, één per cilinder',D:'Twee, één voor elke bank cilinders'},a:'B',e:'De OM602 is een vijfcilinder lijnmotor. Elke cilinder heeft een eigen inlaatbuis, dus vijf. De 300 D (OM603) heeft er zes, de 200 D (OM601) vier.'},
+{n:4,q:'De grijze metalen pot met een bout bovenop, naast het zwarte Bosch-filter, is:',opts:{A:'Het oliefilterhuis',B:'Het brandstofvoorfilter',C:'Het reservoir van de stuurbekrachtiging',D:'Het remvloeistofreservoir'},a:'C',e:'Mercedes gebruikt een metalen pot met centrale bout als reservoir voor de stuurbekrachtiging; het filter zit erin. Het brandstoffilter is de zwarte Bosch-bus ernaast, de remvloeistof zit in het witte reservoir met gele dop op de rembekrachtiger.'},
+{n:5,q:'Waar zit de accu in jouw W124?',opts:{A:'Linksvoor, naast de radiateur',B:'Rechtsachter, bij de voorruit',C:'In de kofferbak',D:'Onder de achterbank'},a:'B',e:'De accu zit rechtsachter in de motorruimte, bij het schutbord, naast het expansievat. Op de foto van voren staat hij linksboven.'}
+]},
+
+{id:'ch02', num:2, title:'Hoe de voorkamerdiesel werkt', part:1, partShort:'Deel 1', partLong:'Wat is wat', html:`
+<h2>Leerdoelen</h2>
+<p>De vier takten uitleggen, het verschil met een benzinemotor noemen, en weten wat voorkamer en gloeibougies doen.</p>
+<h2>Geen vonk, maar hitte</h2>
+<p>Een benzinemotor zuigt een mengsel van lucht en benzine aan en ontsteekt dat met een bougie. Een diesel zuigt <b>alleen lucht</b> aan en perst die zo hard samen (22 : 1) dat hij 700 tot 900 °C wordt. Dan spuit de verstuiver diesel in, en die ontbrandt vanzelf. Daarom heeft jouw motor geen bougies, geen bobine, geen verdeler, geen ontstekingskabels. Dat is ook waarom hij zo betrouwbaar is: er is bijna niets elektrisch dat kapot kan.</p>
+<h2>De vier takten</h2>
+<ol>
+<li><b>Inlaat.</b> Zuiger gaat omlaag, inlaatklep open, lucht stroomt via luchtfilter en inlaatspruitstuk naar binnen.</li>
+<li><b>Compressie.</b> Beide kleppen dicht, zuiger omhoog, lucht wordt 22 keer kleiner en gloeiend heet.</li>
+<li><b>Arbeid.</b> Vlak voor het bovenste dode punt spuit de injectiepomp via de verstuiver diesel in de voorkamer. Verbranding duwt de zuiger omlaag: dit is de enige takt die kracht levert.</li>
+<li><b>Uitlaat.</b> Uitlaatklep open, zuiger omhoog, gassen naar het uitlaatspruitstuk.</li>
+</ol>
+<p>Elke cilinder doorloopt dit in twee krukasomwentelingen. Vijf cilinders om beurten: volgorde 1-2-4-5-3. Cilinder 1 zit vooraan, bij de radiateur.</p>
+<h2>De voorkamer</h2>
+<p>De OM602 is een <b>indirecte</b> inspuiter. De diesel gaat niet rechtstreeks de cilinder in maar in een klein kamertje in de cilinderkop, de voorkamer. Daar begint de verbranding en wervelt via een plaatje met gaatjes de cilinder in. Gevolg: zachte, stille verbranding en een lange levensduur, maar iets meer verbruik dan een moderne directe inspuiter. Vandaar ook het typische "nagelen" bij koude start.</p>
+<h2>Gloeibougies</h2>
+<p>Koude lucht wordt bij het samenpersen niet heet genoeg. Daarom zit in elke voorkamer een gloeibougie: een staafje dat in een paar seconden roodgloeiend wordt. Sleutel op stand 2, spiraallampje gaat aan, wacht tot het uit is (5 tot 15 s, langer bij vorst), starten. Boven 20 °C is gloeien bijna niet nodig. Vijf gloeibougies, één relais; één kapotte gloeibougie merk je aan schudden en witte rook de eerste minuut na koude start.</p>
+${F('03-inlaat-injectie')}
+<p>Op deze foto zie je de keten: de inlaatbuizen brengen lucht, de dunne stalen leidingen eronder brengen diesel onder hoge druk naar de verstuivers, die in de kop steken, vlak naast de gloeibougies.</p>
+<div class="tip"><b>Luisteren:</b> een gezonde OM602 nagelt koud en wordt na een minuut zachter. Blijvend hard tikken of één cilinder die "mist" (schudden) is een teken: gloeibougie, verstuiver of compressie.</div>
+`, q:[
+{n:1,q:'Waarom heeft jouw motor geen bougies?',opts:{A:'Diesel is te dik voor een vonk',B:'De lucht wordt zo hard samengeperst dat de ingespoten diesel vanzelf ontbrandt',C:'De gloeibougies vervangen de bougies tijdens het rijden',D:'De injectiepomp levert zelf de ontsteking'},a:'B',e:'Een diesel is een zelfontbrander: compressie 22 : 1 maakt de lucht 700 tot 900 °C heet, en de diesel ontbrandt zodra hij wordt ingespoten. Gloeibougies helpen alleen bij koude start.'},
+{n:2,q:'Welke takt levert kracht?',opts:{A:'Inlaat',B:'Compressie',C:'Arbeid',D:'Uitlaat'},a:'C',e:'Alleen de arbeidstakt duwt de zuiger met kracht omlaag. De andere drie takten kosten energie; die komt van het vliegwiel en de andere cilinders.'},
+{n:3,q:'Wat betekent "voorkamerdiesel" (indirecte inspuiting)?',opts:{A:'De diesel wordt vóór de inlaatklep ingespoten',B:'De diesel wordt in een klein kamertje in de kop ingespoten, waar de verbranding begint',C:'De pomp zit vóór de motor',D:'Er zit een kamer vóór het brandstoffilter'},a:'B',e:'De voorkamer is een kamertje in de cilinderkop. Daar spuit de verstuiver in, daar zit ook de gloeibougie. De verbranding wervelt dan de cilinder in: zacht en stil, iets dorstiger dan directe inspuiting.'},
+{n:4,q:'De motor start koud moeizaam, schudt een minuut en rookt wit; daarna loopt hij goed. Meest waarschijnlijk:',opts:{A:'Lege tank',B:'Versleten distributieketting',C:'Eén of meer gloeibougies kapot',D:'Verkeerde motorolie'},a:'C',e:'Een kapotte gloeibougie betekent dat die cilinder koud niet meedoet: schudden en witte rook (onverbrande diesel) tot de motor warm genoeg is. Dit is de klassieke klacht en goedkoop te verhelpen.'},
+{n:5,q:'Wat is de ontstekingsvolgorde van de OM602 en waar zit cilinder 1?',opts:{A:'1-2-3-4-5, cilinder 1 bij het schutbord',B:'1-2-4-5-3, cilinder 1 bij de radiateur',C:'1-3-5-2-4, cilinder 1 bij de radiateur',D:'1-5-3-6-2-4, cilinder 1 bij het schutbord'},a:'B',e:'De vijfcilinder vuurt 1-2-4-5-3. Cilinder 1 zit vooraan bij de radiateur. De volgorde 1-5-3-6-2-4 hoort bij de zescilinder OM603.'}
+]},
+
+{id:'ch03', num:3, title:'Blok, kop en distributie van de OM602', part:1, partShort:'Deel 1', partLong:'Wat is wat', html:`
+<h2>Leerdoelen</h2>
+<p>De opbouw van de motor kennen (blok, kop, nokkenas, ketting) en weten waar je bij aankoop of klachten naar luistert.</p>
+<h2>Blok en kop</h2>
+<ul>
+<li><b>Motorblok</b>: gietijzer, zwaar en vrijwel onverslijtbaar. Hierin lopen de vijf zuigers; onderin de krukas en het carter met de olie.</li>
+<li><b>Cilinderkop</b>: aluminium. Hierin zitten de kleppen (2 per cilinder: 1 inlaat, 1 uitlaat), de voorkamers, de verstuivers, de gloeibougies en de nokkenas.</li>
+<li><b>Nokkenas</b>: één bovenliggende (SOHC), drukt de kleppen open via <b>hydraulische klepstoters</b>. Je hoeft dus nooit kleppen te stellen. Tikken na koude start dat na een minuut verdwijnt is normaal; blijvend tikken wijst op versleten stoters of te weinig oliedruk.</li>
+<li><b>Koppakking</b>: tussen blok en kop. Bij oververhitting kan hij doorslaan: olie in de koelvloeistof (olieachtig laagje in het expansievat) of koelvloeistof in de olie (melkachtige "mayonaise" onder de olievuldop).</li>
+</ul>
+${F('04-kleppendeksel-stangen')}
+<p>Het kleppendeksel sluit de kop af. De stangen met veren ervoor zijn de gasbediening: van het pedaal via stangen naar de hendel op de injectiepomp. Mechanisch, dus speling of een losse clip merk je direct als een hangend of traag gaspedaal.</p>
+<h2>Distributie: ketting, geen riem</h2>
+<p>De krukas drijft de nokkenas en de injectiepomp aan met een <b>duplexketting</b> (dubbele rollenketting) voorin de motor. Een losse enkele ketting drijft de oliepomp aan. Een ketting hoeft niet op vaste kilometers vervangen te worden zoals een riem, maar rekt wel: reken op 200.000 tot 250.000 km voor ketting en geleiders. Jouw auto staat op 205.000 km.</p>
+<ul>
+<li><b>Symptoom van rek</b>: rammelen of ratelen voorin bij koude start, dat na een paar seconden (oliedruk) minder wordt. Later ook slechter starten en meer rook, omdat de inspuiting te laat komt.</li>
+<li><b>Meten</b>: de rek is te meten met een gradenschijf aan de krukaspoelie en de nokkenasmarkering; een garage of de MercedesSource-video laat zien hoe. Meer dan ongeveer 5 graden: ketting en geleiders vervangen.</li>
+<li><b>Risico</b>: een gebroken ketting of gebroken geleider is einde kop. Daarom bij elk raar geratel voorin eerst dit uitsluiten.</li>
+</ul>
+<h2>Motorsteunen</h2>
+<p>De motor hangt op twee rubber-hydraulische steunen plus een steun onder de bak. Op de OM602 zakken ze in, met trillen bij stationair en een harde klap bij inschakelen van D of R als gevolg. Goedkoop deel, flinke verbetering.</p>
+<div class="warn"><b>OM603 (300 D) ter vergelijking:</b> de zescilinder uit deze jaren heeft een aluminium kop die bij oververhitting scheurt (vroege gietvorm #14). Jouw OM602 heeft dat probleem veel minder; dat is een reden waarom hij als "miljoen-kilometer-motor" bekendstaat. Oververhitting blijft ook bij jou de grootste vijand.</div>
+`, q:[
+{n:1,q:'Van welk materiaal zijn blok en kop van de OM602?',opts:{A:'Blok aluminium, kop gietijzer',B:'Blok gietijzer, kop aluminium',C:'Allebei gietijzer',D:'Allebei aluminium'},a:'B',e:'Gietijzeren blok (zwaar, slijtvast), aluminium kop (licht, goede warmteafvoer, maar gevoelig voor oververhitting). Daarom is het koelsysteem zo belangrijk.'},
+{n:2,q:'Waarom hoef je bij de OM602 nooit kleppen te stellen?',opts:{A:'De kleppen zijn zelfsluitend',B:'Hydraulische klepstoters nemen de speling automatisch op',C:'De nokkenas zit onderin het blok',D:'Dat hoeft bij geen enkele diesel'},a:'B',e:'De nokkenas bedient de kleppen via hydraulische stoters, die met oliedruk de speling op nul houden. Kort tikken na koude start is normaal; blijvend tikken wijst op versleten stoters of oliedrukproblemen.'},
+{n:3,q:'Wat drijft nokkenas en injectiepomp aan?',opts:{A:'Een tandriem die elke 90.000 km vervangen moet',B:'Een duplex rollenketting',C:'Een V-snaar aan de voorkant',D:'Een tandwieltrein zonder ketting'},a:'B',e:'Een dubbele rollenketting voorin de motor. Geen vast interval, maar hij rekt: 200.000 tot 250.000 km is gangbaar. Rammelen bij koude start en te late inspuiting zijn de signalen.'},
+{n:4,q:'Je ziet een melkachtige, lichtbruine drab aan de binnenkant van de olievuldop. Wat kan dit betekenen?',opts:{A:'Normale condens; altijd onschuldig',B:'Verkeerde dieselsoort',C:'Koelvloeistof in de olie: mogelijk koppakking',D:'Versleten gloeibougies'},a:'C',e:'Mayonaise onder de vuldop kan bij veel korte ritten condens zijn, maar is ook het klassieke teken van koelvloeistof in de olie door een lekke koppakking. Controleer dan het koelvloeistofniveau en kijk of de olie op de peilstok ook melkachtig is.'},
+{n:5,q:'Harde klap bij het inschakelen van D of R en trillen bij stationair. Goedkope eerste verdachte?',opts:{A:'Automaatbak versleten',B:'Motorsteunen ingezakt',C:'Distributieketting gebroken',D:'Uitlaat los'},a:'B',e:'Ingezakte motorsteunen laten de motor bij het inschakelen kantelen tot hij ergens tegenaan komt: klap. Stationair trilt alles mee. Goedkoop onderdeel. Een klap bij inschakelen kan ook de hardyschijf zijn (hoofdstuk 6), dus kijk naar allebei.'}
+]},
+
+{id:'ch04', num:4, title:'Brandstofsysteem: van tank tot verstuiver', part:2, partShort:'Deel 2', partLong:'De systemen', html:`
+<h2>Leerdoelen</h2>
+<p>De weg van de diesel volgen, de twee filters op jouw auto aanwijzen en weten hoe de motorstop werkt.</p>
+<h2>De route</h2>
+<ol>
+<li><b>Tank</b>, onder de kofferbakvloer, achter (zie foto in hoofdstuk 8).</li>
+<li><b>Voorfilter</b>: klein doorzichtig filtertje in de leiding vóór de opvoerpomp. Vangt water en grof vuil. Goedkoop, elke beurt even bekijken: donker of vol troep = vervangen (let op de stroomrichting, pijl op het filter).</li>
+<li><b>Opvoerpomp</b>: zit aan de injectiepomp, zuigt diesel uit de tank.</li>
+<li><b>Hoofdfilter</b>: de zwarte Bosch-bus (Mercedes A 601 090 16 52 / Bosch 1457434123). Fijn filter, elke 15.000 tot 20.000 km of elke twee jaar.</li>
+<li><b>Injectiepomp</b> (Bosch, lijnpomp, mechanisch): vijf kleine plunjers, één per cilinder, maken 120 tot 170 bar en bepalen moment en hoeveelheid. Regelaar en gasbediening zitten erop. Geen elektronica.</li>
+<li><b>Injectieleidingen</b>: vijf stalen buisjes van gelijke lengte naar de verstuivers.</li>
+<li><b>Verstuivers</b>: openen bij ongeveer 115 bar en vernevelen de diesel in de voorkamer. Lekken ze of druppelen ze, dan rookt de motor en tikt die cilinder.</li>
+<li><b>Retourleiding</b>: overtollige diesel gaat via dunne rubberslangetjes tussen de verstuivers terug naar de tank. Deze slangetjes verharden en lekken: dieselgeur en natte plekken bovenop de kop.</li>
+</ol>
+${F('09-brandstoffilter')}
+<p>Jouw hoofdfilter. De doorzichtige slang ernaast is een brandstofleiding; aan de kleur van de diesel erin zie je direct of hij schoon is.</p>
+<h2>Motorstop zonder elektronica</h2>
+<p>Je zet de motor uit met de sleutel, maar er is geen contact dat "de ontsteking" uitzet. De sleutel opent een vacuümklep; het vacuüm trekt op de injectiepomp de stopmembraan dicht en de brandstoftoevoer stopt. Loopt de motor na het uitzetten door of valt hij traag af, dan is het vacuümsysteem lek (hoofdstuk 7). Noodstop: de hendel op de injectiepomp met de hand naar stop trekken.</p>
+<h2>Lucht in het systeem</h2>
+<p>Na een filterwissel of een leeggereden tank zit er lucht in. De OM601/602/603 ontlucht zichzelf: starten in stoten van maximaal 20 tot 30 seconden met pauzes, tot hij aanslaat. Er zit geen handpomp op. Blijft hij lucht trekken, dan zoek je een lek: meestal het voorfilter, de slangetjes of een O-ring.</p>
+<h2>Welke diesel</h2>
+<p>Gewone diesel volgens EN 590 (met de toegestane 7% biodiesel) is prima. HVO100 (synthetische diesel) kan ook; controleer dan de oude rubberen retourslangetjes. Geen B100. Winterdiesel tankt de pomp vanzelf vanaf november.</p>
+<div class="tip"><b>Zelf doen:</b> de procedure voor het brandstoffilter staat in hoofdstuk 9.</div>
+`, q:[
+{n:1,q:'Wat is de juiste volgorde van tank naar motor?',opts:{A:'Tank → hoofdfilter → voorfilter → injectiepomp → verstuivers',B:'Tank → voorfilter → opvoerpomp → hoofdfilter → injectiepomp → verstuivers',C:'Tank → injectiepomp → hoofdfilter → verstuivers',D:'Tank → opvoerpomp → verstuivers → injectiepomp'},a:'B',e:'Eerst het grove voorfilter, dan zuigt de opvoerpomp de diesel door het fijne hoofdfilter naar de injectiepomp, die via de stalen leidingen de verstuivers voedt.'},
+{n:2,q:'Hoe krijg je na een filterwissel de lucht uit het systeem van een OM602?',opts:{A:'Met de handpomp op het filterhuis pompen tot er diesel zonder bellen komt',B:'De motor in stoten van 20 tot 30 seconden starten met pauzes; hij ontlucht zichzelf',C:'Alle injectieleidingen losdraaien en laten lopen',D:'Dat kan alleen een garage met een vacuümpomp'},a:'B',e:'Deze motoren hebben geen handpomp. De opvoerpomp zuigt zelf aan; starten in korte stoten met pauzes spaart startmotor en accu. Trekt hij steeds opnieuw lucht, dan lekt er iets aan de zuigkant.'},
+{n:3,q:'De motor loopt na het omdraaien van de sleutel nog een paar seconden door of valt traag af. Oorzaak?',opts:{A:'Te veel diesel in de tank',B:'Vacuümlek: de stopmembraan op de injectiepomp krijgt te weinig vacuüm',C:'Kapotte gloeibougie',D:'Versleten distributieketting'},a:'B',e:'De motorstop werkt met vacuüm op de injectiepomp. Een lekke slang of membraan (vaak ook merkbaar aan een trage centrale vergrendeling) laat de motor doorlopen. Noodstop: de hendel op de pomp met de hand naar stop.'},
+{n:4,q:'Dieselgeur onder de kap en natte plekken bovenop de cilinderkop tussen de verstuivers. Meest waarschijnlijk:',opts:{A:'Lekkende retourslangetjes tussen de verstuivers',B:'Lekke tank',C:'Te hoog oliepeil',D:'Koppakking'},a:'A',e:'De dunne rubberen retourslangetjes verharden en scheuren. Goedkoop (per meter leiding), half uur werk, en het voorkomt lucht in het systeem en brandgevaar op het hete spruitstuk.'},
+{n:5,q:'Welke brandstof is voor jouw 250 D een goede keus?',opts:{A:'Alleen premium diesel met additieven, anders raakt de pomp beschadigd',B:'Gewone EN 590 diesel; HVO100 kan ook',C:'B100 (pure biodiesel), want de motor is er oud genoeg voor',D:'Benzine met een scheut olie in de winter'},a:'B',e:'Gewone EN 590 diesel is wat de fabriek voorschrijft. HVO100 is een schone synthetische diesel die ook kan (oude retourslangetjes in de gaten houden). B100 tast rubber en pompafdichtingen aan.'}
+]},
+
+{id:'ch05', num:5, title:'Koeling en smering', part:2, partShort:'Deel 2', partLong:'De systemen', html:`
+<h2>Leerdoelen</h2>
+<p>Het koelcircuit volgen, de temperatuurmeter lezen, het juiste niveau en de juiste vloeistoffen kennen.</p>
+<h2>Koelsysteem</h2>
+<table>
+<tr><th>Onderdeel</th><th>Wat het doet</th><th>Op jouw auto</th></tr>
+<tr><td>Radiateur</td><td>Koelt de vloeistof met rijwind</td><td>Vooraan, achter de grille, met ventilatorkap</td></tr>
+<tr><td>Waterpomp</td><td>Pompt rond, aangedreven door de riem</td><td>Voorop de motor, achter de poelies</td></tr>
+<tr><td>Thermostaat</td><td>Houdt het water in de motor tot ca. 80 °C, opent dan naar de radiateur</td><td>In het thermostaathuis op de kop, vooraan</td></tr>
+<tr><td>Viscokoppeling</td><td>Laat de ventilator harder meedraaien als het heet wordt</td><td>Op de waterpomp, in de ventilatorkap</td></tr>
+<tr><td>Expansievat</td><td>Vangt uitzetting op, hier vul je bij</td><td>Beige vat met gele dop, rechts</td></tr>
+<tr><td>Slangen</td><td>Verbinden alles</td><td>Boven- en onderslang radiateur, kachelslangen naar het schutbord</td></tr>
+</table>
+${F('08-expansievat-accu')}
+<p>Vul bij een <b>koude</b> motor tot het merkteken. Nooit de gele dop openen op een hete motor: het systeem staat onder druk. Koelvloeistof: Mercedes blauw (MB 325.0, bijvoorbeeld Glysantin G48), 50/50 met gedemineraliseerd water, elke twee tot drie jaar verversen. Dit beschermt ook de aluminium kop tegen corrosie.</p>
+<h2>De meter lezen</h2>
+<ul>
+<li>80 tot 95 °C is normaal. In de file of bergop mag hij richting 100.</li>
+<li>Blijft hij onder de 80: thermostaat hangt open. Motor wordt niet warm, verbruik hoger, kachel lauw.</li>
+<li>Boven de 100 en stijgend: stop, kachel vol open, motor laten lopen tot hij zakt, dan uit. Oorzaak zoeken: niveau, viscokoppeling (ventilator moet bij hete motor flink blazen), thermostaat, slang.</li>
+</ul>
+${F('12-riemen')}
+<p>De riemen drijven waterpomp, dynamo en stuurpomp aan. Scheurtjes, rafels of een glazig oppervlak: vervangen. Piepen bij koude start is een slappe riem.</p>
+<h2>Smering</h2>
+<ul>
+<li>Olie: 15W-40 of 10W-40 voor dieselmotoren (ACEA A3/B4 of een klassieke diesel-olie). Inhoud met filter ongeveer 7 liter. Verversen elke 7.500 km of jaarlijks, filter altijd mee.</li>
+<li>Peilen op een vlakke plek, minstens 5 minuten na uitzetten. De peilstok zit rechts (groene markering op jouw foto).</li>
+<li>Olielampje moet binnen een seconde na starten uit zijn. Flakkeren bij warme stationair: oliedruk te laag, direct onderzoeken.</li>
+<li>Oliekoeler: zit naast de radiateur; de slangen ernaartoe lekken op leeftijd (olievlekken vooraan onder de auto).</li>
+</ul>
+${F('13-onder-voor')}
+<div class="warn"><b>Eén regel:</b> oververhitting is het enige dat een OM602 echt kapotmaakt. Rood op de meter is stoppen, niet "nog even naar huis".</div>
+`, q:[
+{n:1,q:'De temperatuurmeter blijft ook na 20 minuten rijden onder de 80 °C en de kachel wordt lauw. Oorzaak?',opts:{A:'Te weinig koelvloeistof',B:'Thermostaat blijft openstaan',C:'Viscokoppeling defect',D:'Koppakking lek'},a:'B',e:'Een open hangende thermostaat stuurt al het water direct door de radiateur; de motor komt niet op temperatuur. Ongevaarlijk op korte termijn, maar meer slijtage en verbruik. Goedkoop onderdeel.'},
+{n:2,q:'Wanneer en waar controleer je het koelvloeistofniveau?',opts:{A:'Bij hete motor, door de radiateurdop te openen',B:'Bij koude motor, aan het merkteken op het expansievat',C:'Tijdens stationair draaien, aan het expansievat',D:'Bij hete motor, met de peilstok'},a:'B',e:'Koude motor, expansievat tot het merkteken. Een heet systeem staat onder druk: de dop openen geeft kokend water in je gezicht.'},
+{n:3,q:'Welke koelvloeistof hoort in jouw W124?',opts:{A:'Alleen water, een diesel wordt niet zo heet',B:'Roze langlevende koelvloeistof van een moderne Mercedes',C:'Blauwe koelvloeistof volgens MB 325.0, 50/50 met gedemineraliseerd water',D:'Elk merk antivries, kleur maakt niet uit'},a:'C',e:'De blauwe MB 325.0 (bijvoorbeeld Glysantin G48) beschermt de aluminium kop en het gietijzeren blok tegen corrosie en vriest niet. Verkeerde of oude koelvloeistof is een bekende oorzaak van koppakkingproblemen.'},
+{n:4,q:'Het olielampje flakkert bij warme motor stationair en gaat uit zodra je gas geeft. Wat doe je?',opts:{A:'Niets, dat is normaal bij een oude diesel',B:'Direct onderzoeken: oliepeil, oliedruk meten; niet doorrijden',C:'Dikkere olie erin en doorrijden',D:'Het lampje afplakken'},a:'B',e:'Flakkeren bij warme stationair betekent te lage oliedruk. Eerst peil checken, dan de druk meten (sensor kan ook kapot zijn). Doorrijden met echte lage druk kost lagers en nokkenas.'},
+{n:5,q:'De meter loopt in de file op tot ver boven de 100 °C. Juiste volgorde van handelen?',opts:{A:'Gas geven zodat er meer rijwind komt',B:'Stoppen, kachel vol open, motor stationair laten draaien tot de meter zakt, daarna uit en oorzaak zoeken',C:'Direct motor uit en koud water op de motor gieten',D:'Doorrijden tot de garage, de meter zal wel iets te hoog aangeven'},a:'B',e:'De kachel is een extra radiateur. Stationair laten draaien houdt de circulatie gaande en voorkomt hitteophoping in de aluminium kop. Koud water op een hete kop laat hem scheuren.'}
+]},
+
+{id:'ch06', num:6, title:'Aandrijflijn: automaat, cardan, achteras', part:2, partShort:'Deel 2', partLong:'De systemen', html:`
+<h2>Leerdoelen</h2>
+<p>De weg van de kracht naar de achterwielen kennen, de automaat 722.4 begrijpen, en jouw kraak linksachter kunnen plaatsen.</p>
+<h2>De route</h2>
+<p><b>Motor → koppelomvormer → automaat 722.4 → cardanas (twee delen, middenlager) → hardyschijf → differentieel → aandrijfassen → achterwielen.</b> Achterwielaandrijving, altijd.</p>
+<h2>Automaat 722.4</h2>
+<ul>
+<li>Vier trappen, vierde is 1 : 1 (geen overdrive). Hydraulisch gestuurd met een vacuümregelaar en een kickdown-schakelaar onder het gaspedaal; geen elektronica.</li>
+<li>Eindoverbrenging in jouw differentieel: 3,07. Bij 120 km/u draait de motor ongeveer 3.150 toeren, bij 100 ongeveer 2.630. Dat is normaal, zo klinkt het.</li>
+<li>Hij start bewust in de tweede trap; eerste alleen bij kickdown of met de hendel in 2/B. Dat is geen storing.</li>
+<li>Olie: ATF (rood), peilen met warme motor, stationair, hendel in P, op de peilstok rechts achterin de motorruimte. Verversen met filter elke 60.000 km; de 722.4 heeft een aftapplug in de koppelomvormer, dus beide aftappen.</li>
+<li>Hard schakelen 1-2 of 2-3 is vaak de <b>vacuümregelaar</b> of een lekke vacuümslang, niet een versleten bak. Slippen bij warme bak is wel ernstig.</li>
+</ul>
+<h2>Cardanas en hardyschijf</h2>
+<p>De cardanas bestaat uit twee delen met een middenlager (rubber) ertussen. Aan beide uiteinden zit een <b>hardyschijf</b>: een rubberen schijf met zes bouten die motortrillingen opvangt. Scheuren in het rubber of een vervormde schijf geven een klap bij het inschakelen van D/R en trillen vanaf 80 km/u. Veiligheidsdeel: altijd nieuw, nooit tweedehands.</p>
+<h2>Achteras: waar jouw kraak vandaan komt</h2>
+<p>De W124 heeft een meervoudige achterwielophanging op een subframe. Dat subframe hangt met vier grote rubbers aan de carrosserie, en het differentieel hangt met twee rubbers aan het subframe. Trek je op, dan draait het differentieel onder het koppel een stukje omhoog; staan de rubbers op rubber, dan kraakt het. Jouw waarneming (kraak de eerste seconden bij optrekken en in bochten, niet bij drempels, in D wel en in R niet) past daar precies bij: in D duwt het koppel het differentieel tegen de versleten kant, in R de andere kant op.</p>
+<ul>
+<li><b>Kijken:</b> achter opkrikken op de krikpunten, onder de auto, iemand laat de bak in D en R inschakelen met de voet op de rem. Beweegt het differentieel zichtbaar en kraakt het daar: differentieelrubbers.</li>
+<li><b>Vervangen:</b> rubbers nieuw (Lemförder of Febi), uren werk door de bouten op leeftijd. Niet gevaarlijk om mee te rijden zolang de bevestiging niet loszit.</li>
+</ul>
+${F('14-onder-tank')}
+<p>Onder de achterkant van jouw auto: de tank, met links de carrosserienaad met roest. Het subframe en het differentieel zitten daar vlak voor.</p>
+<h2>Differentieel</h2>
+<p>Verdeelt de kracht over beide achterwielen en laat het buitenste wiel in de bocht sneller draaien. Olie: hypoid 85W-90, ongeveer 1,3 liter, bij onbekende historie verversen. Een zoemen dat met de snelheid oploopt (niet met het toerental) komt uit het differentieel of de wiellagers.</p>
+`, q:[
+{n:1,q:'Hoeveel trappen heeft jouw automaat en hoe is de hoogste?',opts:{A:'Drie trappen, hoogste 1 : 1',B:'Vier trappen, hoogste 1 : 1 (geen overdrive)',C:'Vier trappen, hoogste 0,8 (overdrive)',D:'Vijf trappen'},a:'B',e:'De 722.4 is een viertraps automaat waarvan de vierde trap 1 : 1 is. Met de 3,07-as draait de motor bij 120 km/u ongeveer 3.150 toeren.'},
+{n:2,q:'De automaat trekt vanuit stilstand op in de tweede trap. Is dat een storing?',opts:{A:'Ja, de eerste trap is kapot',B:'Nee, dit is normaal; de eerste trap komt alleen bij kickdown of in stand 2/B',C:'Ja, de vacuümregelaar is lek',D:'Ja, de ATF is te oud'},a:'B',e:'Mercedes liet deze automaten bewust in de tweede trap wegrijden voor comfort. Vol gas (kickdown) of de hendel in 2 geeft de eerste trap.'},
+{n:3,q:'Kraken de eerste 2 tot 3 seconden bij optrekken en in bochten, niet bij drempels; in D wel, in R niet. Beste verdachte?',opts:{A:'Losse bumper',B:'Versleten schokdempers',C:'Differentieel- of subframerubbers van de achteras',D:'Uitlaat tegen de bodem'},a:'C',e:'Koppel bij optrekken laat het differentieel in zijn rubbers draaien; zijn die versleten, dan kraakt het. Dat het in R anders is past erbij: het koppel duwt dan de andere kant op. Een losse bumper zou juist bij drempels rammelen.'},
+{n:4,q:'Hard schakelen van 1 naar 2 en van 2 naar 3, verder geen klachten. Eerste controle?',opts:{A:'Automaat reviseren',B:'Vacuümregelaar op de bak en de vacuümslang ernaartoe',C:'Differentieelolie verversen',D:'Hardyschijf vervangen'},a:'B',e:'De schakelzachtheid van de 722.4 wordt met vacuüm geregeld. Een lekke slang of ontregelde regelaar geeft harde schakelmomenten. Goedkoop en vaak de oorzaak; slippen bij warme bak is een ander verhaal.'},
+{n:5,q:'Wat is de hardyschijf en waarom koop je hem nooit tweedehands?',opts:{A:'Een rubberen schijf tussen cardanas en bak/differentieel; het is een veiligheidsdeel dat op leeftijd scheurt',B:'Een stalen koppelingsplaat; tweedehands is prima',C:'Het rubber van de motorsteun',D:'De pakking van het differentieel'},a:'A',e:'De hardyschijf (flexschijf) vangt trillingen op in de aandrijflijn. Rubber veroudert ook zonder gebruik; een gescheurde schijf kan de cardanas los laten slaan. Dus altijd nieuw.'}
+]},
+
+{id:'ch07', num:7, title:'Elektrisch en vacuüm', part:2, partShort:'Deel 2', partLong:'De systemen', html:`
+<h2>Leerdoelen</h2>
+<p>Weten hoe weinig elektronica er is, waar accu, zekeringen en relais zitten, en hoe het vacuümsysteem de helft van de auto bedient.</p>
+<h2>Elektrisch: alleen het nodige</h2>
+<ul>
+<li><b>Accu</b> rechtsachter. 12 V, 88 tot 100 Ah is gangbaar voor een diesel (koud starten vraagt veel). Polen schoon, vet dun, massakabel naar carrosserie en motor controleren: een slechte massa geeft de raarste klachten.</li>
+<li><b>Dynamo</b> vooraan, op de riem. Laadlampje aan tijdens rijden = riem of dynamo.</li>
+<li><b>Startmotor</b> onderaan rechts tegen het blok. Klikt maar draait niet: accu of massa; draait traag bij kou: accu of starter.</li>
+<li><b>Gloeirelais</b> met de gloeizekering: bij het schutbord. Spiraallampje gaat niet aan of blijft branden: eerst dit relais.</li>
+<li><b>Zekeringkast</b> linksachter onder een klepje. Oude Mercedes-zekeringen met gekleurde strips: ze corroderen aan de uiteinden. Rare uitval (ruitenwisser, verlichting)? Zekering eruit, contacten schuren, terug. Houd een setje in het dashboardkastje.</li>
+<li><b>Overspanningsrelais</b> (als die er zit, bij ABS): bekend zwak punt bij ABS-lampje dat blijft branden.</li>
+</ul>
+${F('17-zekeringkast')}
+<p>De motor zelf heeft maar drie elektrische dingen nodig om te lopen: startmotor, gloeibougies (alleen koud) en de stopklep-bekrachtiging. Zonder accu, met een aanduwer, loopt hij door. Daarom start hij ook met een bijna lege accu zodra hij aanslaat.</p>
+<h2>Vacuüm: het zenuwstelsel</h2>
+<p>Een diesel heeft geen gasklep en dus geen onderdruk in de inlaat. De W124 diesel heeft daarom een aparte <b>vacuümpomp</b> op de motor (voorop, aangedreven door de nokkenas). Dat vacuüm bedient:</p>
+<ul>
+<li>de <b>rembekrachtiger</b> (eerste prioriteit; zonder vacuüm is het rempedaal keihard),</li>
+<li>de <b>motorstop</b> op de injectiepomp,</li>
+<li>de <b>centrale vergrendeling</b> (sloten, tankklep, kofferbak),</li>
+<li>de <b>kachelkleppen</b> en recirculatie,</li>
+<li>de <b>schakelregeling</b> van de automaat en de EGR/uitschakelkleppen (waar aanwezig).</li>
+</ul>
+${F('11-vacuumslangen')}
+<p>De slangetjes met gekleurde ringen bovenop de inlaat zijn dat systeem. Kleur = functie, zodat je ze na losmaken weer goed aansluit. Ze worden hard en scheuren bij de koppelstukken.</p>
+<h2>Zo spoor je een vacuümlek op</h2>
+<ol>
+<li>Klacht: motor valt traag af, centrale vergrendeling traag of eenzijdig, kachel blaast alleen op de voorruit, automaat schakelt hard.</li>
+<li>Kijk eerst naar de verdeelblokjes en T-stukken op de inlaat en bij het schutbord: de meeste lekken zitten daar.</li>
+<li>Met een handvacuümpomp (Mityvac, ca. 30 euro) elk circuit apart afpompen: houdt het geen vacuüm, dan lekt die tak. Dit is de manier van MercedesSource en PeachParts; zonder pomp blijft het gokken.</li>
+<li>Deurslot-elementen in de deuren zijn een klassieke lekbron: dan werkt de vergrendeling eerst traag, daarna helemaal niet.</li>
+</ol>
+<div class="tip"><b>Ezelsbruggetje:</b> gaat er iets "langzaam" op deze auto (afslaan, sloten, kachel), denk vacuüm. Gaat er iets "helemaal niet", denk zekering of massa.</div>
+`, q:[
+{n:1,q:'Waarom heeft de W124 diesel een aparte vacuümpomp op de motor?',opts:{A:'Om de turbo aan te sturen',B:'Omdat een diesel geen gasklep heeft en dus geen onderdruk in de inlaat maakt',C:'Om de brandstof aan te zuigen',D:'Voor de airco'},a:'B',e:'Een benzinemotor haalt vacuüm uit zijn inlaat achter de gasklep; een diesel heeft geen gasklep. De vacuümpomp levert onderdruk voor rembekrachtiger, motorstop, sloten, kachelkleppen en automaatregeling.'},
+{n:2,q:'Welke vier dingen op jouw auto werken met vacuüm?',opts:{A:'Startmotor, dynamo, gloeibougies, ruitenwissers',B:'Rembekrachtiger, motorstop, centrale vergrendeling, kachelkleppen',C:'Koplampen, claxon, richtingaanwijzers, radio',D:'Waterpomp, oliepomp, opvoerpomp, injectiepomp'},a:'B',e:'Precies de dingen die op deze auto "langzaam" gaan als er een lek zit: afslaan, sloten, kachel, plus de rembekrachtiging en de schakelregeling van de automaat.'},
+{n:3,q:'De ruitenwisser doet het soms wel en soms niet. Eerste, goedkope controle?',opts:{A:'Wissermotor vervangen',B:'Zekering eruit, de uiteinden en de contacten schoonschuren, terugzetten',C:'Accu vervangen',D:'Vacuümslangen controleren'},a:'B',e:'De oude strip-zekeringen van Mercedes corroderen aan de uiteinden en maken dan wisselend contact. Schuren of vervangen lost een verrassend aantal klachten op.'},
+{n:4,q:'Wat heeft de motor elektrisch minimaal nodig om te blijven lopen als hij eenmaal draait?',opts:{A:'Bobine en bougies',B:'Vrijwel niets: brandstof komt mechanisch, ontsteking door compressie',C:'De boordcomputer',D:'De gloeibougies, continu'},a:'B',e:'Inspuiting en ontsteking zijn volledig mechanisch. Startmotor en gloeibougies zijn alleen voor het starten nodig. Daarom loopt hij door met een kapotte dynamo tot de accu leeg is, en start hij met een zetje.'},
+{n:5,q:'Centrale vergrendeling werkt traag en de motor valt na het uitzetten pas na twee seconden af. Wat is het gereedschap om de oorzaak te vinden?',opts:{A:'Multimeter',B:'Handvacuümpomp om elk circuit apart te testen',C:'Compressiemeter',D:'Koppelsleutel'},a:'B',e:'Beide klachten wijzen op een vacuümlek. Met een handvacuümpomp pomp je elke tak af en zie je welke het vacuüm niet vasthoudt. Zonder pomp blijf je gissen tussen deurslot-elementen, T-stukken en de stopmembraan.'}
+]},
+
+{id:'ch08', num:8, title:'Uitlaat, onderkant en roest', part:2, partShort:'Deel 2', partLong:'De systemen', html:`
+<h2>Leerdoelen</h2>
+<p>De uitlaat van spruitstuk tot einddemper kennen, weten wat je van onderen controleert en waar het water weg moet.</p>
+<h2>Uitlaat</h2>
+<ol>
+<li><b>Uitlaatspruitstuk</b>: gietijzer, rechts aan de kop (nummer 602 142 0101 op jouw exemplaar). Roestkleur is normaal. Een blazend tikgeluid dat met het toerental meegaat, vooral koud: gescheurde spruitstukpakking of gebroken tapeind.</li>
+<li><b>Voorpijp</b> met flexibel stuk.</li>
+<li><b>Middendemper</b> en <b>einddemper</b>, opgehangen in rubbers. Rammelen bij stationair: rubber los of demper inwendig kapot.</li>
+<li>Katalysator: niet op een 1986 diesel. Roetfilter evenmin.</li>
+</ol>
+${F('16-uitlaat-602')}
+<h2>Van onderen kijken</h2>
+${F('15-onder-wielophanging')}
+<p>Voorwielophanging: draagarm, fusee, stuurstang en schokdemper. Speling voel je door het wiel op 9 en 3 uur (stuurstangen) en op 12 en 6 uur (wiellager, fuseekogel) heen en weer te trekken met de auto op de krik.</p>
+<ul>
+<li><b>Lekkages</b>: olie vooraan (carterpakking, oliekoelerslangen, nokkenasdeksel), rood (ATF, automaat of koelerleidingen), groen/blauw (koelvloeistof), helder en glad (stuurbekrachtiging), diesel (retourslangetjes, tankleidingen).</li>
+<li><b>Krikpunten</b>: vier versterkte gaten in de dorpel voor de originele krik. Bij jou mist links de dop; het gat is een inregenpunt, dus dop terug (op de onderdelenlijst).</li>
+<li><b>Uitlaatrubbers, hardyschijf, middenlager, remslangen</b>: één keer per jaar op de rug kijken.</li>
+</ul>
+<h2>Roest: waar de W124 het laat weten</h2>
+<p>De W124 is goed verzinkt voor zijn tijd, maar niet onsterfelijk. Op jouw auto al gezien: roest op de bodemnaad achter (foto hoofdstuk 6), bij de ontbrekende beplanking rechts en rond de krikdop links. Vaste controleplekken:</p>
+<ul>
+<li>Krikpunten en dorpels, vooral achter de beplanking (vocht blijft daar hangen),</li>
+<li>wielkastranden en de voorste veerpoten (bovenkant, onder de kap),</li>
+<li>deuronderkanten en de rand onder de achterruit,</li>
+<li>reservewielbak en de hoeken van de kofferbak,</li>
+<li>de naad tussen bodem en zijkant, waar jouw roest zit.</li>
+</ul>
+<h2>Afwatering: roest voorkomen</h2>
+<p>Water dat niet weg kan maakt roest. Jaarlijks vrijmaken:</p>
+<ul>
+<li><b>Waterkast onder de voorruit</b> (onder de zwarte rooster-afdekking): bladeren eruit, afvoeren links en rechts doorprikken. Verstopt = water in de voetenruimte en op de zekeringkast.</li>
+<li><b>Schuifdakafvoeren</b> (jouw auto heeft een schuifdak, code 412): vier slangen, voor via de A-stijl, achter via de C-stijl. Doorblazen met perslucht of een zachte draad; nooit met een harde staaldraad.</li>
+<li><b>Deurafvoeren</b>: gaatjes in de onderrand van elke deur.</li>
+<li><b>Kofferbak</b>: rubber van het deksel en de afvoergaten in de reservewielbak.</li>
+</ul>
+<div class="tip"><b>Eenmalig regelen, blijvend profijt:</b> zet "afvoeren vrijmaken" elk najaar in je agenda. Tien minuten werk, voorkomt duizenden euro's laswerk.</div>
+`, q:[
+{n:1,q:'Blazend tikgeluid rechts aan de motor, gaat mee met het toerental, vooral koud en minder als de motor warm is. Waarschijnlijk:',opts:{A:'Versleten klepstoters',B:'Lekke spruitstukpakking of gebroken tapeind van het uitlaatspruitstuk',C:'Kapotte gloeibougie',D:'Lekke einddemper'},a:'B',e:'Een lekke uitlaatspruitstukpakking blaast per uitlaatslag, dus op toerental. Koud staat de naad open, warm zet het gietijzer uit en sluit hij deels. Tapeinden breken vaak af; kijk of alle moeren er nog zitten.'},
+{n:2,q:'Een heldere, gladde olievlek onder de voorkant, geen rode of zwarte kleur. Welk systeem?',opts:{A:'Motorolie',B:'Automaat (ATF)',C:'Stuurbekrachtiging',D:'Koelvloeistof'},a:'C',e:'Stuurbekrachtigingsolie is helder tot lichtgeel. Motorolie is zwart, ATF rood, koelvloeistof blauw/groen en zoetig. Controleer het niveau in de metalen pot en de leidingen naar de pomp.'},
+{n:3,q:'Waarom is een ontbrekende krikdop in de dorpel meer dan een schoonheidsfoutje?',opts:{A:'Zonder dop werkt de krik niet',B:'Het open gat laat water in de dorpel; daar begint roest die je pas laat ziet',C:'De APK keurt erop af',D:'De dop is een dragend deel'},a:'B',e:'Het krikgat zit in de dorpel, een holle balk. Water erin blijft staan en de dorpel roest van binnenuit. Dop terug (staat op jouw onderdelenlijst) en binnenin behandelen met holle-ruimtewas.'},
+{n:4,q:'Welke afvoeren maak je jaarlijks vrij om roest en natte vloeren te voorkomen?',opts:{A:'Alleen de uitlaat',B:'Waterkast onder de voorruit, schuifdakafvoeren, deuronderkanten, reservewielbak',C:'Radiateur en expansievat',D:'Brandstoftankontluchting'},a:'B',e:'Dit zijn de plekken waar bladeren en vuil het water tegenhouden. Jouw auto heeft een schuifdak (code 412), dus vier dakafvoeren extra. Tien minuten per jaar.'},
+{n:5,q:'Hoe test je speling in de stuurstangen van het voorwiel?',opts:{A:'Auto op de krik, wiel op 9 en 3 uur vastpakken en heen en weer trekken',B:'Auto op de krik, wiel op 12 en 6 uur vastpakken',C:'Hard remmen op de snelweg',D:'Aan het stuur draaien met de motor uit'},a:'A',e:'Horizontaal (9 en 3 uur) voel je stuurstangen en stuurkogels; verticaal (12 en 6 uur) wiellager en fuseekogel. Laat iemand kijken waar de beweging zit.'}
+]},
+
+{id:'ch09', num:9, title:'Onderhoud dat je zelf kunt', part:3, partShort:'Deel 3', partLong:'Zelf doen', html:`
+<h2>Leerdoelen</h2>
+<p>Het onderhoudsschema kennen en vijf klussen zelf kunnen: peilen, brandstoffilters, olie en filter, koelvloeistof bijvullen, riemen en slangen keuren.</p>
+<h2>Schema</h2>
+<table>
+<tr><th>Wanneer</th><th>Wat</th></tr>
+<tr><td>Elke tankbeurt</td><td>Oliepeil, koelvloeistofniveau, blik onder de auto</td></tr>
+<tr><td>Elke 7.500 km of jaarlijks</td><td>Motorolie en oliefilter</td></tr>
+<tr><td>Elke 15.000 tot 20.000 km of 2 jaar</td><td>Brandstoffilter en voorfilter</td></tr>
+<tr><td>Elke 2 jaar</td><td>Remvloeistof (DOT 4); koelvloeistof elke 2 tot 3 jaar</td></tr>
+<tr><td>Elke 30.000 km</td><td>Luchtfilter; riemen en slangen keuren</td></tr>
+<tr><td>Elke 60.000 km</td><td>ATF en filter automaat; differentieelolie</td></tr>
+<tr><td>Jaarlijks, najaar</td><td>Afvoeren vrijmaken, holle ruimtes, accupolen</td></tr>
+<tr><td>Bij 200.000 tot 250.000 km</td><td>Distributieketting meten (rek), geleiders</td></tr>
+</table>
+<h2>Klus 1: peilen (5 min)</h2>
+<p>Vlakke plek, motor 5 minuten uit. Olie: peilstok rechts (groene markering), tussen min en max; bijvullen door de vuldop op het kleppendeksel, een halve liter per keer. Koelvloeistof: expansievat tot het merkteken, koud. ATF: motor warm en stationair, P, peilstok rechtsachter. Remvloeistof: wit reservoir op de rembekrachtiger, tussen min en max; daalt hij, dan slijten de remblokken of lekt er iets.</p>
+<h2>Klus 2: brandstoffilters (30 min)</h2>
+<p>Nodig: hoofdfilter A 601 090 16 52 (Bosch 1457434123), voorfilter A 002 477 27 01, een paar slangklemmen, bak, doeken, bandsleutel.</p>
+<ol>
+<li>Koude motor, buiten. Doeken onder het filter: er komt diesel vrij.</li>
+<li><b>Voorfilter</b>: let op de pijl (stroomrichting naar de pomp). Klemmen los, slangen eraf, nieuw filter erin met de pijl dezelfde kant op, klemmen vast. Poreuze slang? Meteen vervangen.</li>
+<li><b>Hoofdfilter</b>: met de bandsleutel losdraaien (linksom, van onderen bekeken), laten leeglopen in de bak. Rubber ring van het nieuwe filter licht invetten met diesel, filter vullen met schone diesel (scheelt starten), handvast opdraaien en dan nog een halve slag. Geen sleutel bij het vastzetten.</li>
+<li>Starten in stoten van 20 tot 30 seconden met pauzes van een halve minuut, tot hij aanslaat; dan even onregelmatig, daarna rustig. Geen handpomp nodig.</li>
+<li>Motor laten lopen en op lekkage kijken. Oude filter en diesel naar de milieustraat.</li>
+</ol>
+${F('09-brandstoffilter')}
+<h2>Klus 3: olie en filter (45 min)</h2>
+<p>Motor warm rijden, op een vlakke plek op rijplaten of bokken (nooit alleen op de krik). Aftapplug onder in het carter, bak van minstens 8 liter eronder. Oliefilter: op de OM602 een insteekelement in een huis aan de zijkant van het blok, deksel met een dop losdraaien, element en O-ringen van het deksel vervangen. Aftapplug met nieuwe koperring vast, ongeveer 6,5 liter 15W-40 erin, starten, lampje uit, na 5 minuten peilen en bijvullen tot max.</p>
+<h2>Klus 4: riemen en slangen (15 min)</h2>
+<p>Motor uit. Riemen: knijpen en draaien; scheurtjes, rafels, glazige loopvlakken of meer dan 1 cm doorbuiging bij duimdruk = vervangen. Slangen: knijpen; hard, gezwollen bij de klemmen of zacht als spons = vervangen. Koelslangen gaan meestal kapot aan het eind van een hete zomerrit, dus liever vooraf.</p>
+<h2>Klus 5: gloeibougies testen (20 min)</h2>
+<p>Stekker van de gloeibougies los (bij het schutbord), met een multimeter de weerstand van elke bougie naar massa meten: ongeveer 0,5 tot 1,5 ohm is goed, oneindig is kapot. Vervangen: 12 mm dopsleutel, nieuwe met koperpasta en matig vast (ongeveer 20 Nm); breken ze af dan is het een garageklus, dus bij hardnekkige: kruipolie en geduld, warme kop.</p>
+<div class="tip"><b>Buffer:</b> plan elke klus op een dag zonder haast, met de onderdelen al in huis. Een halve middag per klus is een eerlijke schatting voor de eerste keer.</div>
+`, q:[
+{n:1,q:'Hoe peil je de olie van de automaat?',opts:{A:'Koude motor, motor uit, hendel in P',B:'Warme motor, stationair draaiend, hendel in P, op een vlakke plek',C:'Warme motor, motor uit, hendel in D',D:'Dat kan alleen een garage'},a:'B',e:'ATF peil je met draaiende warme motor in P, anders meet je de koppelomvormer mee en vul je te veel bij. Te veel ATF schuimt en is net zo slecht als te weinig.'},
+{n:2,q:'Bij het monteren van het nieuwe hoofdbrandstoffilter:',opts:{A:'Met de bandsleutel zo vast mogelijk aandraaien',B:'Rubber ring droog laten en met een sleutel vastzetten',C:'Rubber ring invetten met diesel, filter vullen, handvast plus een halve slag',D:'Eerst de injectieleidingen losdraaien'},a:'C',e:'Een spin-on filter wordt handvast gemonteerd; een sleutel vervormt de ring en maakt hem de volgende keer niet meer los te krijgen. Vullen met schone diesel verkort het ontluchten.'},
+{n:3,q:'Hoe vaak ververs je motorolie bij dit type motor, en waarom zo vaak?',opts:{A:'Elke 30.000 km; moderne olie kan dat makkelijk',B:'Elke 7.500 km of jaarlijks: roet van een voorkamerdiesel verzuurt de olie en vervuilt de hydraulische stoters',C:'Alleen als het lampje brandt',D:'Elke 2 jaar, net als remvloeistof'},a:'B',e:'Een voorkamerdiesel maakt veel roet in de olie. Korte intervallen zijn de goedkoopste levensverzekering voor nokkenas, stoters en lagers, en de reden dat deze motoren zo oud worden.'},
+{n:4,q:'Hoe test je een gloeibougie zonder hem eruit te draaien?',opts:{A:'Met een multimeter de weerstand naar massa meten: ongeveer 1 ohm is goed, oneindig is kapot',B:'Door een vonk te trekken',C:'Door hem met een hamer aan te tikken',D:'Dat kan alleen op een testbank'},a:'A',e:'Stekker los en per bougie meten. Een kapotte gloeispiraal geeft een onderbreking (oneindige weerstand). Zo weet je precies welke van de vijf je moet vervangen.'},
+{n:5,q:'Welke uitspraak over het voorfilter klopt?',opts:{A:'Het zit na de injectiepomp en kan elke kant op gemonteerd worden',B:'Het zit vóór de opvoerpomp, heeft een stroomrichtingspijl en is goedkoop genoeg om bij elke beurt te vervangen',C:'Het is hetzelfde als het oliefilter',D:'Het hoeft nooit vervangen te worden'},a:'B',e:'Het doorzichtige voorfilter beschermt de pomp tegen water en vuil uit de tank. Pijl in de richting van de pomp. Omdat je er doorheen kijkt zie je direct wanneer hij aan vervanging toe is.'}
+]},
+
+{id:'ch10', num:10, title:'Storingen herkennen en de koopcheck', part:3, partShort:'Deel 3', partLong:'Zelf doen', html:`
+<h2>Leerdoelen</h2>
+<p>Van een symptoom naar de twee of drie meest waarschijnlijke oorzaken, in volgorde van goedkoop naar duur. En een tweede W124 in een kwartier beoordelen.</p>
+<h2>Startproblemen</h2>
+<table>
+<tr><th>Symptoom</th><th>Kijk eerst naar</th><th>Daarna</th></tr>
+<tr><td>Klikt, draait niet</td><td>Accupolen, massakabels</td><td>Accu, startmotor</td></tr>
+<tr><td>Draait traag, slaat niet aan (koud)</td><td>Accu te zwak, gloeibougies</td><td>Compressie, inspuitmoment</td></tr>
+<tr><td>Draait goed, slaat niet aan</td><td>Lucht in brandstof (voorfilter, lekke slang), tank leeg, stopmembraan hangt in stop</td><td>Opvoerpomp, injectiepomp</td></tr>
+<tr><td>Start, schudt een minuut, witte rook</td><td>Gloeibougies</td><td>Verstuiver</td></tr>
+<tr><td>Start warm slecht</td><td>Lucht in systeem, versleten verstuivers</td><td>Compressie</td></tr>
+</table>
+<h2>Rook</h2>
+<ul>
+<li><b>Wit, koud, verdwijnt</b>: normaal of gloeibougie. <b>Wit, warm, zoetig</b>: koelvloeistof in cilinder, koppakking.</li>
+<li><b>Blauw</b>: olie. Klepgeleiders/afdichtingen (bij gas loslaten en weer geven), zuigerveren (continu), of te hoog oliepeil.</li>
+<li><b>Zwart</b>: te veel diesel of te weinig lucht. Luchtfilter, verstuivers, inspuitmoment, pomp afgesteld. Een beetje zwart bij kickdown is normaal voor een oude voorkamerdiesel.</li>
+</ul>
+<h2>Geluiden</h2>
+<ul>
+<li>Ratel voorin bij koude start, zakt na seconden: distributieketting of spanner.</li>
+<li>Tikken dat na een minuut weg is: hydraulische stoters, normaal. Blijvend: stoter, oliedruk.</li>
+<li>Blazen op toerental rechts: spruitstukpakking.</li>
+<li>Klap bij D/R: motorsteun of hardyschijf.</li>
+<li>Kraak bij optrekken achter: achteras- of differentieelrubbers (jouw auto).</li>
+<li>Zoemen met de snelheid: wiellager of differentieel. Met het toerental: motor of bak.</li>
+<li>Piepen koud: riem.</li>
+</ul>
+<h2>Temperatuur en lekkage</h2>
+<p>Zie hoofdstuk 5: rood is stoppen. Kleur van de plas onder de auto: zwart olie, rood ATF, blauw/groen koelvloeistof, helder stuurolie, diesel ruik je.</p>
+<h2>Koopcheck in een kwartier</h2>
+<ol>
+<li><b>Koud starten</b>, zelf, met de verkoper ernaast. Gloeitijd, aanslaan, kleur rook, ratel voorin.</li>
+<li><b>Onder de kap</b>: olievuldop (mayonaise), expansievat (olie erin), peilstok (melkachtig), lekkages, riemen, slangen, vacuümslangen, roest op de veerpoten.</li>
+<li><b>Onder de auto</b>: krikpunten, dorpels (met de duim drukken), bodemnaden, hardyschijf, uitlaat, lekkages.</li>
+<li><b>Proefrit</b>: temperatuur na 15 minuten, automaat schakelt zacht, rechtuit remmen zonder trekken, geen trilling bij 80 tot 120, geen zoemen.</li>
+<li><b>Papieren</b>: onderhoudsboekje, kilometers logisch, APK-historie (NL: RDW-site), bij Duitse auto's TÜV-rapport.</li>
+<li><b>Dealbreakers</b>: olie in de koelvloeistof of andersom, doorgeroeste krikpunten of dorpels, ratelende ketting, slippende automaat, blauwe rook onder last.</li>
+</ol>
+<h2>Prijsgevoel 2026</h2>
+<p>Rijdende, eerlijke 250 D met werk: 2.000 tot 4.500 euro in Duitsland, Spanje vaak goedkoper maar met verwaarloosd onderhoud. Nette, gedocumenteerde exemplaren: 6.000 tot 10.000. Optellen: aankoop + reis + overschrijving + de klussen uit hoofdstuk 9. Een auto met een gescheurde kop of rotte dorpels is nooit goedkoop.</p>
+<div class="tip"><b>Af:</b> je bent klaar met deze cursus als je bij elke klacht van jouw auto eerst zelf drie verdachten kunt noemen, van goedkoop naar duur, voordat je de garage belt. Doe nu de eindtoets.</div>
+`, q:[
+{n:1,q:'De startmotor draait vlot, maar de motor slaat ook na lang starten niet aan. Rook: geen. Eerste verdachten?',opts:{A:'Gloeibougies',B:'Lucht in de brandstof (voorfilter, lekke slang) of de stopmembraan die in stop blijft hangen',C:'Distributieketting',D:'Accu'},a:'B',e:'Draait hij goed maar komt er niets, dan komt er geen diesel: lucht aan de zuigkant, lege tank, of de vacuüm-stopklep die de pomp dicht houdt. Gloeibougies geven schudden en rook, geen volledig uitblijven van de start.'},
+{n:2,q:'Blauwe rook vooral als je na een lange afdaling weer gas geeft. Waarschijnlijk:',opts:{A:'Te veel diesel',B:'Olie langs klepgeleiders of klepafdichtingen',C:'Koelvloeistof in de cilinder',D:'Luchtfilter verstopt'},a:'B',e:'Bij gas loslaten zuigt het hoge vacuüm in de cilinder olie langs de klepgeleiders; bij gas geven verbrandt die: blauwe wolk. Continu blauw onder last wijst meer op zuigerveren.'},
+{n:3,q:'Een zoemend geluid dat harder wordt met de snelheid maar niet verandert als je in N het toerental laat oplopen. Waar zoek je?',opts:{A:'In de motor',B:'In de automaat',C:'Wiellagers of differentieel',D:'Uitlaat'},a:'C',e:'Alles wat met de wielsnelheid meeloopt (wiellagers, differentieel, cardan) maakt geluid op snelheid, onafhankelijk van het toerental. Motor- en bakgeluiden volgen het toerental.'},
+{n:4,q:'Welke vondst bij een koopcheck is een echte dealbreaker?',opts:{A:'Versleten riemen',B:'Olielaagje in het expansievat en melkachtige olie op de peilstok',C:'Een kapotte gloeibougie',D:'Een traag deurslot'},a:'B',e:'Olie en koelvloeistof die zich mengen betekenen koppakking of erger (kop). Dat is uren werk plus risico. Riemen, gloeibougies en vacuümslangen zijn kleine klussen en goede onderhandelpunten.'},
+{n:5,q:'Je hoort bij jouw 250 D iets nieuws. Wat is de werkwijze uit deze cursus?',opts:{A:'Direct naar de garage en vragen wat het is',B:'Symptoom precies vastleggen (wanneer, koud/warm, toerental of snelheid, D/R), dan zelf drie verdachten noemen van goedkoop naar duur, en de goedkoopste eerst controleren',C:'Negeren tot het erger wordt',D:'Het onderdeel dat het meest voorkomt op internet meteen vervangen'},a:'B',e:'Goed waarnemen is het halve werk: de kraak-test in D en R heeft bij jouw auto de bumper uitgesloten en de achteras aangewezen. Daarna van goedkoop naar duur controleren. Dan weet je ook wat je de garage vraagt.'}
+]}
+];
+
+const T = {
+  appTitle:'Motorcursus W124 250D', chapterWord:'Hoofdstuk', chAbbr:'H', progress:'Voortgang',
+  readOf:'{d} van {n} hoofdstukken gelezen', mix:'Oefenen (mix)', exam:'Eindtoets (30)',
+  homeNote:'{q} oefenvragen in de hoofdstukken. Scores blijven op dit apparaat en kleuren als buffers: groen 80% of meer, geel 60 tot 79, rood daaronder.',
+  read:'Gelezen', unread:'Nog niet gelezen', practiceBtn:'Oefenvragen', prev:'Vorige', next:'Volgende',
+  questionOf:'Vraag {i} van {n}', finish:'Afronden', correct:'Goed!', wrongIs:'Fout. Juiste antwoord: ',
+  result:'Resultaat', ofCorrect:'{c} van {n} goed', msg80:'Uitstekend. Je kent je auto.', msg70:'Voldoende, herhaal de foute onderwerpen.', msgLow:'Lees het hoofdstuk nog een keer, met de kap open.',
+  again:'Opnieuw', wrongOnly:'Alleen de foute', overview:'Overzicht', good:'goed', wrong:'fout', right:'juist', unanswered:'niet beantwoord',
+  noWrong:'Alles goed, niets te herhalen.', retake:'Herhaling ({n})', mixLabel:'Mix ({n} vragen)', examLabel:'Eindtoets'
+};
+
+const fmt = (s, o) => s.replace(/\{(\w+)\}/g, (_, k) => o[k]);
+const $ = s => document.querySelector(s);
+const main = $('#main'), title = $('#title'), back = $('#back'), bnav = $('#bnav');
+const store = {
+  get(k, d){ try { const v = localStorage.getItem('w124cursus.'+k); return v===null? d : JSON.parse(v);} catch(e){ return d; } },
+  set(k, v){ try { localStorage.setItem('w124cursus.'+k, JSON.stringify(v)); } catch(e){} }
+};
+const CH = Object.fromEntries(DATA.map(c=>[c.id,c]));
+const PARTS = [];
+DATA.forEach(c=>{ let p = PARTS.find(x=>x.idx===c.part); if(!p){p={idx:c.part,short:c.partShort,long:c.partLong,ch:[]};PARTS.push(p);} p.ch.push(c); });
+
+let fs = store.get('fs', 17);
+const applyFs = ()=>document.documentElement.style.setProperty('--fs', fs+'px');
+applyFs();
+$('#fontBtn').onclick = ()=>{ fs = fs>=21 ? 15 : fs+2; store.set('fs', fs); applyFs(); };
+
+let state = { view:'home' };
+function go(s){ state = s; history.pushState(s, ''); render(); window.scrollTo(0,0); }
+window.onpopstate = e => { state = e.state || {view:'home'}; render(); };
+$('#homeBtn').onclick = ()=>go({view:'home'});
+back.onclick = ()=>history.length>1 ? history.back() : go({view:'home'});
+function esc(s){ return String(s).replace(/[&<>"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+
+const lb = $('#lightbox');
+lb.onclick = ()=>lb.classList.add('hidden');
+document.addEventListener('click', e=>{ const img = e.target.closest('.fig img'); if(img){ lb.querySelector('img').src = img.src; lb.classList.remove('hidden'); } });
+
+function render(){
+  bnav.classList.add('hidden'); bnav.innerHTML='';
+  back.classList.toggle('hidden', state.view==='home');
+  ({home, chapter, quiz, result}[state.view] || home)();
+}
+function bestOf(id){ return store.get('best.'+id, null); }
+function allQuestions(){ return DATA.flatMap(c=>c.q.map(q=>({...q, ch:c.id, key:c.id+':'+q.n}))); }
+
+function home(){
+  title.textContent = T.appTitle;
+  const allQ = allQuestions().length;
+  const done = DATA.filter(c=>store.get('read.'+c.id,false)).length;
+  let h = `<div class="card"><h2>${T.progress}</h2>
+    <div>${fmt(T.readOf,{d:done,n:DATA.length})}</div>
+    <div class="prog"><i style="width:${Math.round(done/DATA.length*100)}%"></i></div>
+    <div class="grid2" style="margin-top:12px">
+      <button class="btn" id="mixBtn">${T.mix}</button>
+      <button class="btn sec" id="examBtn">${T.exam}</button>
+    </div>
+    <p class="small muted" style="margin:10px 0 0">${fmt(T.homeNote,{q:allQ})}</p>
+  </div>`;
+  for(const p of PARTS){
+    h += `<div class="card"><h2>${p.short} · ${p.long}</h2>`;
+    for(const c of p.ch){
+      const b = bestOf(c.id);
+      const rd = store.get('read.'+c.id,false);
+      h += `<div class="row" data-id="${c.id}"><div class="n">${c.num}</div><div class="t"><b>${esc(c.title)}</b><small>${c.q.length ? c.q.length+' vragen · ' : ''}${rd?T.read:T.unread}</small></div>
+        <div class="s">${b===null ? '' : `<span class="zone ${zone(b)}">${b}%</span>`}</div></div>`;
+    }
+    h += `</div>`;
+  }
+  h += `<p class="small muted">Foto's: 57-RVV-3, maart 2026. Onderdeel van <a href="index.html">Mercedes Oldtimer Finder</a> · <a href="onderdelen.html">onderdelenzoeker</a>. Versie 1.0, 01-11-2026.</p>`;
+  main.innerHTML = h;
+  main.querySelectorAll('.row').forEach(r=>r.onclick=()=>go({view:'chapter', id:r.dataset.id}));
+  $('#mixBtn').onclick = ()=>{ const qs = shuffle(allQuestions()).slice(0,15); go({view:'quiz', mode:'mix', qs, i:0, ans:{}, label:fmt(T.mixLabel,{n:qs.length}), feedback:true}); };
+  $('#examBtn').onclick = ()=>{ const qs = shuffle(allQuestions()).slice(0,30); go({view:'quiz', mode:'exam', id:'exam', qs, i:0, ans:{}, label:T.examLabel, feedback:false}); };
+}
+
+function chapter(){
+  const c = CH[state.id];
+  title.textContent = T.chAbbr+c.num+' · '+c.title;
+  store.set('read.'+c.id, true);
+  const qbtn = c.q.length ? `<button class="btn block" id="startQ">${T.practiceBtn} (${c.q.length}) →</button>` : '';
+  main.innerHTML = `<div class="card content" id="cnt"><h1>${T.chapterWord} ${c.num}. ${esc(c.title)}</h1>${c.html}</div>${qbtn}`;
+  bnav.classList.remove('hidden');
+  bnav.innerHTML = `<button class="btn sec" id="prevCh">‹ ${T.prev}</button>${c.q.length?`<button class="btn" id="quizNav">${T.practiceBtn}</button>`:''}<button class="btn sec" id="nextCh">${T.next} ›</button>`;
+  const idx = DATA.indexOf(c);
+  $('#prevCh').disabled = idx===0; $('#nextCh').disabled = idx===DATA.length-1;
+  $('#prevCh').onclick = ()=>go({view:'chapter', id:DATA[idx-1].id});
+  $('#nextCh').onclick = ()=>go({view:'chapter', id:DATA[idx+1].id});
+  function startChapterQuiz(){
+    const qs = c.q.map(q=>({...q, ch:c.id, key:c.id+':'+q.n}));
+    go({view:'quiz', mode:'chapter', id:c.id, qs, i:0, ans:{}, label:T.chAbbr+c.num+' · '+T.practiceBtn, feedback:true});
+  }
+  if(c.q.length){ $('#startQ').onclick = startChapterQuiz; $('#quizNav').onclick = startChapterQuiz; }
+}
+
+function quiz(){
+  const st = state, q = st.qs[st.i], n = st.qs.length;
+  const feedback = st.mode!=='exam';
+  title.textContent = `${st.label}  ${st.i+1}/${n}`;
+  const given = st.ans[st.i];
+  const src = st.mode!=='chapter' ? `<span class="pill">${esc(CH[q.ch].title)}</span>` : '';
+  let h = `<div class="prog"><i style="width:${Math.round(st.i/n*100)}%"></i></div>
+    <div class="card"><p class="q"><span class="nr">${src}${fmt(T.questionOf,{i:st.i+1,n})}</span>${q.q}</p>`;
+  for(const k of Object.keys(q.opts)){
+    let cls = 'opt';
+    if(given!==undefined){
+      if(feedback){ if(k===q.a) cls+=' ok'; else if(k===given) cls+=' bad'; }
+      else if(k===given) cls+=' ok';
+    }
+    h += `<button class="${cls}" data-k="${k}" ${given!==undefined && feedback?'disabled':''}><b>${k}</b><span>${q.opts[k]}</span></button>`;
+  }
+  if(given!==undefined && feedback){
+    const ok = given===q.a;
+    h += `<div class="expl ${ok?'ok':'bad'}"><span class="v">${ok?T.correct:T.wrongIs+q.a}</span>${q.e}</div>`;
+  }
+  h += `</div>`;
+  main.innerHTML = h;
+  main.querySelectorAll('.opt').forEach(b=>b.onclick=()=>{
+    if(feedback && st.ans[st.i]!==undefined) return;
+    st.ans[st.i] = b.dataset.k;
+    history.replaceState(st,'');
+    if(feedback) render(); else next();
+  });
+  bnav.classList.remove('hidden');
+  const answered = Object.keys(st.ans).length;
+  bnav.innerHTML = `<button class="btn sec" id="pq" ${st.i===0?'disabled':''}>‹</button>
+    ${st.i<n-1 ? `<button class="btn" id="nq">${T.next} ›</button>` : `<button class="btn" id="fin">${T.finish} (${answered}/${n})</button>`}`;
+  $('#pq').onclick = ()=>{ st.i--; history.replaceState(st,''); render(); window.scrollTo(0,0); };
+  const nq = $('#nq'); if(nq) nq.onclick = next;
+  const f = $('#fin'); if(f) f.onclick = finish;
+  function next(){ if(st.i<n-1){ st.i++; history.replaceState(st,''); render(); window.scrollTo(0,0);} else finish(); }
+  function finish(){
+    let correct = 0;
+    st.qs.forEach((qq,i)=>{ if(st.ans[i]===qq.a) correct++; });
+    const pct = Math.round(correct/n*100);
+    const bestKey = st.mode==='chapter' ? st.id : (st.mode==='exam' ? 'exam' : null);
+    if(bestKey){ const b = bestOf(bestKey); if(b===null || pct>b) store.set('best.'+bestKey, pct); }
+    go({view:'result', qs:st.qs, ans:st.ans, correct, pct, mode:st.mode, id:st.id, label:st.label, feedback:st.feedback});
+  }
+}
+
+function result(){
+  const st = state, n = st.qs.length;
+  title.textContent = T.result;
+  let h = `<div class="card score"><div class="big ${zone(st.pct)}">${st.pct}%</div><div class="sub">${fmt(T.ofCorrect,{c:st.correct,n})} · ${st.pct>=80?T.msg80:st.pct>=70?T.msg70:T.msgLow}</div>
+    <div class="grid2" style="margin-top:14px"><button class="btn" id="again">${T.again}</button><button class="btn sec" id="wrongOnly">${T.wrongOnly}</button></div></div>`;
+  h += `<div class="card"><h2>${T.overview}</h2>`;
+  st.qs.forEach((q,i)=>{
+    const g = st.ans[i], ok = g===q.a;
+    h += `<div style="padding:10px 0;border-top:1px solid var(--line)"><div class="small muted">${fmt(T.questionOf,{i:i+1,n})} · ${esc(CH[q.ch].title)} · ${ok?'<span style="color:var(--ok)">'+T.good+'</span>':(g===undefined?T.unanswered:'<span style="color:var(--bad)">'+T.wrong+' ('+g+')</span>')} · ${T.right}: ${q.a}</div><div>${q.q}</div><div class="small" style="margin-top:4px"><b>${q.a}.</b> ${q.opts[q.a]}</div><div class="small muted" style="margin-top:4px">${q.e}</div></div>`;
+  });
+  h += `</div>`;
+  main.innerHTML = h;
+  $('#again').onclick = ()=>go({view:'quiz', mode:st.mode, id:st.id, qs:shuffle([...st.qs]), i:0, ans:{}, label:st.label, feedback:st.feedback});
+  $('#wrongOnly').onclick = ()=>{
+    const qs = st.qs.filter((q,i)=>st.ans[i]!==q.a);
+    if(!qs.length){ alert(T.noWrong); return; }
+    go({view:'quiz', mode:'mix', qs, i:0, ans:{}, label:fmt(T.retake,{n:qs.length}), feedback:true});
+  };
+}
+
+function zone(p){ return p>=80?'g':p>=60?'y':'r'; }
+function shuffle(a){ for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
+
+history.replaceState(state,'');
+render();
+</script>
+</body>
+</html>

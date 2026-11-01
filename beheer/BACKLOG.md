@@ -37,6 +37,7 @@ Af = naar "Gedaan" onderaan met datum en versie. Maximaal 3 items tegelijk "bezi
 
 | Datum | Versie | Wat |
 |---|---|---|
+| 01-11-2026 | 2.5 | Motorcursus W124 250D (motorcursus.html): 10 hoofdstukken met eigen foto's, 50 oefenvragen, eindtoets; link op Mijn websites |
 | 27-10-2026 | 2.4 | Onderdelenzoeker voor de eigen 250D: 4 bronnen, dagelijkse Action, pagina onderdelen.html |
 | 12-10-2026 | 2.3 | Tol en routekeuze (snelweg/binnendoor), label LPG-geschikt |
 | 12-10-2026 | 2.2 | Droge regio's, Zuid-Frankrijk en Zuid-Italië, rit naar huis in de prijs |
