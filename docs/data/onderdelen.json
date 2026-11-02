@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T11:28:01+00:00",
+ "updated": "2026-11-02T12:48:15+00:00",
  "auto": {
   "kenteken": "57-RVV-3",
   "type": "Mercedes-Benz 250 D (W124 sedan, Mopf 0 / vormopf)",
@@ -94,6 +94,29 @@
  ],
  "treffers": [
   {
+   "id": "mp_m2460584305",
+   "source": "Marktplaats",
+   "country": "NL",
+   "url": "https://www.marktplaats.nl/v/auto-onderdelen/sidebars/m2460584305-w124-sacco-dorpels-skirts-facelift-sacco",
+   "title": "W124 sacco dorpels skirts facelift sacco",
+   "price": null,
+   "location": "Sommelsdijk",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/780732c6-7a52-4026-9bad-032a60665932?rule=ecg_mp_eps$_82.jpg",
+   "attrs": {
+    "categoryId": 3061,
+    "priceType": "FAST_BID"
+   },
+   "text": "W124 sacco dorpels skirts facelift sacco past op sedan en combi de advertentie staat op bieden vanaf en er is geen mimimale/uiterste/laatste prijs dus daar hoef je niet naar te vragen",
+   "onderdelen": [
+    "dorpelbekleding"
+   ],
+   "source_module": "marktplaats",
+   "first_seen": "2026-11-02",
+   "price_prev": null,
+   "last_seen": "2026-11-02",
+   "active": true
+  },
+  {
    "id": "ka_3556328502",
    "source": "Kleinanzeigen",
    "country": "DE",
@@ -112,7 +135,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-31",
    "price_prev": null,
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "active": true
   },
   {
@@ -134,7 +157,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-31",
    "price_prev": null,
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "active": true
   },
   {
@@ -157,7 +180,7 @@
    "source_module": "marktplaats",
    "first_seen": "2026-10-31",
    "price_prev": null,
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "active": true
   },
   {
@@ -180,7 +203,7 @@
    "source_module": "marktplaats",
    "first_seen": "2026-10-31",
    "price_prev": null,
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "active": true
   },
   {
@@ -203,7 +226,7 @@
    "source_module": "marktplaats",
    "first_seen": "2026-10-31",
    "price_prev": null,
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "active": true
   },
   {
@@ -225,7 +248,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-29",
    "price_prev": null,
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "active": true
   },
   {
@@ -249,7 +272,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "active": true
   },
   {
@@ -273,31 +296,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-01",
-   "active": true
-  },
-  {
-   "id": "ka_3543716836",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-beplankung-kotfluegel-vorne-rechts-a1246901440-r/3543716836-223-2605",
-   "title": "Mercedes W124 Beplankung Kotflügel vorne rechts A1246901440 R",
-   "price": 45,
-   "location": "49170 Hagen am Teutoburger Wald",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f7/f753983c-d656-4cf3-a329-3c5ac4f4b94c?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Originale Beplankung vom w124 A1246901440 R · Versand möglich",
-   "onderdelen": [
-    "beplanking-voorspatbord"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-10-27",
-   "price_prev": null,
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "active": true
   },
   {
@@ -322,7 +321,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "active": true
   },
   {
@@ -347,7 +346,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "active": true
   },
   {
@@ -371,7 +370,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "active": true
   },
   {
@@ -395,7 +394,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "active": true
   },
   {
@@ -419,7 +418,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "active": true
   },
   {
@@ -443,7 +442,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "active": true
   },
   {
@@ -467,7 +466,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "active": true
   },
   {
@@ -491,7 +490,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "active": true
   },
   {
@@ -515,7 +514,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": 29,
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "active": true
   },
   {
@@ -539,7 +538,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "active": true
   },
   {
@@ -563,7 +562,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "active": true
   },
   {
@@ -585,7 +584,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "active": true
   },
   {
@@ -607,7 +606,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "active": true
   },
   {
@@ -629,7 +628,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "active": true
   },
   {
@@ -651,7 +650,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "active": true
   },
   {
@@ -673,7 +672,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "active": true
   },
   {
@@ -695,7 +694,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "active": true
   },
   {
@@ -717,7 +716,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "active": true
   },
   {
@@ -739,7 +738,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "active": true
   },
   {
@@ -764,31 +763,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-01",
-   "active": true
-  },
-  {
-   "id": "ka_2498332160",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/w124-schwellerverkleidung-1246902340-links-rechts-1246902440/2498332160-223-4721",
-   "title": "W124 Schwellerverkleidung 1246902340 links rechts 1246902440",
-   "price": 50,
-   "location": "35452 Heuchelheim",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/39/3967ed77-e0b6-4f09-8394-c5db88a522f7?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "W124 Schwellerverkleidung 1246902340 links oder rechts 1246902440. Versand möglich Preis pro Seite.... · Versand möglich",
-   "onderdelen": [
-    "dorpelbekleding"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-10-27",
-   "price_prev": null,
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "active": true
   },
   {
@@ -811,7 +786,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "active": true
   },
   {
@@ -833,7 +808,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "active": true
   },
   {
@@ -857,7 +832,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "active": true
   },
   {
@@ -882,7 +857,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "active": true
   },
   {
@@ -906,7 +881,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "active": true
   },
   {
@@ -930,7 +905,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "active": true
   },
   {
@@ -955,30 +930,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-01",
-   "active": true
-  },
-  {
-   "id": "mp_m2449058966",
-   "source": "Marktplaats",
-   "country": "NL",
-   "url": "https://www.marktplaats.nl/v/auto-onderdelen/sidebars/m2449058966-w124-sacco-dorpels-skirts",
-   "title": "W124 sacco dorpels skirts",
-   "price": null,
-   "location": "Sommelsdijk",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/35d5e640-a111-46de-a955-29b11944fa2d?rule=ecg_mp_eps$_82.jpg",
-   "attrs": {
-    "categoryId": 3061,
-    "priceType": "FAST_BID"
-   },
-   "text": "W124 sacco dorpels skirts facelift sacco past op sedan en combi de advertentie staat op bieden en er is geen mimimale/uiterste/laatste prijs dus daar hoef je niet naar te vragen",
-   "onderdelen": [
-    "dorpelbekleding"
-   ],
-   "source_module": "marktplaats",
-   "first_seen": "2026-10-27",
-   "price_prev": null,
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "active": true
   },
   {
@@ -1025,6 +977,77 @@
    "first_seen": "2026-10-28",
    "price_prev": null,
    "last_seen": "2026-10-29",
+   "active": false
+  },
+  {
+   "id": "ka_3543716836",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-beplankung-kotfluegel-vorne-rechts-a1246901440-r/3543716836-223-2605",
+   "title": "Mercedes W124 Beplankung Kotflügel vorne rechts A1246901440 R",
+   "price": 45,
+   "location": "49170 Hagen am Teutoburger Wald",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f7/f753983c-d656-4cf3-a329-3c5ac4f4b94c?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Originale Beplankung vom w124 A1246901440 R · Versand möglich",
+   "onderdelen": [
+    "beplanking-voorspatbord"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-11-01",
+   "active": false
+  },
+  {
+   "id": "ka_2498332160",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/w124-schwellerverkleidung-1246902340-links-rechts-1246902440/2498332160-223-4721",
+   "title": "W124 Schwellerverkleidung 1246902340 links rechts 1246902440",
+   "price": 50,
+   "location": "35452 Heuchelheim",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/39/3967ed77-e0b6-4f09-8394-c5db88a522f7?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "W124 Schwellerverkleidung 1246902340 links oder rechts 1246902440. Versand möglich Preis pro Seite.... · Versand möglich",
+   "onderdelen": [
+    "dorpelbekleding"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-11-01",
+   "active": false
+  },
+  {
+   "id": "mp_m2449058966",
+   "source": "Marktplaats",
+   "country": "NL",
+   "url": "https://www.marktplaats.nl/v/auto-onderdelen/sidebars/m2449058966-w124-sacco-dorpels-skirts",
+   "title": "W124 sacco dorpels skirts",
+   "price": null,
+   "location": "Sommelsdijk",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/35d5e640-a111-46de-a955-29b11944fa2d?rule=ecg_mp_eps$_82.jpg",
+   "attrs": {
+    "categoryId": 3061,
+    "priceType": "FAST_BID"
+   },
+   "text": "W124 sacco dorpels skirts facelift sacco past op sedan en combi de advertentie staat op bieden en er is geen mimimale/uiterste/laatste prijs dus daar hoef je niet naar te vragen",
+   "onderdelen": [
+    "dorpelbekleding"
+   ],
+   "source_module": "marktplaats",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-11-01",
    "active": false
   },
   {
@@ -1127,26 +1150,26 @@
   {
    "module": "kleinanzeigen",
    "ok": true,
-   "found": 45,
-   "matched": 34,
+   "found": 42,
+   "matched": 32,
    "error": null,
    "name": "Kleinanzeigen",
    "country": "DE",
    "secs": 25,
-   "last_run": "2026-11-01T11:27:28+00:00",
-   "last_ok": "2026-11-01T11:27:28+00:00"
+   "last_run": "2026-11-02T12:47:42+00:00",
+   "last_ok": "2026-11-02T12:47:42+00:00"
   },
   {
    "module": "marktplaats",
    "ok": true,
-   "found": 68,
+   "found": 74,
    "matched": 4,
    "error": null,
    "name": "Marktplaats",
    "country": "NL",
    "secs": 21,
-   "last_run": "2026-11-01T11:27:49+00:00",
-   "last_ok": "2026-11-01T11:27:49+00:00"
+   "last_run": "2026-11-02T12:48:02+00:00",
+   "last_ok": "2026-11-02T12:48:02+00:00"
   },
   {
    "module": "mercedesforum",
@@ -1156,9 +1179,9 @@
    "error": null,
    "name": "MercedesForum.nl",
    "country": "NL",
-   "secs": 6,
-   "last_run": "2026-11-01T11:27:55+00:00",
-   "last_ok": "2026-11-01T11:27:55+00:00"
+   "secs": 7,
+   "last_run": "2026-11-02T12:48:09+00:00",
+   "last_ok": "2026-11-02T12:48:09+00:00"
   },
   {
    "module": "w124board",
@@ -1169,8 +1192,8 @@
    "name": "W124-Board.de",
    "country": "DE",
    "secs": 6,
-   "last_run": "2026-11-01T11:28:01+00:00",
-   "last_ok": "2026-11-01T11:28:01+00:00"
+   "last_run": "2026-11-02T12:48:15+00:00",
+   "last_ok": "2026-11-02T12:48:15+00:00"
   }
  ]
 }
