@@ -724,10 +724,10 @@
    "motor": 5.4,
    "staat": 6.0,
    "km": 4.1,
-   "prijs": 3.8,
+   "prijs": 3.9,
    "bouwjaar": 6.0
   },
-  "score": 49.3,
+  "score": 49.4,
   "ai_reject": false,
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
@@ -4677,10 +4677,10 @@
    "motor": 5.4,
    "staat": 6.0,
    "km": 6.7,
-   "prijs": 5.3,
+   "prijs": 5.4,
    "bouwjaar": 4.2
   },
-  "score": 51.6,
+  "score": 51.7,
   "ai_reject": false,
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
@@ -8335,7 +8335,7 @@
   "source_module": "car_gr",
   "price_prev": null,
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-02",
+  "last_seen": "2026-11-04",
   "active": true,
   "dup_of": null,
   "also_on": [],
@@ -8565,10 +8565,10 @@
    "motor": 5.4,
    "staat": 6.0,
    "km": 5.1,
-   "prijs": 0.3,
+   "prijs": 0.4,
    "bouwjaar": 4.8
   },
-  "score": 45.6,
+  "score": 45.7,
   "ai_reject": false,
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
@@ -10580,10 +10580,10 @@
    "motor": 5.4,
    "staat": 7.8,
    "km": 5.3,
-   "prijs": 3.7,
+   "prijs": 3.8,
    "bouwjaar": 4.8
   },
-  "score": 51.0,
+  "score": 51.1,
   "ai_reject": false,
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
@@ -14577,10 +14577,10 @@
    "motor": 5.4,
    "staat": 6.0,
    "km": 8.6,
-   "prijs": 5.5,
+   "prijs": 5.6,
    "bouwjaar": 3.6
   },
-  "score": 53.1,
+  "score": 53.2,
   "ai_reject": false,
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
@@ -15931,10 +15931,10 @@
    "motor": 5.4,
    "staat": 6.0,
    "km": 4.8,
-   "prijs": 4.6,
+   "prijs": 4.7,
    "bouwjaar": 4.8
   },
-  "score": 49.6,
+  "score": 49.7,
   "ai_reject": false,
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
@@ -16099,7 +16099,7 @@
   "source_module": "car_gr",
   "price_prev": null,
   "first_seen": "2026-10-14",
-  "last_seen": "2026-11-02",
+  "last_seen": "2026-11-04",
   "active": true,
   "dup_of": null,
   "also_on": [],
@@ -17348,10 +17348,10 @@
    "motor": 5.4,
    "staat": 7.8,
    "km": 5.9,
-   "prijs": 6.7,
+   "prijs": 6.8,
    "bouwjaar": 5.4
   },
-  "score": 55.2,
+  "score": 55.3,
   "ai_reject": false,
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
@@ -18745,10 +18745,10 @@
    "motor": 5.4,
    "staat": 6.0,
    "km": 5.1,
-   "prijs": 0.3,
+   "prijs": 0.4,
    "bouwjaar": 4.8
   },
-  "score": 45.6,
+  "score": 45.7,
   "ai_reject": false,
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
@@ -19386,10 +19386,10 @@
    "motor": 5.4,
    "staat": 6.0,
    "km": 1.4,
-   "prijs": 4.5,
+   "prijs": 4.6,
    "bouwjaar": 4.8
   },
-  "score": 46.1,
+  "score": 46.2,
   "ai_reject": false,
   "let_op": [
    "Hoge kilometerstand",
@@ -19476,10 +19476,10 @@
    "motor": 5.4,
    "staat": 6.0,
    "km": 3.1,
-   "prijs": 4.6,
+   "prijs": 4.7,
    "bouwjaar": 4.8
   },
-  "score": 47.9,
+  "score": 48.0,
   "ai_reject": false,
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
@@ -20404,10 +20404,10 @@
    "motor": 5.4,
    "staat": 6.0,
    "km": 7.1,
-   "prijs": 0.2,
+   "prijs": 0.3,
    "bouwjaar": 4.2
   },
-  "score": 46.9,
+  "score": 47.0,
   "ai_reject": false,
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
@@ -20567,10 +20567,10 @@
    "motor": 5.4,
    "staat": 6.0,
    "km": 9.1,
-   "prijs": 0.2,
+   "prijs": 0.3,
    "bouwjaar": 5.4
   },
-  "score": 50.1,
+  "score": 50.2,
   "ai_reject": false,
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
@@ -22859,10 +22859,10 @@
    "motor": 5.4,
    "staat": 6.0,
    "km": 0.0,
-   "prijs": 4.6,
+   "prijs": 4.7,
    "bouwjaar": 4.8
   },
-  "score": 44.8,
+  "score": 44.9,
   "ai_reject": false,
   "let_op": [
    "Hoge kilometerstand",
@@ -25349,10 +25349,10 @@
    "motor": 5.4,
    "staat": 7.8,
    "km": 7.2,
-   "prijs": 3.7,
+   "prijs": 3.8,
    "bouwjaar": 4.8
   },
-  "score": 52.9,
+  "score": 53.0,
   "ai_reject": false,
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
@@ -26897,10 +26897,10 @@
    "motor": 5.4,
    "staat": 6.0,
    "km": 3.9,
-   "prijs": 5.5,
+   "prijs": 5.6,
    "bouwjaar": 4.8
   },
-  "score": 49.6,
+  "score": 49.7,
   "ai_reject": false,
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
@@ -28438,10 +28438,10 @@
    "motor": 5.4,
    "staat": 6.0,
    "km": 7.2,
-   "prijs": 6.4,
+   "prijs": 6.5,
    "bouwjaar": 4.8
   },
-  "score": 53.8,
+  "score": 53.9,
   "ai_reject": false,
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
@@ -30048,10 +30048,10 @@
    "motor": 5.4,
    "staat": 7.8,
    "km": 4.1,
-   "prijs": 3.8,
+   "prijs": 3.9,
    "bouwjaar": 6.0
   },
-  "score": 51.1,
+  "score": 51.2,
   "ai_reject": false,
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
@@ -32477,7 +32477,7 @@
   "source_module": "car_gr",
   "price_prev": 24500,
   "first_seen": "2026-10-12",
-  "last_seen": "2026-11-02",
+  "last_seen": "2026-11-04",
   "active": true,
   "dup_of": null,
   "also_on": [],
@@ -32505,10 +32505,10 @@
    "motor": 5.4,
    "staat": 6.0,
    "km": 3.6,
-   "prijs": 5.8,
+   "prijs": 5.9,
    "bouwjaar": 4.8
   },
-  "score": 49.6,
+  "score": 49.7,
   "ai_reject": false,
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
@@ -32542,7 +32542,7 @@
   "source_module": "car_gr",
   "price_prev": null,
   "first_seen": "2026-10-12",
-  "last_seen": "2026-11-02",
+  "last_seen": "2026-11-04",
   "active": true,
   "dup_of": null,
   "also_on": [],
@@ -32607,7 +32607,7 @@
   "source_module": "car_gr",
   "price_prev": null,
   "first_seen": "2026-10-12",
-  "last_seen": "2026-11-02",
+  "last_seen": "2026-11-04",
   "active": true,
   "dup_of": null,
   "also_on": [],
@@ -32670,7 +32670,7 @@
   "source_module": "car_gr",
   "price_prev": null,
   "first_seen": "2026-10-12",
-  "last_seen": "2026-11-02",
+  "last_seen": "2026-11-04",
   "active": true,
   "dup_of": null,
   "also_on": [],
@@ -32733,7 +32733,7 @@
   "source_module": "car_gr",
   "price_prev": null,
   "first_seen": "2026-10-12",
-  "last_seen": "2026-11-02",
+  "last_seen": "2026-11-04",
   "active": true,
   "dup_of": null,
   "also_on": [],
@@ -32796,7 +32796,7 @@
   "source_module": "car_gr",
   "price_prev": null,
   "first_seen": "2026-10-12",
-  "last_seen": "2026-11-02",
+  "last_seen": "2026-11-04",
   "active": true,
   "dup_of": null,
   "also_on": [],
@@ -32836,71 +32836,6 @@
   "rust": null
  },
  {
-  "id": "cargr_56258237",
-  "source": "car.gr",
-  "country": "GR",
-  "url": "https://www.car.gr/classifieds/cars/view/56258237-mercedes-benz-190",
-  "title": "Mercedes-Benz 190 1983 2.3 16v cosworth",
-  "price": 15000,
-  "year": 1983,
-  "mileage": 133000,
-  "location": "ΓΛΥΦΑΔΑ Ν. ΑΤΤΙΚΗΣ 16561",
-  "image": "https://static.car.gr/56258237_4_n.jpg",
-  "images": [
-   "https://static.car.gr/56258237_4_n.jpg"
-  ],
-  "series": "W201",
-  "model": "190E 2.3-16",
-  "fuel": "benzine",
-  "cyl": 4,
-  "lpg_score": 0,
-  "has_lpg": false,
-  "year_known": true,
-  "maybe_w123": false,
-  "signals_good": [],
-  "signals_bad": [],
-  "source_module": "car_gr",
-  "price_prev": null,
-  "first_seen": "2026-10-12",
-  "last_seen": "2026-11-02",
-  "active": true,
-  "dup_of": null,
-  "also_on": [],
-  "trip": {
-   "fuel": "benzine",
-   "l100": 10.5,
-   "toll": {
-    "km": 2674,
-    "fuel_cost": 618,
-    "toll": 90,
-    "cost": 708,
-    "hours": 28.2
-   },
-   "free": {
-    "km": 3075,
-    "fuel_cost": 710,
-    "toll": 0,
-    "cost": 710,
-    "hours": 47.3
-   }
-  },
-  "trip_cost": 708,
-  "punten": {
-   "roest": 24.0,
-   "motor": 5.4,
-   "staat": 6.0,
-   "km": 7.4,
-   "prijs": 8.8,
-   "bouwjaar": 3.6
-  },
-  "score": 55.2,
-  "ai_reject": false,
-  "let_op": [
-   "16V Cosworth: niet geschikt voor LPG"
-  ],
-  "rust": null
- },
- {
   "id": "cargr_11586961",
   "source": "car.gr",
   "country": "GR",
@@ -32927,7 +32862,7 @@
   "source_module": "car_gr",
   "price_prev": null,
   "first_seen": "2026-10-12",
-  "last_seen": "2026-11-02",
+  "last_seen": "2026-11-04",
   "active": true,
   "dup_of": null,
   "also_on": [
@@ -32997,7 +32932,7 @@
   "source_module": "car_gr",
   "price_prev": null,
   "first_seen": "2026-10-12",
-  "last_seen": "2026-11-02",
+  "last_seen": "2026-11-04",
   "active": true,
   "dup_of": null,
   "also_on": [],
@@ -33062,7 +32997,7 @@
   "source_module": "car_gr",
   "price_prev": null,
   "first_seen": "2026-10-12",
-  "last_seen": "2026-11-02",
+  "last_seen": "2026-11-04",
   "active": true,
   "dup_of": null,
   "also_on": [],
@@ -33127,7 +33062,7 @@
   "source_module": "car_gr",
   "price_prev": null,
   "first_seen": "2026-10-12",
-  "last_seen": "2026-11-02",
+  "last_seen": "2026-11-04",
   "active": true,
   "dup_of": null,
   "also_on": [],
@@ -33197,7 +33132,7 @@
   "source_module": "car_gr",
   "price_prev": null,
   "first_seen": "2026-10-12",
-  "last_seen": "2026-11-02",
+  "last_seen": "2026-11-04",
   "active": true,
   "dup_of": null,
   "also_on": [],
@@ -33260,7 +33195,7 @@
   "source_module": "car_gr",
   "price_prev": null,
   "first_seen": "2026-10-12",
-  "last_seen": "2026-11-02",
+  "last_seen": "2026-11-04",
   "active": true,
   "dup_of": null,
   "also_on": [],
@@ -33302,7 +33237,7 @@
   "country": "GR",
   "url": "https://www.car.gr/classifieds/cars/view/51338346-mercedes-benz-e-250",
   "title": "Mercedes-Benz E 250 1985 Te",
-  "price": 14000,
+  "price": 10000,
   "year": 1985,
   "mileage": 135000,
   "location": "ΗΡΑΚΛΕΙΟ Ν. Ηρακλείου 71409",
@@ -33321,9 +33256,9 @@
   "signals_good": [],
   "signals_bad": [],
   "source_module": "car_gr",
-  "price_prev": 9939,
+  "price_prev": 14000,
   "first_seen": "2026-10-12",
-  "last_seen": "2026-11-02",
+  "last_seen": "2026-11-04",
   "active": true,
   "dup_of": null,
   "also_on": [],
@@ -33351,10 +33286,10 @@
    "motor": 18.0,
    "staat": 6.0,
    "km": 8.8,
-   "prijs": 0.0,
+   "prijs": 2.1,
    "bouwjaar": 4.8
   },
-  "score": 61.6,
+  "score": 63.7,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -33386,7 +33321,7 @@
   "source_module": "car_gr",
   "price_prev": null,
   "first_seen": "2026-10-12",
-  "last_seen": "2026-11-02",
+  "last_seen": "2026-11-04",
   "active": true,
   "dup_of": null,
   "also_on": [],
@@ -34015,10 +33950,10 @@
    "motor": 5.4,
    "staat": 6.0,
    "km": 1.4,
-   "prijs": 4.5,
+   "prijs": 4.6,
    "bouwjaar": 4.8
   },
-  "score": 46.1,
+  "score": 46.2,
   "ai_reject": false,
   "let_op": [
    "Hoge kilometerstand",
@@ -42401,7 +42336,7 @@
   "source_module": "car_gr",
   "price_prev": null,
   "first_seen": "2026-10-12",
-  "last_seen": "2026-11-02",
+  "last_seen": "2026-11-04",
   "active": true,
   "dup_of": null,
   "also_on": [],
@@ -49528,10 +49463,10 @@
    "motor": 5.4,
    "staat": 6.0,
    "km": 6.0,
-   "prijs": 3.9,
+   "prijs": 4.0,
    "bouwjaar": 5.4
   },
-  "score": 50.7,
+  "score": 50.8,
   "ai_reject": false,
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
@@ -50675,6 +50610,71 @@
   "score": 57.3,
   "ai_reject": false,
   "let_op": [],
+  "rust": null
+ },
+ {
+  "id": "cargr_56258237",
+  "source": "car.gr",
+  "country": "GR",
+  "url": "https://www.car.gr/classifieds/cars/view/56258237-mercedes-benz-190",
+  "title": "Mercedes-Benz 190 1983 2.3 16v cosworth",
+  "price": 15000,
+  "year": 1983,
+  "mileage": 133000,
+  "location": "ΓΛΥΦΑΔΑ Ν. ΑΤΤΙΚΗΣ 16561",
+  "image": "https://static.car.gr/56258237_4_n.jpg",
+  "images": [
+   "https://static.car.gr/56258237_4_n.jpg"
+  ],
+  "series": "W201",
+  "model": "190E 2.3-16",
+  "fuel": "benzine",
+  "cyl": 4,
+  "lpg_score": 0,
+  "has_lpg": false,
+  "year_known": true,
+  "maybe_w123": false,
+  "signals_good": [],
+  "signals_bad": [],
+  "source_module": "car_gr",
+  "price_prev": null,
+  "first_seen": "2026-10-12",
+  "last_seen": "2026-11-02",
+  "active": false,
+  "dup_of": null,
+  "also_on": [],
+  "trip": {
+   "fuel": "benzine",
+   "l100": 10.5,
+   "toll": {
+    "km": 2674,
+    "fuel_cost": 618,
+    "toll": 90,
+    "cost": 708,
+    "hours": 28.2
+   },
+   "free": {
+    "km": 3075,
+    "fuel_cost": 710,
+    "toll": 0,
+    "cost": 710,
+    "hours": 47.3
+   }
+  },
+  "trip_cost": 708,
+  "punten": {
+   "roest": 24.0,
+   "motor": 5.4,
+   "staat": 6.0,
+   "km": 7.4,
+   "prijs": 8.9,
+   "bouwjaar": 3.6
+  },
+  "score": 55.3,
+  "ai_reject": false,
+  "let_op": [
+   "16V Cosworth: niet geschikt voor LPG"
+  ],
   "rust": null
  },
  {
@@ -52248,10 +52248,10 @@
    "motor": 5.4,
    "staat": 6.0,
    "km": 1.4,
-   "prijs": 4.5,
+   "prijs": 4.6,
    "bouwjaar": 4.8
   },
-  "score": 46.1,
+  "score": 46.2,
   "ai_reject": false,
   "let_op": [
    "Hoge kilometerstand",
@@ -54709,10 +54709,10 @@
    "motor": 5.4,
    "staat": 6.0,
    "km": 6.3,
-   "prijs": 7.6,
+   "prijs": 7.7,
    "bouwjaar": 4.8
   },
-  "score": 54.1,
+  "score": 54.2,
   "ai_reject": false,
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
@@ -54963,10 +54963,10 @@
    "motor": 5.4,
    "staat": 6.0,
    "km": 6.6,
-   "prijs": 5.3,
+   "prijs": 5.4,
    "bouwjaar": 4.2
   },
-  "score": 51.5,
+  "score": 51.6,
   "ai_reject": false,
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
@@ -59744,10 +59744,10 @@
    "motor": 5.4,
    "staat": 6.0,
    "km": 5.1,
-   "prijs": 0.3,
+   "prijs": 0.4,
    "bouwjaar": 4.8
   },
-  "score": 45.6,
+  "score": 45.7,
   "ai_reject": false,
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
@@ -62670,10 +62670,10 @@
    "motor": 5.4,
    "staat": 6.0,
    "km": 3.0,
-   "prijs": 0.2,
+   "prijs": 0.3,
    "bouwjaar": 5.4
   },
-  "score": 44.0,
+  "score": 44.1,
   "ai_reject": false,
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
@@ -66767,10 +66767,10 @@
    "motor": 5.4,
    "staat": 6.0,
    "km": 5.0,
-   "prijs": 8.0,
+   "prijs": 8.1,
    "bouwjaar": 5.4
   },
-  "score": 53.8,
+  "score": 53.9,
   "ai_reject": false,
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
@@ -68520,10 +68520,10 @@
    "motor": 5.4,
    "staat": 6.0,
    "km": 6.4,
-   "prijs": 8.0,
+   "prijs": 8.1,
    "bouwjaar": 3.6
   },
-  "score": 53.4,
+  "score": 53.5,
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
   ],
@@ -69227,10 +69227,10 @@
    "motor": 5.4,
    "staat": 6.0,
    "km": 8.0,
-   "prijs": 5.5,
+   "prijs": 5.6,
    "bouwjaar": 4.8
   },
-  "score": 53.7,
+  "score": 53.8,
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
   ],
@@ -69336,10 +69336,10 @@
    "motor": 5.4,
    "staat": 6.0,
    "km": 4.7,
-   "prijs": 3.4,
+   "prijs": 3.5,
    "bouwjaar": 4.8
   },
-  "score": 48.3,
+  "score": 48.4,
   "let_op": [
    "16V Cosworth: niet geschikt voor LPG"
   ],
