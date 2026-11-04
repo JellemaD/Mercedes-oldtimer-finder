@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T07:24:25+00:00",
+ "updated": "2026-11-04T12:26:43+00:00",
  "auto": {
   "kenteken": "57-RVV-3",
   "type": "Mercedes-Benz 250 D (W124 sedan, Mopf 0 / vormopf)",
@@ -1156,20 +1156,20 @@
    "name": "Kleinanzeigen",
    "country": "DE",
    "secs": 24,
-   "last_run": "2026-11-04T07:23:53+00:00",
-   "last_ok": "2026-11-04T07:23:53+00:00"
+   "last_run": "2026-11-04T12:26:10+00:00",
+   "last_ok": "2026-11-04T12:26:10+00:00"
   },
   {
    "module": "marktplaats",
    "ok": true,
-   "found": 83,
+   "found": 81,
    "matched": 4,
    "error": null,
    "name": "Marktplaats",
    "country": "NL",
-   "secs": 20,
-   "last_run": "2026-11-04T07:24:12+00:00",
-   "last_ok": "2026-11-04T07:24:12+00:00"
+   "secs": 21,
+   "last_run": "2026-11-04T12:26:31+00:00",
+   "last_ok": "2026-11-04T12:26:31+00:00"
   },
   {
    "module": "mercedesforum",
@@ -1179,9 +1179,9 @@
    "error": null,
    "name": "MercedesForum.nl",
    "country": "NL",
-   "secs": 7,
-   "last_run": "2026-11-04T07:24:19+00:00",
-   "last_ok": "2026-11-04T07:24:19+00:00"
+   "secs": 6,
+   "last_run": "2026-11-04T12:26:37+00:00",
+   "last_ok": "2026-11-04T12:26:37+00:00"
   },
   {
    "module": "w124board",
@@ -1192,8 +1192,8 @@
    "name": "W124-Board.de",
    "country": "DE",
    "secs": 6,
-   "last_run": "2026-11-04T07:24:25+00:00",
-   "last_ok": "2026-11-04T07:24:25+00:00"
+   "last_run": "2026-11-04T12:26:43+00:00",
+   "last_ok": "2026-11-04T12:26:43+00:00"
   }
  ]
 }
