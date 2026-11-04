@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T12:48:15+00:00",
+ "updated": "2026-11-04T07:24:25+00:00",
  "auto": {
   "kenteken": "57-RVV-3",
   "type": "Mercedes-Benz 250 D (W124 sedan, Mopf 0 / vormopf)",
@@ -113,7 +113,7 @@
    "source_module": "marktplaats",
    "first_seen": "2026-11-02",
    "price_prev": null,
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "active": true
   },
   {
@@ -135,7 +135,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-31",
    "price_prev": null,
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "active": true
   },
   {
@@ -157,7 +157,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-31",
    "price_prev": null,
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "active": true
   },
   {
@@ -180,7 +180,7 @@
    "source_module": "marktplaats",
    "first_seen": "2026-10-31",
    "price_prev": null,
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "active": true
   },
   {
@@ -203,7 +203,7 @@
    "source_module": "marktplaats",
    "first_seen": "2026-10-31",
    "price_prev": null,
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "active": true
   },
   {
@@ -226,7 +226,7 @@
    "source_module": "marktplaats",
    "first_seen": "2026-10-31",
    "price_prev": null,
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "active": true
   },
   {
@@ -248,7 +248,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-29",
    "price_prev": null,
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "active": true
   },
   {
@@ -272,7 +272,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "active": true
   },
   {
@@ -296,7 +296,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "active": true
   },
   {
@@ -321,7 +321,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "active": true
   },
   {
@@ -346,7 +346,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "active": true
   },
   {
@@ -370,7 +370,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "active": true
   },
   {
@@ -394,7 +394,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "active": true
   },
   {
@@ -418,7 +418,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "active": true
   },
   {
@@ -442,7 +442,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "active": true
   },
   {
@@ -466,7 +466,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "active": true
   },
   {
@@ -490,7 +490,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "active": true
   },
   {
@@ -514,7 +514,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": 29,
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "active": true
   },
   {
@@ -538,7 +538,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "active": true
   },
   {
@@ -562,7 +562,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "active": true
   },
   {
@@ -584,7 +584,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "active": true
   },
   {
@@ -606,7 +606,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "active": true
   },
   {
@@ -628,7 +628,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "active": true
   },
   {
@@ -650,7 +650,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "active": true
   },
   {
@@ -672,7 +672,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "active": true
   },
   {
@@ -694,7 +694,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "active": true
   },
   {
@@ -716,7 +716,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "active": true
   },
   {
@@ -738,7 +738,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "active": true
   },
   {
@@ -763,7 +763,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "active": true
   },
   {
@@ -786,7 +786,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "active": true
   },
   {
@@ -808,7 +808,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "active": true
   },
   {
@@ -832,7 +832,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "active": true
   },
   {
@@ -857,7 +857,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "active": true
   },
   {
@@ -881,7 +881,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "active": true
   },
   {
@@ -905,7 +905,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "active": true
   },
   {
@@ -930,7 +930,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "active": true
   },
   {
@@ -1155,21 +1155,21 @@
    "error": null,
    "name": "Kleinanzeigen",
    "country": "DE",
-   "secs": 25,
-   "last_run": "2026-11-02T12:47:42+00:00",
-   "last_ok": "2026-11-02T12:47:42+00:00"
+   "secs": 24,
+   "last_run": "2026-11-04T07:23:53+00:00",
+   "last_ok": "2026-11-04T07:23:53+00:00"
   },
   {
    "module": "marktplaats",
    "ok": true,
-   "found": 74,
+   "found": 83,
    "matched": 4,
    "error": null,
    "name": "Marktplaats",
    "country": "NL",
-   "secs": 21,
-   "last_run": "2026-11-02T12:48:02+00:00",
-   "last_ok": "2026-11-02T12:48:02+00:00"
+   "secs": 20,
+   "last_run": "2026-11-04T07:24:12+00:00",
+   "last_ok": "2026-11-04T07:24:12+00:00"
   },
   {
    "module": "mercedesforum",
@@ -1180,8 +1180,8 @@
    "name": "MercedesForum.nl",
    "country": "NL",
    "secs": 7,
-   "last_run": "2026-11-02T12:48:09+00:00",
-   "last_ok": "2026-11-02T12:48:09+00:00"
+   "last_run": "2026-11-04T07:24:19+00:00",
+   "last_ok": "2026-11-04T07:24:19+00:00"
   },
   {
    "module": "w124board",
@@ -1192,8 +1192,8 @@
    "name": "W124-Board.de",
    "country": "DE",
    "secs": 6,
-   "last_run": "2026-11-02T12:48:15+00:00",
-   "last_ok": "2026-11-02T12:48:15+00:00"
+   "last_run": "2026-11-04T07:24:25+00:00",
+   "last_ok": "2026-11-04T07:24:25+00:00"
   }
  ]
 }
