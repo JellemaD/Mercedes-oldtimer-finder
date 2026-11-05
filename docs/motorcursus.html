@@ -77,6 +77,9 @@ main{max-width:760px;margin:0 auto;padding:14px 14px 90px}
 .fig{margin:.6em 0 1.1em}
 .fig img{width:100%;height:auto;border-radius:10px;border:1px solid var(--line);display:block;cursor:zoom-in}
 .fig figcaption{font-size:.85em;color:var(--muted);margin-top:5px;line-height:1.35}
+.schema{width:100%;height:auto;display:block;margin:.6em 0 1.1em;background:var(--card);border:1px solid var(--line);border-radius:10px}
+.schema .st{font:600 22px "IBM Plex Sans",sans-serif;fill:var(--ink)}
+.schema .sl{font:18px "IBM Plex Sans",sans-serif;fill:var(--muted)}
 .fig .wrap{position:relative}
 .fig .mk{position:absolute;transform:translate(-50%,-50%);width:26px;height:26px;border-radius:50%;background:var(--gold);color:#1d1d1b;border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.6);font:700 13px/22px "IBM Plex Sans",sans-serif;font-style:normal;text-align:center;pointer-events:none}
 .legend{font-size:.9em;margin:0 0 1em;padding-left:0;list-style:none}
@@ -347,17 +350,90 @@ ${F('13-onder-voor')}
 </ul>
 <h2>Cardanas en hardyschijf</h2>
 <p>De cardanas bestaat uit twee delen met een middenlager (rubber) ertussen. Aan beide uiteinden zit een <b>hardyschijf</b>: een rubberen schijf met zes bouten die motortrillingen opvangt. Scheuren in het rubber of een vervormde schijf geven een klap bij het inschakelen van D/R en trillen vanaf 80 km/u. Veiligheidsdeel: altijd nieuw, nooit tweedehands.</p>
-<h2>Achteras: waar jouw kraak vandaan komt</h2>
-<p>De W124 heeft een meervoudige achterwielophanging op een subframe. Dat subframe hangt met vier grote rubbers aan de carrosserie, en het differentieel hangt met twee rubbers aan het subframe. Trek je op, dan draait het differentieel onder het koppel een stukje omhoog; staan de rubbers op rubber, dan kraakt het. Jouw waarneming (kraak de eerste seconden bij optrekken en in bochten, niet bij drempels, in D wel en in R niet) past daar precies bij: in D duwt het koppel het differentieel tegen de versleten kant, in R de andere kant op.</p>
+<h2>Differentieel: wat het doet</h2>
+<p>Het differentieel is de kast tussen de achterwielen waar de cardanas in uitkomt. Drie taken:</p>
+<ol>
+<li><b>Vertragen en de hoek maken.</b> Een klein tandwiel op de cardanas (pignon) drijft een groot kroonwiel aan dat dwars staat. 3,07 omwentelingen cardan = 1 omwenteling wiel: dat is jouw eindoverbrenging. De cardanas draait bij 120 km/u ruim 3.000 toeren, de wielen ruim 1.000.</li>
+<li><b>Verdelen.</b> In het kroonwiel zit een kooitje met kleine kegelwielen (satellieten) tussen de twee aandrijfassen. Rechtuit staan die stil en draaien beide wielen even snel. In een bocht moet het buitenwiel meer meters maken; de satellieten gaan tollen en laten het ene wiel sneller draaien dan het andere, terwijl de kracht gelijk verdeeld blijft. Zonder differentieel zou het binnenwiel in elke bocht slepen.</li>
+<li><b>Smeren.</b> Pignon en kroonwiel glijden sterk over elkaar: hypoidolie 85W-90, ongeveer 1,3 liter. Bij onbekende historie verversen. Een zoemen dat met de snelheid oploopt (niet met het toerental) komt uit het differentieel of de wiellagers.</li>
+</ol>
+<svg class="schema" viewBox="0 0 680 400" role="img" aria-label="Achteras van boven: cardanas, hardyschijf, differentieel in het subframe, rubbers en aandrijfassen">
+<rect x="150" y="70" width="330" height="260" rx="12" fill="none" stroke="var(--muted)" stroke-width="1" stroke-dasharray="6 4"/>
+<text x="160" y="90" class="sl">Subframe (achterasdrager)</text>
+<rect x="60" y="100" width="24" height="200" rx="4" fill="var(--line)" stroke="var(--muted)" stroke-width="0.8"/>
+<rect x="596" y="100" width="24" height="200" rx="4" fill="var(--line)" stroke="var(--muted)" stroke-width="0.8"/>
+<text x="72" y="320" class="sl" text-anchor="middle">wiel L</text>
+<text x="608" y="320" class="sl" text-anchor="middle">wiel R</text>
+<text x="40" y="52" class="sl">rijrichting →</text>
+<line x1="110" y1="200" x2="232" y2="200" stroke="var(--ink)" stroke-width="5" stroke-linecap="round"/>
+<text x="170" y="228" class="sl" text-anchor="middle">cardanas</text>
+<circle cx="246" cy="200" r="13" fill="var(--bad-bg)" stroke="var(--bad)" stroke-width="1.2"/>
+<text x="246" y="128" class="sl" text-anchor="middle">hardyschijf</text>
+<line x1="246" y1="134" x2="246" y2="186" stroke="var(--muted)" stroke-width="1"/>
+<rect x="262" y="160" width="170" height="80" rx="10" fill="var(--code-bg)" stroke="var(--accent)" stroke-width="1.2"/>
+<text x="347" y="195" class="st" text-anchor="middle">Differentieel</text>
+<text x="347" y="222" class="sl" text-anchor="middle">vertraagt 3,07</text>
+<line x1="432" y1="200" x2="596" y2="200" stroke="var(--ink)" stroke-width="4" stroke-linecap="round"/>
+<line x1="84" y1="250" x2="280" y2="250" stroke="var(--ink)" stroke-width="4" stroke-linecap="round"/>
+<text x="170" y="280" class="sl" text-anchor="middle">aandrijfas L</text>
+<text x="514" y="228" class="sl" text-anchor="middle">aandrijfas R</text>
+<g fill="var(--card)" stroke="var(--accent)" stroke-width="2">
+<circle cx="165" cy="85" r="9"/><circle cx="465" cy="85" r="9"/><circle cx="165" cy="315" r="9"/><circle cx="465" cy="315" r="9"/>
+</g>
+<g fill="var(--gold)" stroke="var(--ink)" stroke-width="1">
+<circle cx="300" cy="252" r="8"/><circle cx="394" cy="252" r="8"/><circle cx="347" cy="148" r="8"/>
+</g>
+<line x1="347" y1="140" x2="347" y2="100" stroke="var(--muted)" stroke-width="1"/>
+<line x1="300" y1="260" x2="300" y2="300" stroke="var(--muted)" stroke-width="1"/>
+<line x1="394" y1="260" x2="394" y2="300" stroke="var(--muted)" stroke-width="1"/>
+<circle cx="52" cy="352" r="8" fill="var(--card)" stroke="var(--accent)" stroke-width="2"/>
+<text x="70" y="358" class="sl">4 subframerubbers, naar de carrosserie</text>
+<circle cx="52" cy="382" r="8" fill="var(--gold)" stroke="var(--ink)" stroke-width="1"/>
+<text x="70" y="388" class="sl">3 differentieelrubbers, naar het subframe: jouw kraak</text>
+</svg>
+<h2>De rubbers: waarom ze er zitten</h2>
+<p>Het differentieel zit niet vast aan de auto. Het hangt met drie rubberen blokken (metaal-rubber-metaal) aan het subframe, en dat subframe hangt met vier rubbers aan de carrosserie. Twee redenen:</p>
 <ul>
-<li><b>Kijken:</b> achter opkrikken op de krikpunten, onder de auto, iemand laat de bak in D en R inschakelen met de voet op de rem. Beweegt het differentieel zichtbaar en kraakt het daar: differentieelrubbers.</li>
-<li><b>Vervangen:</b> rubbers nieuw (Lemförder of Febi), uren werk door de bouten op leeftijd. Niet gevaarlijk om mee te rijden zolang de bevestiging niet loszit.</li>
+<li><b>Geluid en trilling.</b> Tandwielen zoemen; de rubbers houden dat uit de carrosserie. Daarom is een W124 achterin zo stil.</li>
+<li><b>Koppelreactie.</b> Geef je gas, dan draait het pignon het kroonwiel rond, en even hard wil het differentieelhuis de andere kant op kantelen (actie is reactie). Bij elke versnelling drukt het huis zijn neus omhoog en zijn achterkant omlaag, tegen de rubbers. Die veren een paar millimeter mee en duwen terug. In R of bij gas loslaten kantelt het andersom.</li>
+</ul>
+<svg class="schema" viewBox="0 0 680 230" role="img" aria-label="Zijaanzicht: bij gas geven kantelt het differentieelhuis en drukt het in zijn rubbers">
+<text x="40" y="34" class="st">Zijaanzicht, voorkant links</text>
+<line x1="150" y1="110" x2="530" y2="110" stroke="var(--muted)" stroke-width="1" stroke-dasharray="6 4"/>
+<text x="540" y="114" class="sl">subframe</text>
+<line x1="60" y1="130" x2="262" y2="130" stroke="var(--ink)" stroke-width="5" stroke-linecap="round"/>
+<text x="160" y="158" class="sl" text-anchor="middle">cardanas</text>
+<g transform="rotate(-6 343 130)">
+<rect x="268" y="95" width="150" height="70" rx="10" fill="var(--code-bg)" stroke="var(--accent)" stroke-width="1.2"/>
+<text x="343" y="137" class="st" text-anchor="middle">huis kantelt</text>
+</g>
+<circle cx="343" cy="92" r="8" fill="var(--gold)" stroke="var(--ink)" stroke-width="1"/>
+<circle cx="376" cy="170" r="8" fill="var(--gold)" stroke="var(--ink)" stroke-width="1"/>
+<path d="M300 70 Q330 50 360 70" fill="none" stroke="var(--bad)" stroke-width="2"/>
+<path d="M360 70 L352 62 M360 70 L351 73" fill="none" stroke="var(--bad)" stroke-width="2" stroke-linecap="round"/>
+<text x="330" y="48" class="sl" text-anchor="middle">gas: neus omhoog</text>
+<path d="M398 200 Q370 215 340 200" fill="none" stroke="var(--bad)" stroke-width="2"/>
+<path d="M340 200 L349 194 M340 200 L349 205" fill="none" stroke="var(--bad)" stroke-width="2" stroke-linecap="round"/>
+<text x="410" y="212" class="sl">achterkant omlaag</text>
+<text x="40" y="212" class="sl">wielen →</text>
+</svg>
+<h2>Waarom het kraakt, en hoe je het vaststelt</h2>
+<p>Rubber van veertig jaar is hard en gescheurd, of de verlijming met de metalen huls is los. Dan veert het blok niet meer soepel mee, maar schuift metaal met schokjes over droog rubber: dat hoor je als kraken. Jouw waarneming past er precies op:</p>
+<ul>
+<li>de eerste 2 à 3 seconden bij optrekken: het moment dat het koppel het huis in de rubbers drukt;</li>
+<li>in bochten: subframe en differentieel worden zijwaarts belast en schuiven;</li>
+<li>niet bij drempels: dat is verticaal, dat vangen veren en schokdempers op;</li>
+<li>in D wel, in R niet: in R kantelt het huis de andere kant op, tegen een rubberkant die nog gaaf is.</li>
+</ul>
+<ul>
+<li><b>Kijken:</b> auto op de brug of op bokken, iemand zet de bak in D en daarna R met de voet op de rem en geeft iets gas. Beweegt het differentieelhuis zichtbaar (meer dan een paar millimeter) en kraakt het daar: differentieelrubbers (geel). Beweegt het hele subframe ten opzichte van de bodem: subframerubbers (blauw).</li>
+<li><b>Vervangen:</b> rubbers nieuw (Lemförder of Febi), uren werk door de bouten op leeftijd; het differentieel moet erbij ondersteund worden. Niet gevaarlijk om mee te rijden zolang de bevestiging niet loszit.</li>
 </ul>
 ${F('14-onder-tank')}
 <p>Onder de achterkant van jouw auto: de tank, met links de carrosserienaad met roest. Het subframe en het differentieel zitten daar vlak voor.</p>
-<h2>Differentieel</h2>
-<p>Verdeelt de kracht over beide achterwielen en laat het buitenste wiel in de bocht sneller draaien. Olie: hypoid 85W-90, ongeveer 1,3 liter, bij onbekende historie verversen. Een zoemen dat met de snelheid oploopt (niet met het toerental) komt uit het differentieel of de wiellagers.</p>
 `, q:[
+{n:6,q:'Wat gebeurt er in het differentieel als je een bocht maakt?',opts:{A:'Het schakelt de binnenste aandrijfas uit',B:'De satellietwielen gaan draaien en laten het buitenwiel sneller draaien dan het binnenwiel, met gelijke kracht op beide',C:'Het kroonwiel stopt even',D:'Niets; beide wielen draaien altijd even snel'},a:'B',e:'Rechtuit staan de satellieten stil. In de bocht tollen ze en verdelen ze het toerenverschil tussen de wielen, terwijl de kracht gelijk verdeeld blijft. Zonder differentieel zou het binnenwiel slepen.'},
+{n:7,q:'Waarom drukt het differentieelhuis bij gas geven in zijn rubbers?',opts:{A:'Door de hitte van de olie',B:'Door de koppelreactie: het pignon draait het kroonwiel, en het huis wil even hard de andere kant op kantelen',C:'Door de rijwind onder de auto',D:'Omdat de cardanas uitzet'},a:'B',e:'Actie is reactie. Het koppel dat de wielen aandrijft, duwt het huis andersom: neus omhoog, achterkant omlaag. De rubbers vangen dat op. Zijn ze hard of los, dan hoor je dat als kraken, precies bij optrekken.'},
 {n:1,q:'Hoeveel trappen heeft jouw automaat en hoe is de hoogste?',opts:{A:'Drie trappen, hoogste 1 : 1',B:'Vier trappen, hoogste 1 : 1 (geen overdrive)',C:'Vier trappen, hoogste 0,8 (overdrive)',D:'Vijf trappen'},a:'B',e:'De 722.4 is een viertraps automaat waarvan de vierde trap 1 : 1 is. Met de 3,07-as draait de motor bij 120 km/u ongeveer 3.150 toeren.'},
 {n:2,q:'De automaat trekt vanuit stilstand op in de tweede trap. Is dat een storing?',opts:{A:'Ja, de eerste trap is kapot',B:'Nee, dit is normaal; de eerste trap komt alleen bij kickdown of in stand 2/B',C:'Ja, de vacuümregelaar is lek',D:'Ja, de ATF is te oud'},a:'B',e:'Mercedes liet deze automaten bewust in de tweede trap wegrijden voor comfort. Vol gas (kickdown) of de hendel in 2 geeft de eerste trap.'},
 {n:3,q:'Kraken de eerste 2 tot 3 seconden bij optrekken en in bochten, niet bij drempels; in D wel, in R niet. Beste verdachte?',opts:{A:'Losse bumper',B:'Versleten schokdempers',C:'Differentieel- of subframerubbers van de achteras',D:'Uitlaat tegen de bodem'},a:'C',e:'Koppel bij optrekken laat het differentieel in zijn rubbers draaien; zijn die versleten, dan kraakt het. Dat het in R anders is past erbij: het koppel duwt dan de andere kant op. Een losse bumper zou juist bij drempels rammelen.'},
