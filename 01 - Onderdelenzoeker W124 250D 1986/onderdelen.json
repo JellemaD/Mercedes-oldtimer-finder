@@ -9,7 +9,7 @@
     "opties": "412 420 466 470 506 532 550 (typeplaatje)",
     "transmissie": "automaat (722.3)"
   },
-  "_uitleg": "Per onderdeel: 'zoek' = zoektermen per site (de = Kleinanzeigen, nl = Marktplaats); 'match' = regex, een advertentie telt als die op minstens een regel past en op geen regel uit 'niet'; 'nummer' = Mercedes-onderdeelnummers zoals gezien in advertenties (nog controleren met chassisnummer); 'status' = diagnose | zoeken | gevonden | besteld | gemonteerd | nieuw-kopen (diagnose = oorzaak nog niet zeker, wordt niet gezocht). Titel en tekst moeten ook W124 noemen (zie zoek.py); coupe/cabrio (C124/A124), AMG en bodykits vallen af.",
+  "_uitleg": "Per onderdeel: 'zoek' = zoektermen per site (de = Kleinanzeigen, nl = Marktplaats); 'match' = regex, een advertentie telt als die op minstens een regel past en op geen regel uit 'niet'; 'nummer' = Mercedes-onderdeelnummers zoals gezien in advertenties (nog controleren met chassisnummer); 'status' = diagnose | zoeken | gevonden | besteld | gemonteerd | nieuw-kopen (diagnose = oorzaak nog niet zeker, wordt niet gezocht). Titel en tekst moeten ook W124 noemen (zie zoek.py); coupe/cabrio (C124/A124), AMG en bodykits vallen af. 'handleiding' (optioneel) = {tekst, url, bron}: pdf in docs/handleidingen/, als link op de pagina.",
   "onderdelen": [
     {
       "id": "beplanking-voorspatbord",
@@ -178,7 +178,12 @@
       },
       "match": [],
       "niet": [],
-      "foto": "fotos/spiegelglas-links.jpg"
+      "foto": "fotos/spiegelglas-links.jpg",
+      "handleiding": {
+        "tekst": "Handleiding spiegelglas vervangen (Autodoc, NL, 8 blz.)",
+        "url": "handleidingen/spiegelglas-links-vervangen-w124-autodoc.pdf",
+        "bron": "https://club.autodoc.nl/pdf-manuals/club/mercedes-benz/w124-combi-s124/wing-mirror-glass/pdf/NL-hoe-spiegelglas-vervangen-bij-een-mercedes-benz-w124-combi-s124-vervangingshandleiding.pdf"
+      }
     },
     {
       "id": "bumpergeleider-achter-links",

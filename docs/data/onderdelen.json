@@ -69,7 +69,12 @@
    "waarom": "Glas gescheurd linksonder (foto 06-11-2026); kap en voet zijn heel, alleen het glas vervangen. Verwarmd: twee stekkertjes achterop aansluiten. Nieuw ca. 15 euro bij autoteiledirekt.de of autodoc.nl, zelf monteren (klikt op de draagplaat). Kap bladdert: eventueel matzwarte bumperlak.",
    "prio": 1,
    "status": "nieuw-kopen",
-   "foto": "fotos/spiegelglas-links.jpg"
+   "foto": "fotos/spiegelglas-links.jpg",
+   "handleiding": {
+    "tekst": "Handleiding spiegelglas vervangen (Autodoc, NL, 8 blz.)",
+    "url": "handleidingen/spiegelglas-links-vervangen-w124-autodoc.pdf",
+    "bron": "https://club.autodoc.nl/pdf-manuals/club/mercedes-benz/w124-combi-s124/wing-mirror-glass/pdf/NL-hoe-spiegelglas-vervangen-bij-een-mercedes-benz-w124-combi-s124-vervangingshandleiding.pdf"
+   }
   },
   {
    "id": "bumpergeleider-achter-links",
