@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T12:41:59+00:00",
+ "updated": "2026-11-06T12:24:38+00:00",
  "auto": {
   "kenteken": "57-RVV-3",
   "type": "Mercedes-Benz 250 D (W124 sedan, Mopf 0 / vormopf)",
@@ -113,7 +113,7 @@
    "source_module": "marktplaats",
    "first_seen": "2026-11-02",
    "price_prev": null,
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "active": true
   },
   {
@@ -135,7 +135,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-31",
    "price_prev": null,
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "active": true
   },
   {
@@ -157,7 +157,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-31",
    "price_prev": null,
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "active": true
   },
   {
@@ -180,7 +180,7 @@
    "source_module": "marktplaats",
    "first_seen": "2026-10-31",
    "price_prev": null,
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "active": true
   },
   {
@@ -203,30 +203,7 @@
    "source_module": "marktplaats",
    "first_seen": "2026-10-31",
    "price_prev": null,
-   "last_seen": "2026-11-05",
-   "active": true
-  },
-  {
-   "id": "mp_m2459674443",
-   "source": "Marktplaats",
-   "country": "NL",
-   "url": "https://www.marktplaats.nl/v/auto-onderdelen/interieur-en-bekleding/m2459674443-nos-bekleding-achterste-stijl-zwart-mercedes-benz-w124-kombi",
-   "title": "NOS bekleding achterste stijl zwart Mercedes-Benz W124 Kombi",
-   "price": 35,
-   "location": "Schagen",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/4e3aced8-f148-4827-a3f8-9648ba345256?rule=ecg_mp_eps$_82.jpg",
-   "attrs": {
-    "categoryId": 2913,
-    "priceType": "FIXED"
-   },
-   "text": "Nos bekleding achterste stijl zwart mercedes-benz w124 kombi nos bekleding achterste stijl links zwart mercedes-benz w124 kombi dit onderdeel is een nieuw en origineel mercedes-benz onderdeel uit oude voorraad. Origineel onderdeelnummer: a1246901525 ...",
-   "onderdelen": [
-    "beplanking-achterscherm"
-   ],
-   "source_module": "marktplaats",
-   "first_seen": "2026-10-31",
-   "price_prev": null,
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "active": true
   },
   {
@@ -248,7 +225,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-29",
    "price_prev": null,
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "active": true
   },
   {
@@ -272,7 +249,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "active": true
   },
   {
@@ -296,7 +273,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "active": true
   },
   {
@@ -321,7 +298,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "active": true
   },
   {
@@ -346,7 +323,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "active": true
   },
   {
@@ -370,7 +347,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "active": true
   },
   {
@@ -394,7 +371,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "active": true
   },
   {
@@ -418,7 +395,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "active": true
   },
   {
@@ -442,7 +419,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "active": true
   },
   {
@@ -466,7 +443,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "active": true
   },
   {
@@ -490,7 +467,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "active": true
   },
   {
@@ -514,7 +491,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": 29,
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "active": true
   },
   {
@@ -538,7 +515,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "active": true
   },
   {
@@ -562,7 +539,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "active": true
   },
   {
@@ -584,7 +561,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "active": true
   },
   {
@@ -606,7 +583,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "active": true
   },
   {
@@ -628,7 +605,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "active": true
   },
   {
@@ -650,7 +627,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "active": true
   },
   {
@@ -672,7 +649,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "active": true
   },
   {
@@ -694,7 +671,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "active": true
   },
   {
@@ -716,7 +693,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "active": true
   },
   {
@@ -738,7 +715,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "active": true
   },
   {
@@ -763,7 +740,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "active": true
   },
   {
@@ -786,7 +763,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "active": true
   },
   {
@@ -808,7 +785,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "active": true
   },
   {
@@ -832,7 +809,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "active": true
   },
   {
@@ -857,7 +834,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "active": true
   },
   {
@@ -881,7 +858,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "active": true
   },
   {
@@ -905,7 +882,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "active": true
   },
   {
@@ -930,8 +907,31 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "active": true
+  },
+  {
+   "id": "mp_m2459674443",
+   "source": "Marktplaats",
+   "country": "NL",
+   "url": "https://www.marktplaats.nl/v/auto-onderdelen/interieur-en-bekleding/m2459674443-nos-bekleding-achterste-stijl-zwart-mercedes-benz-w124-kombi",
+   "title": "NOS bekleding achterste stijl zwart Mercedes-Benz W124 Kombi",
+   "price": 35,
+   "location": "Schagen",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/4e3aced8-f148-4827-a3f8-9648ba345256?rule=ecg_mp_eps$_82.jpg",
+   "attrs": {
+    "categoryId": 2913,
+    "priceType": "FIXED"
+   },
+   "text": "Nos bekleding achterste stijl zwart mercedes-benz w124 kombi nos bekleding achterste stijl links zwart mercedes-benz w124 kombi dit onderdeel is een nieuw en origineel mercedes-benz onderdeel uit oude voorraad. Origineel onderdeelnummer: a1246901525 ...",
+   "onderdelen": [
+    "beplanking-achterscherm"
+   ],
+   "source_module": "marktplaats",
+   "first_seen": "2026-10-31",
+   "price_prev": null,
+   "last_seen": "2026-11-05",
+   "active": false
   },
   {
    "id": "mp_m2458914795",
@@ -1155,32 +1155,32 @@
    "error": null,
    "name": "Kleinanzeigen",
    "country": "DE",
-   "secs": 25,
-   "last_run": "2026-11-05T12:41:25+00:00",
-   "last_ok": "2026-11-05T12:41:25+00:00"
+   "secs": 23,
+   "last_run": "2026-11-06T12:23:37+00:00",
+   "last_ok": "2026-11-06T12:23:37+00:00"
   },
   {
    "module": "marktplaats",
    "ok": true,
-   "found": 90,
-   "matched": 4,
+   "found": 92,
+   "matched": 3,
    "error": null,
    "name": "Marktplaats",
    "country": "NL",
-   "secs": 20,
-   "last_run": "2026-11-05T12:41:46+00:00",
-   "last_ok": "2026-11-05T12:41:46+00:00"
+   "secs": 22,
+   "last_run": "2026-11-06T12:23:59+00:00",
+   "last_ok": "2026-11-06T12:23:59+00:00"
   },
   {
    "module": "mercedesforum",
-   "ok": true,
-   "found": 150,
+   "ok": false,
+   "found": 0,
    "matched": 0,
-   "error": null,
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mercedesforum.nl', port=443): Max retries exceeded with url: /forum/viewforum.php?f=49&start=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mercedesforum.nl', port=443) at 0x75647dcb6840>, 'Connection to www.mercedesforum.nl timed out. (conn",
    "name": "MercedesForum.nl",
    "country": "NL",
-   "secs": 6,
-   "last_run": "2026-11-05T12:41:52+00:00",
+   "secs": 32,
+   "last_run": "2026-11-06T12:24:31+00:00",
    "last_ok": "2026-11-05T12:41:52+00:00"
   },
   {
@@ -1192,8 +1192,8 @@
    "name": "W124-Board.de",
    "country": "DE",
    "secs": 6,
-   "last_run": "2026-11-05T12:41:59+00:00",
-   "last_ok": "2026-11-05T12:41:59+00:00"
+   "last_run": "2026-11-06T12:24:38+00:00",
+   "last_ok": "2026-11-06T12:24:38+00:00"
   }
  ]
 }
