@@ -23,14 +23,34 @@ SEARCH = BASE + '/mercedes-benz/segunda-mano/'
 PARAMS = {'MinYear': 1982, 'MaxYear': 1987}
 MAX_PAGES = 10
 
-PROPS = re.compile(r'window\.__INITIAL_PROPS__\s*=\s*JSON\.parse\((".*?")\);?\s*(?:window|</script)', re.S)
+# Until 11-2026 the data sat in window.__INITIAL_PROPS__; since 06-11-2026 in
+# window.__staticRouterHydrationData (loaderData.<route>.initialResults). Accept both.
+PROPS = re.compile(r'window\.(?:__INITIAL_PROPS__|__staticRouterHydrationData)\s*=\s*JSON\.parse\((".*?")\);?\s*(?:window|</script)', re.S)
+
+
+def _find_results(obj):
+    """Return the dict holding initialResults, wherever it is nested."""
+    if isinstance(obj, dict):
+        if isinstance(obj.get('initialResults'), dict):
+            return obj
+        children = obj.values()
+    elif isinstance(obj, list):
+        children = obj
+    else:
+        return None
+    for v in children:
+        found = _find_results(v)
+        if found is not None:
+            return found
+    return None
 
 
 def _props(html):
-    m = PROPS.search(html)
-    if not m:
-        raise ValueError('coches.net: __INITIAL_PROPS__ not found')
-    return json.loads(json.loads(m.group(1)))
+    for m in PROPS.finditer(html):
+        found = _find_results(json.loads(json.loads(m.group(1))))
+        if found is not None:
+            return found
+    raise ValueError('coches.net: initialResults not found (page layout changed?)')
 
 
 def _title(it):
