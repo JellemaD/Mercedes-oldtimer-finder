@@ -113,7 +113,8 @@ def _item(r):
                    location=r.get('addressLong'), image=r.get('thumb'),
                    attrs={'model': parts.get('model'), 'variant': parts.get('variant'),
                           'engine_size': feats.get('engine_size'), 'hp': feats.get('engine_power'),
-                          'seller': (r.get('seller') or {}).get('type')})
+                          'seller': (r.get('seller') or {}).get('type'),
+                          'gearbox': feats.get('gearbox_type')})  # only listed for automatics
 
 
 def scrape():

@@ -70,7 +70,7 @@ def _item(node):
         location=', '.join(s for s in (city, region) if s),
         image=thumb.get('x2') or thumb.get('x1'),
         attrs={'version': val('version'), 'model': val('model', True), 'engine_capacity': cc,
-               'origin': val('origin', True)},
+               'origin': val('origin', True), 'gearbox': val('gearbox')},
     )
 
 

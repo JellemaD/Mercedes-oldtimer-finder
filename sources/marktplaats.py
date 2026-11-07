@@ -58,7 +58,8 @@ def _to_listing(item, base, source, country, prefix):
         price=cents // 100 if cents else None,
         year=_attr(item, 'constructionYear'), mileage=_attr(item, 'mileage'), fuel=_attr(item, 'fuel'),
         location=(item.get('location') or {}).get('cityName'), image=image, images=images,
-        attrs={'categoryId': item.get('categoryId'), 'priceType': (item.get('priceInfo') or {}).get('priceType')},
+        attrs={'categoryId': item.get('categoryId'), 'priceType': (item.get('priceInfo') or {}).get('priceType'),
+               'gearbox': _attr(item, 'transmission')},
     )
 
 

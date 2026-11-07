@@ -76,6 +76,34 @@ W201_SIZE = re.compile(r'\b(1\.8|2\.0|2\.2|2\.3|2\.5|2\.6)\b')
 CYL5 = re.compile(r'5[\s-]?(?:cil|zyl|cyl)|f[üu]nfzylinder|πεντακ[υύ]λινδρ|cinco cilindros')
 CYL6 = re.compile(r'6[\s-]?(?:cil|zyl|cyl)|sechszylinder|εξακ[υύ]λινδρ|seis cilindros')
 
+# Gearbox. The site's own field (attrs['gearbox']) wins; otherwise words in title/text.
+# Spanish/Portuguese "automático" only with a gearbox word, so "climatizador automático" doesn't count.
+GEAR_AUTO = re.compile(
+    r'\bautomaa?t\b|\bautomaatbak|\bautomatische (?:versnellingsbak|bak|transmissie)|\bautomatik\w*|\bautomatic\b'
+    r'|\bautomatique\b|\b(?:cambio|caja|caixa|transmisi[oó]n|bo[iî]te)(?: de (?:cambios?|velocidades|vitesses))?'
+    r' autom[aá]tic|αυτ[οό]ματ|\b722\.\d')
+GEAR_MANUAL = re.compile(
+    r'\bhandgeschakeld\b|\bschakelbak\b|\bhandbak\b|\bschaltgetriebe\b|\bhandschalt\w*|\bmanual\b|\bmanuell\w*'
+    r'|\bmanuale\b|\bmanuelle\b|χειροκ[ιί]νητ|μηχανικ[οόή]')
+GEAR_COUNT = re.compile(r'\b[45][\s-]?(?:gang|bak|versnellingen|speed|velocidades|vitesses|marchas)\b|\bcaixa de [45]\b')
+
+
+def gearbox(full, attrs):
+    """'automaat', 'handgeschakeld' or None (unknown)."""
+    site = str(attrs.get('gearbox') or '').lower()
+    if re.search(r'autom|αυτ[οό]ματ', site):
+        return 'automaat'
+    if re.search(r'manu|hand|schalt|χειρ|μηχαν', site):
+        return 'handgeschakeld'
+    auto, manual = GEAR_AUTO.search(full), GEAR_MANUAL.search(full) or GEAR_COUNT.search(full)
+    if auto and not manual:
+        return 'automaat'
+    if manual and not auto:
+        return 'handgeschakeld'
+    if auto and GEAR_COUNT.search(full) and not GEAR_MANUAL.search(full):
+        return 'automaat'  # "4-Gang-Automatik"
+    return None
+
 
 def _diesel_cyl_hint(full, attrs):
     """5 or 6 for a diesel from engine size, power or 'five-cylinder' words; else None."""
@@ -227,7 +255,7 @@ def classify(title, text='', attrs=None, price=None):
     full = f'{t} {x}'
     out = {'match': False, 'reason': '', 'series': None, 'model': None, 'fuel': None, 'cyl': None,
            'year': None, 'year_known': False, 'lpg_score': 0, 'has_lpg': False,
-           'maybe_w123': False}
+           'maybe_w123': False, 'gearbox': None}
 
     if price is None:
         price = attrs.get('price')
@@ -291,7 +319,8 @@ def classify(title, text='', attrs=None, price=None):
             return out
         model, fuel, cyl, score, new_naming = res
 
-    out.update(model=model, fuel=fuel, cyl=cyl, lpg_score=score, has_lpg=bool(LPG.search(full)))
+    out.update(model=model, fuel=fuel, cyl=cyl, lpg_score=score, has_lpg=bool(LPG.search(full)),
+               gearbox=gearbox(full, attrs))
 
     if year is not None:
         if year > MAX_YEAR:

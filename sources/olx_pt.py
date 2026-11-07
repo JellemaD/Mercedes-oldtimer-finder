@@ -68,7 +68,7 @@ def _item(ad):
         location=', '.join(s for s in (loc.get('cityName'), loc.get('regionName')) if s),
         image=photos[0] if photos else None, images=photos,
         attrs={'modelo': p.get('modelo'), 'engine_capacity': p.get('engine_capacity'),
-               'origin': p.get('origin')},
+               'origin': p.get('origin'), 'gearbox': p.get('gearbox')},
     )
 
 

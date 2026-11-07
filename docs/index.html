@@ -93,6 +93,7 @@ NL · BE · DE · droog ES/PT/GR · Zuid-Frankrijk · Zuid-Italië — <span id=
   <div class="frij"><span>Land</span><div id="f-land"></div></div>
   <div class="frij"><span>Serie</span><div id="f-serie"></div></div>
   <div class="frij"><span>Brandstof</span><div id="f-fuel"></div></div>
+  <div class="frij"><span>Versnelling</span><div id="f-bak"></div></div>
   <div class="frij"><span>LPG</span><div id="f-lpg"></div></div>
   <div class="frij"><span>Overig</span><div id="f-extra"></div></div>
   <div class="frij"><span>Max prijs</span><input id="f-prijs" type="number" inputmode="numeric" step="500" min="0" placeholder="geen">
@@ -147,7 +148,7 @@ const eur = n => '€ ' + n.toLocaleString('nl-NL');
 const nl = n => n.toLocaleString('nl-NL', {maximumFractionDigits: 1});
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 let autos = [], nieuwDatum = '', toonAantal = 40;
-const f = {land: new Set(), serie: 'alle', fuel: 'alle', lpg: 'alle', extra: new Set(), prijs: null, sort: 'score', route: 'goedkoopst'};
+const f = {land: new Set(), serie: 'alle', fuel: 'alle', bak: 'alle', lpg: 'alle', extra: new Set(), prijs: null, sort: 'score', route: 'goedkoopst'};
 const FUEL_NL = {diesel: 'diesel', benzine: 'benzine', lpg: 'LPG'};
 // Route shown for a car: 'toll' (snelweg met tol), 'free' (binnendoor) or the cheaper of the two
 function route(a) {
@@ -182,6 +183,7 @@ const badge = a => `<span class="score ${kleur(a.score)}" tabindex="0" aria-labe
 function chips(a) {
   let h = a.first_seen === nieuwDatum ? '<span class="chip new">Nieuw</span>' : '';
   h += `<span class="chip">${esc(a.model)}</span>`;
+  if (a.gearbox) h += `<span class="chip">${a.gearbox === 'automaat' ? 'Automaat' : 'Handgeschakeld'}</span>`;
   if (a.fuel === 'benzine' && a.lpg_score) h += `<span class="chip" title="Geschikt om naar LPG om te bouwen">LPG-geschikt ${sterren(a.lpg_score)}</span>`;
   if (a.has_lpg && a.fuel === 'benzine') h += '<span class="chip good">Rijdt al op LPG</span>';
   if (a.price_prev && a.price < a.price_prev) h += '<span class="chip good">Prijs verlaagd</span>';
@@ -228,6 +230,9 @@ function tekenFilters() {
   knoppen('f-land', landen.map(c => [c, `${COUNTRIES[c]} (${autos.filter(a => a.country === c).length})`]), f.land, true);
   knoppen('f-serie', [['alle', 'Alle'], ['W124', 'W124'], ['W201', 'W201 (190)']], f.serie);
   knoppen('f-fuel', [['alle', 'Alle'], ['diesel', 'Diesel'], ['benzine', 'Benzine']], f.fuel);
+  const bak = g => autos.filter(a => a.gearbox === g).length;
+  knoppen('f-bak', [['alle', 'Alle'], ['handgeschakeld', `Handgeschakeld (${bak('handgeschakeld')})`],
+    ['automaat', `Automaat (${bak('automaat')})`]], f.bak);
   knoppen('f-lpg', [['alle', 'Alle'], ['3', '★★★'], ['2', '★★+'], ['al', 'Rijdt al op LPG']], f.lpg);
   knoppen('f-extra', [['nieuw', 'Nieuw vandaag'], ['zekerW124', 'Zonder "mogelijk W123"'], ['jaarbekend', 'Bouwjaar bekend'], ['verlaagd', 'Prijs verlaagd']], f.extra, true);
   knoppen('f-route', [['goedkoopst', 'Goedkoopst'], ['tol', 'Snelweg met tol'], ['binnendoor', 'Binnendoor zonder tol']], f.route);
@@ -237,6 +242,7 @@ function gefilterd() {
     (!f.land.size || f.land.has(a.country)) &&
     (f.serie === 'alle' || a.series === f.serie) &&
     (f.fuel === 'alle' || a.fuel === f.fuel) &&
+    (f.bak === 'alle' || a.gearbox === f.bak) &&
     (f.lpg === 'alle' || (f.lpg === 'al' ? a.has_lpg && a.fuel === 'benzine' : a.fuel === 'benzine' && a.lpg_score >= +f.lpg)) &&
     (!f.extra.has('nieuw') || a.first_seen === nieuwDatum) &&
     (!f.extra.has('zekerW124') || !a.maybe_w123) &&

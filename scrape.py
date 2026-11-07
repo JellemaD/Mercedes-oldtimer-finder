@@ -45,7 +45,7 @@ SOURCES = ['marktplaats', 'tweedehands', 'autoscout24', 'kleinanzeigen', 'coches
 
 KEEP_FIELDS = ('id', 'source', 'country', 'url', 'title', 'price', 'year', 'mileage', 'location', 'image',
                'images')
-CLASS_FIELDS = ('series', 'model', 'fuel', 'cyl', 'lpg_score', 'has_lpg', 'year_known', 'maybe_w123')
+CLASS_FIELDS = ('series', 'model', 'fuel', 'cyl', 'lpg_score', 'has_lpg', 'year_known', 'maybe_w123', 'gearbox')
 
 
 def load_json(path, default):

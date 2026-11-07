@@ -12,7 +12,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
 from classify import classify  # noqa: E402
 
 TARGET = 0.90
-FIELDS = ('model', 'fuel', 'cyl', 'lpg_score', 'has_lpg')
+FIELDS = ('model', 'fuel', 'cyl', 'lpg_score', 'has_lpg', 'gearbox')
 
 
 def main():

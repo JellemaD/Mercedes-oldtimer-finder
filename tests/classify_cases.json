@@ -1504,5 +1504,100 @@
    "cyl": 6,
    "lpg_score": 3
   }
+ },
+ {
+  "id": "gear-0",
+  "title": "Mercedes-Benz 230 E, w124, Automatik, 81300km",
+  "text": "EZ 05/1986",
+  "attrs": {},
+  "expect": {
+   "match": true,
+   "gearbox": "automaat"
+  }
+ },
+ {
+  "id": "gear-1",
+  "title": "Mercedes W124 300D 1986 5 bak",
+  "text": "Nette auto, apk tot 2027",
+  "attrs": {},
+  "expect": {
+   "match": true,
+   "gearbox": "handgeschakeld"
+  }
+ },
+ {
+  "id": "gear-2",
+  "title": "Mercedes-Benz 250 D",
+  "text": "",
+  "attrs": {
+   "constructionYear": 1986,
+   "gearbox": "Schaltgetriebe"
+  },
+  "expect": {
+   "match": true,
+   "gearbox": "handgeschakeld"
+  }
+ },
+ {
+  "id": "gear-3",
+  "title": "Mercedes-Benz 300 E 1987",
+  "text": "",
+  "attrs": {
+   "gearbox": "Αυτόματο"
+  },
+  "expect": {
+   "match": true,
+   "gearbox": "automaat"
+  }
+ },
+ {
+  "id": "gear-4",
+  "title": "Mercedes 300TD W124 1986",
+  "text": "4-Gang-Automatik, Schiebedach",
+  "attrs": {},
+  "expect": {
+   "match": true,
+   "gearbox": "automaat"
+  }
+ },
+ {
+  "id": "gear-5",
+  "title": "Mercedes 300D W124 1986",
+  "text": "climatizador automático, ITV pasada",
+  "attrs": {},
+  "expect": {
+   "match": true,
+   "gearbox": null
+  }
+ },
+ {
+  "id": "gear-6",
+  "title": "Mercedes 260E W124 1987",
+  "text": "automatische antenne, schuifdak",
+  "attrs": {},
+  "expect": {
+   "match": true,
+   "gearbox": null
+  }
+ },
+ {
+  "id": "gear-7",
+  "title": "Mercedes 190D 2.5 1986",
+  "text": "caixa de 5 velocidades, bom estado",
+  "attrs": {},
+  "expect": {
+   "match": true,
+   "gearbox": "handgeschakeld"
+  }
+ },
+ {
+  "id": "gear-8",
+  "title": "Mercedes 250D W124 1986",
+  "text": "cambio automático, aire acondicionado",
+  "attrs": {},
+  "expect": {
+   "match": true,
+   "gearbox": "automaat"
+  }
  }
 ]

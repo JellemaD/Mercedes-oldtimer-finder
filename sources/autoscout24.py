@@ -74,7 +74,7 @@ def _item(raw, code, base):
         location=location, image=images[0] if images else None, images=images,
         attrs={'model': v.get('model'), 'modelId': v.get('modelId'),
                'firstRegistration': tr.get('firstRegistration'),
-               'displacement': v.get('engineDisplacementInCCM')})
+               'displacement': v.get('engineDisplacementInCCM'), 'gearbox': v.get('transmission')})
 
 
 def scrape_country(code):

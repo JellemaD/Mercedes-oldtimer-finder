@@ -50,6 +50,8 @@ def _props(html):
         found = _find_results(json.loads(json.loads(m.group(1))))
         if found is not None:
             return found
+    if 'Ups!' in html[:3000] or 'eres un bot' in html:
+        raise ValueError('coches.net: blocked as bot ("Ups!" page)')
     raise ValueError('coches.net: initialResults not found (page layout changed?)')
 
 
@@ -86,16 +88,31 @@ def _item(it):
                           'professional': it.get('isProfessional')})
 
 
-def scrape():
+# The search results carry no gearbox, but the site filter does (checked 07-11-2026:
+# 1 = automatic 15 cars, 2 = manual 40 cars, together the full 55). So we search once per gearbox.
+GEARBOXES = {1: 'automatic', 2: 'manual'}
+
+
+def _search(gear_id):
     items, page, pages = [], 1, 1
     while page <= min(pages, MAX_PAGES):
-        props = _props(text_of(fetch(SEARCH, mode='cffi', params=dict(PARAMS, pg=page))))
+        params = dict(PARAMS, pg=page, TransmissionTypeId=gear_id)
+        props = _props(text_of(fetch(SEARCH, mode='cffi', params=params)))
         res = props.get('initialResults') or {}
         pages = res.get('totalPages') or 1
         for it in res.get('items') or []:
             try:
-                items.append(_item(it))
+                x = _item(it)
             except (KeyError, TypeError, ValueError):
                 continue
+            x['attrs']['gearbox'] = GEARBOXES[gear_id]
+            items.append(x)
         page += 1
+    return items
+
+
+def scrape():
+    items = []
+    for gear_id in GEARBOXES:
+        items += _search(gear_id)
     return dedupe(items)
