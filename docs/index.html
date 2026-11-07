@@ -37,6 +37,7 @@ a{color:var(--accent)}
 .score{position:absolute;top:10px;right:10px;background:#555;color:#fff;border:2px solid #fff;border-radius:12px;padding:5px 12px;font-size:1.35rem;font-weight:800;line-height:1.1;cursor:help;z-index:5;box-shadow:0 2px 10px rgba(0,0,0,.35);text-align:center}
 .score>small{display:block;font-size:.62rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;opacity:.95}
 .score>small::after{content:" ⓘ"}
+.score .bak{display:inline-block;margin-left:.35em;padding:0 .3em;border-radius:.25em;background:#fff;color:#222;font-size:.7em;font-weight:800;vertical-align:.12em;min-width:1em}
 .score.groen{background:#15803d}.score.oranje{background:#ea7a0c}.score.rood{background:#c81e1e}
 .legenda{display:flex;gap:12px;flex-wrap:wrap;font-size:.85rem;color:var(--muted);margin:-4px 0 12px}
 .legenda i{display:inline-block;width:12px;height:12px;border-radius:4px;margin-right:5px;vertical-align:-1px}
@@ -179,7 +180,9 @@ function scoreTip(a) {
   if (p['al op LPG']) r += `<tr><td>Rijdt al op LPG</td><td>+${nl(p['al op LPG'])}</td></tr>`;
   return `<span class="tip" role="tooltip"><b>Zo is deze score berekend</b><table>${r}<tr class="som"><td><b>Totaal</b></td><td>${nl(a.score)} / 100</td></tr></table></span>`;
 }
-const badge = a => `<span class="score ${kleur(a.score)}" tabindex="0" aria-label="Score ${a.score} van 100, tik voor uitleg"><small>score</small>${nl(a.score)}${scoreTip(a)}</span>`;
+const BAK = {automaat: ['A', 'Automaat'], handgeschakeld: ['H', 'Handgeschakeld']};
+const bakLetter = a => { const [l, t] = BAK[a.gearbox] || ['?', 'Versnelling onbekend']; return `<span class="bak" title="${t}" aria-label="${t}">${l}</span>`; };
+const badge = a => `<span class="score ${kleur(a.score)}" tabindex="0" aria-label="Score ${a.score} van 100, tik voor uitleg"><small>score</small>${nl(a.score)}${bakLetter(a)}${scoreTip(a)}</span>`;
 function chips(a) {
   let h = a.first_seen === nieuwDatum ? '<span class="chip new">Nieuw</span>' : '';
   h += `<span class="chip">${esc(a.model)}</span>`;
