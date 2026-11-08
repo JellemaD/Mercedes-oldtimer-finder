@@ -80,6 +80,13 @@ main{max-width:760px;margin:0 auto;padding:14px 14px 90px}
 .schema{width:100%;height:auto;display:block;margin:.6em 0 1.1em;background:var(--card);border:1px solid var(--line);border-radius:10px}
 .schema .st{font:600 22px "IBM Plex Sans",sans-serif;fill:var(--ink)}
 .schema .sl{font:18px "IBM Plex Sans",sans-serif;fill:var(--muted)}
+.schema .part{fill:var(--code-bg);stroke:var(--muted);stroke-width:1}
+.schema .pl{font:15px "IBM Plex Sans",sans-serif;fill:var(--muted)}
+.schema .mk circle{fill:var(--gold);stroke:var(--ink);stroke-width:1}
+.schema .mk text{font:700 15px "IBM Plex Sans",sans-serif;fill:#1d1d1b;text-anchor:middle;dominant-baseline:central}
+.schema .mk.sp circle{fill:var(--accent);stroke:var(--accent)}
+.schema .mk.sp text{fill:var(--accent-ink)}
+.legend li.sp>b{background:var(--accent);color:var(--accent-ink)}
 .fig .wrap{position:relative}
 .fig .mk{position:absolute;transform:translate(-50%,-50%);width:26px;height:26px;border-radius:50%;background:var(--gold);color:#1d1d1b;border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.6);font:700 13px/22px "IBM Plex Sans",sans-serif;font-style:normal;text-align:center;pointer-events:none}
 .legend{font-size:.9em;margin:0 0 1em;padding-left:0;list-style:none}
@@ -123,7 +130,9 @@ main{max-width:760px;margin:0 auto;padding:14px 14px 90px}
 const F = n => `<figure class="fig"><img src="motorcursus/${n}.jpg" alt="" loading="lazy"><figcaption>${FC[n]}</figcaption></figure>`;
 // photo with numbered markers; pts = [[nr, x%, y%], ...] measured on the photo
 const FM = (n, pts) => `<figure class="fig"><div class="wrap"><img src="motorcursus/${n}.jpg" alt="" loading="lazy">${pts.map(p=>`<i class="mk" style="left:${p[1]}%;top:${p[2]}%">${p[0]}</i>`).join('')}</div><figcaption>${FC[n]}</figcaption></figure>`;
-const PTS_OVERZICHT = [[1,41,46],[2,61,32],[3,46,57],[4,70,47],[5,14,16],[6,12,33],[7,5,50],[8,86,20],[9,88,62],[10,53,86]];
+// numbered dot in a drawn schema; sp = sits on the other side than in the (right-hand drive) Haynes book
+const MK = (n, x, y, sp) => `<g class="mk${sp ? ' sp' : ''}"><circle cx="${x}" cy="${y}" r="13"/><text x="${x}" y="${y}">${n}</text></g>`;
+const PTS_OVERZICHT =[[1,41,46],[2,61,32],[3,46,57],[4,70,47],[5,14,16],[6,12,33],[7,5,50],[8,86,20],[9,88,62],[10,53,86]];
 const FC = {
  '01-overzicht': 'Jouw motorruimte van voren (maart 2026). Links in beeld is de bijrijderskant van de auto, rechts de bestuurderskant.',
  '02-rechterkant': 'Bijrijderskant: accu (achter), expansievat met gele dop, daaronder het roestbruine uitlaatspruitstuk. Groene streep = peilstok.',
@@ -197,6 +206,59 @@ ${F('07-abs-remleidingen')}
 <h2>Twee potten die je verwart</h2>
 ${F('10-stuurbekrachtiging-pot')}
 <p>De grijze metalen pot met een bout bovenop is het <b>reservoir van de stuurbekrachtiging</b>; het filter zit in de pot. Verwar hem niet met het <b>brandstoffilter</b>, de zwarte Bosch-bus ernaast (hoofdstuk 4). De remvloeistof zit in het witte reservoir op de rembekrachtiger, met gele dop.</p>
+<h2>Plattegrond uit het werkplaatsboek</h2>
+<p>Nagetekend naar het Haynes-boek (nr. 3253, blz. 1B-4, "Underbonnet view of 2.5 litre Diesel"). De <b>nummers zijn die van het boek</b>, zodat je heen en weer kunt bladeren. Het boek toont een Engelse auto met het stuur rechts. Wat bij jou aan de andere kant zit, heeft een <b>blauw</b> bolletje. Schematisch: de plek is bij benadering, de foto's hierboven zijn van jouw eigen auto.</p>
+<svg class="schema" viewBox="0 0 680 640" role="img" aria-label="Plattegrond motorruimte 250 D van voren gezien, met de nummers uit het Haynes-boek">
+<text x="340" y="26" class="sl" text-anchor="middle">van voren gezien, zoals op je foto</text>
+<rect x="20" y="40" width="640" height="28" rx="6" class="part"/>
+<text x="340" y="60" class="pl" text-anchor="middle">schutbord en voorruit</text>
+<rect x="20" y="76" width="130" height="440" rx="10" fill="none" stroke="var(--line)" stroke-width="1.5" stroke-dasharray="6 4"/>
+<rect x="530" y="76" width="130" height="440" rx="10" fill="none" stroke="var(--line)" stroke-width="1.5" stroke-dasharray="6 4"/>
+<rect x="38" y="92" width="94" height="66" rx="5" class="part"/><text x="85" y="130" class="pl" text-anchor="middle">accu</text>
+<rect x="44" y="184" width="82" height="58" rx="12" class="part"/><text x="85" y="218" class="pl" text-anchor="middle">exp.vat</text>
+<circle cx="85" cy="320" r="24" class="part"/><circle cx="595" cy="320" r="24" class="part"/>
+<rect x="38" y="420" width="94" height="72" rx="10" class="part"/><text x="85" y="461" class="pl" text-anchor="middle">sproeier</text>
+<circle cx="568" cy="132" r="38" class="part"/><rect x="548" y="112" width="40" height="24" rx="4" fill="var(--card)" stroke="var(--muted)"/>
+<rect x="616" y="80" width="36" height="50" rx="4" class="part"/>
+<rect x="566" y="226" width="54" height="40" rx="4" class="part"/>
+<rect x="560" y="378" width="66" height="54" rx="6" class="part"/><text x="593" y="410" class="pl" text-anchor="middle">ABS</text>
+<rect x="426" y="146" width="94" height="128" rx="10" class="part"/><text x="473" y="215" class="pl" text-anchor="middle">lucht</text>
+<rect x="270" y="126" width="140" height="340" rx="16" class="part"/>
+<rect x="286" y="142" width="108" height="308" rx="10" fill="none" stroke="var(--muted)" stroke-dasharray="4 4"/>
+<text x="340" y="250" class="st" text-anchor="middle">OM602</text>
+<text x="340" y="276" class="pl" text-anchor="middle">kleppendeksel</text>
+<g fill="var(--line)" stroke="var(--muted)"><rect x="236" y="160" width="30" height="34" rx="6"/><rect x="236" y="210" width="30" height="34" rx="6"/><rect x="236" y="260" width="30" height="34" rx="6"/><rect x="236" y="310" width="30" height="34" rx="6"/><rect x="236" y="360" width="30" height="34" rx="6"/></g>
+<text x="210" y="150" class="pl" text-anchor="end">inlaat</text>
+<line x1="226" y1="300" x2="226" y2="470" stroke="var(--gold)" stroke-width="4" stroke-linecap="round"/>
+<circle cx="425" cy="340" r="9" class="part"/>
+<circle cx="440" cy="420" r="18" class="part"/>
+<circle cx="486" cy="440" r="20" class="part"/>
+<rect x="506" y="470" width="40" height="40" rx="6" class="part"/>
+<rect x="190" y="532" width="300" height="34" rx="6" class="part"/><text x="340" y="555" class="pl" text-anchor="middle">radiateur</text>
+<text x="20" y="604" class="sl">← bijrijder (rechts)</text>
+<text x="660" y="604" class="sl" text-anchor="end">bestuurder (links) →</text>
+<text x="340" y="630" class="pl" text-anchor="middle">voorkant auto</text>
+${MK(1,340,320)}${MK(2,226,488)}${MK(3,85,92,1)}${MK(4,568,92,1)}${MK(5,634,146,1)}${MK(6,85,184)}
+${MK(7,85,320)}${MK(7,595,320)}${MK(8,473,248)}${MK(9,440,420)}${MK(10,486,440)}${MK(11,593,246)}
+${MK(12,425,340)}${MK(13,85,420)}${MK(14,593,378)}${MK(15,526,490,1)}
+</svg>
+<ul class="legend">
+<li><b>1</b><span><b>Olievuldop</b> op het kleppendeksel.</span></li>
+<li><b>2</b><span><b>Peilstok</b> motorolie, aan de inlaatkant (rechts).</span></li>
+<li class="sp"><b>3</b><span><b>Accu</b>: bij jou rechtsachter, in het boek links.</span></li>
+<li class="sp"><b>4</b><span><b>Remvloeistofreservoir</b> op de rembekrachtiger: altijd aan de stuurkant, bij jou dus links.</span></li>
+<li class="sp"><b>5</b><span><b>Zekering- en relaiskast</b>: ook aan de stuurkant, bij jou linksachter onder het klepje.</span></li>
+<li><b>6</b><span><b>Expansievat koelvloeistof</b>, met gele dop.</span></li>
+<li><b>7</b><span><b>Veerpootdomes</b>: bovenste bevestiging van de schokdempers, links en rechts. Roest rond de rand = kijken.</span></li>
+<li><b>8</b><span><b>Luchtfilterhuis</b>.</span></li>
+<li><b>9</b><span><b>Hoofdbrandstoffilter</b> (zwarte Bosch-bus, hoofdstuk 4).</span></li>
+<li><b>10</b><span><b>Stuurbekrachtigingspomp</b> met de metalen pot erop.</span></li>
+<li><b>11</b><span><b>Gloeitijdrelais</b>: stuurt de gloeibougies aan (hoofdstuk 2). Plek in jouw auto nog niet gecontroleerd.</span></li>
+<li><b>12</b><span><b>Tweede brandstoffilter</b>: het boek wijst het voorfilter in de leiding aan.</span></li>
+<li><b>13</b><span><b>Ruitensproeierreservoir</b>.</span></li>
+<li><b>14</b><span><b>ABS-hydraulische unit</b>.</span></li>
+<li class="sp"><b>15</b><span><b>Stuurhuis</b>: aan de stuurkant, bij jou links, laag tegen de langsbalk.</span></li>
+</ul>
 <div class="tip"><b>Doe nu:</b> kap open, loop de tien nummers langs en leg je hand erop. Dat beklijft beter dan lezen.</div>
 `, q:[
 {n:1,q:'Je staat voor de auto en kijkt naar de motor. Het luchtfilterhuis zie je rechtsboven in beeld. Aan welke kant van de auto zit het?',opts:{A:'Rechts (bijrijderskant)',B:'Links (bestuurderskant)',C:'In het midden, achter de motor',D:'Dat hangt af van het bouwjaar'},a:'B',e:'Links en rechts zijn gezien vanaf de bestuurdersstoel. Van voren bekeken staat alles gespiegeld: rechts op de foto is links aan de auto. Het luchtfilterhuis zit op de W124 diesel links, bij het schutbord.'},
@@ -345,7 +407,7 @@ ${F('13-onder-voor')}
 <li>Vier trappen, vierde is 1 : 1 (geen overdrive). Hydraulisch gestuurd met een vacuümregelaar en een kickdown-schakelaar onder het gaspedaal; geen elektronica.</li>
 <li>Eindoverbrenging in jouw differentieel: 3,07. Bij 120 km/u draait de motor ongeveer 3.150 toeren, bij 100 ongeveer 2.630. Dat is normaal, zo klinkt het.</li>
 <li>Hij start bewust in de tweede trap; eerste alleen bij kickdown of met de hendel in 2/B. Dat is geen storing.</li>
-<li>Olie: ATF (rood), peilen met warme motor, stationair, hendel in P, op de peilstok rechts achterin de motorruimte. Verversen met filter elke 60.000 km; de 722.4 heeft een aftapplug in de koppelomvormer, dus beide aftappen.</li>
+<li>Olie: ATF (rood), peilen met warme motor, stationair, hendel in P, op de peilstok rechts achterin de motorruimte. Verversen met filter elke 60.000 km; de 722.4 heeft een aftapplug in de koppelomvormer, dus beide aftappen (pluggen 14 Nm). Bij verversen gaat er ongeveer 6,2 liter in, helemaal leeg 7,3 liter.</li>
 <li>Hard schakelen 1-2 of 2-3 is vaak de <b>vacuümregelaar</b> of een lekke vacuümslang, niet een versleten bak. Slippen bij warme bak is wel ernstig.</li>
 </ul>
 <h2>Cardanas en hardyschijf</h2>
@@ -355,7 +417,7 @@ ${F('13-onder-voor')}
 <ol>
 <li><b>Vertragen en de hoek maken.</b> Een klein tandwiel op de cardanas (pignon) drijft een groot kroonwiel aan dat dwars staat. 3,07 omwentelingen cardan = 1 omwenteling wiel: dat is jouw eindoverbrenging. De cardanas draait bij 120 km/u ruim 3.000 toeren, de wielen ruim 1.000.</li>
 <li><b>Verdelen.</b> In het kroonwiel zit een kooitje met kleine kegelwielen (satellieten) tussen de twee aandrijfassen. Rechtuit staan die stil en draaien beide wielen even snel. In een bocht moet het buitenwiel meer meters maken; de satellieten gaan tollen en laten het ene wiel sneller draaien dan het andere, terwijl de kracht gelijk verdeeld blijft. Zonder differentieel zou het binnenwiel in elke bocht slepen.</li>
-<li><b>Smeren.</b> Pignon en kroonwiel glijden sterk over elkaar: hypoidolie 85W-90, ongeveer 1,3 liter. Bij onbekende historie verversen. Een zoemen dat met de snelheid oploopt (niet met het toerental) komt uit het differentieel of de wiellagers.</li>
+<li><b>Smeren.</b> Pignon en kroonwiel glijden sterk over elkaar: hypoidolie 85W-90, ongeveer 0,7 liter (bij latere 250's 1,1 liter; vul tot de olie bij het vulgat uitloopt). Bij onbekende historie verversen. Een zoemen dat met de snelheid oploopt (niet met het toerental) komt uit het differentieel of de wiellagers.</li>
 </ol>
 <svg class="schema" viewBox="0 0 680 400" role="img" aria-label="Achteras van boven: cardanas, hardyschijf, differentieel in het subframe, rubbers en aandrijfassen">
 <rect x="150" y="70" width="330" height="260" rx="12" fill="none" stroke="var(--muted)" stroke-width="1" stroke-dasharray="6 4"/>
@@ -429,6 +491,71 @@ ${F('13-onder-voor')}
 <li><b>Kijken:</b> auto op de brug of op bokken, iemand zet de bak in D en daarna R met de voet op de rem en geeft iets gas. Beweegt het differentieelhuis zichtbaar (meer dan een paar millimeter) en kraakt het daar: differentieelrubbers (geel). Beweegt het hele subframe ten opzichte van de bodem: subframerubbers (blauw).</li>
 <li><b>Vervangen:</b> rubbers nieuw (Lemförder of Febi), uren werk door de bouten op leeftijd; het differentieel moet erbij ondersteund worden. Niet gevaarlijk om mee te rijden zolang de bevestiging niet loszit.</li>
 </ul>
+<h2>De achteras van onderen</h2>
+<p>Nagetekend naar het Haynes-boek (blz. 1B-5, "Rear underbody view"); de nummers zijn die van het boek. Dezelfde blik als het schema van de voorkant in hoofdstuk 8: van onderen, voorkant boven. Aan de achteras is niets gespiegeld; stuur links of rechts maakt hier niet uit. Het boek toont een benzinemotor, de diesel is hier gelijk.</p>
+<svg class="schema" viewBox="0 0 680 640" font-family="IBM Plex Sans, sans-serif" role="img" aria-label="Achteras van onderen gezien met de nummers uit het Haynes-boek">
+<text x="340" y="22" fill="var(--muted)" font-size="18" text-anchor="middle">van onderen gezien, voorkant boven</text>
+<rect x="150" y="452" width="380" height="74" rx="22" fill="var(--card)" stroke="var(--line)" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="340" y="496" fill="var(--muted)" font-size="15" text-anchor="middle">brandstoftank (erboven)</text>
+<path d="M176 222 Q176 206 196 206 L484 206 Q504 206 504 222 L512 246 L512 420 Q512 432 500 432 L476 432 L476 250 L204 250 L204 432 L180 432 Q168 432 168 420 L168 246 Z" fill="var(--code-bg)" stroke="var(--ink)" stroke-width="1.8" stroke-linejoin="round"/>
+<g fill="var(--ink)"><circle cx="186" cy="222" r="11"/><circle cx="494" cy="222" r="11"/><circle cx="186" cy="420" r="11"/><circle cx="494" cy="420" r="11"/></g>
+<g fill="var(--muted)"><circle cx="186" cy="222" r="4"/><circle cx="494" cy="222" r="4"/><circle cx="186" cy="420" r="4"/><circle cx="494" cy="420" r="4"/></g>
+<g id="halfL">
+ <rect x="26" y="236" width="62" height="182" rx="22" fill="var(--line)" stroke="var(--muted)" stroke-width="1.5"/>
+ <g stroke="var(--muted)" stroke-width="1.2"><line x1="30" y1="262" x2="84" y2="262"/><line x1="30" y1="288" x2="84" y2="288"/><line x1="30" y1="314" x2="84" y2="314"/><line x1="30" y1="340" x2="84" y2="340"/><line x1="30" y1="366" x2="84" y2="366"/><line x1="30" y1="392" x2="84" y2="392"/></g>
+ <rect x="88" y="262" width="9" height="130" rx="2" fill="var(--muted)"/>
+ <path d="M97 276 L128 270 L136 300 L132 360 L126 392 L97 386 Z" fill="var(--code-bg)" stroke="var(--ink)" stroke-width="1.5"/>
+ <circle cx="114" cy="327" r="9" fill="var(--card)" stroke="var(--ink)" stroke-width="1.5"/>
+ <path d="M124 370 L246 380 L262 398 L248 426 L130 412 Z" fill="var(--code-bg)" stroke="var(--ink)" stroke-width="1.5"/>
+ <circle cx="140" cy="395" r="7" fill="var(--ink)"/><circle cx="252" cy="402" r="9" fill="var(--ink)"/><circle cx="252" cy="402" r="3.5" fill="var(--card)"/>
+ <g fill="none" stroke="var(--ink)" stroke-width="2"><circle cx="192" cy="398" r="25"/><circle cx="192" cy="398" r="20" stroke-dasharray="10 4"/><circle cx="192" cy="398" r="15"/></g>
+ <circle cx="192" cy="398" r="7" fill="var(--muted)"/>
+ <g stroke="var(--ink)" stroke-width="7" stroke-linecap="round"><line x1="134" y1="282" x2="214" y2="232"/><line x1="134" y1="300" x2="232" y2="270"/><line x1="134" y1="356" x2="230" y2="350"/></g>
+ <g fill="var(--ink)"><circle cx="134" cy="282" r="7"/><circle cx="214" cy="232" r="8"/><circle cx="134" cy="300" r="7"/><circle cx="232" cy="270" r="8"/><circle cx="134" cy="356" r="7"/><circle cx="230" cy="350" r="8"/></g>
+ <g fill="var(--card)"><circle cx="214" cy="232" r="3"/><circle cx="232" cy="270" r="3"/><circle cx="230" cy="350" r="3"/></g>
+ <line x1="136" y1="325" x2="292" y2="318" stroke="var(--ink)" stroke-width="6" stroke-linecap="round"/>
+ <path d="M138 317 q6 8 12 0 q6 8 12 0 q6 8 12 0 L174 333 q-6 -8 -12 0 q-6 -8 -12 0 q-6 -8 -12 0 Z" fill="var(--muted)" stroke="var(--ink)" stroke-width="1"/>
+ <path d="M250 312 q6 8 12 0 q6 8 12 0 q6 8 12 0 L286 326 q-6 -8 -12 0 q-6 -8 -12 0 q-6 -8 -12 0 Z" fill="var(--muted)" stroke="var(--ink)" stroke-width="1"/>
+ <path d="M340 196 C290 200 210 240 132 292" fill="none" stroke="var(--accent)" stroke-width="2"/>
+ <circle cx="236" cy="230" r="3" fill="var(--accent)"/>
+</g>
+<use href="#halfL" transform="translate(680 0) scale(-1 1)"/>
+<text x="420" y="236" fill="var(--muted)" font-size="15" text-anchor="middle">subframe</text>
+<path d="M262 40 C250 120 246 200 246 280 C246 380 242 440 238 548" fill="none" stroke="var(--muted)" stroke-width="9" stroke-linecap="round"/>
+<rect x="224" y="96" width="44" height="118" rx="20" fill="var(--line)" stroke="var(--ink)" stroke-width="1.5"/>
+<text x="210" y="160" fill="var(--muted)" font-size="14" text-anchor="end">middendemper</text>
+<rect x="124" y="546" width="232" height="58" rx="28" fill="var(--line)" stroke="var(--ink)" stroke-width="1.5"/>
+<path d="M126 576 L96 580" stroke="var(--muted)" stroke-width="9" stroke-linecap="round"/>
+<text x="240" y="580" fill="var(--muted)" font-size="15" text-anchor="middle">einddemper</text>
+<rect x="333" y="36" width="14" height="214" rx="5" fill="var(--muted)" stroke="var(--ink)" stroke-width="1"/>
+<polygon points="340,30 352,37 352,51 340,58 328,51 328,37" fill="var(--ink)"/>
+<circle cx="340" cy="44" r="4" fill="var(--card)"/>
+<text x="362" y="49" fill="var(--muted)" font-size="14">hardyschijf</text>
+<circle cx="340" cy="132" r="14" fill="var(--ink)"/><circle cx="340" cy="132" r="6" fill="var(--muted)"/>
+<text x="362" y="137" fill="var(--muted)" font-size="14">middenlager</text>
+<path d="M326 250 L354 250 L362 268 Q396 270 400 304 Q404 346 372 358 L308 358 Q276 346 280 304 Q284 270 318 268 Z" fill="var(--code-bg)" stroke="var(--ink)" stroke-width="1.8"/>
+<circle cx="340" cy="312" r="34" fill="none" stroke="var(--ink)" stroke-width="1.5"/>
+<g fill="var(--ink)"><circle cx="340" cy="282" r="2.5"/><circle cx="361" cy="291" r="2.5"/><circle cx="370" cy="312" r="2.5"/><circle cx="361" cy="333" r="2.5"/><circle cx="340" cy="342" r="2.5"/><circle cx="319" cy="333" r="2.5"/><circle cx="310" cy="312" r="2.5"/><circle cx="319" cy="291" r="2.5"/></g>
+<g fill="var(--gold)" stroke="var(--ink)" stroke-width="1.2"><circle cx="340" cy="254" r="9"/><circle cx="296" cy="352" r="9"/><circle cx="384" cy="352" r="9"/></g>
+<g fill="var(--ink)"><circle cx="340" cy="254" r="3"/><circle cx="296" cy="352" r="3"/><circle cx="384" cy="352" r="3"/></g>
+<text x="20" y="630" fill="var(--muted)" font-size="18">← bijrijder (rechts)</text>
+<text x="660" y="630" fill="var(--muted)" font-size="18" text-anchor="end">bestuurder (links) →</text>
+${MK(1,340,312)}${MK(2,222,428)}${MK(2,458,428)}${MK(3,246,174)}${MK(4,312,96)}${MK(5,208,306)}${MK(5,472,306)}
+${MK(6,176,250)}${MK(6,504,250)}${MK(7,180,368)}${MK(7,500,368)}${MK(8,198,284)}${MK(8,482,284)}${MK(9,280,206)}
+</svg>
+<p class="small muted">Gele stippen bij het differentieel: de drie differentieelrubbers (zelfde kleur als in het schema hierboven). Zwarte stippen aan de uiteinden van de stangen: de rubbers van de multilink-as.</p>
+<ul class="legend">
+<li><b>1</b><span><b>Differentieel</b> (eindoverbrenging 3,07), in drie rubbers aan het subframe: de verdachte van jouw kraak.</span></li>
+<li><b>2</b><span><b>Veerarm</b> (onderste draagarm), links en rechts: de grootste arm, daarop staat de schroefveer.</span></li>
+<li><b>3</b><span><b>Uitlaat</b>: middendemper langs de cardanas, einddemper achter de as.</span></li>
+<li><b>4</b><span><b>Cardanas</b> van de bak naar het differentieel, met de hardyschijf voorin.</span></li>
+<li><b>5</b><span><b>Aandrijfassen</b> naar de wielen. Gescheurde rubber hoes (manchet) = vet eruit, dan slijt het homokineet.</span></li>
+<li><b>6</b><span><b>Duwstang</b>: houdt het wiel in de lengte op zijn plek.</span></li>
+<li><b>7</b><span><b>Spoorstang</b> achter: stelt de toespoor van het achterwiel in.</span></li>
+<li><b>8</b><span><b>Trekstang</b>: vangt het remmen en aandrijven op.</span></li>
+<li><b>9</b><span><b>Handremkabels</b> (gestippeld), van het midden naar beide wielen.</span></li>
+</ul>
+<p>De W124 heeft achter een <b>multilink-as</b>: vijf stangen per wiel, elk met twee rubbers. Het boek wijst er vier aan; de vijfde (de wielvlucht-stang, boven) zie je van onderen slecht. Versleten rubbers in die stangen geven ook geluid, maar dan bij drempels en remmen, niet bij optrekken. Dat helpt je kraak uit elkaar te halen.</p>
 ${F('14-onder-tank')}
 <p>Onder de achterkant van jouw auto: de tank, met links de carrosserienaad met roest. Het subframe en het differentieel zitten daar vlak voor.</p>
 `, q:[
@@ -494,6 +621,50 @@ ${F('11-vacuumslangen')}
 </ol>
 ${F('16-uitlaat-602')}
 <h2>Van onderen kijken</h2>
+<p>Nagetekend naar het Haynes-boek (blz. 1B-4, "Front underbody view"). De nummers zijn die van het boek. Het boek toont een benzinemotor met het stuur rechts; de diesel is van onderen bijna gelijk. <b>Blauw</b> = zit bij jou aan de andere kant dan in het boek.</p>
+<svg class="schema" viewBox="0 0 680 600" role="img" aria-label="Voorkant van onderen gezien met de nummers uit het Haynes-boek">
+<text x="340" y="22" class="sl" text-anchor="middle">van onderen gezien, voorkant boven</text>
+<rect x="190" y="40" width="300" height="28" rx="6" class="part"/><text x="340" y="60" class="pl" text-anchor="middle">radiateur</text>
+<rect x="36" y="250" width="52" height="190" rx="14" fill="var(--line)" stroke="var(--muted)"/>
+<rect x="592" y="250" width="52" height="190" rx="14" fill="var(--line)" stroke="var(--muted)"/>
+<path d="M130 300 L118 150 Q122 98 200 98 L480 98 Q558 98 562 150 L550 300" fill="none" stroke="var(--ink)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="270" y="120" width="140" height="180" rx="14" class="part"/>
+<text x="340" y="196" class="st" text-anchor="middle">carter</text>
+<circle cx="340" cy="268" r="9" fill="var(--card)" stroke="var(--ink)" stroke-width="2"/>
+<circle cx="232" cy="160" r="24" class="part"/><text x="232" y="206" class="pl" text-anchor="middle">dynamo</text>
+<circle cx="448" cy="176" r="20" class="part"/>
+<path d="M140 312 L540 312 L540 342 L440 352 L240 352 L140 342 Z" class="part"/>
+<text x="340" y="338" class="pl" text-anchor="middle">voorasdrager</text>
+<path d="M150 330 L236 352 L176 436 L118 424 Z" class="part"/>
+<path d="M530 330 L444 352 L504 436 L562 424 Z" class="part"/>
+<path d="M262 220 C228 300 232 440 252 590" fill="none" stroke="var(--muted)" stroke-width="10" stroke-linecap="round"/>
+<line x1="196" y1="398" x2="484" y2="398" stroke="var(--ink)" stroke-width="5" stroke-linecap="round"/>
+<line x1="226" y1="420" x2="456" y2="420" stroke="var(--muted)" stroke-width="3" stroke-linecap="round"/>
+<line x1="196" y1="398" x2="88" y2="410" stroke="var(--ink)" stroke-width="4" stroke-linecap="round"/>
+<line x1="484" y1="398" x2="592" y2="410" stroke="var(--ink)" stroke-width="4" stroke-linecap="round"/>
+<rect x="176" y="380" width="30" height="34" rx="5" class="part"/>
+<rect x="474" y="374" width="46" height="46" rx="6" class="part"/>
+<rect x="296" y="450" width="88" height="130" rx="10" class="part"/><text x="340" y="520" class="pl" text-anchor="middle">bak</text>
+<text x="20" y="590" class="sl">← bijrijder (rechts)</text>
+<text x="660" y="590" class="sl" text-anchor="end">bestuurder (links) →</text>
+${MK(1,340,240)}${MK(2,232,128)}${MK(3,448,140)}${MK(4,232,540)}${MK(5,512,54)}${MK(6,340,98)}
+${MK(7,160,392)}${MK(7,520,392)}${MK(8,132,388)}${MK(8,548,388)}${MK(9,340,380)}${MK(10,340,440)}
+${MK(11,497,350,1)}${MK(12,191,446,1)}
+</svg>
+<ul class="legend">
+<li><b>1</b><span><b>Aftapplug motorolie</b>, onderaan het carter (klus 3 in hoofdstuk 9).</span></li>
+<li><b>2</b><span><b>Dynamo</b>.</span></li>
+<li><b>3</b><span><b>Stuurbekrachtigingspomp</b>: van onderen zie je de hogedrukleidingen. Natte leidingen = lek.</span></li>
+<li><b>4</b><span><b>Voorpijp uitlaat</b>, aan de uitlaatkant (rechts).</span></li>
+<li><b>5</b><span><b>Radiateur</b>.</span></li>
+<li><b>6</b><span><b>Stabilisatorstang</b>: de beugel voor de motor langs, met de uiteinden aan de draagarmen.</span></li>
+<li><b>7</b><span><b>Onderste draagarmen</b>, links en rechts. Kijk naar gescheurde rubbers aan de binnenkant.</span></li>
+<li><b>8</b><span><b>Spoorstangen</b> naar de wielen. Speling voel je op 9 en 3 uur.</span></li>
+<li><b>9</b><span><b>Middenstuurstang</b> (dwars, verbindt stuurhuis en tussenarm).</span></li>
+<li><b>10</b><span><b>Stuurdemper</b>: schokdempertje naast de middenstuurstang, tegen schudden van het stuur. Lekt hij of is hij slap: vervangen, goedkoop.</span></li>
+<li class="sp"><b>11</b><span><b>Stuurhuis</b>: bij jou links (stuurkant), in het boek rechts.</span></li>
+<li class="sp"><b>12</b><span><b>Tussenarm</b>: het steunpunt aan de overkant, bij jou dus rechts. Versleten bus geeft speling in het stuur.</span></li>
+</ul>
 ${F('15-onder-wielophanging')}
 <p>Voorwielophanging: draagarm, fusee, stuurstang en schokdemper. Speling voel je door het wiel op 9 en 3 uur (stuurstangen) en op 12 en 6 uur (wiellager, fuseekogel) heen en weer te trekken met de auto op de krik.</p>
 <ul>
@@ -542,6 +713,29 @@ ${F('15-onder-wielophanging')}
 <tr><td>Jaarlijks, najaar</td><td>Afvoeren vrijmaken, holle ruimtes, accupolen</td></tr>
 <tr><td>Bij 200.000 tot 250.000 km</td><td>Distributieketting meten (rek), geleiders</td></tr>
 </table>
+<h2>Getallen voor jouw 250 D</h2>
+<p>Uit het Haynes-boek (blz. 1B-2, servicegegevens diesel), alleen wat voor de 250 D zonder turbo geldt.</p>
+<table>
+<tr><th>Inhoud</th><th></th></tr>
+<tr><td>Motorolie, met filter</td><td>7,0 liter</td></tr>
+<tr><td>Koelsysteem</td><td>9 liter; 50% antivries beschermt tot -37 &deg;C</td></tr>
+<tr><td>Automaat (ATF), bij verversen</td><td>6,2 liter (helemaal leeg: 7,3)</td></tr>
+<tr><td>Differentieel</td><td>ongeveer 0,7 liter (latere 250's: 1,1)</td></tr>
+<tr><td>Stuurbekrachtiging</td><td>ongeveer 1,0 liter</td></tr>
+<tr><td>Brandstoftank</td><td>ongeveer 72 liter</td></tr>
+<tr><th>Aanhaalmomenten</th><th>Nm</th></tr>
+<tr><td>Deksel oliefilterhuis (moeren)</td><td>25</td></tr>
+<tr><td>Retourbuis oliefilter</td><td>25</td></tr>
+<tr><td>Aftapplug motorolie</td><td>M14: 25 &middot; M12: 30</td></tr>
+<tr><td>Spanarm hulpriem (bout)</td><td>10</td></tr>
+<tr><td>Aftappluggen automaat (bak en koppelomvormer)</td><td>14</td></tr>
+<tr><td>Wielbouten</td><td>110</td></tr>
+<tr><th>Onderdelen en grenzen</th><th></th></tr>
+<tr><td>Oliefilter</td><td>Champion X103 (of gelijkwaardig voor OM602)</td></tr>
+<tr><td>Luchtfilter</td><td>Champion U563</td></tr>
+<tr><td>Brandstoffilter</td><td>Champion L105/L116</td></tr>
+<tr><td>Remblokken, minimale dikte voering</td><td>2,0 mm</td></tr>
+</table>
 <h2>Klus 1: peilen (5 min)</h2>
 <p>Vlakke plek, motor 5 minuten uit. Olie: peilstok rechts (groene markering), tussen min en max; bijvullen door de vuldop op het kleppendeksel, een halve liter per keer. Koelvloeistof: expansievat tot het merkteken, koud. ATF: motor warm en stationair, P, peilstok rechtsachter. Remvloeistof: wit reservoir op de rembekrachtiger, tussen min en max; daalt hij, dan slijten de remblokken of lekt er iets.</p>
 <h2>Klus 2: brandstoffilters (30 min)</h2>
@@ -554,8 +748,162 @@ ${F('15-onder-wielophanging')}
 <li>Motor laten lopen en op lekkage kijken. Oude filter en diesel naar de milieustraat.</li>
 </ol>
 ${F('09-brandstoffilter')}
-<h2>Klus 3: olie en filter (45 min)</h2>
-<p>Motor warm rijden, op een vlakke plek op rijplaten of bokken (nooit alleen op de krik). Aftapplug onder in het carter, bak van minstens 8 liter eronder. Oliefilter: op de OM602 een insteekelement in een huis aan de zijkant van het blok, deksel met een dop losdraaien, element en O-ringen van het deksel vervangen. Aftapplug met nieuwe koperring vast, ongeveer 6,5 liter 15W-40 erin, starten, lampje uit, na 5 minuten peilen en bijvullen tot max.</p>
+<h2>Klus 3: olie en oliefilter verversen (1 tot 1,5 uur)</h2>
+<p>Dit is de belangrijkste klus die je zelf kunt doen. Een voorkamerdiesel maakt veel roet; dat komt in de olie terecht en maakt hem zuur en dik. Verse olie houdt nokkenas, hydraulische stoters en lagers heel. Het Haynes-boek (hoofdstuk 1B, sectie 3) zet de klus op elke 6.000 mijl (bijna 10.000 km); voor deze motor houden we 7.500 km of één keer per jaar aan.</p>
+
+<h3>Eerst: waar zit wat</h3>
+<svg class="schema" viewBox="0 0 680 430" font-family="IBM Plex Sans, sans-serif" role="img" aria-label="Zijaanzicht van de motor vanaf de bestuurderskant: vuldop, oliefilterhuis linksachter, aftapplug onder het carter">
+<text x="340" y="22" fill="var(--muted)" font-size="17" text-anchor="middle">motor van opzij, vanaf de bestuurderskant (links)</text>
+<text x="40" y="410" fill="var(--muted)" font-size="16">← voorkant auto</text>
+<path d="M560 40 L560 330" stroke="var(--ink)" stroke-width="10" stroke-linecap="round"/>
+<text x="580" y="200" fill="var(--muted)" font-size="15">schutbord</text>
+<path d="M512 46 Q540 30 556 44" fill="none" stroke="var(--ink)" stroke-width="7" stroke-linecap="round"/>
+<rect x="526" y="40" width="14" height="12" rx="3" fill="var(--gold)" stroke="var(--ink)"/>
+<path d="M118 196 L470 196 L470 300 L118 300 Z" fill="var(--code-bg)" stroke="var(--ink)" stroke-width="1.8"/>
+<path d="M118 150 L470 150 L470 196 L118 196 Z" fill="var(--code-bg)" stroke="var(--ink)" stroke-width="1.8"/>
+<path d="M130 112 Q130 96 146 96 L446 96 Q462 96 462 112 L462 150 L130 150 Z" fill="var(--line)" stroke="var(--ink)" stroke-width="1.8"/>
+<text x="296" y="128" fill="var(--muted)" font-size="14" text-anchor="middle">kleppendeksel</text>
+<text x="296" y="178" fill="var(--muted)" font-size="14" text-anchor="middle">cilinderkop</text>
+<text x="296" y="254" fill="var(--muted)" font-size="14" text-anchor="middle">motorblok</text>
+<rect x="196" y="78" width="40" height="20" rx="6" fill="var(--ink)"/>
+<g stroke="var(--card)" stroke-width="2"><line x1="204" y1="82" x2="204" y2="94"/><line x1="216" y1="82" x2="216" y2="94"/><line x1="228" y1="82" x2="228" y2="94"/></g>
+<path d="M150 300 L440 300 L428 360 Q424 372 410 372 L172 372 Q158 372 154 360 Z" fill="var(--line)" stroke="var(--ink)" stroke-width="1.8"/>
+<text x="296" y="340" fill="var(--muted)" font-size="14" text-anchor="middle">carter (olie)</text>
+<rect x="388" y="372" width="24" height="12" rx="2" fill="var(--ink)"/>
+<rect x="392" y="384" width="16" height="6" fill="var(--gold)"/>
+<rect x="482" y="128" width="58" height="122" rx="10" fill="var(--code-bg)" stroke="var(--ink)" stroke-width="1.8"/>
+<rect x="476" y="118" width="70" height="16" rx="5" fill="var(--line)" stroke="var(--ink)" stroke-width="1.5"/>
+<g fill="var(--ink)"><circle cx="486" cy="126" r="5"/><circle cx="536" cy="126" r="5"/></g>
+<rect x="507" y="88" width="8" height="32" fill="var(--muted)" stroke="var(--ink)"/>
+<path d="M470 210 L482 210" stroke="var(--ink)" stroke-width="2"/>
+<line x1="70" y1="206" x2="118" y2="230" stroke="var(--muted)" stroke-width="3" stroke-dasharray="6 5"/>
+<text x="20" y="180" fill="var(--muted)" font-size="14">peilstok:</text>
+<text x="20" y="198" fill="var(--muted)" font-size="14">andere kant</text>
+${MK(1,216,62)}${MK(2,511,72)}${MK(3,580,128)}${MK(4,445,388)}${MK(5,533,48)}
+</svg>
+<ul class="legend">
+<li><b>1</b><span><b>Olievuldop</b> op het kleppendeksel. Hier giet je de nieuwe olie in.</span></li>
+<li><b>2</b><span><b>Retourbuis</b>: steekt bovenuit het midden van het filterdeksel. Hij laat het filterhuis leeglopen naar het carter zodra je hem losdraait, zodat je niet in een vol huis werkt.</span></li>
+<li><b>3</b><span><b>Oliefilterhuis</b> met deksel en twee moeren: volgens het boek linksachter aan het blok, tegen het schutbord. Kijk eerst op je eigen auto waar de ronde pot met twee moeren zit; de foto's in dit boek zijn van een auto met het stuur rechts.</span></li>
+<li><b>4</b><span><b>Aftapplug</b> onderaan het carter, met een metalen afdichtring (geel).</span></li>
+<li><b>5</b><span><b>Rubber afdichtstrip</b> op het schutbord, vast met een clip (geel). Even lostrekken geeft ruimte boven het filterhuis.</span></li>
+</ul>
+
+<h3>Klaarzetten: niet beginnen zonder alles</h3>
+<p>Leg alles klaar voordat je de eerste moer losdraait. Een half leeggelopen motor en een winkel die dicht is, is precies wat je niet wilt.</p>
+<table>
+<tr><th>Nodig</th><th>Let op</th></tr>
+<tr><td>Motorolie, 8 liter</td><td>15W-40 of 10W-40 voor diesel (zie hoofdstuk 5). Er gaat 7,0 liter in, met filter; de laatste liter is voor bijvullen later.</td></tr>
+<tr><td>Oliefilterelement voor de OM602</td><td>Het boek noemt Champion X103; elk merk voor de OM602 past. Zit meestal met de O-ringen in één doos. Controleer dat de O-ring van het deksel en die van de retourbuis erbij zitten.</td></tr>
+<tr><td>Nieuwe afdichtring voor de aftapplug</td><td>Nooit de oude hergebruiken; die is platgedrukt en gaat lekken.</td></tr>
+<tr><td>Opvangbak van minstens 8 liter</td><td>Liefst met tuit, dan giet je hem makkelijk over in een jerrycan.</td></tr>
+<tr><td>Dopsleutels, trechter, doeken, krant</td><td>Doeken ook rond de voet van het filterhuis.</td></tr>
+<tr><td>Handschoenen en veiligheidsbril</td><td>Oude olie is slecht voor je huid; de bril heb je nodig bij het doorblazen van de retourbuis.</td></tr>
+<tr><td>Oprijplaten of bokken</td><td>Nooit onder een auto die alleen op de krik staat.</td></tr>
+</table>
+
+<h3>Stap voor stap</h3>
+<ol>
+<li><b>Motor warm rijden.</b> Warme olie stroomt beter en neemt meer vuil mee. Pas op: uitlaat en carter zijn dan heet.</li>
+<li><b>Auto vlak en veilig.</b> Op oprijplaten of bokken, waterpas, of iets naar achteren zodat de aftapplug het laagste punt is. Hangt er een beschermplaat onder de motor: eraf.</li>
+<li><b>Ruimte maken boven het filter.</b> Clip van de rubber strip op het schutbord los en trek de strip eraf (nummer 5). Doeken rond de voet van het filterhuis.</li>
+<li><b>Retourbuis losdraaien</b> en uit het deksel trekken (nummer 2). Het huis loopt nu leeg naar het carter. De O-ring bovenop de buis weggooien.</li>
+<li><b>Deksel eraf:</b> de twee moeren losdraaien en het deksel optillen. De O-ring van het deksel weggooien.</li>
+<li><b>Onder de auto: aftapplug.</b> Bak eronder, plug een halve slag los. Dan met de hand verder draaien terwijl je hem tegen het carter aandrukt. Bij de laatste draad snel opzij trekken (tekening hieronder). De afdichtring zit vaak aan het carter vastgeplakt: niet vergeten eraf te halen.</li>
+<li><b>Laten leeglopen</b>, ruim tien minuten. Als de straal zwakker wordt, moet de bak soms een stukje verschuiven.</li>
+<li><b>Oud element eruit</b> aan het handvat bovenop. Het huis en de binnenkant van het deksel schoon vegen met een doek.</li>
+<li><b>Retourbuis controleren:</b> blaas in het kleine gaatje bovenin; je moet de lucht onderuit voelen komen. Verstopt? Schoonmaken en doorblazen, met bril op.</li>
+<li><b>Aftapplug terug</b> met een nieuwe afdichtring. Plek rond het gat schoonvegen en vastdraaien: <b>25 Nm</b> bij een M14-plug, <b>30 Nm</b> bij een M12-plug (kijk welke maat de jouwe is). Niet harder: het carter is aluminium.</li>
+<li><b>Nieuw element erin,</b> met het handvat naar boven. Nieuwe O-ring in het deksel, deksel erop, de twee moeren om en om gelijkmatig vast tot <b>25 Nm</b>.</li>
+<li><b>Retourbuis terug</b> met een nieuwe O-ring bovenop en vastdraaien tot <b>25 Nm</b>.</li>
+<li><b>Vullen</b> door de vuldop, in drie stappen (tekening onderaan).</li>
+<li><b>Proefdraaien:</b> starten en een paar minuten laten lopen. Het olielampje blijft eerst een paar tellen branden, tot het nieuwe filter vol is: normaal. Kijk bij het filterhuis en de aftapplug of het droog blijft.</li>
+<li><b>Napeilen:</b> motor uit, vijf minuten wachten, peilen en bijvullen tot max. Strip terug op het schutbord, beschermplaat terug.</li>
+<li><b>Opruimen:</b> oude olie in een afgesloten jerrycan naar de milieustraat, het oude element erbij. Kilometerstand en datum noteren.</li>
+</ol>
+
+<h3>Wat er in het filterhuis zit</h3>
+<svg class="schema" viewBox="0 0 680 520" font-family="IBM Plex Sans, sans-serif" role="img" aria-label="Doorsnede van het oliefilterhuis met element, deksel, moeren, retourbuis en O-ringen">
+<text x="340" y="22" fill="var(--muted)" font-size="17" text-anchor="middle">doorsnede, deksel net opgetild</text>
+<path d="M200 170 L200 470 Q200 494 224 494 L456 494 Q480 494 480 470 L480 170" fill="none" stroke="var(--ink)" stroke-width="10" stroke-linejoin="round"/>
+<path d="M195 170 L170 170 M485 170 L510 170" stroke="var(--ink)" stroke-width="10" stroke-linecap="round"/>
+<g fill="var(--muted)"><rect x="176" y="120" width="8" height="46"/><rect x="496" y="120" width="8" height="46"/></g>
+<rect x="232" y="196" width="216" height="270" rx="8" fill="var(--code-bg)" stroke="var(--ink)" stroke-width="1.5"/>
+<g stroke="var(--muted)" stroke-width="1.6">
+<line x1="244" y1="204" x2="244" y2="458"/><line x1="256" y1="204" x2="256" y2="458"/><line x1="268" y1="204" x2="268" y2="458"/><line x1="280" y1="204" x2="280" y2="458"/><line x1="292" y1="204" x2="292" y2="458"/><line x1="304" y1="204" x2="304" y2="458"/>
+<line x1="376" y1="204" x2="376" y2="458"/><line x1="388" y1="204" x2="388" y2="458"/><line x1="400" y1="204" x2="400" y2="458"/><line x1="412" y1="204" x2="412" y2="458"/><line x1="424" y1="204" x2="424" y2="458"/><line x1="436" y1="204" x2="436" y2="458"/>
+</g>
+<rect x="316" y="196" width="48" height="270" fill="var(--card)" stroke="var(--ink)" stroke-width="1"/>
+<path d="M300 196 Q300 160 340 160 Q380 160 380 196" fill="none" stroke="var(--ink)" stroke-width="5"/>
+<rect x="160" y="70" width="360" height="30" rx="8" fill="var(--line)" stroke="var(--ink)" stroke-width="1.8"/>
+<path d="M200 100 L200 118 L480 118 L480 100" fill="var(--line)" stroke="var(--ink)" stroke-width="1.5"/>
+<g fill="var(--ink)"><polygon points="170,52 186,52 192,62 186,72 170,72 164,62"/><polygon points="494,52 510,52 516,62 510,72 494,72 488,62"/></g>
+<ellipse cx="340" cy="122" rx="142" ry="6" fill="none" stroke="var(--bad)" stroke-width="4"/>
+<rect x="333" y="36" width="14" height="440" rx="4" fill="var(--muted)" stroke="var(--ink)"/>
+<rect x="328" y="30" width="24" height="14" rx="3" fill="var(--ink)"/>
+<circle cx="340" cy="58" r="3.5" fill="var(--card)" stroke="var(--ink)"/>
+<ellipse cx="340" cy="48" rx="14" ry="4" fill="none" stroke="var(--bad)" stroke-width="3"/>
+<path d="M150 300 L196 300" stroke="var(--accent)" stroke-width="3"/><path d="M196 300 l-9 -6 m9 6 l-9 6" stroke="var(--accent)" stroke-width="3" fill="none"/>
+<path d="M214 330 L238 330" stroke="var(--accent)" stroke-width="3"/><path d="M308 330 L328 330" stroke="var(--accent)" stroke-width="3"/><path d="M328 330 l-9 -6 m9 6 l-9 6" stroke="var(--accent)" stroke-width="3" fill="none"/>
+<text x="40" y="296" fill="var(--accent)" font-size="15">vuile olie</text>
+<text x="40" y="316" fill="var(--accent)" font-size="15">van de pomp</text>
+<path d="M340 500 L340 512" stroke="var(--accent)" stroke-width="3"/>
+<text x="352" y="512" fill="var(--accent)" font-size="14">naar het carter</text>
+<text x="560" y="300" fill="var(--muted)" font-size="14">gefilterd</text>
+<text x="560" y="318" fill="var(--muted)" font-size="14">naar de motor</text>
+<path d="M484 290 L552 290" stroke="var(--muted)" stroke-width="3"/><path d="M552 290 l-9 -6 m9 6 l-9 6" stroke="var(--muted)" stroke-width="3" fill="none"/>
+${MK(1,140,85)}${MK(2,212,62)}${MK(3,314,62)}${MK(4,374,40)}${MK(5,540,122)}${MK(6,250,166)}${MK(7,230,420)}${MK(8,182,240)}
+</svg>
+<ul class="legend">
+<li><b>1</b><span><b>Deksel</b>, zit op twee tapeinden.</span></li>
+<li><b>2</b><span><b>Moeren</b> van het deksel: twee stuks, om en om vastzetten.</span></li>
+<li><b>3</b><span><b>Klein gaatje</b> bovenin de retourbuis: moet open zijn (doorblazen).</span></li>
+<li><b>4</b><span><b>O-ring retourbuis</b> (rood): elke keer nieuw.</span></li>
+<li><b>5</b><span><b>O-ring deksel</b> (rood): elke keer nieuw.</span></li>
+<li><b>6</b><span><b>Handvat</b> bovenop het element: hieraan til je het eruit, en het nieuwe gaat er met het handvat naar boven in.</span></li>
+<li><b>7</b><span><b>Filterelement</b>: papier in plooien. De olie gaat van buiten naar binnen erdoorheen; het vuil blijft in het papier.</span></li>
+<li><b>8</b><span><b>Filterhuis</b>, vast aan het blok.</span></li>
+</ul>
+
+<h3>De aftapplug: zo blijft je mouw schoon</h3>
+<svg class="schema" viewBox="0 0 680 340" font-family="IBM Plex Sans, sans-serif" role="img" aria-label="Aftappen: plug bij de laatste draad snel opzij trekken, olie loopt in de bak">
+<path d="M80 40 L600 40 L586 120 Q582 134 566 134 L114 134 Q98 134 94 120 Z" fill="var(--line)" stroke="var(--ink)" stroke-width="1.8"/>
+<text x="340" y="92" fill="var(--muted)" font-size="16" text-anchor="middle">carter, van opzij</text>
+<rect x="300" y="134" width="40" height="10" fill="var(--gold)" stroke="var(--ink)"/>
+<g transform="translate(410 150)">
+<rect x="0" y="0" width="40" height="20" rx="3" fill="var(--ink)"/>
+<rect x="12" y="-18" width="16" height="18" fill="var(--muted)" stroke="var(--ink)"/>
+<g stroke="var(--card)" stroke-width="1.5"><line x1="13" y1="-14" x2="27" y2="-12"/><line x1="13" y1="-8" x2="27" y2="-6"/></g>
+</g>
+<path d="M352 150 Q402 142 408 160" fill="none" stroke="var(--bad)" stroke-width="3"/>
+<path d="M408 160 l-2 -11 m2 11 l-10 -4" stroke="var(--bad)" stroke-width="3" fill="none"/>
+<text x="470" y="176" fill="var(--bad)" font-size="15">bij de laatste draad: snel opzij</text>
+<path d="M320 144 C318 190 300 230 290 268" fill="none" stroke="#2b2620" stroke-width="12" stroke-linecap="round" opacity="0.85"/>
+<path d="M190 250 L410 250 L392 320 L208 320 Z" fill="var(--code-bg)" stroke="var(--ink)" stroke-width="1.8"/>
+<path d="M206 286 L394 286" stroke="#2b2620" stroke-width="2" opacity="0.6"/>
+<text x="300" y="312" fill="var(--muted)" font-size="15" text-anchor="middle">bak, minstens 8 liter</text>
+<text x="40" y="200" fill="var(--muted)" font-size="15">druk de plug tegen het</text>
+<text x="40" y="220" fill="var(--muted)" font-size="15">carter tot hij los is</text>
+${MK(1,320,170)}
+</svg>
+<p class="small muted"><b>1</b> = afdichtring (geel): blijft vaak aan het carter plakken. Eraf halen en een nieuwe op de plug.</p>
+
+<h3>Vullen: in drie stappen</h3>
+<svg class="schema" viewBox="0 0 680 230" font-family="IBM Plex Sans, sans-serif" role="img" aria-label="Peilstok met min en max en drie vulstappen">
+<rect x="60" y="70" width="520" height="12" rx="6" fill="var(--muted)" stroke="var(--ink)"/>
+<path d="M580 76 L620 76" stroke="var(--ink)" stroke-width="4"/>
+<circle cx="636" cy="76" r="16" fill="none" stroke="var(--ink)" stroke-width="4"/>
+<rect x="60" y="66" width="130" height="20" rx="6" fill="var(--code-bg)" stroke="var(--ink)"/>
+<rect x="60" y="66" width="104" height="20" rx="6" fill="#2b2620" opacity="0.7"/>
+<line x1="92" y1="54" x2="92" y2="98" stroke="var(--ink)" stroke-width="2"/><line x1="164" y1="54" x2="164" y2="98" stroke="var(--ink)" stroke-width="2"/>
+<text x="92" y="48" fill="var(--ink)" font-size="15" text-anchor="middle">min</text>
+<text x="164" y="48" fill="var(--ink)" font-size="15" text-anchor="middle">max</text>
+<text x="40" y="140" fill="var(--ink)" font-size="16">1. Helft erin (3,5 liter), paar minuten wachten tot het in het carter zakt.</text>
+<text x="40" y="168" fill="var(--ink)" font-size="16">2. Scheutjes erbij tot het peil op min staat.</text>
+<text x="40" y="196" fill="var(--ink)" font-size="16">3. Dan tot max. Na proefdraaien en 5 min wachten nog eens peilen.</text>
+<text x="200" y="110" fill="var(--muted)" font-size="14">het puntje van de peilstok; olie tussen min en max</text>
+</svg>
+<div class="tip"><b>Momentsleutel:</b> alle drie de bouten van deze klus gaan op 25 Nm (aftapplug M12: 30 Nm). Een eenvoudige momentsleutel van 5 tot 60 Nm is een goede eerste aankoop; hij voorkomt dat je schroefdraad in het aluminium carter trekt.</div>
 <h2>Klus 4: riemen en slangen (15 min)</h2>
 <p>Motor uit. Riemen: knijpen en draaien; scheurtjes, rafels, glazige loopvlakken of meer dan 1 cm doorbuiging bij duimdruk = vervangen. Slangen: knijpen; hard, gezwollen bij de klemmen of zacht als spons = vervangen. Koelslangen gaan meestal kapot aan het eind van een hete zomerrit, dus liever vooraf.</p>
 <h2>Klus 5: gloeibougies testen (20 min)</h2>
