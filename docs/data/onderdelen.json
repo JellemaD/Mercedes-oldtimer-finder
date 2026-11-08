@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T11:17:03+00:00",
+ "updated": "2026-11-08T11:29:16+00:00",
  "auto": {
   "kenteken": "57-RVV-3",
   "type": "Mercedes-Benz 250 D (W124 sedan, Mopf 0 / vormopf)",
@@ -119,7 +119,8 @@
    "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/780732c6-7a52-4026-9bad-032a60665932?rule=ecg_mp_eps$_82.jpg",
    "attrs": {
     "categoryId": 3061,
-    "priceType": "FAST_BID"
+    "priceType": "FAST_BID",
+    "gearbox": null
    },
    "text": "W124 sacco dorpels skirts facelift sacco past op sedan en combi de advertentie staat op bieden vanaf en er is geen mimimale/uiterste/laatste prijs dus daar hoef je niet naar te vragen",
    "onderdelen": [
@@ -128,7 +129,7 @@
    "source_module": "marktplaats",
    "first_seen": "2026-11-02",
    "price_prev": null,
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "active": true
   },
   {
@@ -150,7 +151,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-31",
    "price_prev": null,
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "active": true
   },
   {
@@ -172,30 +173,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-31",
    "price_prev": null,
-   "last_seen": "2026-11-07",
-   "active": true
-  },
-  {
-   "id": "mp_m2459676660",
-   "source": "Marktplaats",
-   "country": "NL",
-   "url": "https://www.marktplaats.nl/v/auto-onderdelen/carrosserie-en-plaatwerk/m2459676660-nos-flankbeplating-voorscherm-rechts-mercedes-benz-w124",
-   "title": "NOS Flankbeplating voorscherm rechts Mercedes-Benz W124",
-   "price": 100,
-   "location": "Schagen",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/6bf5a8bb-0a33-4647-a4f8-3af2c543c305?rule=ecg_mp_eps$_82.jpg",
-   "attrs": {
-    "categoryId": 2909,
-    "priceType": "FIXED"
-   },
-   "text": "Nos flankbeplating voorscherm rechts mercedes-benz w124 nos flankbeplating voorscherm rechts mercedes-benz w124 rioblau dit onderdeel is een nieuw en origineel mercedes-benz onderdeel uit oude voorraad. Origineel onderdeelnummer: a1246901440 5309 / a...",
-   "onderdelen": [
-    "beplanking-voorspatbord"
-   ],
-   "source_module": "marktplaats",
-   "first_seen": "2026-10-31",
-   "price_prev": null,
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "active": true
   },
   {
@@ -217,7 +195,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-29",
    "price_prev": null,
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "active": true
   },
   {
@@ -241,7 +219,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "active": true
   },
   {
@@ -265,7 +243,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "active": true
   },
   {
@@ -290,7 +268,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "active": true
   },
   {
@@ -315,7 +293,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "active": true
   },
   {
@@ -339,7 +317,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "active": true
   },
   {
@@ -363,7 +341,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "active": true
   },
   {
@@ -387,7 +365,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "active": true
   },
   {
@@ -411,7 +389,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "active": true
   },
   {
@@ -435,7 +413,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "active": true
   },
   {
@@ -459,7 +437,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "active": true
   },
   {
@@ -483,7 +461,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": 29,
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "active": true
   },
   {
@@ -507,7 +485,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "active": true
   },
   {
@@ -531,7 +509,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "active": true
   },
   {
@@ -553,7 +531,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "active": true
   },
   {
@@ -575,7 +553,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "active": true
   },
   {
@@ -597,7 +575,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "active": true
   },
   {
@@ -619,7 +597,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "active": true
   },
   {
@@ -641,7 +619,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "active": true
   },
   {
@@ -663,7 +641,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "active": true
   },
   {
@@ -685,7 +663,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "active": true
   },
   {
@@ -707,7 +685,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "active": true
   },
   {
@@ -732,7 +710,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "active": true
   },
   {
@@ -755,7 +733,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "active": true
   },
   {
@@ -777,7 +755,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "active": true
   },
   {
@@ -801,7 +779,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "active": true
   },
   {
@@ -826,7 +804,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "active": true
   },
   {
@@ -850,7 +828,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "active": true
   },
   {
@@ -874,7 +852,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "active": true
   },
   {
@@ -899,8 +877,31 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "active": true
+  },
+  {
+   "id": "mp_m2459676660",
+   "source": "Marktplaats",
+   "country": "NL",
+   "url": "https://www.marktplaats.nl/v/auto-onderdelen/carrosserie-en-plaatwerk/m2459676660-nos-flankbeplating-voorscherm-rechts-mercedes-benz-w124",
+   "title": "NOS Flankbeplating voorscherm rechts Mercedes-Benz W124",
+   "price": 100,
+   "location": "Schagen",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/6bf5a8bb-0a33-4647-a4f8-3af2c543c305?rule=ecg_mp_eps$_82.jpg",
+   "attrs": {
+    "categoryId": 2909,
+    "priceType": "FIXED"
+   },
+   "text": "Nos flankbeplating voorscherm rechts mercedes-benz w124 nos flankbeplating voorscherm rechts mercedes-benz w124 rioblau dit onderdeel is een nieuw en origineel mercedes-benz onderdeel uit oude voorraad. Origineel onderdeelnummer: a1246901440 5309 / a...",
+   "onderdelen": [
+    "beplanking-voorspatbord"
+   ],
+   "source_module": "marktplaats",
+   "first_seen": "2026-10-31",
+   "price_prev": null,
+   "last_seen": "2026-11-07",
+   "active": false
   },
   {
    "id": "mp_m2459674724",
@@ -1170,21 +1171,21 @@
    "error": null,
    "name": "Kleinanzeigen",
    "country": "DE",
-   "secs": 26,
-   "last_run": "2026-11-07T11:16:28+00:00",
-   "last_ok": "2026-11-07T11:16:28+00:00"
+   "secs": 23,
+   "last_run": "2026-11-08T11:28:43+00:00",
+   "last_ok": "2026-11-08T11:28:43+00:00"
   },
   {
    "module": "marktplaats",
    "ok": true,
-   "found": 91,
-   "matched": 2,
+   "found": 97,
+   "matched": 1,
    "error": null,
    "name": "Marktplaats",
    "country": "NL",
-   "secs": 23,
-   "last_run": "2026-11-07T11:16:50+00:00",
-   "last_ok": "2026-11-07T11:16:50+00:00"
+   "secs": 20,
+   "last_run": "2026-11-08T11:29:03+00:00",
+   "last_ok": "2026-11-08T11:29:03+00:00"
   },
   {
    "module": "mercedesforum",
@@ -1194,9 +1195,9 @@
    "error": null,
    "name": "MercedesForum.nl",
    "country": "NL",
-   "secs": 6,
-   "last_run": "2026-11-07T11:16:57+00:00",
-   "last_ok": "2026-11-07T11:16:57+00:00"
+   "secs": 7,
+   "last_run": "2026-11-08T11:29:10+00:00",
+   "last_ok": "2026-11-08T11:29:10+00:00"
   },
   {
    "module": "w124board",
@@ -1207,8 +1208,8 @@
    "name": "W124-Board.de",
    "country": "DE",
    "secs": 6,
-   "last_run": "2026-11-07T11:17:03+00:00",
-   "last_ok": "2026-11-07T11:17:03+00:00"
+   "last_run": "2026-11-08T11:29:16+00:00",
+   "last_ok": "2026-11-08T11:29:16+00:00"
   }
  ]
 }
