@@ -1,61 +1,61 @@
 {
- "updated": "2026-11-08T11:06:54+00:00",
+ "updated": "2026-11-09T12:34:39+00:00",
  "sources": [
   {
    "module": "marktplaats",
    "ok": true,
-   "found": 137,
-   "matched": 75,
+   "found": 145,
+   "matched": 77,
    "error": null,
    "name": "Marktplaats",
    "country": "NL",
    "runner": "github",
    "wet_region": 0,
-   "secs": 32,
-   "last_run": "2026-11-08T11:01:05+00:00",
-   "last_ok": "2026-11-08T11:01:05+00:00"
+   "secs": 30,
+   "last_run": "2026-11-09T12:30:10+00:00",
+   "last_ok": "2026-11-09T12:30:10+00:00"
   },
   {
    "module": "tweedehands",
    "ok": true,
-   "found": 92,
-   "matched": 30,
+   "found": 90,
+   "matched": 29,
    "error": null,
    "name": "2dehands",
    "country": "BE",
    "runner": "github",
    "wet_region": 0,
-   "secs": 32,
-   "last_run": "2026-11-08T11:01:37+00:00",
-   "last_ok": "2026-11-08T11:01:37+00:00"
+   "secs": 30,
+   "last_run": "2026-11-09T12:30:40+00:00",
+   "last_ok": "2026-11-09T12:30:40+00:00"
   },
   {
    "module": "autoscout24",
    "ok": true,
-   "found": 413,
-   "matched": 154,
+   "found": 418,
+   "matched": 156,
    "error": null,
    "name": "AutoScout24",
    "country": "multi",
    "runner": "github",
    "wet_region": 66,
-   "secs": 53,
-   "last_run": "2026-11-08T11:02:30+00:00",
-   "last_ok": "2026-11-08T11:02:30+00:00"
+   "secs": 48,
+   "last_run": "2026-11-09T12:31:27+00:00",
+   "last_ok": "2026-11-09T12:31:27+00:00"
   },
   {
    "module": "kleinanzeigen",
    "ok": true,
-   "found": 472,
-   "matched": 305,
+   "found": 471,
+   "matched": 309,
    "error": null,
    "name": "Kleinanzeigen",
    "country": "DE",
    "runner": "github",
    "wet_region": 0,
-   "secs": 50,
-   "last_run": "2026-11-08T11:03:20+00:00",
-   "last_ok": "2026-11-08T11:03:20+00:00"
+   "secs": 48,
+   "last_run": "2026-11-09T12:32:16+00:00",
+   "last_ok": "2026-11-09T12:32:16+00:00"
   },
   {
    "module": "coches_net",
@@ -67,37 +67,37 @@
    "country": "ES",
    "runner": "github",
    "wet_region": 13,
-   "secs": 7,
-   "last_run": "2026-11-08T11:03:27+00:00",
-   "last_ok": "2026-11-08T11:03:27+00:00"
+   "secs": 6,
+   "last_run": "2026-11-09T12:32:22+00:00",
+   "last_ok": "2026-11-09T12:32:22+00:00"
   },
   {
    "module": "wallapop",
    "ok": true,
-   "found": 159,
+   "found": 158,
    "matched": 26,
    "error": null,
    "name": "Wallapop",
    "country": "ES",
    "runner": "github",
-   "wet_region": 49,
+   "wet_region": 48,
    "secs": 8,
-   "last_run": "2026-11-08T11:03:35+00:00",
-   "last_ok": "2026-11-08T11:03:35+00:00"
+   "last_run": "2026-11-09T12:32:30+00:00",
+   "last_ok": "2026-11-09T12:32:30+00:00"
   },
   {
    "module": "standvirtual",
    "ok": true,
-   "found": 46,
+   "found": 48,
    "matched": 0,
    "error": null,
    "name": "Standvirtual",
    "country": "PT",
    "runner": "github",
-   "wet_region": 11,
+   "wet_region": 12,
    "secs": 8,
-   "last_run": "2026-11-08T11:03:43+00:00",
-   "last_ok": "2026-11-08T11:03:43+00:00"
+   "last_run": "2026-11-09T12:32:38+00:00",
+   "last_ok": "2026-11-09T12:32:38+00:00"
   },
   {
    "module": "custojusto",
@@ -108,24 +108,24 @@
    "name": "CustoJusto",
    "country": "PT",
    "runner": "github",
-   "wet_region": 138,
-   "secs": 57,
-   "last_run": "2026-11-08T11:04:40+00:00",
-   "last_ok": "2026-11-08T11:04:40+00:00"
+   "wet_region": 144,
+   "secs": 55,
+   "last_run": "2026-11-09T12:33:33+00:00",
+   "last_ok": "2026-11-09T12:33:33+00:00"
   },
   {
    "module": "olx_pt",
    "ok": true,
-   "found": 553,
+   "found": 535,
    "matched": 6,
    "error": null,
    "name": "OLX.pt",
    "country": "PT",
    "runner": "github",
-   "wet_region": 217,
-   "secs": 59,
-   "last_run": "2026-11-08T11:05:39+00:00",
-   "last_ok": "2026-11-08T11:05:39+00:00"
+   "wet_region": 210,
+   "secs": 51,
+   "last_run": "2026-11-09T12:34:24+00:00",
+   "last_ok": "2026-11-09T12:34:24+00:00"
   },
   {
    "module": "car_gr",
