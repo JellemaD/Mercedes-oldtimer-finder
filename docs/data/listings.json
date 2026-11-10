@@ -2209,17 +2209,24 @@
   },
   "trip_cost": 164,
   "punten": {
-   "roest": 24.0,
+   "roest": 32.0,
    "motor": 18.0,
    "staat": 6.0,
    "km": 6.3,
    "prijs": 8.7,
    "bouwjaar": 6.0
   },
-  "score": 69.0,
+  "score": 77.0,
   "ai_reject": false,
   "let_op": [],
-  "rust": null
+  "rust": {
+   "sills": 0,
+   "arches": 0,
+   "other": 1,
+   "chassis": "W124",
+   "note": "W124 coupé, dorpels lijken schoon; linkervoorspatbord in primer, mogelijk gerepareerd.",
+   "photos": 15
+  }
  },
  {
   "id": "ka_3564636702",
@@ -2614,17 +2621,24 @@
   },
   "trip_cost": 20,
   "punten": {
-   "roest": 24.0,
+   "roest": 32.0,
    "motor": 18.0,
    "staat": 6.0,
    "km": 7.2,
    "prijs": 9.0,
    "bouwjaar": 5.4
   },
-  "score": 69.6,
+  "score": 77.6,
   "ai_reject": false,
   "let_op": [],
-  "rust": null
+  "rust": {
+   "sills": 0,
+   "arches": 0,
+   "other": 1,
+   "chassis": "W124",
+   "note": "W124 sedan, dorpels deels zichtbaar zonder duidelijke roest; krassen en lichte vlekjes op lak.",
+   "photos": 4
+  }
  },
  {
   "id": "mp_m2462240913",
@@ -3442,17 +3456,24 @@
   },
   "trip_cost": 24,
   "punten": {
-   "roest": 24.0,
+   "roest": 40.0,
    "motor": 18.0,
    "staat": 7.8,
    "km": 9.7,
    "prijs": 6.5,
    "bouwjaar": 6.0
   },
-  "score": 72.0,
+  "score": 88.0,
   "ai_reject": false,
   "let_op": [],
-  "rust": null
+  "rust": {
+   "sills": 0,
+   "arches": 0,
+   "other": 0,
+   "chassis": "W124",
+   "note": "Nette W124 300D Turbo, dorpels en wielkasten zichtbaar zonder roest.",
+   "photos": 4
+  }
  },
  {
   "id": "2dh_m2461959477",
@@ -6908,17 +6929,24 @@
   },
   "trip_cost": 505,
   "punten": {
-   "roest": 24.0,
+   "roest": 28.0,
    "motor": 18.0,
    "staat": 7.8,
    "km": 4.8,
    "prijs": 9.0,
    "bouwjaar": 5.4
   },
-  "score": 69.0,
+  "score": 73.0,
   "ai_reject": false,
   "let_op": [],
-  "rust": null
+  "rust": {
+   "sills": null,
+   "arches": 0,
+   "other": 0,
+   "chassis": "W124",
+   "note": "Gele W124 taxi oogt schoon; dorpels nergens van dichtbij te zien, zitten achter zijbeplating.",
+   "photos": 5
+  }
  },
  {
   "id": "ka_3559475866",
