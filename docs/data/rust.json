@@ -476,5 +476,18 @@
   "v": 3,
   "model": "claude-opus-5-5",
   "date": "2026-11-10"
+ },
+ "ka_3556355347": {
+  "sills_photo": 14,
+  "sills": 2,
+  "arches": 3,
+  "other": 2,
+  "chassis": "W124",
+  "note": "Achterwielkast rechts flink doorgeroest, roest ook bij dorpel/deuronderkant; DEKRA meldt corrosie.",
+  "photos": 16,
+  "key": "1214160f7b0d",
+  "v": 3,
+  "model": "claude-opus-5-5",
+  "date": "2026-11-11"
  }
 }
