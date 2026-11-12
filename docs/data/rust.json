@@ -1,29 +1,16 @@
 {
  "ka_3532819555": {
-  "sills_photo": 3,
-  "sills": 0,
+  "sills_photo": 0,
+  "sills": null,
   "arches": 0,
   "other": 0,
   "chassis": "W124",
-  "note": "Nette W124 sedan; dorpels halfdichtbij op foto 3, geen roest zichtbaar.",
+  "note": "Nette W124, geen roest zichtbaar; dorpels alleen van afstand of in schaduw te zien.",
   "photos": 9,
-  "key": "dd3a899925d7",
+  "key": "5b8bb8b63b8f",
   "v": 3,
   "model": "claude-opus-5-5",
-  "date": "2026-10-19"
- },
- "cn_70382040": {
-  "sills_photo": 1,
-  "sills": 0,
-  "arches": 0,
-  "other": 0,
-  "chassis": "W124",
-  "note": "Zijaanzicht W124 sedan, dorpels redelijk zichtbaar, geen duidelijke roest te zien.",
-  "photos": 1,
-  "key": "8cc541cd4680",
-  "v": 3,
-  "model": "claude-opus-5-5",
-  "date": "2026-10-12"
+  "date": "2026-11-12"
  },
  "ka_3535481069": {
   "sills_photo": 7,
@@ -57,15 +44,6 @@
   "photos": 4,
   "key": "2a31b03e98e7",
   "v": 3,
-  "model": "claude-opus-5-5",
-  "date": "2026-10-12"
- },
- "wp_nz082epo4e6o": {
-  "sills": 1,
-  "other": 1,
-  "note": "Eigenlijk een W123 300D; lichte roestplekjes bij dorpels en wielkasten, verder redelijk.",
-  "photos": 4,
-  "key": "214d17d764c5",
   "model": "claude-opus-5-5",
   "date": "2026-10-12"
  },
