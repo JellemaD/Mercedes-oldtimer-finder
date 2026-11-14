@@ -112,19 +112,6 @@
   "model": "claude-opus-5-5",
   "date": "2026-10-12"
  },
- "ka_3509147893": {
-  "sills_photo": 5,
-  "sills": 0,
-  "arches": 0,
-  "other": 0,
-  "chassis": "W124",
-  "note": "Witte 260E W124, dorpels op foto 5 en 6 zonder zichtbare roest.",
-  "photos": 15,
-  "key": "472147f83ee1",
-  "v": 3,
-  "model": "claude-opus-5-5",
-  "date": "2026-10-12"
- },
  "cn_71425992": {
   "sills_photo": 3,
   "sills": 0,
@@ -467,5 +454,18 @@
   "v": 3,
   "model": "claude-opus-5-5",
   "date": "2026-11-11"
+ },
+ "ka_3570755452": {
+  "sills_photo": 8,
+  "sills": 2,
+  "arches": 1,
+  "other": 2,
+  "chassis": "W124",
+  "note": "Roest aan onderkant achterdeur/dorpel links, roestplekjes voorspatbord en bumperhoek rechtsvoor.",
+  "photos": 12,
+  "key": "3d9da8f004b1",
+  "v": 3,
+  "model": "claude-opus-5-5",
+  "date": "2026-11-14"
  }
 }
