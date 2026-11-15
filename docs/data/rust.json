@@ -156,19 +156,6 @@
   "model": "claude-opus-5-5",
   "date": "2026-10-12"
  },
- "as24_es_8cae9985-713f-4f19-9b56-5409f10f531b": {
-  "sills_photo": 4,
-  "sills": 1,
-  "arches": 1,
-  "other": 1,
-  "chassis": "W123",
-  "note": "W123 300D; lichte roestplekjes en verfschade, dorpels halfdichtbij zichtbaar op foto 4.",
-  "photos": 4,
-  "key": "d3817f1d1b66",
-  "v": 2,
-  "model": "claude-opus-5-5",
-  "date": "2026-10-12"
- },
  "ka_3491098127": {
   "sills_photo": 7,
   "sills": 1,
@@ -467,5 +454,83 @@
   "v": 3,
   "model": "claude-opus-5-5",
   "date": "2026-11-14"
+ },
+ "mp_m2458201547": {
+  "sills_photo": 2,
+  "sills": 1,
+  "arches": 1,
+  "other": 2,
+  "chassis": "W124",
+  "note": "W124 met beschadigde voorbumper, deukjes; dorpels redelijk, lichte roestplekjes mogelijk bij wielkasten.",
+  "photos": 4,
+  "key": "4fc7c58daf57",
+  "v": 3,
+  "model": "claude-opus-5-5",
+  "date": "2026-11-15"
+ },
+ "as24_it_29f9dce4-0270-4ad5-bfa7-1762293b69c6": {
+  "sills_photo": 2,
+  "sills": 0,
+  "arches": 0,
+  "other": 0,
+  "chassis": "W124",
+  "note": "W124 300D, dorpels halfdichtbij op foto 2 lijken schoon, geen roest zichtbaar.",
+  "photos": 5,
+  "key": "30e11bf8b2c5",
+  "v": 3,
+  "model": "claude-opus-5-5",
+  "date": "2026-11-15"
+ },
+ "wp_4z48qq5perjy": {
+  "sills_photo": 4,
+  "sills": 1,
+  "arches": 0,
+  "other": 1,
+  "chassis": "W124",
+  "note": "Vuile W124 300D; dorpels deels zichtbaar, lichte plekjes onderaan portieren, verder moeilijk te beoordelen.",
+  "photos": 5,
+  "key": "0cce631e8bd6",
+  "v": 3,
+  "model": "claude-opus-5-5",
+  "date": "2026-11-15"
+ },
+ "mp_m2465543880": {
+  "sills_photo": 0,
+  "sills": null,
+  "arches": 0,
+  "other": 1,
+  "chassis": "W124",
+  "note": "W124 250D, alleen vooraanzichten; dorpels niet goed te beoordelen, lak op motorkap verweerd.",
+  "photos": 4,
+  "key": "497415b4271b",
+  "v": 3,
+  "model": "claude-opus-5-5",
+  "date": "2026-11-15"
+ },
+ "mp_m2464922906": {
+  "sills_photo": 2,
+  "sills": 2,
+  "arches": 2,
+  "other": 1,
+  "chassis": "W124",
+  "note": "Roestplekken onderkant achterdeur en dorpels, roest bij wielkasten zichtbaar op foto 2.",
+  "photos": 4,
+  "key": "d56bdc370e91",
+  "v": 3,
+  "model": "claude-opus-5-5",
+  "date": "2026-11-15"
+ },
+ "ka_3550956554": {
+  "sills_photo": 3,
+  "sills": 0,
+  "arches": 1,
+  "other": 0,
+  "chassis": "W124",
+  "note": "W124 oogt netjes; lichte twijfel bij rand wielkast linksachter, dorpels lijken schoon.",
+  "photos": 7,
+  "key": "452c8fb5be3d",
+  "v": 3,
+  "model": "claude-opus-5-5",
+  "date": "2026-11-15"
  }
 }
