@@ -12,19 +12,6 @@
   "model": "claude-opus-5-5",
   "date": "2026-11-12"
  },
- "ka_3535481069": {
-  "sills_photo": 7,
-  "sills": 3,
-  "arches": 2,
-  "other": 3,
-  "chassis": "W124",
-  "note": "Zware roest onderkant achterdeur/dorpel, instap, wielkastrand, deurlijst en motorkap.",
-  "photos": 15,
-  "key": "3104c19a0bcd",
-  "v": 2,
-  "model": "claude-opus-5-5",
-  "date": "2026-10-12"
- },
  "wp_qjwr30n99g6o": {
   "sills": null,
   "other": 1,
@@ -131,15 +118,6 @@
   "note": "Wielkast achter in primer gerepareerd, ruitsponning roestig, dorpels grotendeels verborgen door bekleding.",
   "photos": 1,
   "key": "ef2b2120b382",
-  "model": "claude-opus-5-5",
-  "date": "2026-10-12"
- },
- "ka_3509137314": {
-  "sills": 1,
-  "other": 1,
-  "note": "Dorpels deels zichtbaar, lichte verkleuring; wielkasten en spatbord lijken redelijk, kleine plekjes mogelijk.",
-  "photos": 1,
-  "key": "715410cd1503",
   "model": "claude-opus-5-5",
   "date": "2026-10-12"
  },
@@ -532,5 +510,31 @@
   "v": 3,
   "model": "claude-opus-5-5",
   "date": "2026-11-15"
+ },
+ "mp_m2466274203": {
+  "sills_photo": 2,
+  "sills": 1,
+  "arches": 1,
+  "other": 2,
+  "chassis": "W124",
+  "note": "W124 met verfschade en roestplekjes op kofferklep/achterscherm; dorpels lijken redelijk, lichte plekjes.",
+  "photos": 4,
+  "key": "a2c96f30d83b",
+  "v": 3,
+  "model": "claude-opus-5-5",
+  "date": "2026-11-16"
+ },
+ "ka_3562095864": {
+  "sills_photo": 6,
+  "sills": 0,
+  "arches": 0,
+  "other": 0,
+  "chassis": "W124",
+  "note": "Nette witte 230E; dorpel bij voordeur schoon, geen zichtbare roest aan carrosserie.",
+  "photos": 8,
+  "key": "63b67fe226c8",
+  "v": 3,
+  "model": "claude-opus-5-5",
+  "date": "2026-11-16"
  }
 }
