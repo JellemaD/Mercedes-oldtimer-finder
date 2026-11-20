@@ -263,7 +263,7 @@
       "id": "linker-achterlicht-met-reflector",
       "naam": "Linker achterlicht met reflector (Rückleuchte)",
       "kant": "links (bestuurderskant)",
-      "nummer": "",
+      "nummer": "nog vaststellen: staat op de oude lamp (huis of glas); in advertenties voor W124 sedan links o.a. A1248200164 en A1248201364 (later donker: A1248208364). Exact per VIN alleen via de Mercedes-catalogus (EPC)",
       "waarom": "Toegevoegd via de onderdelenpagina op 20-11-2026 (issue #1). Ook genoemd: reflector (niet apart gezocht).",
       "prio": 2,
       "status": "zoeken",
@@ -278,7 +278,8 @@
         ]
       },
       "match": [
-        "(?:achterlicht|achterlamp|achterlichtunit|achterlicht[\\s-]?unit|r(?:ü|ue|u)ckleuchte|r(?:ü|ue|u)cklicht|heckleuchte|r(?:ü|ue|u)ckleuchten)"
+        "(?:achterlicht|achterlamp|achterlichtunit|achterlicht[\\s-]?unit|r(?:ü|ue|u)ckleuchte|r(?:ü|ue|u)cklicht|heckleuchte|r(?:ü|ue|u)ckleuchten)",
+        "124[\\s.]?820[\\s.]?\\d\\d[\\s.]?64"
       ],
       "niet": [
         "(?s)^(?!.*\\b(?:links|linker|linkse|linkerkant|bestuurder\\w*|fahrerseite|fahrer)\\b).*\\b(?:rechts|rechter|rechtse|rechterkant|bijrijder\\w*|beifahrer\\w*)\\b",
@@ -287,7 +288,11 @@
         "t-modell",
         "kombi",
         "stationwagen",
-        "estate"
+        "estate",
+        "sidemarker",
+        "\\b(?:us|usa)\\b",
+        "\\bvw\\b",
+        "w238"
       ],
       "foto": "",
       "toegevoegd": "2026-11-20",

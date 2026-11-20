@@ -20,6 +20,14 @@ kleur beplanking (Mopf 0 kleuren o.a. 7700 altograu, 7738 satograu, 7166).
 Kapotte of ontbrekende onderdelen vervangen, bij voorkeur tweedehands (origineel Mercedes), tegen lage
 prijs, zonder elke week zelf alle sites af te lopen.
 
+## Onderdeel toevoegen en VIN (keuzes Durk 20-11-2026)
+
+- **Toevoegen:** vak bovenaan onderdelen.html (typen of inspreken) → GitHub-issue "Onderdeel: …" →
+  Action `onderdelen.yml` → `voeg_toe.py` met zoektermen uit `woordenboek.json` (gratis, geen AI).
+- **VIN blijft lokaal** (`fotos/auto.txt`, niet in git; de repo is openbaar). Na elk nieuw onderdeel
+  zoekt Claude in een sessie met de VIN het A-nummer op en zet het in `nummer` en in `match`,
+  zodat ook op nummer wordt gevonden. Niet: VIN in de repo of in de Action.
+
 ## Hoe het werkt
 
 - `onderdelen.json`: de lijst. Per onderdeel naam, kant, A-nummer, waarom, prio, status

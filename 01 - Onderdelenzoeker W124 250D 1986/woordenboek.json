@@ -1,7 +1,7 @@
 {
  "_uitleg": "Woordenboek NL -> DE voor onderdelen die via de pagina worden toegevoegd (voeg_toe.py). Per onderdeel: 'nl' = Nederlandse woorden (het eerste is de zoekterm op Marktplaats), 'de' = Duitse woorden (het eerste is de zoekterm op Kleinanzeigen). Een advertentie past als hij een van deze woorden noemt. Woorden met kleine letters; ü/ö/ä mag ook als ue/oe/ae of u/o/a in advertenties. Optioneel 'niet' = regexes die een advertentie uitsluiten (bijv. stationwagen-achterlichten passen niet op de sedan). Ontbreekt een onderdeel: hier een regel toevoegen.",
  "onderdelen": [
-  {"nl": ["achterlicht", "achterlamp", "achterlichtunit", "achterlicht unit"], "de": ["rückleuchte", "rücklicht", "heckleuchte", "rückleuchten"], "niet": ["s124", "\\bsw\\b", "t-modell", "kombi", "stationwagen", "estate"]},
+  {"nl": ["achterlicht", "achterlamp", "achterlichtunit", "achterlicht unit"], "de": ["rückleuchte", "rücklicht", "heckleuchte", "rückleuchten"], "niet": ["s124", "\\bsw\\b", "t-modell", "kombi", "stationwagen", "estate", "sidemarker", "\\b(?:us|usa)\\b", "\\bvw\\b"]},
   {"nl": ["koplamp", "koplampunit", "voorlamp"], "de": ["scheinwerfer", "hauptscheinwerfer"]},
   {"nl": ["knipperlicht", "richtingaanwijzer", "pinker"], "de": ["blinker", "blinkleuchte", "blinkerglas"]},
   {"nl": ["mistlamp", "mistlicht"], "de": ["nebelscheinwerfer", "nebelleuchte", "nebelschlussleuchte"]},
