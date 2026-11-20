@@ -1,15 +1,20 @@
 # Daily parts search for the W124 250D (57-RVV-3): Kleinanzeigen, Marktplaats, MercedesForum.nl,
 # W124-Board.de. Writes docs/data/onderdelen.json, read by docs/onderdelen.html. A source with
 # 0 results makes the run fail at the end (after saving), so GitHub sends a "Run failed" e-mail.
+# Also: an issue titled "Onderdeel: <tekst>" (opened from the box on onderdelen.html, only by
+# JellemaD) adds the part to onderdelen.json via voeg_toe.py, searches right away and closes the issue.
 name: onderdelen
 
 on:
   schedule:
     - cron: '30 4 * * *'   # 06:30 summer time, 05:30 winter time (NL); after the car scrape
   workflow_dispatch:
+  issues:
+    types: [opened]
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: scrape   # same group as scrape.yml: never two jobs pushing docs/data at once
@@ -17,6 +22,9 @@ concurrency:
 
 jobs:
   zoek:
+    if: >-
+      github.event_name != 'issues' ||
+      (startsWith(github.event.issue.title, 'Onderdeel:') && github.event.issue.user.login == 'JellemaD')
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
@@ -26,6 +34,14 @@ jobs:
           python-version: '3.12'
           cache: pip
       - run: pip install -r requirements.txt
+      - name: Onderdeel toevoegen (uit issue)
+        id: nieuw
+        if: github.event_name == 'issues'
+        env:
+          TITEL: ${{ github.event.issue.title }}
+          BODY: ${{ github.event.issue.body }}
+          NUM: ${{ github.event.issue.number }}
+        run: python "01 - Onderdelenzoeker W124 250D 1986/voeg_toe.py" "$TITEL" --issue "$NUM" --toelichting "$BODY"
       - name: Zoek onderdelen
         id: zoek
         run: python "01 - Onderdelenzoeker W124 250D 1986/zoek.py" || echo "failed=1" >> "$GITHUB_OUTPUT"
@@ -33,10 +49,32 @@ jobs:
         run: |
           git config user.name "scrape-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add docs/data/onderdelen.json
+          git add docs/data/onderdelen.json "01 - Onderdelenzoeker W124 250D 1986/onderdelen.json"
           git diff --cached --quiet && exit 0
-          git commit -m "Onderdelen $(date -u +%F)"
+          if [ "${{ github.event_name }}" = "issues" ]; then msg="Onderdeel toegevoegd: ${{ steps.nieuw.outputs.id }} (#${{ github.event.issue.number }})"; else msg="Onderdelen $(date -u +%F)"; fi
+          git commit -m "$msg"
           for i in 1 2 3; do git pull --rebase -q && git push -q && exit 0; sleep 5; done; exit 1
+      - name: Issue beantwoorden en sluiten
+        if: github.event_name == 'issues' && always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NUM: ${{ github.event.issue.number }}
+          OK: ${{ steps.nieuw.outcome }}
+          NAAM: ${{ steps.nieuw.outputs.naam }}
+          ZDE: ${{ steps.nieuw.outputs.de }}
+          ZNL: ${{ steps.nieuw.outputs.nl }}
+          NAKIJKEN: ${{ steps.nieuw.outputs.nakijken }}
+        run: |
+          if [ "$OK" = "success" ]; then
+            body="Op de lijst gezet: **$NAAM**, en meteen gezocht.
+          - Kleinanzeigen: ${ZDE:-(geen, woord niet in het woordenboek)}
+          - Marktplaats: $ZNL
+          ${NAKIJKEN:+Zoektermen nakijken: woord staat nog niet in woordenboek.json.}
+          Treffers: https://jellemad.github.io/Mercedes-oldtimer-finder/onderdelen.html (na een minuut)"
+            gh issue close "$NUM" --repo "$GITHUB_REPOSITORY" --comment "$body"
+          else
+            gh issue comment "$NUM" --repo "$GITHUB_REPOSITORY" --body "Toevoegen mislukt, zie de Action-run. Het issue blijft open."
+          fi
       - name: Warn about sources without results
         if: steps.zoek.outputs.failed == '1'
         run: echo "::error::Een of meer bronnen gaven 0 resultaten, zie docs/data/onderdelen.json" && exit 1
