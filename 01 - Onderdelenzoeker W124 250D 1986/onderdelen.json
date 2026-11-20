@@ -258,6 +258,41 @@
       "match": [],
       "niet": [],
       "foto": null
+    },
+    {
+      "id": "linker-achterlicht-met-reflector",
+      "naam": "Linker achterlicht met reflector (Rückleuchte)",
+      "kant": "links (bestuurderskant)",
+      "nummer": "",
+      "waarom": "Toegevoegd via de onderdelenpagina op 20-11-2026 (issue #1). Ook genoemd: reflector (niet apart gezocht).",
+      "prio": 2,
+      "status": "zoeken",
+      "zoek": {
+        "nl": [
+          "w124 achterlicht links",
+          "w124 achterlicht"
+        ],
+        "de": [
+          "w124 rückleuchte links",
+          "w124 rückleuchte"
+        ]
+      },
+      "match": [
+        "(?:achterlicht|achterlamp|achterlichtunit|achterlicht[\\s-]?unit|r(?:ü|ue|u)ckleuchte|r(?:ü|ue|u)cklicht|heckleuchte|r(?:ü|ue|u)ckleuchten)"
+      ],
+      "niet": [
+        "(?s)^(?!.*\\b(?:links|linker|linkse|linkerkant|bestuurder\\w*|fahrerseite|fahrer)\\b).*\\b(?:rechts|rechter|rechtse|rechterkant|bijrijder\\w*|beifahrer\\w*)\\b",
+        "s124",
+        "\\bsw\\b",
+        "t-modell",
+        "kombi",
+        "stationwagen",
+        "estate"
+      ],
+      "foto": "",
+      "toegevoegd": "2026-11-20",
+      "bron": "pagina",
+      "issue": 1
     }
   ]
 }
