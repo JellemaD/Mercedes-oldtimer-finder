@@ -614,5 +614,57 @@
   "v": 3,
   "model": "claude-opus-5-5",
   "date": "2026-11-17"
+ },
+ "as24_de_cae1efdb-a472-41d3-88a4-dcdd840c897a": {
+  "sills_photo": 1,
+  "sills": 0,
+  "arches": 0,
+  "other": 0,
+  "chassis": "W201",
+  "note": "Groene 190E 2.6 oogt zeer netjes; geen roest zichtbaar op dorpels of wielkasten.",
+  "photos": 8,
+  "key": "38c6e87cadcb",
+  "v": 3,
+  "model": "claude-opus-5-5",
+  "date": "2026-11-22"
+ },
+ "ka_3576891652": {
+  "sills_photo": 3,
+  "sills": 2,
+  "arches": 1,
+  "other": 2,
+  "chassis": "W124",
+  "note": "Roestplekken op onderkant deuren/dorpelbekleding, roestspikkels rond kofferklepslot en achterscherm.",
+  "photos": 6,
+  "key": "71fc3cebece0",
+  "v": 3,
+  "model": "claude-opus-5-5",
+  "date": "2026-11-22"
+ },
+ "ka_3577538032": {
+  "sills_photo": 1,
+  "sills": 0,
+  "arches": 0,
+  "other": 0,
+  "chassis": "W124",
+  "note": "W124 coupé (C124) facelift; dorpels door hek zichtbaar, geen duidelijke roest te zien.",
+  "photos": 2,
+  "key": "c7b8e8e2d05c",
+  "v": 3,
+  "model": "claude-opus-5-5",
+  "date": "2026-11-22"
+ },
+ "as24_de_dadd013d-2553-4b0c-af08-13da13dbb482": {
+  "sills_photo": 5,
+  "sills": 0,
+  "arches": 0,
+  "other": 0,
+  "chassis": "W124",
+  "note": "W124 300E oogt roestvrij; dorpels alleen van opzij zichtbaar, geen roest gezien.",
+  "photos": 16,
+  "key": "2d5820f30cb6",
+  "v": 3,
+  "model": "claude-opus-5-5",
+  "date": "2026-11-22"
  }
 }
