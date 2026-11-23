@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T12:49:11+00:00",
+ "updated": "2026-11-23T15:13:26+00:00",
  "auto": {
   "kenteken": "57-RVV-3",
   "type": "Mercedes-Benz 250 D (W124 sedan, Mopf 0 / vormopf)",
@@ -122,6 +122,101 @@
  ],
  "treffers": [
   {
+   "id": "ka_3579984480",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-rueckleuchten-links-rechts-a1248200264-a1248200164/3579984480-223-9513",
+   "title": "Mercedes W124 Rückleuchten links & rechts A1248200264 A1248200164",
+   "price": 59,
+   "location": "22113 Oststeinbek",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7a/7af3c2b0-c026-4d88-91c7-b9227c9a8cbe?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Direkt kaufen",
+     "Versand möglich"
+    ]
+   },
+   "text": "Ich verkaufe hier ein Paar original Mercedes-Benz Rückleuchten für die rechte und linke Seite. Es... · Direkt kaufen · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-23",
+   "price_prev": null,
+   "last_seen": "2026-11-23",
+   "active": true
+  },
+  {
+   "id": "ka_3580175729",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-original-rueckleuchten/3580175729-223-1843",
+   "title": "Mercedes W124 Original Rückleuchten",
+   "price": 120,
+   "location": "59555 Lippstadt",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/04/04032a31-3dc0-48fc-91b4-0985045a75f8?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Hiermit biete ich originale Rückleuchten Satz für MB w124 an. Preis gilt für beide zusammen. Viele... · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-23",
+   "price_prev": null,
+   "last_seen": "2026-11-23",
+   "active": true
+  },
+  {
+   "id": "ka_3549508816",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/neues-set-rueckleuchten-original-mercedes-w124-limo/3549508816-223-21584",
+   "title": "Neues Set Rückleuchten original Mercedes W124 Limo",
+   "price": 325,
+   "location": "71711 Murr Württemberg",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d6/d656f58a-1129-418c-9ff0-88dc965fae35?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Verkauft wird ein neues, original Mercedes, Set Rückleuchten rechts+links, für den Mercedes W124... · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-23",
+   "price_prev": null,
+   "last_seen": "2026-11-23",
+   "active": true
+  },
+  {
+   "id": "ka_3579526900",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/w124-mercedes-rueckleuchten-ruecklichter/3579526900-223-7707",
+   "title": "W124 Mercedes Rückleuchten Rücklichter",
+   "price": 300,
+   "location": "88131 Lindau",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/83/834d809e-b5d5-4220-b560-b395f1d68d77?rule=$_59.AUTO",
+   "attrs": {
+    "tags": []
+   },
+   "text": "Es handelt sich um Originale Rückleuchten von Mercedes. Inklusive lampenträger. Sie wurden damals...",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-23",
+   "price_prev": null,
+   "last_seen": "2026-11-23",
+   "active": true
+  },
+  {
    "id": "ka_3578196109",
    "source": "Kleinanzeigen",
    "country": "DE",
@@ -142,7 +237,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-22",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -166,7 +261,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-22",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -175,7 +270,7 @@
    "country": "DE",
    "url": "https://www.kleinanzeigen.de/s-anzeige/originale-mercedes-w124-rueckleuchten-heckleuchten-aus-jahreswagen/3578539572-223-1849",
    "title": "Originale Mercedes w124 Rückleuchten Heckleuchten aus Jahreswagen",
-   "price": 90,
+   "price": 85,
    "location": "46395 Bocholt",
    "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/96/960b3436-e6fb-4462-8c42-d378f6fd2b84?rule=$_59.AUTO",
    "attrs": {
@@ -189,8 +284,8 @@
    ],
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-22",
-   "price_prev": null,
-   "last_seen": "2026-11-22",
+   "price_prev": 90,
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -214,7 +309,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-22",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -238,7 +333,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-22",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -262,7 +357,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-22",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -286,7 +381,7 @@
    "source_module": "marktplaats",
    "first_seen": "2026-11-22",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -310,7 +405,7 @@
    "source_module": "marktplaats",
    "first_seen": "2026-11-22",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -334,7 +429,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-21",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -359,7 +454,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-21",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -383,7 +478,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-21",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -405,7 +500,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -429,7 +524,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -454,7 +549,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -479,7 +574,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -503,7 +598,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -527,7 +622,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -551,7 +646,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -575,7 +670,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -599,7 +694,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -623,31 +718,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
-   "active": true
-  },
-  {
-   "id": "ka_3562612139",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-rueckleuchte-heckleuchte-links/3562612139-223-23786",
-   "title": "Mercedes W124 Rückleuchte Heckleuchte links",
-   "price": 25,
-   "location": "01099 Albertstadt",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7a/7a99fe94-eb5a-416c-bc85-bf382c821e98?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "1 x Mercedes W124 Rückleuchte Heckleichte links im guten Zustand, keine Risse oder andere... · Versand möglich",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -669,7 +740,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -693,7 +764,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -717,7 +788,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -741,7 +812,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -765,7 +836,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -789,7 +860,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -813,7 +884,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -838,7 +909,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -862,7 +933,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -886,7 +957,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -908,7 +979,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -933,7 +1004,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -957,7 +1028,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -981,29 +1052,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
-   "active": true
-  },
-  {
-   "id": "ka_3454491474",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-w124-original-rueckleuchten-neu-links-rechts/3454491474-223-6443",
-   "title": "Mercedes-Benz W124 Original Rückleuchten NEU – Links & Rechts",
-   "price": 70,
-   "location": "80331 Altstadt-Lehel",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b6/b6e8d718-69b0-45df-9241-a9f4cd424708?rule=$_59.AUTO",
-   "attrs": {
-    "tags": []
-   },
-   "text": "Ich antworte nur mit gescheiten Sätzen und mit einer guten Bewertung ansonsten seid ihr falsch bei...",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -1027,7 +1076,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -1051,7 +1100,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -1075,7 +1124,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -1099,7 +1148,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -1123,7 +1172,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -1147,7 +1196,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -1171,31 +1220,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
-   "active": true
-  },
-  {
-   "id": "ka_3573542184",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/2-rueckleuchten-fuer-mercedes-benz-w124/3573542184-223-8612",
-   "title": "2 Rückleuchten für Mercedes-Benz W124",
-   "price": 30,
-   "location": "79725 Laufenburg (Baden)",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/19/19ea136b-dafb-43ff-839e-297b720edea9?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Ich biete hier zwei Rückleuchten an, die ich bei einer Dachbodenräumung gefunden habe. Es handelt... · Versand möglich",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -1219,7 +1244,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -1243,7 +1268,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -1267,7 +1292,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -1291,7 +1316,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -1315,7 +1340,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -1339,56 +1364,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
-   "active": true
-  },
-  {
-   "id": "ka_3569564556",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/rueckleuchten-fuer-mercedes-e-klasse-w124-85-95-rot-klar/3569564556-223-13734",
-   "title": "Rückleuchten für Mercedes E-Klasse W124 85–95 Rot/Klar",
-   "price": 123,
-   "location": "24558 Henstedt-Ulzburg",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/a5/a514132a-ab30-46ac-b315-aca96d82ed85?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Das Rückleuchten Set (Heckleuchten) passt für Mercedes E-Klasse W124 (01/1985 bis... · Versand möglich",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-22",
-   "active": true
-  },
-  {
-   "id": "ka_3569174165",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/suche-fifft-rueckleuchten-mercedes-w124/3569174165-223-372",
-   "title": "Suche Fifft Rückleuchten Mercedes W124",
-   "price": null,
-   "location": "66424 Homburg",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/dd/ddbc0028-a1e5-410b-b036-d7fd06ed0823?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Gesuch",
-     "Versand möglich"
-    ]
-   },
-   "text": "Gesucht werden rote Rückleuchten von FIFFT für den Mercedes W124. Am besten mit Tüv oder ABE · Gesuch · Versand möglich",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -1412,7 +1388,7 @@
    "source_module": "marktplaats",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -1436,7 +1412,7 @@
    "source_module": "marktplaats",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -1460,7 +1436,7 @@
    "source_module": "marktplaats",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -1484,7 +1460,7 @@
    "source_module": "marktplaats",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -1508,7 +1484,7 @@
    "source_module": "marktplaats",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -1532,7 +1508,7 @@
    "source_module": "marktplaats",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -1556,7 +1532,7 @@
    "source_module": "marktplaats",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -1580,7 +1556,7 @@
    "source_module": "marktplaats",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -1604,7 +1580,7 @@
    "source_module": "marktplaats",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -1624,7 +1600,7 @@
    "source_module": "w124board",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -1644,7 +1620,7 @@
    "source_module": "w124board",
    "first_seen": "2026-11-20",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -1669,7 +1645,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-09",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -1693,7 +1669,7 @@
    "source_module": "marktplaats",
    "first_seen": "2026-11-02",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -1715,7 +1691,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-31",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -1737,7 +1713,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-29",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -1761,7 +1737,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -1785,7 +1761,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -1810,7 +1786,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -1835,7 +1811,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -1859,7 +1835,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -1883,7 +1859,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -1907,7 +1883,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -1931,7 +1907,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -1955,7 +1931,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -1979,7 +1955,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -2003,7 +1979,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -2027,7 +2003,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -2049,7 +2025,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -2071,7 +2047,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -2093,7 +2069,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -2115,7 +2091,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -2137,7 +2113,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -2159,7 +2135,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -2181,7 +2157,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -2206,7 +2182,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -2229,7 +2205,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -2251,7 +2227,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -2275,7 +2251,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -2300,7 +2276,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
   },
   {
@@ -2325,8 +2301,127 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-10-27",
    "price_prev": null,
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "active": true
+  },
+  {
+   "id": "ka_3562612139",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-rueckleuchte-heckleuchte-links/3562612139-223-23786",
+   "title": "Mercedes W124 Rückleuchte Heckleuchte links",
+   "price": 25,
+   "location": "01099 Albertstadt",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7a/7a99fe94-eb5a-416c-bc85-bf382c821e98?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "1 x Mercedes W124 Rückleuchte Heckleichte links im guten Zustand, keine Risse oder andere... · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-22",
+   "active": false
+  },
+  {
+   "id": "ka_3454491474",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-w124-original-rueckleuchten-neu-links-rechts/3454491474-223-6443",
+   "title": "Mercedes-Benz W124 Original Rückleuchten NEU – Links & Rechts",
+   "price": 70,
+   "location": "80331 Altstadt-Lehel",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b6/b6e8d718-69b0-45df-9241-a9f4cd424708?rule=$_59.AUTO",
+   "attrs": {
+    "tags": []
+   },
+   "text": "Ich antworte nur mit gescheiten Sätzen und mit einer guten Bewertung ansonsten seid ihr falsch bei...",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-22",
+   "active": false
+  },
+  {
+   "id": "ka_3573542184",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/2-rueckleuchten-fuer-mercedes-benz-w124/3573542184-223-8612",
+   "title": "2 Rückleuchten für Mercedes-Benz W124",
+   "price": 30,
+   "location": "79725 Laufenburg (Baden)",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/19/19ea136b-dafb-43ff-839e-297b720edea9?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Ich biete hier zwei Rückleuchten an, die ich bei einer Dachbodenräumung gefunden habe. Es handelt... · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-22",
+   "active": false
+  },
+  {
+   "id": "ka_3569564556",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rueckleuchten-fuer-mercedes-e-klasse-w124-85-95-rot-klar/3569564556-223-13734",
+   "title": "Rückleuchten für Mercedes E-Klasse W124 85–95 Rot/Klar",
+   "price": 123,
+   "location": "24558 Henstedt-Ulzburg",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/a5/a514132a-ab30-46ac-b315-aca96d82ed85?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Das Rückleuchten Set (Heckleuchten) passt für Mercedes E-Klasse W124 (01/1985 bis... · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-22",
+   "active": false
+  },
+  {
+   "id": "ka_3569174165",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/suche-fifft-rueckleuchten-mercedes-w124/3569174165-223-372",
+   "title": "Suche Fifft Rückleuchten Mercedes W124",
+   "price": null,
+   "location": "66424 Homburg",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/dd/ddbc0028-a1e5-410b-b036-d7fd06ed0823?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Gesuch",
+     "Versand möglich"
+    ]
+   },
+   "text": "Gesucht werden rote Rückleuchten von FIFFT für den Mercedes W124. Am besten mit Tüv oder ABE · Gesuch · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-22",
+   "active": false
   },
   {
    "id": "ka_3568901173",
@@ -3012,38 +3107,38 @@
   {
    "module": "kleinanzeigen",
    "ok": true,
-   "found": 127,
-   "matched": 79,
+   "found": 125,
+   "matched": 78,
    "error": null,
    "name": "Kleinanzeigen",
    "country": "DE",
-   "secs": 33,
-   "last_run": "2026-11-22T12:48:08+00:00",
-   "last_ok": "2026-11-22T12:48:08+00:00"
+   "secs": 32,
+   "last_run": "2026-11-23T15:12:49+00:00",
+   "last_ok": "2026-11-23T15:12:49+00:00"
   },
   {
    "module": "marktplaats",
    "ok": true,
-   "found": 111,
+   "found": 123,
    "matched": 12,
    "error": null,
    "name": "Marktplaats",
    "country": "NL",
-   "secs": 25,
-   "last_run": "2026-11-22T12:48:32+00:00",
-   "last_ok": "2026-11-22T12:48:32+00:00"
+   "secs": 24,
+   "last_run": "2026-11-23T15:13:13+00:00",
+   "last_ok": "2026-11-23T15:13:13+00:00"
   },
   {
    "module": "mercedesforum",
-   "ok": false,
-   "found": 0,
+   "ok": true,
+   "found": 150,
    "matched": 0,
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mercedesforum.nl', port=443): Max retries exceeded with url: /forum/viewforum.php?f=49&start=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mercedesforum.nl', port=443) at 0x792393d22f90>, 'Connection to www.mercedesforum.nl timed out. (conn",
+   "error": null,
    "name": "MercedesForum.nl",
    "country": "NL",
-   "secs": 32,
-   "last_run": "2026-11-22T12:49:05+00:00",
-   "last_ok": "2026-11-21T12:56:30+00:00"
+   "secs": 7,
+   "last_run": "2026-11-23T15:13:20+00:00",
+   "last_ok": "2026-11-23T15:13:20+00:00"
   },
   {
    "module": "w124board",
@@ -3054,8 +3149,8 @@
    "name": "W124-Board.de",
    "country": "DE",
    "secs": 6,
-   "last_run": "2026-11-22T12:49:11+00:00",
-   "last_ok": "2026-11-22T12:49:11+00:00"
+   "last_run": "2026-11-23T15:13:26+00:00",
+   "last_ok": "2026-11-23T15:13:26+00:00"
   }
  ]
 }
