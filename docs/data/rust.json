@@ -666,5 +666,31 @@
   "v": 3,
   "model": "claude-opus-5-5",
   "date": "2026-11-22"
+ },
+ "olx_675524570": {
+  "sills_photo": 0,
+  "sills": null,
+  "arches": 0,
+  "other": 1,
+  "chassis": "W124",
+  "note": "Dorpels alleen van afstand zichtbaar; kofferklep en dak hebben verweerde lak, geen duidelijke roest.",
+  "photos": 4,
+  "key": "3929a7ad5279",
+  "v": 3,
+  "model": "claude-opus-5-5",
+  "date": "2026-11-24"
+ },
+ "2dh_m2468029570": {
+  "sills_photo": 2,
+  "sills": 0,
+  "arches": 0,
+  "other": 1,
+  "chassis": "W124",
+  "note": "W124 260E; dorpel links zichtbaar zonder duidelijke roest, mogelijk klein plekje elders.",
+  "photos": 4,
+  "key": "c7f31dff472e",
+  "v": 3,
+  "model": "claude-opus-5-5",
+  "date": "2026-11-24"
  }
 }
