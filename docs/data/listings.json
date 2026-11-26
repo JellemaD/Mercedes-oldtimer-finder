@@ -958,6 +958,72 @@
   "rust": null
  },
  {
+  "id": "cargr_58326006",
+  "source": "car.gr",
+  "country": "GR",
+  "url": "https://www.car.gr/classifieds/cars/view/58326006-mercedes-benz-230",
+  "title": "Mercedes-Benz 230 1985 CE",
+  "price": 16500,
+  "year": 1985,
+  "mileage": 160000,
+  "location": "ΨΥΧΙΚΟ Ν. ΑΤΤΙΚΗΣ 15452",
+  "image": "https://static.car.gr/58326006_0_n.jpg",
+  "images": [
+   "https://static.car.gr/58326006_0_n.jpg"
+  ],
+  "series": "W124",
+  "model": "230",
+  "fuel": "benzine",
+  "cyl": 4,
+  "lpg_score": 2,
+  "has_lpg": false,
+  "year_known": true,
+  "maybe_w123": true,
+  "gearbox": "automaat",
+  "signals_good": [],
+  "signals_bad": [],
+  "source_module": "car_gr",
+  "first_seen": "2026-11-26",
+  "price_prev": null,
+  "last_seen": "2026-11-26",
+  "active": true,
+  "dup_of": null,
+  "also_on": [],
+  "trip": {
+   "fuel": "benzine",
+   "l100": 10.5,
+   "toll": {
+    "km": 2661,
+    "fuel_cost": 615,
+    "toll": 90,
+    "cost": 705,
+    "hours": 28.0
+   },
+   "free": {
+    "km": 3061,
+    "fuel_cost": 707,
+    "toll": 0,
+    "cost": 707,
+    "hours": 47.1
+   }
+  },
+  "trip_cost": 705,
+  "punten": {
+   "roest": 24.0,
+   "motor": 14.4,
+   "staat": 6.0,
+   "km": 6.5,
+   "prijs": 0.0,
+   "bouwjaar": 4.8
+  },
+  "score": 55.7,
+  "ai_reject": false,
+  "let_op": [
+   "Mogelijk W123: check chassisnummer (WDB124… = W124)"
+  ],
+  "rust": null
+ },
+ {
   "id": "mp_m2469726291",
   "source": "Marktplaats",
   "country": "NL",
@@ -1439,10 +1505,10 @@
    "motor": 14.4,
    "staat": 6.0,
    "km": 5.0,
-   "prijs": 3.3,
+   "prijs": 3.4,
    "bouwjaar": 5.4
   },
-  "score": 58.1,
+  "score": 58.2,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -2154,10 +2220,10 @@
    "motor": 14.4,
    "staat": 6.0,
    "km": 2.1,
-   "prijs": 4.1,
+   "prijs": 4.2,
    "bouwjaar": 5.4
   },
-  "score": 56.0,
+  "score": 56.1,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -2431,10 +2497,10 @@
    "motor": 14.4,
    "staat": 6.0,
    "km": 3.8,
-   "prijs": 1.6,
+   "prijs": 1.7,
    "bouwjaar": 6.0
   },
-  "score": 55.8,
+  "score": 55.9,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -4185,10 +4251,10 @@
    "motor": 14.4,
    "staat": 6.0,
    "km": 4.6,
-   "prijs": 6.7,
+   "prijs": 6.8,
    "bouwjaar": 4.8
   },
-  "score": 60.5,
+  "score": 60.6,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -10080,7 +10146,7 @@
   "source_module": "car_gr",
   "price_prev": 18000,
   "first_seen": "2026-11-14",
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "active": true,
   "dup_of": null,
   "also_on": [],
@@ -11009,10 +11075,10 @@
    "motor": 14.4,
    "staat": 7.8,
    "km": 4.5,
-   "prijs": 4.1,
+   "prijs": 4.2,
    "bouwjaar": 5.4
   },
-  "score": 60.2,
+  "score": 60.3,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -11553,10 +11619,10 @@
    "motor": 14.4,
    "staat": 6.0,
    "km": 6.9,
-   "prijs": 5.4,
+   "prijs": 5.5,
    "bouwjaar": 6.0
   },
-  "score": 62.7,
+  "score": 62.8,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -11620,10 +11686,10 @@
    "motor": 14.4,
    "staat": 6.0,
    "km": 2.5,
-   "prijs": 2.8,
+   "prijs": 2.9,
    "bouwjaar": 5.4
   },
-  "score": 55.1,
+  "score": 55.2,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -12441,7 +12507,7 @@
   "source_module": "car_gr",
   "price_prev": null,
   "first_seen": "2026-11-10",
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "active": true,
   "dup_of": null,
   "also_on": [],
@@ -12931,10 +12997,10 @@
    "motor": 14.4,
    "staat": 7.8,
    "km": 5.6,
-   "prijs": 5.0,
+   "prijs": 5.1,
    "bouwjaar": 6.0
   },
-  "score": 62.8,
+  "score": 62.9,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -13761,7 +13827,7 @@
   "source_module": "car_gr",
   "price_prev": null,
   "first_seen": "2026-11-07",
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "active": true,
   "dup_of": null,
   "also_on": [],
@@ -15419,10 +15485,10 @@
    "motor": 14.4,
    "staat": 7.8,
    "km": 6.9,
-   "prijs": 4.1,
+   "prijs": 4.2,
    "bouwjaar": 5.4
   },
-  "score": 62.6,
+  "score": 62.7,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -15947,10 +16013,10 @@
    "motor": 14.4,
    "staat": 6.0,
    "km": 6.4,
-   "prijs": 6.6,
+   "prijs": 6.7,
    "bouwjaar": 6.0
   },
-  "score": 63.4,
+  "score": 63.5,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -16417,10 +16483,10 @@
    "motor": 14.4,
    "staat": 6.0,
    "km": 4.5,
-   "prijs": 4.1,
+   "prijs": 4.2,
    "bouwjaar": 5.4
   },
-  "score": 58.4,
+  "score": 58.5,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -16496,10 +16562,10 @@
    "motor": 14.4,
    "staat": 6.0,
    "km": 4.2,
-   "prijs": 5.4,
+   "prijs": 5.5,
    "bouwjaar": 5.4
   },
-  "score": 59.4,
+  "score": 59.5,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -16575,10 +16641,10 @@
    "motor": 14.4,
    "staat": 6.0,
    "km": 9.2,
-   "prijs": 1.4,
+   "prijs": 1.5,
    "bouwjaar": 6.0
   },
-  "score": 61.0,
+  "score": 61.1,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -17231,10 +17297,10 @@
    "motor": 14.4,
    "staat": 6.0,
    "km": 4.8,
-   "prijs": 4.7,
+   "prijs": 4.8,
    "bouwjaar": 5.4
   },
-  "score": 59.3,
+  "score": 59.4,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -17494,10 +17560,10 @@
    "motor": 14.4,
    "staat": 6.0,
    "km": 9.2,
-   "prijs": 1.4,
+   "prijs": 1.5,
    "bouwjaar": 6.0
   },
-  "score": 61.0,
+  "score": 61.1,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -18113,10 +18179,10 @@
    "motor": 14.4,
    "staat": 6.0,
    "km": 5.1,
-   "prijs": 5.6,
+   "prijs": 5.7,
    "bouwjaar": 6.0
   },
-  "score": 61.1,
+  "score": 61.2,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -18876,10 +18942,10 @@
    "motor": 14.4,
    "staat": 9.6,
    "km": 6.6,
-   "prijs": 2.1,
+   "prijs": 2.2,
    "bouwjaar": 4.8
   },
-  "score": 61.5,
+  "score": 61.6,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -20235,7 +20301,7 @@
   "source_module": "car_gr",
   "price_prev": null,
   "first_seen": "2026-10-26",
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "active": true,
   "dup_of": null,
   "also_on": [],
@@ -21296,10 +21362,10 @@
    "motor": 14.4,
    "staat": 7.8,
    "km": 6.7,
-   "prijs": 8.5,
+   "prijs": 8.6,
    "bouwjaar": 4.8
   },
-  "score": 66.2,
+  "score": 66.3,
   "ai_reject": false,
   "let_op": [
    "Mogelijk W123: check chassisnummer (WDB124… = W124)"
@@ -24091,10 +24157,10 @@
    "motor": 14.4,
    "staat": 7.8,
    "km": 6.8,
-   "prijs": 2.9,
+   "prijs": 3.0,
    "bouwjaar": 6.0
   },
-  "score": 61.9,
+  "score": 62.0,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -24127,7 +24193,7 @@
   "source_module": "car_gr",
   "price_prev": null,
   "first_seen": "2026-10-14",
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "active": true,
   "dup_of": null,
   "also_on": [],
@@ -24497,10 +24563,10 @@
    "motor": 14.4,
    "staat": 9.6,
    "km": 3.8,
-   "prijs": 2.9,
+   "prijs": 3.0,
    "bouwjaar": 6.0
   },
-  "score": 60.7,
+  "score": 60.8,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -27267,10 +27333,10 @@
    "motor": 14.4,
    "staat": 6.0,
    "km": 6.6,
-   "prijs": 6.7,
+   "prijs": 6.8,
    "bouwjaar": 6.0
   },
-  "score": 63.7,
+  "score": 63.8,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -28835,10 +28901,10 @@
    "motor": 14.4,
    "staat": 6.0,
    "km": 9.0,
-   "prijs": 8.4,
+   "prijs": 8.5,
    "bouwjaar": 6.0
   },
-  "score": 83.8,
+  "score": 83.9,
   "ai_reject": false,
   "let_op": [],
   "rust": {
@@ -29160,10 +29226,10 @@
    "motor": 14.4,
    "staat": 6.0,
    "km": 6.4,
-   "prijs": 2.7,
+   "prijs": 2.8,
    "bouwjaar": 6.0
   },
-  "score": 59.5,
+  "score": 59.6,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -32940,10 +33006,10 @@
    "motor": 14.4,
    "staat": 7.8,
    "km": 2.9,
-   "prijs": 8.7,
+   "prijs": 8.8,
    "bouwjaar": 5.4
   },
-  "score": 63.2,
+  "score": 63.3,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -33279,7 +33345,7 @@
   "source_module": "car_gr",
   "price_prev": 24500,
   "first_seen": "2026-10-12",
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "active": true,
   "dup_of": null,
   "also_on": [],
@@ -33345,7 +33411,7 @@
   "source_module": "car_gr",
   "price_prev": null,
   "first_seen": "2026-10-12",
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "active": true,
   "dup_of": null,
   "also_on": [],
@@ -33389,7 +33455,7 @@
   "country": "GR",
   "url": "https://www.car.gr/classifieds/cars/view/336676136-mercedes-benz-e-260",
   "title": "Mercedes-Benz E 260 1986 Αυτοματο A/C ΙΣΤΟΡΙΚΟ",
-  "price": 12000,
+  "price": 11000,
   "year": 1986,
   "mileage": 163600,
   "location": "ΠΑΤΡΑ 26332",
@@ -33409,9 +33475,9 @@
   "signals_good": [],
   "signals_bad": [],
   "source_module": "car_gr",
-  "price_prev": null,
+  "price_prev": 12000,
   "first_seen": "2026-10-12",
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "active": true,
   "dup_of": null,
   "also_on": [],
@@ -33475,7 +33541,7 @@
   "source_module": "car_gr",
   "price_prev": null,
   "first_seen": "2026-10-12",
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "active": true,
   "dup_of": null,
   "also_on": [],
@@ -33539,7 +33605,7 @@
   "source_module": "car_gr",
   "price_prev": null,
   "first_seen": "2026-10-12",
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "active": true,
   "dup_of": null,
   "also_on": [],
@@ -33603,7 +33669,7 @@
   "source_module": "car_gr",
   "price_prev": null,
   "first_seen": "2026-10-12",
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "active": true,
   "dup_of": null,
   "also_on": [],
@@ -33631,11 +33697,11 @@
    "motor": 14.4,
    "staat": 6.0,
    "km": 4.5,
-   "prijs": 2.4,
+   "prijs": 2.5,
    "bouwjaar": 6.0,
    "al op LPG": 3
   },
-  "score": 60.3,
+  "score": 60.4,
   "ai_reject": false,
   "let_op": [
    "LPG-installatie: keuring en tankdatum checken"
@@ -33670,7 +33736,7 @@
   "source_module": "car_gr",
   "price_prev": null,
   "first_seen": "2026-10-12",
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "active": true,
   "dup_of": null,
   "also_on": [],
@@ -33736,7 +33802,7 @@
   "source_module": "car_gr",
   "price_prev": null,
   "first_seen": "2026-10-12",
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "active": true,
   "dup_of": null,
   "also_on": [],
@@ -33802,7 +33868,7 @@
   "source_module": "car_gr",
   "price_prev": null,
   "first_seen": "2026-10-12",
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "active": true,
   "dup_of": null,
   "also_on": [],
@@ -33868,7 +33934,7 @@
   "source_module": "car_gr",
   "price_prev": null,
   "first_seen": "2026-10-12",
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "active": true,
   "dup_of": null,
   "also_on": [],
@@ -33939,7 +34005,7 @@
   "source_module": "car_gr",
   "price_prev": 3500,
   "first_seen": "2026-10-12",
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "active": true,
   "dup_of": null,
   "also_on": [],
@@ -34003,7 +34069,7 @@
   "source_module": "car_gr",
   "price_prev": null,
   "first_seen": "2026-10-12",
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "active": true,
   "dup_of": null,
   "also_on": [],
@@ -34067,7 +34133,7 @@
   "source_module": "car_gr",
   "price_prev": 14000,
   "first_seen": "2026-10-12",
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "active": true,
   "dup_of": null,
   "also_on": [],
@@ -34138,7 +34204,7 @@
   "source_module": "car_gr",
   "price_prev": null,
   "first_seen": "2026-10-12",
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "active": true,
   "dup_of": null,
   "also_on": [],
@@ -34239,10 +34305,10 @@
    "motor": 14.4,
    "staat": 7.8,
    "km": 7.5,
-   "prijs": 6.8,
+   "prijs": 6.9,
    "bouwjaar": 4.8
   },
-  "score": 65.3,
+  "score": 65.4,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -35302,10 +35368,10 @@
    "motor": 14.4,
    "staat": 6.0,
    "km": 4.7,
-   "prijs": 1.6,
+   "prijs": 1.7,
    "bouwjaar": 6.0
   },
-  "score": 56.7,
+  "score": 56.8,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -36289,7 +36355,7 @@
   "source_module": "car_gr",
   "price_prev": null,
   "first_seen": "2026-10-12",
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "active": true,
   "dup_of": null,
   "also_on": [],
@@ -39003,10 +39069,10 @@
    "motor": 14.4,
    "staat": 6.0,
    "km": 1.4,
-   "prijs": 7.2,
+   "prijs": 7.3,
    "bouwjaar": 6.0
   },
-  "score": 59.0,
+  "score": 59.1,
   "ai_reject": false,
   "let_op": [
    "Hoge kilometerstand"
@@ -40972,10 +41038,10 @@
    "motor": 14.4,
    "staat": 6.0,
    "km": 6.9,
-   "prijs": 7.2,
+   "prijs": 7.3,
    "bouwjaar": 6.0
   },
-  "score": 64.5,
+  "score": 64.6,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -45645,10 +45711,10 @@
    "motor": 14.4,
    "staat": 6.0,
    "km": 7.1,
-   "prijs": 8.1,
+   "prijs": 8.2,
    "bouwjaar": 6.0
   },
-  "score": 65.6,
+  "score": 65.7,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -46285,10 +46351,10 @@
    "motor": 14.4,
    "staat": 6.0,
    "km": 0.0,
-   "prijs": 8.5,
+   "prijs": 8.6,
    "bouwjaar": 6.0
   },
-  "score": 58.9,
+  "score": 59.0,
   "ai_reject": false,
   "let_op": [
    "Hoge kilometerstand"
@@ -46893,10 +46959,10 @@
    "motor": 14.4,
    "staat": 9.6,
    "km": 6.9,
-   "prijs": 7.2,
+   "prijs": 7.3,
    "bouwjaar": 6.0
   },
-  "score": 84.1,
+  "score": 84.2,
   "ai_reject": false,
   "let_op": [],
   "rust": {
@@ -49105,10 +49171,10 @@
    "motor": 14.4,
    "staat": 7.8,
    "km": 3.1,
-   "prijs": 7.6,
+   "prijs": 7.7,
    "bouwjaar": 6.0
   },
-  "score": 62.9,
+  "score": 63.0,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -50323,10 +50389,10 @@
    "motor": 14.4,
    "staat": 6.0,
    "km": 10.9,
-   "prijs": 7.6,
+   "prijs": 7.7,
    "bouwjaar": 6.0
   },
-  "score": 68.9,
+  "score": 69.0,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -51886,10 +51952,10 @@
    "motor": 14.4,
    "staat": 6.0,
    "km": 7.7,
-   "prijs": 1.4,
+   "prijs": 1.5,
    "bouwjaar": 6.0
   },
-  "score": 59.5,
+  "score": 59.6,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -61922,10 +61988,10 @@
    "motor": 14.4,
    "staat": 6.0,
    "km": 7.8,
-   "prijs": 7.9,
+   "prijs": 8.0,
    "bouwjaar": 5.4
   },
-  "score": 65.5,
+  "score": 65.6,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -61986,10 +62052,10 @@
    "motor": 14.4,
    "staat": 6.0,
    "km": 9.2,
-   "prijs": 0.1,
+   "prijs": 0.2,
    "bouwjaar": 6.0
   },
-  "score": 59.7,
+  "score": 59.8,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -62950,10 +63016,10 @@
    "motor": 14.4,
    "staat": 9.6,
    "km": 3.8,
-   "prijs": 2.8,
+   "prijs": 2.9,
    "bouwjaar": 6.0
   },
-  "score": 60.6,
+  "score": 60.7,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -65193,10 +65259,10 @@
    "motor": 14.4,
    "staat": 7.8,
    "km": 5.3,
-   "prijs": 4.6,
+   "prijs": 4.7,
    "bouwjaar": 6.0
   },
-  "score": 62.1,
+  "score": 62.2,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -66036,10 +66102,10 @@
    "motor": 14.4,
    "staat": 6.0,
    "km": 4.4,
-   "prijs": 5.3,
+   "prijs": 5.4,
    "bouwjaar": 4.8
   },
-  "score": 58.9,
+  "score": 59.0,
   "ai_reject": false,
   "let_op": [
    "Mogelijk W123: check chassisnummer (WDB124… = W124)"
@@ -66773,10 +66839,10 @@
    "motor": 14.4,
    "staat": 6.0,
    "km": 4.5,
-   "prijs": 5.9,
+   "prijs": 6.0,
    "bouwjaar": 6.0
   },
-  "score": 60.8,
+  "score": 60.9,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -67131,10 +67197,10 @@
    "motor": 14.4,
    "staat": 6.0,
    "km": 8.2,
-   "prijs": 1.6,
+   "prijs": 1.7,
    "bouwjaar": 5.4
   },
-  "score": 59.6,
+  "score": 59.7,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -68003,10 +68069,10 @@
    "motor": 14.4,
    "staat": 6.0,
    "km": 7.1,
-   "prijs": 7.9,
+   "prijs": 8.0,
    "bouwjaar": 6.0
   },
-  "score": 65.4,
+  "score": 65.5,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -68135,10 +68201,10 @@
    "motor": 14.4,
    "staat": 7.8,
    "km": 2.1,
-   "prijs": 4.0,
+   "prijs": 4.1,
    "bouwjaar": 6.0
   },
-  "score": 58.3,
+  "score": 58.4,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -68939,10 +69005,10 @@
    "motor": 14.4,
    "staat": 6.0,
    "km": 5.7,
-   "prijs": 7.3,
+   "prijs": 7.4,
    "bouwjaar": 5.4
   },
-  "score": 62.8,
+  "score": 62.9,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -69675,10 +69741,10 @@
    "motor": 14.4,
    "staat": 6.0,
    "km": 3.3,
-   "prijs": 2.7,
+   "prijs": 2.8,
    "bouwjaar": 5.4
   },
-  "score": 55.8,
+  "score": 55.9,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -71088,10 +71154,10 @@
    "motor": 14.4,
    "staat": 6.0,
    "km": 9.2,
-   "prijs": 1.4,
+   "prijs": 1.5,
    "bouwjaar": 6.0
   },
-  "score": 61.0,
+  "score": 61.1,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -71604,10 +71670,10 @@
    "motor": 14.4,
    "staat": 7.8,
    "km": 6.9,
-   "prijs": 4.1,
+   "prijs": 4.2,
    "bouwjaar": 5.4
   },
-  "score": 62.6,
+  "score": 62.7,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -71807,10 +71873,10 @@
    "motor": 14.4,
    "staat": 6.0,
    "km": 6.2,
-   "prijs": 2.8,
+   "prijs": 2.9,
    "bouwjaar": 4.8
   },
-  "score": 58.2,
+  "score": 58.3,
   "ai_reject": false,
   "let_op": [
    "Mogelijk W123: check chassisnummer (WDB124… = W124)"
@@ -72551,10 +72617,10 @@
    "motor": 14.4,
    "staat": 6.0,
    "km": 4.5,
-   "prijs": 4.1,
+   "prijs": 4.2,
    "bouwjaar": 5.4
   },
-  "score": 58.4,
+  "score": 58.5,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -72682,10 +72748,10 @@
    "motor": 14.4,
    "staat": 6.0,
    "km": 9.2,
-   "prijs": 1.4,
+   "prijs": 1.5,
    "bouwjaar": 6.0
   },
-  "score": 61.0,
+  "score": 61.1,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -73132,10 +73198,10 @@
    "motor": 14.4,
    "staat": 6.0,
    "km": 4.7,
-   "prijs": 1.6,
+   "prijs": 1.7,
    "bouwjaar": 6.0
   },
-  "score": 56.7,
+  "score": 56.8,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -73530,10 +73596,10 @@
    "motor": 14.4,
    "staat": 9.6,
    "km": 3.1,
-   "prijs": 6.7,
+   "prijs": 6.8,
    "bouwjaar": 6.0
   },
-  "score": 63.8,
+  "score": 63.9,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -75413,10 +75479,10 @@
    "motor": 14.4,
    "staat": 7.8,
    "km": 6.6,
-   "prijs": 6.7,
+   "prijs": 6.8,
    "bouwjaar": 6.0
   },
-  "score": 65.5,
+  "score": 65.6,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -75826,10 +75892,10 @@
    "motor": 14.4,
    "staat": 6.0,
    "km": 4.9,
-   "prijs": 6.5,
+   "prijs": 6.6,
    "bouwjaar": 6.0
   },
-  "score": 61.8,
+  "score": 61.9,
   "ai_reject": false,
   "let_op": [],
   "rust": null
@@ -75889,10 +75955,10 @@
    "motor": 14.4,
    "staat": 6.0,
    "km": 2.4,
-   "prijs": 7.5,
+   "prijs": 7.6,
    "bouwjaar": 6.0
   },
-  "score": 60.3,
+  "score": 60.4,
   "ai_reject": false,
   "let_op": [],
   "rust": null
