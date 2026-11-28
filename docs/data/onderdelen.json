@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T14:13:03+00:00",
+ "updated": "2026-11-28T13:29:39+00:00",
  "auto": {
   "kenteken": "57-RVV-3",
   "type": "Mercedes-Benz 250 D (W124 sedan, Mopf 0 / vormopf)",
@@ -122,6 +122,30 @@
  ],
  "treffers": [
   {
+   "id": "ka_3583908413",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/original-mercedes-w124-rueckleuchten-satz-set-swf-1248200264-top/3583908413-223-7932",
+   "title": "Original Mercedes W124 Rückleuchten Satz Set SWF 1248200264 Top",
+   "price": null,
+   "location": "16303 Schwedt (Oder)",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/df/dfae8f6f-9ee8-405d-9b8f-a7a77a651016?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Verkaufe ein komplettes Paar (links und rechts) originaler Heckleuchten für die Mercedes-Benz... · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-28",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
    "id": "mp_m2470663617",
    "source": "Marktplaats",
    "country": "NL",
@@ -142,7 +166,7 @@
    "source_module": "marktplaats",
    "first_seen": "2026-11-27",
    "price_prev": null,
-   "last_seen": "2026-11-27",
+   "last_seen": "2026-11-28",
    "active": true
   },
   {
@@ -166,7 +190,7 @@
    "source_module": "marktplaats",
    "first_seen": "2026-11-27",
    "price_prev": null,
-   "last_seen": "2026-11-27",
+   "last_seen": "2026-11-28",
    "active": true
   },
   {
@@ -175,22 +199,22 @@
    "country": "NL",
    "url": "https://www.marktplaats.nl/v/auto-onderdelen/interieur-en-bekleding/m2470646805-mercdes-w124-bekleding",
    "title": "Mercdes W124 bekleding",
-   "price": 65,
+   "price": null,
    "location": "Vries",
    "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/9ee849b7-314f-4e44-9efd-954096e24ded?rule=ecg_mp_eps$_82.jpg",
    "attrs": {
     "categoryId": 2913,
-    "priceType": "FIXED",
+    "priceType": "SEE_DESCRIPTION",
     "gearbox": null
    },
-   "text": "Stoelen + achterbank w124. Stoffen interieur conditie gebruikt slijtplek linker stoel rechter stoel gaaf de r stoel hoes om te zetten naar linker kant. Bekleding is licht vervuilt.",
+   "text": "Stoelen + achterbank w124. Stoffen interieur conditie gebruikt slijtplek linker stoel rechter stoel gaaf de r stoel hoes om te zetten naar linker kant. Bekleding is licht vervuilt.bieden vanaf 65.",
    "onderdelen": [
     "beplanking-achterscherm"
    ],
    "source_module": "marktplaats",
    "first_seen": "2026-11-27",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
+   "price_prev": 65,
+   "last_seen": "2026-11-28",
    "active": true
   },
   {
@@ -212,7 +236,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-26",
    "price_prev": null,
-   "last_seen": "2026-11-27",
+   "last_seen": "2026-11-28",
    "active": true
   },
   {
@@ -237,7 +261,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-25",
    "price_prev": null,
-   "last_seen": "2026-11-27",
+   "last_seen": "2026-11-28",
    "active": true
   },
   {
@@ -261,7 +285,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-25",
    "price_prev": null,
-   "last_seen": "2026-11-27",
+   "last_seen": "2026-11-28",
    "active": true
   },
   {
@@ -285,7 +309,7 @@
    "source_module": "marktplaats",
    "first_seen": "2026-11-25",
    "price_prev": null,
-   "last_seen": "2026-11-27",
+   "last_seen": "2026-11-28",
    "active": true
   },
   {
@@ -309,7 +333,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-24",
    "price_prev": null,
-   "last_seen": "2026-11-27",
+   "last_seen": "2026-11-28",
    "active": true
   },
   {
@@ -334,7 +358,7 @@
    "source_module": "kleinanzeigen",
    "first_seen": "2026-11-24",
    "price_prev": null,
-   "last_seen": "2026-11-27",
+   "last_seen": "2026-11-28",
    "active": true
   },
   {
@@ -359,7 +383,2095 @@
    "source_module": "marktplaats",
    "first_seen": "2026-11-24",
    "price_prev": null,
-   "last_seen": "2026-11-27",
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3580175729",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-original-rueckleuchten/3580175729-223-1843",
+   "title": "Mercedes W124 Original Rückleuchten",
+   "price": 120,
+   "location": "59555 Lippstadt",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/04/04032a31-3dc0-48fc-91b4-0985045a75f8?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Hiermit biete ich originale Rückleuchten Satz für MB w124 an. Preis gilt für beide zusammen. Viele... · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-23",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3549508816",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/neues-set-rueckleuchten-original-mercedes-w124-limo/3549508816-223-21584",
+   "title": "Neues Set Rückleuchten original Mercedes W124 Limo",
+   "price": 325,
+   "location": "71711 Murr Württemberg",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d6/d656f58a-1129-418c-9ff0-88dc965fae35?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Verkauft wird ein neues, original Mercedes, Set Rückleuchten rechts+links, für den Mercedes W124... · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-23",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3579526900",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/w124-mercedes-rueckleuchten-ruecklichter/3579526900-223-7707",
+   "title": "W124 Mercedes Rückleuchten Rücklichter",
+   "price": 300,
+   "location": "88131 Lindau",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/83/834d809e-b5d5-4220-b560-b395f1d68d77?rule=$_59.AUTO",
+   "attrs": {
+    "tags": []
+   },
+   "text": "Es handelt sich um Originale Rückleuchten von Mercedes. Inklusive lampenträger. Sie wurden damals...",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-23",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3578196109",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/original-mercedes-w124-limousine-rueckleuchten-links-rechts/3578196109-223-2694",
+   "title": "Original Mercedes W124 Limousine Rückleuchten links & rechts",
+   "price": 250,
+   "location": "38640 Goslar",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/09/099e821f-777c-44a3-b034-d15532147048?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Ich biete hier ein Set originaler Rückleuchten für die Mercedes W124 Limousine an. Die Leuchten... · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-22",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3418299887",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-ruckleuchten-hella-original/3418299887-223-24596",
+   "title": "Mercedes w124 ruckleuchten hella original",
+   "price": 495,
+   "location": "52072 Aachen-Laurensberg",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ec/ec5b5329-4ea1-4ef5-9047-74073d1db869?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Original HELLA Original Rückleuchten in schwarz für den W124 WELTWEIT VERSAND Zahlung... · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-22",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3578539572",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/originale-mercedes-w124-rueckleuchten-heckleuchten-aus-jahreswagen/3578539572-223-1849",
+   "title": "Originale Mercedes w124 Rückleuchten Heckleuchten aus Jahreswagen",
+   "price": 75,
+   "location": "46395 Bocholt",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/96/960b3436-e6fb-4462-8c42-d378f6fd2b84?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Ich biete hier zwei Rückleuchten für einen Mercedes-Benz W124 an. Die Leuchten sind ein klassisches... · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-22",
+   "price_prev": 79,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3578288777",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-blinker-rueckleuchten/3578288777-223-2654",
+   "title": "Mercedes W124 Blinker Rückleuchten",
+   "price": 30,
+   "location": "27726 Worpswede",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e0/e0f4dc4e-44c1-423a-9031-da5db0c27cf6?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Weitere 124er Teile auf Anfrage Blinker Bosch rechts und links Die anderen beiden sind von... · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-22",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3173299357",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-e-klasse-rueckleuchte-a1248200164/3173299357-223-8461",
+   "title": "Mercedes W124 E-Klasse Rückleuchte A1248200164",
+   "price": 100,
+   "location": "73269 Hochdorf",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/52/5258e5e7-fa75-4fd5-9afd-23733468161c?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "ZP AUTOTEILE - MIT ÜBER 100.000 AUTOTEILEN EINER DER GRÖẞTEN GEBRAUCHT- UND NEUWAGENTEILEVERKÄUFER... · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-22",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3575771176",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/w124-rueckleuchten/3575771176-223-9213",
+   "title": "W124 Rückleuchten",
+   "price": 40,
+   "location": "88045 Friedrichshafen",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5a/5a4bb913-1b7b-4ecb-9b5b-e06bc730b7d6?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Zustand gut · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-22",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "mp_m2468444676",
+   "source": "Marktplaats",
+   "country": "NL",
+   "url": "https://www.marktplaats.nl/v/auto-onderdelen/verlichting/m2468444676-mercedes-w124-sedan-achterlicht-links-of-rechts",
+   "title": "Mercedes W124 Sedan Achterlicht Links of Rechts",
+   "price": 50,
+   "location": "Cuijk",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/ca48bb1e-bce7-49eb-ac1a-55ad22a1e57f?rule=ecg_mp_eps$_82.jpg",
+   "attrs": {
+    "categoryId": 2921,
+    "priceType": "FIXED",
+    "gearbox": null
+   },
+   "text": "Mercedes w124 sedan achterlicht links of rechts mercedes w124 sedan achterlicht links of rechts prijzen vanaf €35 tot €50 de afgebeelde kosten €50 per stuk zie andere advertentie voor de goedkopere achterlichten extra product informa...",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "marktplaats",
+   "first_seen": "2026-11-22",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "mp_m2468444681",
+   "source": "Marktplaats",
+   "country": "NL",
+   "url": "https://www.marktplaats.nl/v/auto-onderdelen/verlichting/m2468444681-mercedes-w124-sedan-achterlicht-links-of-rechts",
+   "title": "Mercedes W124 Sedan Achterlicht Links of Rechts",
+   "price": 35,
+   "location": "Cuijk",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/42d7e799-5e28-446a-bd8e-20297197ffd1?rule=ecg_mp_eps$_82.jpg",
+   "attrs": {
+    "categoryId": 2921,
+    "priceType": "FIXED",
+    "gearbox": null
+   },
+   "text": "Mercedes w124 sedan achterlicht links of rechts mercedes w124 sedan achterlicht links of rechts prijzen vanaf €35 tot €50 de afgebeelde kosten €35 per stuk zie andere advertentie voor de duurdere achterlichten extra product informatie:...",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "marktplaats",
+   "first_seen": "2026-11-22",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3577733608",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-abdeckung-wagenheber-abdeckkappe-1246980330/3577733608-223-1393",
+   "title": "Mercedes W124 Abdeckung Wagenheber Abdeckkappe 1246980330",
+   "price": 24,
+   "location": "52391 Vettweiß",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ca/cafe8d88-434f-475b-8d66-38b324c00b17?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Mercedes W124 Abdeckung Wagenheber Abdeckkappe 1246980330 24 € inklusive Versand Artikel Zustand... · Versand möglich",
+   "onderdelen": [
+    "krikdop"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-21",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3577431201",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-w124-rueckleuchten-set-links-rechts/3577431201-223-5319",
+   "title": "Mercedes-Benz W124 Rückleuchten Set links + rechts",
+   "price": 50,
+   "location": "55126 Mainz",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/a4/a4473bb3-f595-404c-9d7c-6a1fd9633038?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Direkt kaufen",
+     "Versand möglich"
+    ]
+   },
+   "text": "Ich biete hier ein Set bestehend aus zwei gebrauchten Rückleuchten für einen Mercedes-Benz W124 an.... · Direkt kaufen · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-21",
+   "price_prev": 60,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3578020280",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-w124-rueckleuchten-und-blinker/3578020280-223-2549",
+   "title": "Mercedes Benz W124 Rückleuchten und Blinker",
+   "price": 175,
+   "location": "31840 Hessisch Oldendorf",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f8/f8943fe2-c403-4722-9159-bb7ffa441001?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Ich biete hier ein Set bestehend aus zwei Rückleuchten sowie drei passenden Blinkern für einen... · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-21",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3574373565",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/beplankung-saccobrett-hinten-links-1246901740-mercedes-benz-w124/3574373565-223-9245",
+   "title": "Beplankung Saccobrett hinten links 1246901740 Mercedes Benz W124",
+   "price": 12,
+   "location": "74072 Heilbronn",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e5/e51e7449-8720-4d79-ac09-330bf1530927?rule=$_59.AUTO",
+   "attrs": {
+    "tags": []
+   },
+   "text": "Biete eine Beplankung / Saccobrett hinten links für den Mercedes Benz W124 an. Teilenummer...",
+   "onderdelen": [
+    "beplanking-achterscherm"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_2961965480",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-rueckleuchte-links-limo-hella/2961965480-223-2569",
+   "title": "Mercedes W124 Rückleuchte links Limo Hella",
+   "price": 50,
+   "location": "49610 Quakenbrück",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f8/f80ee73d-4868-42db-be5f-ef7c49988782?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Mercedes W124 Rückleuchte links Limo Hella , ist heile. Andere Teile auf Lager. · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3574991847",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rueckleuchten-fuer-mercedes-w124-rechts-und-links-original-hella/3574991847-223-4348",
+   "title": "Rückleuchten für Mercedes W124 rechts und links original Hella",
+   "price": 89,
+   "location": "61231 Bad Nauheim",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/00/00cfad5d-ccad-4c6f-9d36-bd63aefe20da?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Direkt kaufen",
+     "Versand möglich"
+    ]
+   },
+   "text": "Verkaufe gut erhaltene Rückleuchten für den Mercedes W124 rechts und links, original von Hella · Direkt kaufen · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-20",
+   "price_prev": 99,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3573979725",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-rueckleuchte-hinten-links-schwarz-rot-a1248208364/3573979725-223-26911",
+   "title": "Mercedes W124 Rückleuchte hinten links schwarz-rot A1248208364",
+   "price": 75,
+   "location": "99991 Großengottern",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/65/65aa3cc8-2f98-4c8a-bc89-4c2dad44004b?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Direkt kaufen",
+     "Versand möglich"
+    ]
+   },
+   "text": "Ich biete hier eine originale Rückleuchte für die linke Seite eines Mercedes W124 an. Sie zeichnet... · Direkt kaufen · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3570354181",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-w124-rueckleuchten-set-links-und-rechts/3570354181-223-7737",
+   "title": "Mercedes-Benz W124 Rückleuchten Set links und rechts",
+   "price": 120,
+   "location": "14776 Brandenburg an der Havel",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/fa/fa7c4bdd-daab-4e7d-a35a-ee7e772229f7?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Verkaufe ein komplettes Set Originale hintere Rückleuchten für links und rechts. * 1x Rückleuchte... · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3570171614",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/original-mercedes-w124-komplett-rueckleuchten-fuer-links-rechts-neu/3570171614-223-8464",
+   "title": "Original Mercedes W124 Komplett Rückleuchten für links/rechts NEU",
+   "price": 350,
+   "location": "73230 Kirchheim unter Teck",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ad/ad3030c5-2806-41cd-97c2-0b26512fb636?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Erleben Sie die perfekte Sichtbarkeit und Sicherheit für Ihr Fahrzeug mit dem originalen Mercedes W... · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3484905320",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/w-124-rueckleuchte-heckleuchte-schlussleuchte-links-1248200164/3484905320-223-8112",
+   "title": "W 124 Rückleuchte Heckleuchte Schlussleuchte links 1248200164",
+   "price": 49,
+   "location": "72160 Horb am Neckar",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/6a/6a7c83fc-77dd-4a68-99bd-583e1bf25ad0?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Zum Verkauf steht ein originale, gebrauchte Rückleuchte links, wie auf den Bildern zu... · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3568154978",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-hella-rueckleuchte-links-hella-9el-129-763-001/3568154978-223-7660",
+   "title": "Mercedes W124 HELLA Rückleuchte links Hella 9EL 129 763-001",
+   "price": 85,
+   "location": "93077 Bad Abbach",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/97/9789b920-3771-4dd0-b8d3-65264fff6fe2?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Mercedes W124 HELLA Rückleuchte links Hella 9EL 129 763-001 Zustand wie auf den Bildern zu... · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3563721984",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/w124-linke-original-mercedes-rueckleuchte/3563721984-223-1948",
+   "title": "W124 Linke Original Mercedes Rückleuchte",
+   "price": 75,
+   "location": "44793 Bochum-Mitte",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/dc/dcdb8ade-683e-4bf7-b27f-5064a1354483?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Verkaufe hier eine Originale Mercedes W124 Rückleuchte für die Linke Seite. Die Rechte auf dem Bild... · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_2976437689",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rueckleuchte-w124-links-fahrerseite/2976437689-223-22264",
+   "title": "Rückleuchte W124 links, Fahrerseite",
+   "price": 40,
+   "location": "76833 Frankweiler",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ab/ab03100d-f08a-4034-9c1a-d0e110781355?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Rückleuchte im Neuzustand, jedoch ohne Rückdeckel. Bei Rückfragen 0170 - 2922909 · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_2894506150",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-mb-db-w124-rueckleuchte-glas-rechts-und-links/2894506150-223-2036",
+   "title": "Mercedes-Benz MB DB, W124 Rückleuchte glas rechts und links",
+   "price": 50,
+   "location": "45326 Altenessen",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/90/90e28474-2802-4efc-a5a2-0a70cf4ae3a6?rule=$_59.AUTO",
+   "attrs": {
+    "tags": []
+   },
+   "text": "### **Artikelbeschreibung:** ** mercedes-Benz MB DB, W124 Rückleuchte, rechts und links neu Eine...",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_2139146905",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/ruecklicht-links-mercedes-benz-w124-0053373r38-rueckleuchte/2139146905-223-1494",
+   "title": "Rücklicht links Mercedes Benz W124 0053373r38 Rückleuchte",
+   "price": 30,
+   "location": "57234 Wilnsdorf",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/95/953d5070-0952-46af-8b87-7dac6069deb5?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Rück- & Bremsleuchtendetails ► Zustand: Gebraucht ► Einbauposition: Hinten, Links ► Hersteller:... · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3471962118",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/w-124-lampentraeger-rueckleuchte-heckleuchte-links-1248200777/3471962118-223-8112",
+   "title": "W 124 Lampenträger Rückleuchte Heckleuchte links 1248200777",
+   "price": 54,
+   "location": "72160 Horb am Neckar",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/91/9143a35a-43ea-4179-92d0-09110ed65e7d?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Zum Verkauf steht ein originaler, gebrauchter Lampenträger der Rückleuchte links, wie auf den... · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3419931625",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rueckleuchte-ruecklicht-rechts-links-mercedes-w124-limousine/3419931625-223-7505",
+   "title": "Rückleuchte Rücklicht rechts links Mercedes W124 Limousine",
+   "price": 80,
+   "location": "95466 Weidenberg",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/58/58342283-162f-478e-8cc1-6c799c55d5b7?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Rückleuchte Rücklicht rechts links Mercedes W124 Limousine Vollfunktion Gute Zustand Versand... · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3543985537",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/hella-rueckleuchte-links-9el-129-763-001-w124/3543985537-223-1569",
+   "title": "HELLA Rückleuchte links 9EL 129 763-001 W124",
+   "price": 109,
+   "location": "42283 Barmen",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/27/27a32bd7-2303-4d50-8ff0-b0d6a7c4b861?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Biete eine neuwertige Rückleuchte von Hella für Mercedes Benz an. Nr. 9EL 129... · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3543985205",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/hella-rueckleuchte-mit-lampentraeger-links-2vp-004-686-111-w124/3543985205-223-1569",
+   "title": "HELLA Rückleuchte mit Lampenträger links 2VP 004 686-111 W124",
+   "price": 119,
+   "location": "42283 Barmen",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/1e/1e42539a-4c88-4f7c-8d49-b28752d13f40?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Biete eine neuwertige Rückleuchte mit Lampenträger von Hella für Mercedes Benz an. Nr. 2VP 004... · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3538954553",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/original-hella-rueckleuchte-links-merc-w124-neu-2vp-004-686-131/3538954553-223-2104",
+   "title": "Original HELLA Rückleuchte links Merc. W124 neu 2VP 004 686-131",
+   "price": 129,
+   "location": "40625 Gerresheim",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/57/57da1865-7851-47bf-8715-1a7cc9753ed3?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Verkaufe eine originale HELLA-Rückleuchte für die linke Fahrzeugseite eines Mercedes-Benz... · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3536530200",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-rueckleuchte-links-neu-440-1910l-ue/3536530200-223-16909",
+   "title": "Mercedes W124 Rückleuchte links NEU 440-1910L-UE",
+   "price": 35,
+   "location": "94469 Deggendorf",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/89/8967cbdd-e0b0-4a8a-9560-30dc4d207a91?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Direkt kaufen",
+     "Versand möglich"
+    ]
+   },
+   "text": "Verkaufe eine neue, unbenutzte Rückleuchte für den Mercedes-Benz W124. Die Rückleuchte wurde... · Direkt kaufen · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3531885805",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-ruecklichte-rueckleuchte-hinten-w124-rechts-links/3531885805-223-5230",
+   "title": "Mercedes Rücklichte Rückleuchte Hinten W124 rechts Links",
+   "price": 260,
+   "location": "76726 Germersheim",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/fc/fc79dc80-910c-4ac6-843a-43bf5c4a5bb4?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Mercedes Rücklichte Rückleuchte Hinten W124 rechts Links · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3531885221",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-ruecklichte-rueckleuchte-hinten-w124-rechts-links/3531885221-223-5230",
+   "title": "Mercedes Rücklichte Rückleuchte Hinten W124 rechts Links",
+   "price": 240,
+   "location": "76726 Germersheim",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f3/f3ac9765-f87d-4d3c-b41d-286914f750cb?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Mercedes Rücklichte Rückleuchte Hinten W124 rechts Links · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3508800040",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-hella-rueckleuchten-schwarz-rechts-und-links/3508800040-223-7436",
+   "title": "Mercedes W124 HELLA Rückleuchten Schwarz rechts und links",
+   "price": 297,
+   "location": "63741 Aschaffenburg",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5e/5e6e6f17-22a5-4bef-b5d0-99d12e32eaa1?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Direkt kaufen",
+     "Versand möglich"
+    ]
+   },
+   "text": "Mercedes W124 Hella original Rückleuchten Schwarz rechts und links, Linke ist in gute Zustand ,... · Direkt kaufen · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3497718543",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-rueckleuchten-links-und-rechts/3497718543-223-733",
+   "title": "Mercedes W124 Rückleuchten links und rechts",
+   "price": 89,
+   "location": "24963 Tarp",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/a0/a029acbb-da4f-468f-8adf-47ab84294ec6?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Guter bis sehr guter Zustand , ein Mikrospliss rechts am Blinkerglas, inkl. Lampenträger und Deckel. · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3460926387",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-rueckleuchte-hinten-links-bj-1985-1993/3460926387-223-1918",
+   "title": "Mercedes W124 Rückleuchte hinten links BJ:1985-1993",
+   "price": 20,
+   "location": "47877 Willich",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/6b/6b23e05a-c3d6-4d99-ac9c-380e67946250?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Zu Verkaufen Mercedes-Benz W124 Rückleuchte hinten links für W124 Limousine. Baujahr:... · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3436118071",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-rueckleuchte-links-hella-0053373r38/3436118071-223-23765",
+   "title": "Mercedes W124 Rückleuchte Links hella 0053373R38",
+   "price": 50,
+   "location": "53225 Vilich",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/44/44d65dfa-e582-4af3-95a2-bda78fd17481?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Hallo da mein Konto gehackt wurde, musste ich ein neues bei ebay Kleinanzeigen eröffnene, um die... · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3406409326",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mb-w124-rueckleuchten-links-rechts/3406409326-223-3437",
+   "title": "MB W124 RÜCKLEUCHTEN links+rechts",
+   "price": 40,
+   "location": "13589 Spandau",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4d/4d0d84fe-b7fa-4821-a37b-168384c49625?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "W124 Rückleuchte links+rechts (rechts auf Anfrage auch vorhanden) Für Bj. bis... · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_2960129729",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-limousine-ruecklicht-rueckleuchte-r-a1248200264/2960129729-223-4570",
+   "title": "Mercedes W124 Limousine Rücklicht Rückleuchte R A1248200264",
+   "price": 230,
+   "location": "63179 Obertshausen",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/cd/cdb3ef22-76a2-4197-bbae-7ca240ae1335?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Zum Verkauf steht hier ein/e Original Mercedes-Benz W124 Limousine Rücklicht Rückleuchte... · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3574897521",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-schwarze-rueckleuchten-hella/3574897521-223-1556",
+   "title": "Mercedes W124 schwarze Rückleuchten Hella",
+   "price": 400,
+   "location": "45549 Sprockhövel",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d1/d111bbb0-5cd9-4844-816d-be25feb5e36d?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "W124 schwarze Rückleuchten der Firma Hella , gebraucht in sehr guten, neuwertigen Zustand ! Keine... · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3574064979",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w-124-rueckleuchte-schwarz-nos-original-selten/3574064979-223-2492",
+   "title": "Mercedes W 124 Rückleuchte schwarz NOS original selten",
+   "price": 125,
+   "location": "48455 Bad Bentheim",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/12/129d0378-de0e-487f-8ddf-910d01177dd4?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Mercedes W 124 Rückleuchte schwarz NOS original selten , guter Zustand. Bei Fragen gerne melden · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3012381027",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/original-mercedes-w124-e-klasse-rueckleuchte-abdichtrahmen-neu-/3012381027-223-8375",
+   "title": "Original Mercedes W124 E-Klasse Rückleuchte Abdichtrahmen ! NEU !",
+   "price": null,
+   "location": "74626 Bretzfeld",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/6b/6b8a245f-5b4a-4ad5-9530-0ae7c0ccef39?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Zum Verkaufen Original 1x Rückleuchte Dichtung Abdichtrahmen Rechts oder Links Mercedes-Benz W124... · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3572505929",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rueckleuchten-mercedes-e-klasse-w124-limousine-1985-1993/3572505929-223-2061",
+   "title": "Rückleuchten Mercedes E-Klasse W124 Limousine 1985-1993",
+   "price": 100,
+   "location": "45472 Mülheim (Ruhr)",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e4/e4ecdebe-c9f7-41b2-bb1c-c74f95984fd8?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "StahlPunkt Autoteile Schenkendorfstraße 29 a 45472 Mülheim an der Ruhr Weitere Fragen gerne melden · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3572504186",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/w124-rueckleuchte-schwarz-fifft/3572504186-223-5416",
+   "title": "W124 Rückleuchte schwarz FIFFT",
+   "price": 275,
+   "location": "56579 Rengsdorf",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/28/286d7535-631f-4e5e-9bc6-2585a56149b3?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Biete zum Verkauf schwarze Rückleuchte der Marke FIFFT an. Guter Zustand ohne Beschädigungen mit... · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3571767915",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-w124-rueckleuchten-set/3571767915-223-1577",
+   "title": "Mercedes Benz W124 Rückleuchten Set",
+   "price": 55,
+   "location": "42349 Cronenberg",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7e/7e8d4236-451b-41d6-927e-d70ea60a23a6?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Ich biete hier zwei Rückleuchten für einen Mercedes-Benz W124 an. Die Leuchten befinden sich in... · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_2904074147",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/rueckleuchten-rot-schw-blinker-weiss-fuer-mercedes-w124/2904074147-223-961",
+   "title": "Rückleuchten rot/schw. + Blinker weiß für Mercedes W124",
+   "price": 112,
+   "location": "51147 Porz",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/05/05260c15-b952-49a1-b70b-29c2c449202c?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Dieses Angebot beinhaltet ein neues E-Klasse Set Rückleuchten rot/schw. + Blinker weiß passend... · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "mp_m2466548420",
+   "source": "Marktplaats",
+   "country": "NL",
+   "url": "https://www.marktplaats.nl/v/auto-onderdelen/carrosserie-en-plaatwerk/m2466548420-mercedes-w124-facelift-achterlicht-links-achter",
+   "title": "mercedes w124 facelift achterlicht links achter",
+   "price": null,
+   "location": "Brakel",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/68e6c5cc-c3a6-45da-9800-79554c0e2c2a?rule=ecg_mp_eps$_82.jpg",
+   "attrs": {
+    "categoryId": 2909,
+    "priceType": "FAST_BID",
+    "gearbox": null
+   },
+   "text": "In nette staat en hier overbodig. Alleen links",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "marktplaats",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "mp_m2464050895",
+   "source": "Marktplaats",
+   "country": "NL",
+   "url": "https://www.marktplaats.nl/v/auto-onderdelen/verlichting/m2464050895-nos-achterlicht-links-r-s-voor-mercedes-benz-w124",
+   "title": "NOS achterlicht links R&S voor Mercedes-Benz W124",
+   "price": 325,
+   "location": "Schagen",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/7bbba7de-5138-4bd7-81b8-9834c9a76239?rule=ecg_mp_eps$_82.jpg",
+   "attrs": {
+    "categoryId": 2921,
+    "priceType": "FIXED",
+    "gearbox": null
+   },
+   "text": "Nos achterlicht links r&s voor mercedes-benz w124 nos achterlicht links r&s voor mercedes-benz w124 mopf 0+1 dit onderdeel is een nieuw en origineel mercedes-benz onderdeel uit oude voorraad. Origineel onderdeelnummer: a1248200164 onderdeelnu...",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "marktplaats",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "mp_m2463182943",
+   "source": "Marktplaats",
+   "country": "NL",
+   "url": "https://www.marktplaats.nl/v/auto-onderdelen/verlichting/m2463182943-mb-w124-sedan-2-5d-achterlicht-links-donker-95",
+   "title": "MB W124 Sedan 2.5D Achterlicht Links donker '95",
+   "price": 65,
+   "location": "Cuijk",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/75622ebc-6874-4ca1-830f-2876e7fccb60?rule=ecg_mp_eps$_82.jpg",
+   "attrs": {
+    "categoryId": 2921,
+    "priceType": "FIXED",
+    "gearbox": null
+   },
+   "text": "Mb w124 sedan 2.5D achterlicht links donker '95 mb w124 sedan 2.5D achterlicht links donker '95 dit onderdeel past op de volgende uitvoeringen: mercedes-benz e-klasse (w124) 2/1/1993 tot 6/1/1996 e 200 (124.019) 136 Cc 100 kw 6/1/1993...",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "marktplaats",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "mp_m1390779681",
+   "source": "Marktplaats",
+   "country": "NL",
+   "url": "https://www.marktplaats.nl/v/auto-onderdelen/verlichting/m1390779681-achterlichten-mercedes-w124",
+   "title": "ACHTERLICHTEN MERCEDES W124",
+   "price": 80,
+   "location": "Geerdijk",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/7c/7ce5e796-0162-4cb8-a5b3-7bd00356d6ed?rule=ecg_mp_eps$_82.jpg",
+   "attrs": {
+    "categoryId": 2921,
+    "priceType": "FIXED",
+    "gearbox": null
+   },
+   "text": "Achterlichten mercedes w 124. Links + rechts prijs per stuk. Word niet verstuurd.",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "marktplaats",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "mp_m2446975504",
+   "source": "Marktplaats",
+   "country": "NL",
+   "url": "https://www.marktplaats.nl/v/auto-onderdelen/brandstofsystemen/m2446975504-mercedes-w124-onderdelen-grill-knipperlichten-achterlichten",
+   "title": "Mercedes w124 onderdelen grill knipperlichten achterlichten",
+   "price": 40,
+   "location": "Echt",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/37577861-617f-4b49-806a-56941f8559cf?rule=ecg_mp_eps$_82.jpg",
+   "attrs": {
+    "categoryId": 2908,
+    "priceType": "MIN_BID",
+    "gearbox": null
+   },
+   "text": "Whatsapp +32 456 06 17 17 te koop aangeboden: diverse onderdelen voor de mercedes-benz w124. Op de foto: w124 grill 40 euro per stuk voorste knipperlichten – 5 a 10 euro per stuk achterlichten links en rechts 120 euro ophalen in maasmechelen",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "marktplaats",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "mp_m2453735546",
+   "source": "Marktplaats",
+   "country": "NL",
+   "url": "https://www.marktplaats.nl/v/auto-onderdelen/verlichting/m2453735546-mercedes-benz-w124-achterlichten-set",
+   "title": "Mercedes-Benz W124 Achterlichten (Set)",
+   "price": 100,
+   "location": "Azewijn",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/2838b078-ff32-4c33-8654-858bc7df47fc?rule=ecg_mp_eps$_82.jpg",
+   "attrs": {
+    "categoryId": 2921,
+    "priceType": "MIN_BID",
+    "gearbox": null
+   },
+   "text": "Set van twee originele mercedes-benz w124 achterlichten. Deze achterlichten zijn gebruikt, maar verkeren in goede staat en zijn direct te monteren. Ideaal voor vervanging of als reserveonderdeel voor uw w124 model. Het onderdeelnummer is 124 820 01 6...",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "marktplaats",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "mp_m2459265947",
+   "source": "Marktplaats",
+   "country": "NL",
+   "url": "https://www.marktplaats.nl/v/auto-onderdelen/verlichting/m2459265947-set-originele-mercedes-w124-achterlichten",
+   "title": "Set Originele Mercedes W124 Achterlichten",
+   "price": null,
+   "location": "Arnhem",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/2aa54b4e-8b7c-4ba0-9e74-9e73f86fcc7f?rule=ecg_mp_eps$_82.jpg",
+   "attrs": {
+    "categoryId": 2921,
+    "priceType": "FAST_BID",
+    "gearbox": null
+   },
+   "text": "Mooie set originele achterlichten voor een mercedes w124",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "marktplaats",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "mp_m2458774192",
+   "source": "Marktplaats",
+   "country": "NL",
+   "url": "https://www.marktplaats.nl/v/auto-onderdelen/ophanging-en-onderstel/m2458774192-alle-onderdelen-mercedes-w124-230e",
+   "title": "Alle onderdelen mercedes w124 230E",
+   "price": null,
+   "location": "Lisse",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/687cc630-9fab-4e62-b0a1-28ffb29dccdd?rule=ecg_mp_eps$_82.jpg",
+   "attrs": {
+    "categoryId": 2923,
+    "priceType": "FAST_BID",
+    "gearbox": null
+   },
+   "text": "Te koop alle onderdelen van deze w124 sedan deuren/achterklep/motorkap roestvrij kleurnummer 199 abs delen ruitenwis mechanisme achterlichten (verkocht) bumpers sierlijsten (verkocht) complete trekhaak merk oris met afneembare haak incl de orginele b...",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "marktplaats",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "mp_m2444962187",
+   "source": "Marktplaats",
+   "country": "NL",
+   "url": "https://www.marktplaats.nl/v/auto-onderdelen/verlichting/m2444962187-mercedes-w124-achterlichten-hella-zwart",
+   "title": "Mercedes w124 achterlichten hella zwart",
+   "price": null,
+   "location": "Elsloo",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/e2a5398d-6106-4a13-9e95-e5c615d46f0d?rule=ecg_mp_eps$_82.jpg",
+   "attrs": {
+    "categoryId": 2921,
+    "priceType": "SEE_DESCRIPTION",
+    "gearbox": null
+   },
+   "text": "Te koop originele smoke achterlichten zwart voor w124 ophalen of verzenden whatsapp +32 456 06 17 17",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "marktplaats",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "wb_87191",
+   "source": "W124-Board.de",
+   "country": "DE",
+   "url": "https://www.w124-board.de/teile-f188/heckleuchten-88er-w124-t87191/p1.html",
+   "title": "Heckleuchten aus 88er W124",
+   "price": null,
+   "location": null,
+   "image": null,
+   "attrs": {},
+   "text": "Biete Heckleuchten aus 88er W124",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "w124board",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "wb_86452",
+   "source": "W124-Board.de",
+   "country": "DE",
+   "url": "https://www.w124-board.de/teile-f188/rücklichter-limousine-depo-schwarz-rot-t86452/p1.html",
+   "title": "Rücklichter Limousine, DEPO schwarz/rot",
+   "price": null,
+   "location": null,
+   "image": null,
+   "attrs": {},
+   "text": "Biete Rücklichter Limousine, DEPO schwarz/rot",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "w124board",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3279865575",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/w124-rueckleuchte-links/3279865575-223-17392",
+   "title": "w124 Rückleuchte Links",
+   "price": null,
+   "location": "24943 Flensburg",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d1/d13a6861-2656-4674-ba33-c69394a39a4e?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "w124 Rückleuchte Links · Versand möglich",
+   "onderdelen": [
+    "linker-achterlicht-met-reflector"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-20",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3566134640",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-t-modell-schwellerverkleidung-seitenschweller/3566134640-223-27267",
+   "title": "Mercedes W124 T-Modell Schwellerverkleidung Seitenschweller",
+   "price": 40,
+   "location": "21037 Ochsenwerder",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/23/235be664-0175-4564-8b47-7176a9a7164f?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Direkt kaufen",
+     "Versand möglich"
+    ]
+   },
+   "text": "Ich biete hier eine Schwellerverkleidung für einen Mercedes-Benz W124 Kombi an. - Passend für das... · Direkt kaufen · Versand möglich",
+   "onderdelen": [
+    "dorpelbekleding"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-11-09",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "mp_m2460584305",
+   "source": "Marktplaats",
+   "country": "NL",
+   "url": "https://www.marktplaats.nl/v/auto-onderdelen/sidebars/m2460584305-w124-sacco-dorpels-skirts-facelift-sacco",
+   "title": "W124 sacco dorpels skirts facelift sacco",
+   "price": null,
+   "location": "Sommelsdijk",
+   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/780732c6-7a52-4026-9bad-032a60665932?rule=ecg_mp_eps$_82.jpg",
+   "attrs": {
+    "categoryId": 3061,
+    "priceType": "FAST_BID",
+    "gearbox": null
+   },
+   "text": "W124 sacco dorpels skirts facelift sacco past op sedan en combi de advertentie staat op bieden vanaf en er is geen mimimale/uiterste/laatste prijs dus daar hoef je niet naar te vragen",
+   "onderdelen": [
+    "dorpelbekleding"
+   ],
+   "source_module": "marktplaats",
+   "first_seen": "2026-11-02",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3555649084",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-s124-schwellerverkleidungen-7700-altograu/3555649084-223-7696",
+   "title": "Mercedes W124 S124 Schwellerverkleidungen 7700 Altograu",
+   "price": 50,
+   "location": "97078 Würzburg",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7c/7c2f5f06-fe4a-4b76-b647-a2724f3c6907?rule=$_59.AUTO",
+   "attrs": {
+    "tags": []
+   },
+   "text": "Beide Schwellerverkleidungen von einem 1993 T Modell zu verkaufen Zustand wie im Bild, der Preis...",
+   "onderdelen": [
+    "dorpelbekleding"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-31",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3555317002",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-s124-schwellerverkleidung-seitenschweller-rosenholz/3555317002-223-8005",
+   "title": "Mercedes W124 S124 Schwellerverkleidung Seitenschweller Rosenholz",
+   "price": 69,
+   "location": "72131 Ofterdingen",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ee/eeb86319-eac7-49d2-b4d4-e8e9ce27ea83?rule=$_59.AUTO",
+   "attrs": {
+    "tags": []
+   },
+   "text": "Mercedes W124 S124 Schwellerverkleidung Seitenschweller Rosenholz Die Schweller sind in der...",
+   "onderdelen": [
+    "dorpelbekleding"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-29",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3522070997",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/w-124-beplankung-kotfluegel-vorne-links-grau-1246901340/3522070997-223-8112",
+   "title": "W 124 Beplankung Kotflügel vorne links Grau 1246901340",
+   "price": 30,
+   "location": "72160 Horb am Neckar",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c7/c7295d9f-ecb9-4ea9-ab40-9e73fc734a01?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Zum Verkauf steht eine gebrauchte, originale Beplankung für die linke Seite in der Farbe Grau wie... · Versand möglich",
+   "onderdelen": [
+    "beplanking-voorspatbord"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3068446714",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/w124-sakkobrett-beplankung-vorne-rechts-kotfluegel-oem/3068446714-223-5697",
+   "title": "W124 / Sakkobrett / Beplankung / Vorne Rechts / Kotflügel / OEM",
+   "price": 29,
+   "location": "83342 Tacherting",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/46/46f07516-a767-40ce-b482-7cf62ebbf944?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Angeboten wird ein Sakkobrett für eine W124er Limousine. Kotflügel Vorne Rechts. Farbe... · Versand möglich",
+   "onderdelen": [
+    "beplanking-voorspatbord"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3411979920",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-w124-kotfluegel-beplankung-saccobrett-1246901440/3411979920-223-3266",
+   "title": "Mercedes Benz W124 Kotflügel Beplankung Saccobrett 1246901440",
+   "price": 15,
+   "location": "21376 Salzhausen",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4f/4f7d2cc3-776b-4d35-b568-82c2b700b555?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Direkt kaufen",
+     "Versand möglich"
+    ]
+   },
+   "text": "Ich biete hier 4 Beplankungen (Sacco Bretter) an von einem W124 oder S124 Kotflügel 3x rechts 1x... · Direkt kaufen · Versand möglich",
+   "onderdelen": [
+    "beplanking-voorspatbord"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3553065903",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-seitenbeplankung-kotfluegel-vorne-rechts-1246901440/3553065903-223-5374",
+   "title": "Mercedes W124 Seitenbeplankung Kotflügel vorne rechts 1246901440",
+   "price": 20,
+   "location": "67435 Neustadt an der Weinstraße",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/74/74e0aadf-3508-48f1-8982-769135aec862?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Direkt kaufen",
+     "Versand möglich"
+    ]
+   },
+   "text": "Verkaufe eine originale Mercedes-Benz Seitenbeplankung für den vorderen rechten Kotflügel, mit... · Direkt kaufen · Versand möglich",
+   "onderdelen": [
+    "beplanking-voorspatbord"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_2971247773",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-w124-seitenbeplankung-saco-vorn-fahrerseite/2971247773-223-7849",
+   "title": "Mercedes Benz W124 Seitenbeplankung Saco vorn Fahrerseite",
+   "price": 50,
+   "location": "16269 Wriezen",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/af/af95dcdc-e4cf-43c7-bcbb-f47c8f1c2a0b?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Verkaufe hier eine linke vordere Seitenbeplankung / Saco (Fahrerseite) für einen Mercedes Benz... · Versand möglich",
+   "onderdelen": [
+    "beplanking-voorspatbord"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3028653728",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/zierleiste-beplankung-seitenwand-hl-mercedes-w124-1246901940/3028653728-223-8165",
+   "title": "Zierleiste Beplankung Seitenwand HL Mercedes W124 1246901940",
+   "price": 29,
+   "location": "76448 Durmersheim",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/6b/6b729df1-aa2e-4f9c-86b2-fb2fd19a6cb0?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Artikelzustand: Gebraucht gereinigt & geprüft voll funktionsfähig 12 Monate... · Versand möglich",
+   "onderdelen": [
+    "beplanking-achterscherm"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3350342863",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mb-w-124-er-limo-beplankung-seitenplanke-hinten-links-1246901740l/3350342863-223-1952",
+   "title": "MB W 124 er Limo Beplankung Seitenplanke hinten links 1246901740L",
+   "price": 40,
+   "location": "46238 Bottrop",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/48/48aa9feb-680b-4570-8858-7e74ce93427a?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Am Kämpchen 108 46238 Bottrop Telefonnummer: 02041 / 42451 + 43271 Fahrzeug Typ : MB 124... · Versand möglich",
+   "onderdelen": [
+    "beplanking-achterscherm"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3350330182",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mb-w-124-limo-beplankung-seitenplanke-hinten-rechts-124690184r/3350330182-223-1952",
+   "title": "MB W 124 Limo Beplankung seitenplanke hinten rechts 124690184R",
+   "price": 45,
+   "location": "46238 Bottrop",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/07/078cb6c7-2084-4ef1-8894-408491880130?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Am Kämpchen 108 46238 Bottrop Telefonnummer: 02041 / 42451 + 43271 Fahrzeug Typ : MB W 124... · Versand möglich",
+   "onderdelen": [
+    "beplanking-achterscherm"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3079733352",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/a1246908840-neue-beplankung-hinten-rechts-mercedes-w124/3079733352-223-21584",
+   "title": "A1246908840 Neue Beplankung hinten rechts Mercedes W124",
+   "price": 175,
+   "location": "71711 Murr Württemberg",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f0/f03ca27f-30ce-4a43-874e-a27f8e9268d1?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Verkauft wird eine neue, original Mercedes, Beplankung hinten rechts, für den Mercedes... · Versand möglich",
+   "onderdelen": [
+    "beplanking-achterscherm"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3292770707",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/beplankung-fuer-w124-te-kombi-hinten-links-in-der-farbe-rot-/3292770707-223-8098",
+   "title": "Beplankung für W124 TE Kombi Hinten Links in der Farbe Rot.",
+   "price": 20,
+   "location": "71149 Bondorf",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/3c/3c8de9a4-8070-45fd-9f37-901ec458ac42?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Biete hier wie auf den Bild zu sehen eine Beplankung für den W124 TE Kombi in der Farbe Rot. Hinten... · Versand möglich",
+   "onderdelen": [
+    "beplanking-achterscherm"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3552570560",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-schwellerverkleidungen-7738-satograu/3552570560-223-8957",
+   "title": "Mercedes W124 Schwellerverkleidungen 7738 satograu",
+   "price": 160,
+   "location": "89568 Hermaringen",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e4/e4adf5bd-5b22-4679-98c2-03c17801fb72?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Biete hier einen Satz Schwellerverkleidungen für die W124 Limousinen oder Kombis Farbcode 7738... · Versand möglich",
+   "onderdelen": [
+    "dorpelbekleding"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3552567402",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-schwellerverkleidungen-7700-altograu/3552567402-223-8957",
+   "title": "Mercedes W124 Schwellerverkleidungen 7700 altograu",
+   "price": 120,
+   "location": "89568 Hermaringen",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/37/3750b359-f43a-4ba7-8d8f-58583c7ff476?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Biete hier einen Satz Schwellerverkleidungen für die W124 Limousinen oder Kombis Farbcode 7700... · Versand möglich",
+   "onderdelen": [
+    "dorpelbekleding"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3403547426",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/orig-mercedes-w124-e-klasse-satz-schwellerverkleidung-r-l-neu/3403547426-223-8375",
+   "title": "Orig Mercedes W124 E-Klasse \" Satz Schwellerverkleidung R+L ! NEU",
+   "price": null,
+   "location": "74626 Bretzfeld",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0a/0ae3f4a6-274a-4b2c-bf5b-f2833983b928?rule=$_59.AUTO",
+   "attrs": {
+    "tags": []
+   },
+   "text": "Zum Verkaufen Original Längsträger Schwellerverkleidung Unten Rechts + Links für Mercedes-Benz W124...",
+   "onderdelen": [
+    "dorpelbekleding"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3400913115",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/origi-mercedes-w124-e-klasse-schwellerverkleidung-unten-r-l-neu/3400913115-223-8375",
+   "title": "Origi Mercedes W124 E-Klasse Schwellerverkleidung Unten R+L ! NEU",
+   "price": null,
+   "location": "74626 Bretzfeld",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/37/37535909-1693-4421-84cf-d6d102d96fdb?rule=$_59.AUTO",
+   "attrs": {
+    "tags": []
+   },
+   "text": "Zum Verkaufen Original Längsträger Schwellerverkleidung Unten Rechts + Links für Mercedes-Benz W124...",
+   "onderdelen": [
+    "dorpelbekleding"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3399867610",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/origi-mercedes-w124-e-klasse-set-schwellerverkleidung-r-l-neu/3399867610-223-8375",
+   "title": "Origi Mercedes W124 E-Klasse * Set Schwellerverkleidung R+L ! NEU",
+   "price": null,
+   "location": "74626 Bretzfeld",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5f/5ff3d2a6-efe4-442d-a0a6-0e1215a3511d?rule=$_59.AUTO",
+   "attrs": {
+    "tags": []
+   },
+   "text": "Zum Verkaufen Original Längsträger Schwellerverkleidung Unten Rechts + Links für Mercedes-Benz W124...",
+   "onderdelen": [
+    "dorpelbekleding"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3399717629",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/origina-mercedes-w124-e-klasse-set-schwellerverkleidung-r-l-neu/3399717629-223-8375",
+   "title": "Origina Mercedes W124 E-Klasse Set Schwellerverkleidung R+L ! NEU",
+   "price": null,
+   "location": "74626 Bretzfeld",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d7/d77f060c-6c01-4892-b598-436279f1f143?rule=$_59.AUTO",
+   "attrs": {
+    "tags": []
+   },
+   "text": "Zum Verkaufen Original Längsträger Schwellerverkleidung Unten Rechts + Links für Mercedes-Benz W124...",
+   "onderdelen": [
+    "dorpelbekleding"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3399684958",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/origin-mercedes-w124-e-klasse-satz-schwellerverkleidung-r-l-neu/3399684958-223-8375",
+   "title": "Origin Mercedes W124 E-Klasse Satz Schwellerverkleidung R+L ! NEU",
+   "price": null,
+   "location": "74626 Bretzfeld",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/25/25d15d65-6f46-4ef9-8bfb-ee4da04cc3a7?rule=$_59.AUTO",
+   "attrs": {
+    "tags": []
+   },
+   "text": "Zum Verkaufen Original Längsträger Schwellerverkleidung Unten Rechts + Links für Mercedes-Benz W124...",
+   "onderdelen": [
+    "dorpelbekleding"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3429292428",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-w-124-t-modell-schwellerverkleidungen-original/3429292428-223-4630",
+   "title": "Mercedes Benz W 124 T Modell Schwellerverkleidungen Original",
+   "price": 30,
+   "location": "36251 Bad Hersfeld",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7d/7d13f591-3001-4a25-9261-8b8561c69630?rule=$_59.AUTO",
+   "attrs": {
+    "tags": []
+   },
+   "text": "Biete hier zwei Mercedes Benz W124 Schwellerverkleidungen an. Es handelt sich um Originalteile, es...",
+   "onderdelen": [
+    "dorpelbekleding"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": 60,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3280180242",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/schwellerverkleidung-links-rechts-w124-mercedes-t-modell/3280180242-223-2519",
+   "title": "Schwellerverkleidung links/rechts W124 Mercedes T Modell",
+   "price": 50,
+   "location": "31637 Rodewald",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b5/b5b7633b-6772-4203-9dcd-112d0beff7b1?rule=$_59.AUTO",
+   "attrs": {
+    "tags": []
+   },
+   "text": "Satz schwellerverkleidungen Gebraucht mit Gebrauchsspuren aber ohne Risse oder sonstige...",
+   "onderdelen": [
+    "dorpelbekleding"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3116525362",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/w124-mercedes-schwellerverkleidung-grau/3116525362-223-19313",
+   "title": "w124 Mercedes Schwellerverkleidung grau",
+   "price": 1,
+   "location": "24960 Glücksburg",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5e/5e5b85d4-5fd4-4bb5-a61e-b68f2ac75bfe?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Direkt kaufen",
+     "Versand möglich"
+    ]
+   },
+   "text": "Zum Kauf stehen diese Schmuckstücke...Detailphotos gern auf Anfrage. Der Preis von einem Euro ist... · Direkt kaufen · Versand möglich",
+   "onderdelen": [
+    "dorpelbekleding"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_2056748431",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/w124-schwellerverkleidung-sacco-bretter-beplankung-seitenverkl/2056748431-223-7729",
+   "title": "W124 Schwellerverkleidung, Sacco Bretter, Beplankung, Seitenverkl",
+   "price": 229,
+   "location": "14612 Falkensee",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7c/7cfd02f8-2b2d-4c5d-baf0-0496393eb1ae?rule=$_59.AUTO",
+   "attrs": {
+    "tags": []
+   },
+   "text": "Update: kleinste Planke hinten rechts ist nicht mehr verfügbar und somit nicht mehr Bestandteil...",
+   "onderdelen": [
+    "beplanking-achterscherm",
+    "dorpelbekleding"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3533593875",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/meredes-w124-te-schwellerabdeckung-schwellerleiste-schweller/3533593875-223-2590",
+   "title": "Meredes W124 TE Schwellerabdeckung Schwellerleiste Schweller",
+   "price": 65,
+   "location": "49661 Cloppenburg",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/14/1473dd7f-fbd4-4f2b-b972-c589ab01db5c?rule=$_59.AUTO",
+   "attrs": {
+    "tags": []
+   },
+   "text": "Die Schwellerabdeckung kommt aus einem Mercedes W124 Kombi aus Bj. 95. Die vier Abdeckungen sind...",
+   "onderdelen": [
+    "dorpelbekleding"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_2907294062",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-schwellerabdeckung-abdeckung-1246980330/2907294062-223-1393",
+   "title": "Mercedes W124 Schwellerabdeckung Abdeckung 1246980330",
+   "price": 19,
+   "location": "52391 Vettweiß",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/1b/1b4110b0-2a6a-4bf3-aba8-a13b201477c3?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Versand möglich"
+    ]
+   },
+   "text": "Mercedes W124 Schwellerabdeckung Abdeckung 1246980330 Schweller original Artikelzustand:... · Versand möglich",
+   "onderdelen": [
+    "dorpelbekleding"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3283717151",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/w124-schweller-wagenheber-abdeckung/3283717151-223-17392",
+   "title": "W124 Schweller Wagenheber Abdeckung",
+   "price": 40,
+   "location": "24943 Flensburg",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/fa/fa4a586a-3306-4b7d-9a8c-b4a285c6b149?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Direkt kaufen",
+     "Versand möglich"
+    ]
+   },
+   "text": "W124 Schweller Wagenheber Abdeckung · Direkt kaufen · Versand möglich",
+   "onderdelen": [
+    "krikdop"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
+   "active": true
+  },
+  {
+   "id": "ka_3486623913",
+   "source": "Kleinanzeigen",
+   "country": "DE",
+   "url": "https://www.kleinanzeigen.de/s-anzeige/w124-wagenheberaufnahme-stopfen-gummipuffer/3486623913-223-17560",
+   "title": "W124 Wagenheberaufnahme Stopfen Gummipuffer",
+   "price": 5,
+   "location": "38899 Hasselfelde",
+   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ed/ed195b9a-7b1e-428d-8192-d6c7a7f38b53?rule=$_59.AUTO",
+   "attrs": {
+    "tags": [
+     "Direkt kaufen",
+     "Versand möglich"
+    ]
+   },
+   "text": "Verkaufe hier gebrauchte Stopfen für die Wagenheberaufnahmen vom W124 erste Serie. Bei Fragen... · Direkt kaufen · Versand möglich",
+   "onderdelen": [
+    "krikdop"
+   ],
+   "source_module": "kleinanzeigen",
+   "first_seen": "2026-10-27",
+   "price_prev": null,
+   "last_seen": "2026-11-28",
    "active": true
   },
   {
@@ -385,1134 +2497,7 @@
    "first_seen": "2026-11-23",
    "price_prev": 59,
    "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3580175729",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-original-rueckleuchten/3580175729-223-1843",
-   "title": "Mercedes W124 Original Rückleuchten",
-   "price": 120,
-   "location": "59555 Lippstadt",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/04/04032a31-3dc0-48fc-91b4-0985045a75f8?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Hiermit biete ich originale Rückleuchten Satz für MB w124 an. Preis gilt für beide zusammen. Viele... · Versand möglich",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-23",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3549508816",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/neues-set-rueckleuchten-original-mercedes-w124-limo/3549508816-223-21584",
-   "title": "Neues Set Rückleuchten original Mercedes W124 Limo",
-   "price": 325,
-   "location": "71711 Murr Württemberg",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d6/d656f58a-1129-418c-9ff0-88dc965fae35?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Verkauft wird ein neues, original Mercedes, Set Rückleuchten rechts+links, für den Mercedes W124... · Versand möglich",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-23",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3579526900",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/w124-mercedes-rueckleuchten-ruecklichter/3579526900-223-7707",
-   "title": "W124 Mercedes Rückleuchten Rücklichter",
-   "price": 300,
-   "location": "88131 Lindau",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/83/834d809e-b5d5-4220-b560-b395f1d68d77?rule=$_59.AUTO",
-   "attrs": {
-    "tags": []
-   },
-   "text": "Es handelt sich um Originale Rückleuchten von Mercedes. Inklusive lampenträger. Sie wurden damals...",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-23",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3578196109",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/original-mercedes-w124-limousine-rueckleuchten-links-rechts/3578196109-223-2694",
-   "title": "Original Mercedes W124 Limousine Rückleuchten links & rechts",
-   "price": 250,
-   "location": "38640 Goslar",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/09/099e821f-777c-44a3-b034-d15532147048?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Ich biete hier ein Set originaler Rückleuchten für die Mercedes W124 Limousine an. Die Leuchten... · Versand möglich",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-22",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3418299887",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-ruckleuchten-hella-original/3418299887-223-24596",
-   "title": "Mercedes w124 ruckleuchten hella original",
-   "price": 495,
-   "location": "52072 Aachen-Laurensberg",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ec/ec5b5329-4ea1-4ef5-9047-74073d1db869?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Original HELLA Original Rückleuchten in schwarz für den W124 WELTWEIT VERSAND Zahlung... · Versand möglich",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-22",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3578539572",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/originale-mercedes-w124-rueckleuchten-heckleuchten-aus-jahreswagen/3578539572-223-1849",
-   "title": "Originale Mercedes w124 Rückleuchten Heckleuchten aus Jahreswagen",
-   "price": 79,
-   "location": "46395 Bocholt",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/96/960b3436-e6fb-4462-8c42-d378f6fd2b84?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Ich biete hier zwei Rückleuchten für einen Mercedes-Benz W124 an. Die Leuchten sind ein klassisches... · Versand möglich",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-22",
-   "price_prev": 80,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3578288777",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-blinker-rueckleuchten/3578288777-223-2654",
-   "title": "Mercedes W124 Blinker Rückleuchten",
-   "price": 30,
-   "location": "27726 Worpswede",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e0/e0f4dc4e-44c1-423a-9031-da5db0c27cf6?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Weitere 124er Teile auf Anfrage Blinker Bosch rechts und links Die anderen beiden sind von... · Versand möglich",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-22",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3173299357",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-e-klasse-rueckleuchte-a1248200164/3173299357-223-8461",
-   "title": "Mercedes W124 E-Klasse Rückleuchte A1248200164",
-   "price": 100,
-   "location": "73269 Hochdorf",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/52/5258e5e7-fa75-4fd5-9afd-23733468161c?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "ZP AUTOTEILE - MIT ÜBER 100.000 AUTOTEILEN EINER DER GRÖẞTEN GEBRAUCHT- UND NEUWAGENTEILEVERKÄUFER... · Versand möglich",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-22",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3575771176",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/w124-rueckleuchten/3575771176-223-9213",
-   "title": "W124 Rückleuchten",
-   "price": 40,
-   "location": "88045 Friedrichshafen",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5a/5a4bb913-1b7b-4ecb-9b5b-e06bc730b7d6?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Zustand gut · Versand möglich",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-22",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "mp_m2468444676",
-   "source": "Marktplaats",
-   "country": "NL",
-   "url": "https://www.marktplaats.nl/v/auto-onderdelen/verlichting/m2468444676-mercedes-w124-sedan-achterlicht-links-of-rechts",
-   "title": "Mercedes W124 Sedan Achterlicht Links of Rechts",
-   "price": 50,
-   "location": "Cuijk",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/ca48bb1e-bce7-49eb-ac1a-55ad22a1e57f?rule=ecg_mp_eps$_82.jpg",
-   "attrs": {
-    "categoryId": 2921,
-    "priceType": "FIXED",
-    "gearbox": null
-   },
-   "text": "Mercedes w124 sedan achterlicht links of rechts mercedes w124 sedan achterlicht links of rechts prijzen vanaf €35 tot €50 de afgebeelde kosten €50 per stuk zie andere advertentie voor de goedkopere achterlichten extra product informa...",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "marktplaats",
-   "first_seen": "2026-11-22",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "mp_m2468444681",
-   "source": "Marktplaats",
-   "country": "NL",
-   "url": "https://www.marktplaats.nl/v/auto-onderdelen/verlichting/m2468444681-mercedes-w124-sedan-achterlicht-links-of-rechts",
-   "title": "Mercedes W124 Sedan Achterlicht Links of Rechts",
-   "price": 35,
-   "location": "Cuijk",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/42d7e799-5e28-446a-bd8e-20297197ffd1?rule=ecg_mp_eps$_82.jpg",
-   "attrs": {
-    "categoryId": 2921,
-    "priceType": "FIXED",
-    "gearbox": null
-   },
-   "text": "Mercedes w124 sedan achterlicht links of rechts mercedes w124 sedan achterlicht links of rechts prijzen vanaf €35 tot €50 de afgebeelde kosten €35 per stuk zie andere advertentie voor de duurdere achterlichten extra product informatie:...",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "marktplaats",
-   "first_seen": "2026-11-22",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3577733608",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-abdeckung-wagenheber-abdeckkappe-1246980330/3577733608-223-1393",
-   "title": "Mercedes W124 Abdeckung Wagenheber Abdeckkappe 1246980330",
-   "price": 24,
-   "location": "52391 Vettweiß",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ca/cafe8d88-434f-475b-8d66-38b324c00b17?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Mercedes W124 Abdeckung Wagenheber Abdeckkappe 1246980330 24 € inklusive Versand Artikel Zustand... · Versand möglich",
-   "onderdelen": [
-    "krikdop"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-21",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3577431201",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-w124-rueckleuchten-set-links-rechts/3577431201-223-5319",
-   "title": "Mercedes-Benz W124 Rückleuchten Set links + rechts",
-   "price": 50,
-   "location": "55126 Mainz",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/a4/a4473bb3-f595-404c-9d7c-6a1fd9633038?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Direkt kaufen",
-     "Versand möglich"
-    ]
-   },
-   "text": "Ich biete hier ein Set bestehend aus zwei gebrauchten Rückleuchten für einen Mercedes-Benz W124 an.... · Direkt kaufen · Versand möglich",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-21",
-   "price_prev": 60,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3578020280",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-w124-rueckleuchten-und-blinker/3578020280-223-2549",
-   "title": "Mercedes Benz W124 Rückleuchten und Blinker",
-   "price": 175,
-   "location": "31840 Hessisch Oldendorf",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f8/f8943fe2-c403-4722-9159-bb7ffa441001?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Ich biete hier ein Set bestehend aus zwei Rückleuchten sowie drei passenden Blinkern für einen... · Versand möglich",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-21",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3574373565",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/beplankung-saccobrett-hinten-links-1246901740-mercedes-benz-w124/3574373565-223-9245",
-   "title": "Beplankung Saccobrett hinten links 1246901740 Mercedes Benz W124",
-   "price": 12,
-   "location": "74072 Heilbronn",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e5/e51e7449-8720-4d79-ac09-330bf1530927?rule=$_59.AUTO",
-   "attrs": {
-    "tags": []
-   },
-   "text": "Biete eine Beplankung / Saccobrett hinten links für den Mercedes Benz W124 an. Teilenummer...",
-   "onderdelen": [
-    "beplanking-achterscherm"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_2961965480",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-rueckleuchte-links-limo-hella/2961965480-223-2569",
-   "title": "Mercedes W124 Rückleuchte links Limo Hella",
-   "price": 50,
-   "location": "49610 Quakenbrück",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f8/f80ee73d-4868-42db-be5f-ef7c49988782?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Mercedes W124 Rückleuchte links Limo Hella , ist heile. Andere Teile auf Lager. · Versand möglich",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3574991847",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/rueckleuchten-fuer-mercedes-w124-rechts-und-links-original-hella/3574991847-223-4348",
-   "title": "Rückleuchten für Mercedes W124 rechts und links original Hella",
-   "price": 89,
-   "location": "61231 Bad Nauheim",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/00/00cfad5d-ccad-4c6f-9d36-bd63aefe20da?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Direkt kaufen",
-     "Versand möglich"
-    ]
-   },
-   "text": "Verkaufe gut erhaltene Rückleuchten für den Mercedes W124 rechts und links, original von Hella · Direkt kaufen · Versand möglich",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-20",
-   "price_prev": 99,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3573979725",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-rueckleuchte-hinten-links-schwarz-rot-a1248208364/3573979725-223-26911",
-   "title": "Mercedes W124 Rückleuchte hinten links schwarz-rot A1248208364",
-   "price": 75,
-   "location": "99991 Großengottern",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/65/65aa3cc8-2f98-4c8a-bc89-4c2dad44004b?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Direkt kaufen",
-     "Versand möglich"
-    ]
-   },
-   "text": "Ich biete hier eine originale Rückleuchte für die linke Seite eines Mercedes W124 an. Sie zeichnet... · Direkt kaufen · Versand möglich",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3570354181",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-w124-rueckleuchten-set-links-und-rechts/3570354181-223-7737",
-   "title": "Mercedes-Benz W124 Rückleuchten Set links und rechts",
-   "price": 120,
-   "location": "14776 Brandenburg an der Havel",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/fa/fa7c4bdd-daab-4e7d-a35a-ee7e772229f7?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Verkaufe ein komplettes Set Originale hintere Rückleuchten für links und rechts. * 1x Rückleuchte... · Versand möglich",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3570171614",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/original-mercedes-w124-komplett-rueckleuchten-fuer-links-rechts-neu/3570171614-223-8464",
-   "title": "Original Mercedes W124 Komplett Rückleuchten für links/rechts NEU",
-   "price": 350,
-   "location": "73230 Kirchheim unter Teck",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ad/ad3030c5-2806-41cd-97c2-0b26512fb636?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Erleben Sie die perfekte Sichtbarkeit und Sicherheit für Ihr Fahrzeug mit dem originalen Mercedes W... · Versand möglich",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3484905320",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/w-124-rueckleuchte-heckleuchte-schlussleuchte-links-1248200164/3484905320-223-8112",
-   "title": "W 124 Rückleuchte Heckleuchte Schlussleuchte links 1248200164",
-   "price": 49,
-   "location": "72160 Horb am Neckar",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/6a/6a7c83fc-77dd-4a68-99bd-583e1bf25ad0?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Zum Verkauf steht ein originale, gebrauchte Rückleuchte links, wie auf den Bildern zu... · Versand möglich",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3568154978",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-hella-rueckleuchte-links-hella-9el-129-763-001/3568154978-223-7660",
-   "title": "Mercedes W124 HELLA Rückleuchte links Hella 9EL 129 763-001",
-   "price": 85,
-   "location": "93077 Bad Abbach",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/97/9789b920-3771-4dd0-b8d3-65264fff6fe2?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Mercedes W124 HELLA Rückleuchte links Hella 9EL 129 763-001 Zustand wie auf den Bildern zu... · Versand möglich",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3563721984",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/w124-linke-original-mercedes-rueckleuchte/3563721984-223-1948",
-   "title": "W124 Linke Original Mercedes Rückleuchte",
-   "price": 75,
-   "location": "44793 Bochum-Mitte",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/dc/dcdb8ade-683e-4bf7-b27f-5064a1354483?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Verkaufe hier eine Originale Mercedes W124 Rückleuchte für die Linke Seite. Die Rechte auf dem Bild... · Versand möglich",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_2976437689",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/rueckleuchte-w124-links-fahrerseite/2976437689-223-22264",
-   "title": "Rückleuchte W124 links, Fahrerseite",
-   "price": 40,
-   "location": "76833 Frankweiler",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ab/ab03100d-f08a-4034-9c1a-d0e110781355?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Rückleuchte im Neuzustand, jedoch ohne Rückdeckel. Bei Rückfragen 0170 - 2922909 · Versand möglich",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_2894506150",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-mb-db-w124-rueckleuchte-glas-rechts-und-links/2894506150-223-2036",
-   "title": "Mercedes-Benz MB DB, W124 Rückleuchte glas rechts und links",
-   "price": 50,
-   "location": "45326 Altenessen",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/90/90e28474-2802-4efc-a5a2-0a70cf4ae3a6?rule=$_59.AUTO",
-   "attrs": {
-    "tags": []
-   },
-   "text": "### **Artikelbeschreibung:** ** mercedes-Benz MB DB, W124 Rückleuchte, rechts und links neu Eine...",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_2139146905",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/ruecklicht-links-mercedes-benz-w124-0053373r38-rueckleuchte/2139146905-223-1494",
-   "title": "Rücklicht links Mercedes Benz W124 0053373r38 Rückleuchte",
-   "price": 30,
-   "location": "57234 Wilnsdorf",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/95/953d5070-0952-46af-8b87-7dac6069deb5?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Rück- & Bremsleuchtendetails ► Zustand: Gebraucht ► Einbauposition: Hinten, Links ► Hersteller:... · Versand möglich",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3471962118",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/w-124-lampentraeger-rueckleuchte-heckleuchte-links-1248200777/3471962118-223-8112",
-   "title": "W 124 Lampenträger Rückleuchte Heckleuchte links 1248200777",
-   "price": 54,
-   "location": "72160 Horb am Neckar",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/91/9143a35a-43ea-4179-92d0-09110ed65e7d?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Zum Verkauf steht ein originaler, gebrauchter Lampenträger der Rückleuchte links, wie auf den... · Versand möglich",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3419931625",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/rueckleuchte-ruecklicht-rechts-links-mercedes-w124-limousine/3419931625-223-7505",
-   "title": "Rückleuchte Rücklicht rechts links Mercedes W124 Limousine",
-   "price": 80,
-   "location": "95466 Weidenberg",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/58/58342283-162f-478e-8cc1-6c799c55d5b7?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Rückleuchte Rücklicht rechts links Mercedes W124 Limousine Vollfunktion Gute Zustand Versand... · Versand möglich",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3543985537",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/hella-rueckleuchte-links-9el-129-763-001-w124/3543985537-223-1569",
-   "title": "HELLA Rückleuchte links 9EL 129 763-001 W124",
-   "price": 109,
-   "location": "42283 Barmen",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/27/27a32bd7-2303-4d50-8ff0-b0d6a7c4b861?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Biete eine neuwertige Rückleuchte von Hella für Mercedes Benz an. Nr. 9EL 129... · Versand möglich",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3543985205",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/hella-rueckleuchte-mit-lampentraeger-links-2vp-004-686-111-w124/3543985205-223-1569",
-   "title": "HELLA Rückleuchte mit Lampenträger links 2VP 004 686-111 W124",
-   "price": 119,
-   "location": "42283 Barmen",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/1e/1e42539a-4c88-4f7c-8d49-b28752d13f40?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Biete eine neuwertige Rückleuchte mit Lampenträger von Hella für Mercedes Benz an. Nr. 2VP 004... · Versand möglich",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3538954553",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/original-hella-rueckleuchte-links-merc-w124-neu-2vp-004-686-131/3538954553-223-2104",
-   "title": "Original HELLA Rückleuchte links Merc. W124 neu 2VP 004 686-131",
-   "price": 129,
-   "location": "40625 Gerresheim",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/57/57da1865-7851-47bf-8715-1a7cc9753ed3?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Verkaufe eine originale HELLA-Rückleuchte für die linke Fahrzeugseite eines Mercedes-Benz... · Versand möglich",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3536530200",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-rueckleuchte-links-neu-440-1910l-ue/3536530200-223-16909",
-   "title": "Mercedes W124 Rückleuchte links NEU 440-1910L-UE",
-   "price": 35,
-   "location": "94469 Deggendorf",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/89/8967cbdd-e0b0-4a8a-9560-30dc4d207a91?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Direkt kaufen",
-     "Versand möglich"
-    ]
-   },
-   "text": "Verkaufe eine neue, unbenutzte Rückleuchte für den Mercedes-Benz W124. Die Rückleuchte wurde... · Direkt kaufen · Versand möglich",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3531885805",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-ruecklichte-rueckleuchte-hinten-w124-rechts-links/3531885805-223-5230",
-   "title": "Mercedes Rücklichte Rückleuchte Hinten W124 rechts Links",
-   "price": 260,
-   "location": "76726 Germersheim",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/fc/fc79dc80-910c-4ac6-843a-43bf5c4a5bb4?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Mercedes Rücklichte Rückleuchte Hinten W124 rechts Links · Versand möglich",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3531885221",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-ruecklichte-rueckleuchte-hinten-w124-rechts-links/3531885221-223-5230",
-   "title": "Mercedes Rücklichte Rückleuchte Hinten W124 rechts Links",
-   "price": 240,
-   "location": "76726 Germersheim",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f3/f3ac9765-f87d-4d3c-b41d-286914f750cb?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Mercedes Rücklichte Rückleuchte Hinten W124 rechts Links · Versand möglich",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3508800040",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-hella-rueckleuchten-schwarz-rechts-und-links/3508800040-223-7436",
-   "title": "Mercedes W124 HELLA Rückleuchten Schwarz rechts und links",
-   "price": 297,
-   "location": "63741 Aschaffenburg",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5e/5e6e6f17-22a5-4bef-b5d0-99d12e32eaa1?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Direkt kaufen",
-     "Versand möglich"
-    ]
-   },
-   "text": "Mercedes W124 Hella original Rückleuchten Schwarz rechts und links, Linke ist in gute Zustand ,... · Direkt kaufen · Versand möglich",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3497718543",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-rueckleuchten-links-und-rechts/3497718543-223-733",
-   "title": "Mercedes W124 Rückleuchten links und rechts",
-   "price": 89,
-   "location": "24963 Tarp",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/a0/a029acbb-da4f-468f-8adf-47ab84294ec6?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Guter bis sehr guter Zustand , ein Mikrospliss rechts am Blinkerglas, inkl. Lampenträger und Deckel. · Versand möglich",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3460926387",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-rueckleuchte-hinten-links-bj-1985-1993/3460926387-223-1918",
-   "title": "Mercedes W124 Rückleuchte hinten links BJ:1985-1993",
-   "price": 20,
-   "location": "47877 Willich",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/6b/6b23e05a-c3d6-4d99-ac9c-380e67946250?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Zu Verkaufen Mercedes-Benz W124 Rückleuchte hinten links für W124 Limousine. Baujahr:... · Versand möglich",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3436118071",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-rueckleuchte-links-hella-0053373r38/3436118071-223-23765",
-   "title": "Mercedes W124 Rückleuchte Links hella 0053373R38",
-   "price": 50,
-   "location": "53225 Vilich",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/44/44d65dfa-e582-4af3-95a2-bda78fd17481?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Hallo da mein Konto gehackt wurde, musste ich ein neues bei ebay Kleinanzeigen eröffnene, um die... · Versand möglich",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3406409326",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mb-w124-rueckleuchten-links-rechts/3406409326-223-3437",
-   "title": "MB W124 RÜCKLEUCHTEN links+rechts",
-   "price": 40,
-   "location": "13589 Spandau",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4d/4d0d84fe-b7fa-4821-a37b-168384c49625?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "W124 Rückleuchte links+rechts (rechts auf Anfrage auch vorhanden) Für Bj. bis... · Versand möglich",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_2960129729",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-limousine-ruecklicht-rueckleuchte-r-a1248200264/2960129729-223-4570",
-   "title": "Mercedes W124 Limousine Rücklicht Rückleuchte R A1248200264",
-   "price": 230,
-   "location": "63179 Obertshausen",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/cd/cdb3ef22-76a2-4197-bbae-7ca240ae1335?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Zum Verkauf steht hier ein/e Original Mercedes-Benz W124 Limousine Rücklicht Rückleuchte... · Versand möglich",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3574897521",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-schwarze-rueckleuchten-hella/3574897521-223-1556",
-   "title": "Mercedes W124 schwarze Rückleuchten Hella",
-   "price": 400,
-   "location": "45549 Sprockhövel",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d1/d111bbb0-5cd9-4844-816d-be25feb5e36d?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "W124 schwarze Rückleuchten der Firma Hella , gebraucht in sehr guten, neuwertigen Zustand ! Keine... · Versand möglich",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3574064979",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w-124-rueckleuchte-schwarz-nos-original-selten/3574064979-223-2492",
-   "title": "Mercedes W 124 Rückleuchte schwarz NOS original selten",
-   "price": 125,
-   "location": "48455 Bad Bentheim",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/12/129d0378-de0e-487f-8ddf-910d01177dd4?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Mercedes W 124 Rückleuchte schwarz NOS original selten , guter Zustand. Bei Fragen gerne melden · Versand möglich",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3012381027",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/original-mercedes-w124-e-klasse-rueckleuchte-abdichtrahmen-neu-/3012381027-223-8375",
-   "title": "Original Mercedes W124 E-Klasse Rückleuchte Abdichtrahmen ! NEU !",
-   "price": null,
-   "location": "74626 Bretzfeld",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/6b/6b8a245f-5b4a-4ad5-9530-0ae7c0ccef39?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Zum Verkaufen Original 1x Rückleuchte Dichtung Abdichtrahmen Rechts oder Links Mercedes-Benz W124... · Versand möglich",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3572505929",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/rueckleuchten-mercedes-e-klasse-w124-limousine-1985-1993/3572505929-223-2061",
-   "title": "Rückleuchten Mercedes E-Klasse W124 Limousine 1985-1993",
-   "price": 100,
-   "location": "45472 Mülheim (Ruhr)",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e4/e4ecdebe-c9f7-41b2-bb1c-c74f95984fd8?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "StahlPunkt Autoteile Schenkendorfstraße 29 a 45472 Mülheim an der Ruhr Weitere Fragen gerne melden · Versand möglich",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3572504186",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/w124-rueckleuchte-schwarz-fifft/3572504186-223-5416",
-   "title": "W124 Rückleuchte schwarz FIFFT",
-   "price": 275,
-   "location": "56579 Rengsdorf",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/28/286d7535-631f-4e5e-9bc6-2585a56149b3?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Biete zum Verkauf schwarze Rückleuchte der Marke FIFFT an. Guter Zustand ohne Beschädigungen mit... · Versand möglich",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3571767915",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-w124-rueckleuchten-set/3571767915-223-1577",
-   "title": "Mercedes Benz W124 Rückleuchten Set",
-   "price": 55,
-   "location": "42349 Cronenberg",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7e/7e8d4236-451b-41d6-927e-d70ea60a23a6?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Ich biete hier zwei Rückleuchten für einen Mercedes-Benz W124 an. Die Leuchten befinden sich in... · Versand möglich",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_2904074147",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/rueckleuchten-rot-schw-blinker-weiss-fuer-mercedes-w124/2904074147-223-961",
-   "title": "Rückleuchten rot/schw. + Blinker weiß für Mercedes W124",
-   "price": 112,
-   "location": "51147 Porz",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/05/05260c15-b952-49a1-b70b-29c2c449202c?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Dieses Angebot beinhaltet ein neues E-Klasse Set Rückleuchten rot/schw. + Blinker weiß passend... · Versand möglich",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
+   "active": false
   },
   {
    "id": "ka_2720018028",
@@ -1536,968 +2521,7 @@
    "first_seen": "2026-11-20",
    "price_prev": null,
    "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "mp_m2466548420",
-   "source": "Marktplaats",
-   "country": "NL",
-   "url": "https://www.marktplaats.nl/v/auto-onderdelen/carrosserie-en-plaatwerk/m2466548420-mercedes-w124-facelift-achterlicht-links-achter",
-   "title": "mercedes w124 facelift achterlicht links achter",
-   "price": null,
-   "location": "Brakel",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/68e6c5cc-c3a6-45da-9800-79554c0e2c2a?rule=ecg_mp_eps$_82.jpg",
-   "attrs": {
-    "categoryId": 2909,
-    "priceType": "FAST_BID",
-    "gearbox": null
-   },
-   "text": "In nette staat en hier overbodig. Alleen links",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "marktplaats",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "mp_m2464050895",
-   "source": "Marktplaats",
-   "country": "NL",
-   "url": "https://www.marktplaats.nl/v/auto-onderdelen/verlichting/m2464050895-nos-achterlicht-links-r-s-voor-mercedes-benz-w124",
-   "title": "NOS achterlicht links R&S voor Mercedes-Benz W124",
-   "price": 325,
-   "location": "Schagen",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/7bbba7de-5138-4bd7-81b8-9834c9a76239?rule=ecg_mp_eps$_82.jpg",
-   "attrs": {
-    "categoryId": 2921,
-    "priceType": "FIXED",
-    "gearbox": null
-   },
-   "text": "Nos achterlicht links r&s voor mercedes-benz w124 nos achterlicht links r&s voor mercedes-benz w124 mopf 0+1 dit onderdeel is een nieuw en origineel mercedes-benz onderdeel uit oude voorraad. Origineel onderdeelnummer: a1248200164 onderdeelnu...",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "marktplaats",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "mp_m2463182943",
-   "source": "Marktplaats",
-   "country": "NL",
-   "url": "https://www.marktplaats.nl/v/auto-onderdelen/verlichting/m2463182943-mb-w124-sedan-2-5d-achterlicht-links-donker-95",
-   "title": "MB W124 Sedan 2.5D Achterlicht Links donker '95",
-   "price": 65,
-   "location": "Cuijk",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/75622ebc-6874-4ca1-830f-2876e7fccb60?rule=ecg_mp_eps$_82.jpg",
-   "attrs": {
-    "categoryId": 2921,
-    "priceType": "FIXED",
-    "gearbox": null
-   },
-   "text": "Mb w124 sedan 2.5D achterlicht links donker '95 mb w124 sedan 2.5D achterlicht links donker '95 dit onderdeel past op de volgende uitvoeringen: mercedes-benz e-klasse (w124) 2/1/1993 tot 6/1/1996 e 200 (124.019) 136 Cc 100 kw 6/1/1993...",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "marktplaats",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "mp_m1390779681",
-   "source": "Marktplaats",
-   "country": "NL",
-   "url": "https://www.marktplaats.nl/v/auto-onderdelen/verlichting/m1390779681-achterlichten-mercedes-w124",
-   "title": "ACHTERLICHTEN MERCEDES W124",
-   "price": 80,
-   "location": "Geerdijk",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/7c/7ce5e796-0162-4cb8-a5b3-7bd00356d6ed?rule=ecg_mp_eps$_82.jpg",
-   "attrs": {
-    "categoryId": 2921,
-    "priceType": "FIXED",
-    "gearbox": null
-   },
-   "text": "Achterlichten mercedes w 124. Links + rechts prijs per stuk. Word niet verstuurd.",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "marktplaats",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "mp_m2446975504",
-   "source": "Marktplaats",
-   "country": "NL",
-   "url": "https://www.marktplaats.nl/v/auto-onderdelen/brandstofsystemen/m2446975504-mercedes-w124-onderdelen-grill-knipperlichten-achterlichten",
-   "title": "Mercedes w124 onderdelen grill knipperlichten achterlichten",
-   "price": 40,
-   "location": "Echt",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/37577861-617f-4b49-806a-56941f8559cf?rule=ecg_mp_eps$_82.jpg",
-   "attrs": {
-    "categoryId": 2908,
-    "priceType": "MIN_BID",
-    "gearbox": null
-   },
-   "text": "Whatsapp +32 456 06 17 17 te koop aangeboden: diverse onderdelen voor de mercedes-benz w124. Op de foto: w124 grill 40 euro per stuk voorste knipperlichten – 5 a 10 euro per stuk achterlichten links en rechts 120 euro ophalen in maasmechelen",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "marktplaats",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "mp_m2453735546",
-   "source": "Marktplaats",
-   "country": "NL",
-   "url": "https://www.marktplaats.nl/v/auto-onderdelen/verlichting/m2453735546-mercedes-benz-w124-achterlichten-set",
-   "title": "Mercedes-Benz W124 Achterlichten (Set)",
-   "price": 100,
-   "location": "Azewijn",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/2838b078-ff32-4c33-8654-858bc7df47fc?rule=ecg_mp_eps$_82.jpg",
-   "attrs": {
-    "categoryId": 2921,
-    "priceType": "MIN_BID",
-    "gearbox": null
-   },
-   "text": "Set van twee originele mercedes-benz w124 achterlichten. Deze achterlichten zijn gebruikt, maar verkeren in goede staat en zijn direct te monteren. Ideaal voor vervanging of als reserveonderdeel voor uw w124 model. Het onderdeelnummer is 124 820 01 6...",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "marktplaats",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "mp_m2459265947",
-   "source": "Marktplaats",
-   "country": "NL",
-   "url": "https://www.marktplaats.nl/v/auto-onderdelen/verlichting/m2459265947-set-originele-mercedes-w124-achterlichten",
-   "title": "Set Originele Mercedes W124 Achterlichten",
-   "price": null,
-   "location": "Arnhem",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/2aa54b4e-8b7c-4ba0-9e74-9e73f86fcc7f?rule=ecg_mp_eps$_82.jpg",
-   "attrs": {
-    "categoryId": 2921,
-    "priceType": "FAST_BID",
-    "gearbox": null
-   },
-   "text": "Mooie set originele achterlichten voor een mercedes w124",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "marktplaats",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "mp_m2458774192",
-   "source": "Marktplaats",
-   "country": "NL",
-   "url": "https://www.marktplaats.nl/v/auto-onderdelen/ophanging-en-onderstel/m2458774192-alle-onderdelen-mercedes-w124-230e",
-   "title": "Alle onderdelen mercedes w124 230E",
-   "price": null,
-   "location": "Lisse",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/687cc630-9fab-4e62-b0a1-28ffb29dccdd?rule=ecg_mp_eps$_82.jpg",
-   "attrs": {
-    "categoryId": 2923,
-    "priceType": "FAST_BID",
-    "gearbox": null
-   },
-   "text": "Te koop alle onderdelen van deze w124 sedan deuren/achterklep/motorkap roestvrij kleurnummer 199 abs delen ruitenwis mechanisme achterlichten (verkocht) bumpers sierlijsten (verkocht) complete trekhaak merk oris met afneembare haak incl de orginele b...",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "marktplaats",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "mp_m2444962187",
-   "source": "Marktplaats",
-   "country": "NL",
-   "url": "https://www.marktplaats.nl/v/auto-onderdelen/verlichting/m2444962187-mercedes-w124-achterlichten-hella-zwart",
-   "title": "Mercedes w124 achterlichten hella zwart",
-   "price": null,
-   "location": "Elsloo",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/e2a5398d-6106-4a13-9e95-e5c615d46f0d?rule=ecg_mp_eps$_82.jpg",
-   "attrs": {
-    "categoryId": 2921,
-    "priceType": "SEE_DESCRIPTION",
-    "gearbox": null
-   },
-   "text": "Te koop originele smoke achterlichten zwart voor w124 ophalen of verzenden whatsapp +32 456 06 17 17",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "marktplaats",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "wb_87191",
-   "source": "W124-Board.de",
-   "country": "DE",
-   "url": "https://www.w124-board.de/teile-f188/heckleuchten-88er-w124-t87191/p1.html",
-   "title": "Heckleuchten aus 88er W124",
-   "price": null,
-   "location": null,
-   "image": null,
-   "attrs": {},
-   "text": "Biete Heckleuchten aus 88er W124",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "w124board",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "wb_86452",
-   "source": "W124-Board.de",
-   "country": "DE",
-   "url": "https://www.w124-board.de/teile-f188/rücklichter-limousine-depo-schwarz-rot-t86452/p1.html",
-   "title": "Rücklichter Limousine, DEPO schwarz/rot",
-   "price": null,
-   "location": null,
-   "image": null,
-   "attrs": {},
-   "text": "Biete Rücklichter Limousine, DEPO schwarz/rot",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "w124board",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3279865575",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/w124-rueckleuchte-links/3279865575-223-17392",
-   "title": "w124 Rückleuchte Links",
-   "price": null,
-   "location": "24943 Flensburg",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d1/d13a6861-2656-4674-ba33-c69394a39a4e?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "w124 Rückleuchte Links · Versand möglich",
-   "onderdelen": [
-    "linker-achterlicht-met-reflector"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-20",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3566134640",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-t-modell-schwellerverkleidung-seitenschweller/3566134640-223-27267",
-   "title": "Mercedes W124 T-Modell Schwellerverkleidung Seitenschweller",
-   "price": 40,
-   "location": "21037 Ochsenwerder",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/23/235be664-0175-4564-8b47-7176a9a7164f?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Direkt kaufen",
-     "Versand möglich"
-    ]
-   },
-   "text": "Ich biete hier eine Schwellerverkleidung für einen Mercedes-Benz W124 Kombi an. - Passend für das... · Direkt kaufen · Versand möglich",
-   "onderdelen": [
-    "dorpelbekleding"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-11-09",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "mp_m2460584305",
-   "source": "Marktplaats",
-   "country": "NL",
-   "url": "https://www.marktplaats.nl/v/auto-onderdelen/sidebars/m2460584305-w124-sacco-dorpels-skirts-facelift-sacco",
-   "title": "W124 sacco dorpels skirts facelift sacco",
-   "price": null,
-   "location": "Sommelsdijk",
-   "image": "https://images.marktplaats.com/api/v1/hz-mp-pro-listing/images/780732c6-7a52-4026-9bad-032a60665932?rule=ecg_mp_eps$_82.jpg",
-   "attrs": {
-    "categoryId": 3061,
-    "priceType": "FAST_BID",
-    "gearbox": null
-   },
-   "text": "W124 sacco dorpels skirts facelift sacco past op sedan en combi de advertentie staat op bieden vanaf en er is geen mimimale/uiterste/laatste prijs dus daar hoef je niet naar te vragen",
-   "onderdelen": [
-    "dorpelbekleding"
-   ],
-   "source_module": "marktplaats",
-   "first_seen": "2026-11-02",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3555649084",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-s124-schwellerverkleidungen-7700-altograu/3555649084-223-7696",
-   "title": "Mercedes W124 S124 Schwellerverkleidungen 7700 Altograu",
-   "price": 50,
-   "location": "97078 Würzburg",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7c/7c2f5f06-fe4a-4b76-b647-a2724f3c6907?rule=$_59.AUTO",
-   "attrs": {
-    "tags": []
-   },
-   "text": "Beide Schwellerverkleidungen von einem 1993 T Modell zu verkaufen Zustand wie im Bild, der Preis...",
-   "onderdelen": [
-    "dorpelbekleding"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-10-31",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3555317002",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-s124-schwellerverkleidung-seitenschweller-rosenholz/3555317002-223-8005",
-   "title": "Mercedes W124 S124 Schwellerverkleidung Seitenschweller Rosenholz",
-   "price": 69,
-   "location": "72131 Ofterdingen",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ee/eeb86319-eac7-49d2-b4d4-e8e9ce27ea83?rule=$_59.AUTO",
-   "attrs": {
-    "tags": []
-   },
-   "text": "Mercedes W124 S124 Schwellerverkleidung Seitenschweller Rosenholz Die Schweller sind in der...",
-   "onderdelen": [
-    "dorpelbekleding"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-10-29",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3522070997",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/w-124-beplankung-kotfluegel-vorne-links-grau-1246901340/3522070997-223-8112",
-   "title": "W 124 Beplankung Kotflügel vorne links Grau 1246901340",
-   "price": 30,
-   "location": "72160 Horb am Neckar",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c7/c7295d9f-ecb9-4ea9-ab40-9e73fc734a01?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Zum Verkauf steht eine gebrauchte, originale Beplankung für die linke Seite in der Farbe Grau wie... · Versand möglich",
-   "onderdelen": [
-    "beplanking-voorspatbord"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-10-27",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3068446714",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/w124-sakkobrett-beplankung-vorne-rechts-kotfluegel-oem/3068446714-223-5697",
-   "title": "W124 / Sakkobrett / Beplankung / Vorne Rechts / Kotflügel / OEM",
-   "price": 29,
-   "location": "83342 Tacherting",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/46/46f07516-a767-40ce-b482-7cf62ebbf944?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Angeboten wird ein Sakkobrett für eine W124er Limousine. Kotflügel Vorne Rechts. Farbe... · Versand möglich",
-   "onderdelen": [
-    "beplanking-voorspatbord"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-10-27",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3411979920",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-w124-kotfluegel-beplankung-saccobrett-1246901440/3411979920-223-3266",
-   "title": "Mercedes Benz W124 Kotflügel Beplankung Saccobrett 1246901440",
-   "price": 15,
-   "location": "21376 Salzhausen",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4f/4f7d2cc3-776b-4d35-b568-82c2b700b555?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Direkt kaufen",
-     "Versand möglich"
-    ]
-   },
-   "text": "Ich biete hier 4 Beplankungen (Sacco Bretter) an von einem W124 oder S124 Kotflügel 3x rechts 1x... · Direkt kaufen · Versand möglich",
-   "onderdelen": [
-    "beplanking-voorspatbord"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-10-27",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3553065903",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-seitenbeplankung-kotfluegel-vorne-rechts-1246901440/3553065903-223-5374",
-   "title": "Mercedes W124 Seitenbeplankung Kotflügel vorne rechts 1246901440",
-   "price": 20,
-   "location": "67435 Neustadt an der Weinstraße",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/74/74e0aadf-3508-48f1-8982-769135aec862?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Direkt kaufen",
-     "Versand möglich"
-    ]
-   },
-   "text": "Verkaufe eine originale Mercedes-Benz Seitenbeplankung für den vorderen rechten Kotflügel, mit... · Direkt kaufen · Versand möglich",
-   "onderdelen": [
-    "beplanking-voorspatbord"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-10-27",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_2971247773",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-w124-seitenbeplankung-saco-vorn-fahrerseite/2971247773-223-7849",
-   "title": "Mercedes Benz W124 Seitenbeplankung Saco vorn Fahrerseite",
-   "price": 50,
-   "location": "16269 Wriezen",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/af/af95dcdc-e4cf-43c7-bcbb-f47c8f1c2a0b?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Verkaufe hier eine linke vordere Seitenbeplankung / Saco (Fahrerseite) für einen Mercedes Benz... · Versand möglich",
-   "onderdelen": [
-    "beplanking-voorspatbord"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-10-27",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3028653728",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/zierleiste-beplankung-seitenwand-hl-mercedes-w124-1246901940/3028653728-223-8165",
-   "title": "Zierleiste Beplankung Seitenwand HL Mercedes W124 1246901940",
-   "price": 29,
-   "location": "76448 Durmersheim",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/6b/6b729df1-aa2e-4f9c-86b2-fb2fd19a6cb0?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Artikelzustand: Gebraucht gereinigt & geprüft voll funktionsfähig 12 Monate... · Versand möglich",
-   "onderdelen": [
-    "beplanking-achterscherm"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-10-27",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3350342863",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mb-w-124-er-limo-beplankung-seitenplanke-hinten-links-1246901740l/3350342863-223-1952",
-   "title": "MB W 124 er Limo Beplankung Seitenplanke hinten links 1246901740L",
-   "price": 40,
-   "location": "46238 Bottrop",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/48/48aa9feb-680b-4570-8858-7e74ce93427a?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Am Kämpchen 108 46238 Bottrop Telefonnummer: 02041 / 42451 + 43271 Fahrzeug Typ : MB 124... · Versand möglich",
-   "onderdelen": [
-    "beplanking-achterscherm"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-10-27",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3350330182",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mb-w-124-limo-beplankung-seitenplanke-hinten-rechts-124690184r/3350330182-223-1952",
-   "title": "MB W 124 Limo Beplankung seitenplanke hinten rechts 124690184R",
-   "price": 45,
-   "location": "46238 Bottrop",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/07/078cb6c7-2084-4ef1-8894-408491880130?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Am Kämpchen 108 46238 Bottrop Telefonnummer: 02041 / 42451 + 43271 Fahrzeug Typ : MB W 124... · Versand möglich",
-   "onderdelen": [
-    "beplanking-achterscherm"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-10-27",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3079733352",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/a1246908840-neue-beplankung-hinten-rechts-mercedes-w124/3079733352-223-21584",
-   "title": "A1246908840 Neue Beplankung hinten rechts Mercedes W124",
-   "price": 175,
-   "location": "71711 Murr Württemberg",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f0/f03ca27f-30ce-4a43-874e-a27f8e9268d1?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Verkauft wird eine neue, original Mercedes, Beplankung hinten rechts, für den Mercedes... · Versand möglich",
-   "onderdelen": [
-    "beplanking-achterscherm"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-10-27",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3292770707",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/beplankung-fuer-w124-te-kombi-hinten-links-in-der-farbe-rot-/3292770707-223-8098",
-   "title": "Beplankung für W124 TE Kombi Hinten Links in der Farbe Rot.",
-   "price": 20,
-   "location": "71149 Bondorf",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/3c/3c8de9a4-8070-45fd-9f37-901ec458ac42?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Biete hier wie auf den Bild zu sehen eine Beplankung für den W124 TE Kombi in der Farbe Rot. Hinten... · Versand möglich",
-   "onderdelen": [
-    "beplanking-achterscherm"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-10-27",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3552570560",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-schwellerverkleidungen-7738-satograu/3552570560-223-8957",
-   "title": "Mercedes W124 Schwellerverkleidungen 7738 satograu",
-   "price": 160,
-   "location": "89568 Hermaringen",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e4/e4adf5bd-5b22-4679-98c2-03c17801fb72?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Biete hier einen Satz Schwellerverkleidungen für die W124 Limousinen oder Kombis Farbcode 7738... · Versand möglich",
-   "onderdelen": [
-    "dorpelbekleding"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-10-27",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3552567402",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-schwellerverkleidungen-7700-altograu/3552567402-223-8957",
-   "title": "Mercedes W124 Schwellerverkleidungen 7700 altograu",
-   "price": 120,
-   "location": "89568 Hermaringen",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/37/3750b359-f43a-4ba7-8d8f-58583c7ff476?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Biete hier einen Satz Schwellerverkleidungen für die W124 Limousinen oder Kombis Farbcode 7700... · Versand möglich",
-   "onderdelen": [
-    "dorpelbekleding"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-10-27",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3403547426",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/orig-mercedes-w124-e-klasse-satz-schwellerverkleidung-r-l-neu/3403547426-223-8375",
-   "title": "Orig Mercedes W124 E-Klasse \" Satz Schwellerverkleidung R+L ! NEU",
-   "price": null,
-   "location": "74626 Bretzfeld",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0a/0ae3f4a6-274a-4b2c-bf5b-f2833983b928?rule=$_59.AUTO",
-   "attrs": {
-    "tags": []
-   },
-   "text": "Zum Verkaufen Original Längsträger Schwellerverkleidung Unten Rechts + Links für Mercedes-Benz W124...",
-   "onderdelen": [
-    "dorpelbekleding"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-10-27",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3400913115",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/origi-mercedes-w124-e-klasse-schwellerverkleidung-unten-r-l-neu/3400913115-223-8375",
-   "title": "Origi Mercedes W124 E-Klasse Schwellerverkleidung Unten R+L ! NEU",
-   "price": null,
-   "location": "74626 Bretzfeld",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/37/37535909-1693-4421-84cf-d6d102d96fdb?rule=$_59.AUTO",
-   "attrs": {
-    "tags": []
-   },
-   "text": "Zum Verkaufen Original Längsträger Schwellerverkleidung Unten Rechts + Links für Mercedes-Benz W124...",
-   "onderdelen": [
-    "dorpelbekleding"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-10-27",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3399867610",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/origi-mercedes-w124-e-klasse-set-schwellerverkleidung-r-l-neu/3399867610-223-8375",
-   "title": "Origi Mercedes W124 E-Klasse * Set Schwellerverkleidung R+L ! NEU",
-   "price": null,
-   "location": "74626 Bretzfeld",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5f/5ff3d2a6-efe4-442d-a0a6-0e1215a3511d?rule=$_59.AUTO",
-   "attrs": {
-    "tags": []
-   },
-   "text": "Zum Verkaufen Original Längsträger Schwellerverkleidung Unten Rechts + Links für Mercedes-Benz W124...",
-   "onderdelen": [
-    "dorpelbekleding"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-10-27",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3399717629",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/origina-mercedes-w124-e-klasse-set-schwellerverkleidung-r-l-neu/3399717629-223-8375",
-   "title": "Origina Mercedes W124 E-Klasse Set Schwellerverkleidung R+L ! NEU",
-   "price": null,
-   "location": "74626 Bretzfeld",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d7/d77f060c-6c01-4892-b598-436279f1f143?rule=$_59.AUTO",
-   "attrs": {
-    "tags": []
-   },
-   "text": "Zum Verkaufen Original Längsträger Schwellerverkleidung Unten Rechts + Links für Mercedes-Benz W124...",
-   "onderdelen": [
-    "dorpelbekleding"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-10-27",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3399684958",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/origin-mercedes-w124-e-klasse-satz-schwellerverkleidung-r-l-neu/3399684958-223-8375",
-   "title": "Origin Mercedes W124 E-Klasse Satz Schwellerverkleidung R+L ! NEU",
-   "price": null,
-   "location": "74626 Bretzfeld",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/25/25d15d65-6f46-4ef9-8bfb-ee4da04cc3a7?rule=$_59.AUTO",
-   "attrs": {
-    "tags": []
-   },
-   "text": "Zum Verkaufen Original Längsträger Schwellerverkleidung Unten Rechts + Links für Mercedes-Benz W124...",
-   "onderdelen": [
-    "dorpelbekleding"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-10-27",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3429292428",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-benz-w-124-t-modell-schwellerverkleidungen-original/3429292428-223-4630",
-   "title": "Mercedes Benz W 124 T Modell Schwellerverkleidungen Original",
-   "price": 60,
-   "location": "36251 Bad Hersfeld",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7d/7d13f591-3001-4a25-9261-8b8561c69630?rule=$_59.AUTO",
-   "attrs": {
-    "tags": []
-   },
-   "text": "Biete hier zwei Mercedes Benz W124 Schwellerverkleidungen an. Es handelt sich um Originalteile, es...",
-   "onderdelen": [
-    "dorpelbekleding"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-10-27",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3280180242",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/schwellerverkleidung-links-rechts-w124-mercedes-t-modell/3280180242-223-2519",
-   "title": "Schwellerverkleidung links/rechts W124 Mercedes T Modell",
-   "price": 50,
-   "location": "31637 Rodewald",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b5/b5b7633b-6772-4203-9dcd-112d0beff7b1?rule=$_59.AUTO",
-   "attrs": {
-    "tags": []
-   },
-   "text": "Satz schwellerverkleidungen Gebraucht mit Gebrauchsspuren aber ohne Risse oder sonstige...",
-   "onderdelen": [
-    "dorpelbekleding"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-10-27",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3116525362",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/w124-mercedes-schwellerverkleidung-grau/3116525362-223-19313",
-   "title": "w124 Mercedes Schwellerverkleidung grau",
-   "price": 1,
-   "location": "24960 Glücksburg",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5e/5e5b85d4-5fd4-4bb5-a61e-b68f2ac75bfe?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Direkt kaufen",
-     "Versand möglich"
-    ]
-   },
-   "text": "Zum Kauf stehen diese Schmuckstücke...Detailphotos gern auf Anfrage. Der Preis von einem Euro ist... · Direkt kaufen · Versand möglich",
-   "onderdelen": [
-    "dorpelbekleding"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-10-27",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_2056748431",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/w124-schwellerverkleidung-sacco-bretter-beplankung-seitenverkl/2056748431-223-7729",
-   "title": "W124 Schwellerverkleidung, Sacco Bretter, Beplankung, Seitenverkl",
-   "price": 229,
-   "location": "14612 Falkensee",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7c/7cfd02f8-2b2d-4c5d-baf0-0496393eb1ae?rule=$_59.AUTO",
-   "attrs": {
-    "tags": []
-   },
-   "text": "Update: kleinste Planke hinten rechts ist nicht mehr verfügbar und somit nicht mehr Bestandteil...",
-   "onderdelen": [
-    "beplanking-achterscherm",
-    "dorpelbekleding"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-10-27",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3533593875",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/meredes-w124-te-schwellerabdeckung-schwellerleiste-schweller/3533593875-223-2590",
-   "title": "Meredes W124 TE Schwellerabdeckung Schwellerleiste Schweller",
-   "price": 65,
-   "location": "49661 Cloppenburg",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/14/1473dd7f-fbd4-4f2b-b972-c589ab01db5c?rule=$_59.AUTO",
-   "attrs": {
-    "tags": []
-   },
-   "text": "Die Schwellerabdeckung kommt aus einem Mercedes W124 Kombi aus Bj. 95. Die vier Abdeckungen sind...",
-   "onderdelen": [
-    "dorpelbekleding"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-10-27",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_2907294062",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-schwellerabdeckung-abdeckung-1246980330/2907294062-223-1393",
-   "title": "Mercedes W124 Schwellerabdeckung Abdeckung 1246980330",
-   "price": 19,
-   "location": "52391 Vettweiß",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/1b/1b4110b0-2a6a-4bf3-aba8-a13b201477c3?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Mercedes W124 Schwellerabdeckung Abdeckung 1246980330 Schweller original Artikelzustand:... · Versand möglich",
-   "onderdelen": [
-    "dorpelbekleding"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-10-27",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3283717151",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/w124-schweller-wagenheber-abdeckung/3283717151-223-17392",
-   "title": "W124 Schweller Wagenheber Abdeckung",
-   "price": 40,
-   "location": "24943 Flensburg",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/fa/fa4a586a-3306-4b7d-9a8c-b4a285c6b149?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Direkt kaufen",
-     "Versand möglich"
-    ]
-   },
-   "text": "W124 Schweller Wagenheber Abdeckung · Direkt kaufen · Versand möglich",
-   "onderdelen": [
-    "krikdop"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-10-27",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
-  },
-  {
-   "id": "ka_3486623913",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/w124-wagenheberaufnahme-stopfen-gummipuffer/3486623913-223-17560",
-   "title": "W124 Wagenheberaufnahme Stopfen Gummipuffer",
-   "price": 5,
-   "location": "38899 Hasselfelde",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ed/ed195b9a-7b1e-428d-8192-d6c7a7f38b53?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Direkt kaufen",
-     "Versand möglich"
-    ]
-   },
-   "text": "Verkaufe hier gebrauchte Stopfen für die Wagenheberaufnahmen vom W124 erste Serie. Bei Fragen... · Direkt kaufen · Versand möglich",
-   "onderdelen": [
-    "krikdop"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-10-27",
-   "price_prev": null,
-   "last_seen": "2026-11-27",
-   "active": true
+   "active": false
   },
   {
    "id": "ka_3525128782",
@@ -3269,68 +3293,44 @@
    "price_prev": null,
    "last_seen": "2026-10-29",
    "active": false
-  },
-  {
-   "id": "ka_3202433930",
-   "source": "Kleinanzeigen",
-   "country": "DE",
-   "url": "https://www.kleinanzeigen.de/s-anzeige/mercedes-w124-beplankung-kotfluegel-radlauf-hinten-r-a1246908840/3202433930-223-4570",
-   "title": "Mercedes W124 Beplankung Kotflügel Radlauf Hinten R A1246908840",
-   "price": null,
-   "location": "63179 Obertshausen",
-   "image": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4b/4b4be961-55c3-43be-af8d-384a0b4cf552?rule=$_59.AUTO",
-   "attrs": {
-    "tags": [
-     "Versand möglich"
-    ]
-   },
-   "text": "Zum Verkauf steht hier ein/e: Original Mercedes-Benz W124 Beplankung Kotflügel Radlauf Hinten... · Versand möglich",
-   "onderdelen": [
-    "beplanking-achterscherm"
-   ],
-   "source_module": "kleinanzeigen",
-   "first_seen": "2026-10-27",
-   "price_prev": null,
-   "last_seen": "2026-10-28",
-   "active": false
   }
  ],
  "bronnen": [
   {
    "module": "kleinanzeigen",
    "ok": true,
-   "found": 125,
-   "matched": 81,
+   "found": 126,
+   "matched": 80,
    "error": null,
    "name": "Kleinanzeigen",
    "country": "DE",
-   "secs": 32,
-   "last_run": "2026-11-27T14:12:01+00:00",
-   "last_ok": "2026-11-27T14:12:01+00:00"
+   "secs": 37,
+   "last_run": "2026-11-28T13:29:01+00:00",
+   "last_ok": "2026-11-28T13:29:01+00:00"
   },
   {
    "module": "marktplaats",
    "ok": true,
-   "found": 112,
+   "found": 115,
    "matched": 17,
    "error": null,
    "name": "Marktplaats",
    "country": "NL",
-   "secs": 24,
-   "last_run": "2026-11-27T14:12:25+00:00",
-   "last_ok": "2026-11-27T14:12:25+00:00"
+   "secs": 25,
+   "last_run": "2026-11-28T13:29:26+00:00",
+   "last_ok": "2026-11-28T13:29:26+00:00"
   },
   {
    "module": "mercedesforum",
-   "ok": false,
-   "found": 0,
+   "ok": true,
+   "found": 150,
    "matched": 0,
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mercedesforum.nl', port=443): Max retries exceeded with url: /forum/viewforum.php?f=49&start=0 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mercedesforum.nl', port=443) at 0x707466102f30>, 'Connection to www.mercedesforum.nl timed out. (conn",
+   "error": null,
    "name": "MercedesForum.nl",
    "country": "NL",
-   "secs": 32,
-   "last_run": "2026-11-27T14:12:57+00:00",
-   "last_ok": "2026-11-26T14:16:10+00:00"
+   "secs": 6,
+   "last_run": "2026-11-28T13:29:32+00:00",
+   "last_ok": "2026-11-28T13:29:32+00:00"
   },
   {
    "module": "w124board",
@@ -3340,9 +3340,9 @@
    "error": null,
    "name": "W124-Board.de",
    "country": "DE",
-   "secs": 6,
-   "last_run": "2026-11-27T14:13:03+00:00",
-   "last_ok": "2026-11-27T14:13:03+00:00"
+   "secs": 7,
+   "last_run": "2026-11-28T13:29:39+00:00",
+   "last_ok": "2026-11-28T13:29:39+00:00"
   }
  ]
 }
